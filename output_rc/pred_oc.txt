@@ -1,0 +1,700 @@
+(u_8 / shock-01  :ARG0 (u_10 / plan-01  :ARG1-of (u_4 / manage-01  :ARG0 (u_3 / person  :ARG0-of (u_9 / have-org-role-91  :ARG2 (u_7 / secretary)))))  :ARG1 (u_5 / politician)  :manner (u_6 / enthusiastic-03)  :name (u_11 / name  :op1 last  :op2 year)  :wiki -)
+
+(u_26 / astonish-01  :ARG0 (u_24 / program  :ARG1-of (u_18 / manage-02  :ARG0 (u_22 / person  :mod (u_27 / timid)  :ARG0-of (u_23 / have-org-role-91  :ARG2 (u_21 / secretary)))  :manner (u_20 / effortlessly)))  :ARG1 (u_19 / politician  :mod (u_17 / uptight-00  :degree (u_25 / extreme))))
+
+(u_33 / console-01  :ARG0 (u_38 / bug-01  :ARG1-of (u_36 / chase-01  :ARG0 (u_37 / child  :ARG1-of (u_34 / nervous-01))  :mod (u_32 / name  :op1 last  :op2 month)))  :ARG1 (u_35 / kid))
+
+(u_43 / shape-01  :ARG0 (u_44 / conspire-01  :ARG1-of (u_45 / welcome-01  :ARG0 (u_47 / team)  :name (u_48 / name  :op1 last  :op2 month)  :wiki -))  :ARG1 (u_46 / project)  :mod (u_42 / name  :op1 last  :op2 year))
+
+(u_63 / sabotage-01  :ARG0 (u_64 / conspire-01  :ARG1-of (u_59 / welcome-01  :ARG0 (u_55 / person  :mod (u_58 / timid  :degree (u_61 / quite))  :ARG1-of (u_62 / employ-01))  :mod (u_56 / name  :op1 last  :op2 month)))  :ARG1 (u_60 / project)  :ARG1-of (u_57 / quick-02))
+
+(u_77 / upset-01  :ARG0 (u_72 / revolution-03  :ARG1-of (u_78 / welcome-01  :ARG0 (u_79 / team  :ARG1-of (u_75 / startle-01  :degree (u_80 / extreme)))))  :ARG1 (u_74 / politician  :ARG1-of (u_73 / anxious  :degree (u_76 / quite))))
+
+(u_87 / mislead-01  :ARG0 (u_94 / movement-07  :ARG1-of (u_93 / welcome-01  :ARG0 (u_89 / gather-03  :ARG1-of (u_88 / talented-01))  :time (u_95 / name  :op1 last  :op2 year)))  :ARG1 (u_92 / team  :ARG1-of (u_90 / anxious  :degree (u_91 / rather))))
+
+(u_112 / scar-01  :ARG0 (u_106 / secret  :ARG0-of (u_108 / shock-01  :degree (u_103 / really))  :ARG1-of (u_111 / welcome-01  :ARG0 (u_109 / person  :ARG1-of (u_110 / employ-01))))  :ARG1 (u_102 / person  :ARG0-of (u_107 / have-rel-role-91  :ARG2 (u_104 / sibling)  :ARG1 (u_105 / i))))
+
+(u_124 / divide-02  :ARG0 (u_119 / conspire-01  :ARG1-of (u_118 / welcome-01  :ARG0 (u_122 / gather-03)))  :ARG1 (u_121 / country  :ARG1-of (u_120 / popular-02))  :ARG1-of (u_123 / quick-02))
+
+(u_130 / spread-03  :ARG0 (u_131 / movie  :ARG1-of (u_134 / google-01  :ARG0 (u_129 / person  :ARG0-of (u_136 / have-rel-role-91  :ARG2 (u_132 / partner-01)  :ARG1 (u_135 / i)))  :time (u_137 / name  :op1 last  :op2 month)))  :ARG1 (u_133 / information))
+
+(u_153 / inspire-01  :ARG0 (u_155 / paper  :mod (u_145 / outrageous-02)  :ARG1-of (u_146 / google-01  :ARG0 (u_147 / person  :ARG0-of (u_152 / have-rel-role-91  :ARG2 (u_154 / sibling)  :ARG1 (u_156 / i)))  :manner (u_150 / prompt)))  :ARG1 (u_149 / professor  :ARG0-of (u_148 / obnoxious  :degree (u_151 / rather))))
+
+(u_167 / help-01  :ARG0 (u_170 / novel  :ARG1-of (u_165 / display-01  :ARG0 (u_166 / museum  :ARG1-of (u_168 / beautiful-02))  :name (u_171 / name  :op1 last  :op2 year)  :wiki -))  :ARG1 (u_164 / protest-01  :time (u_169 / name  :op1 last  :op2 year)  :ARG0-of (u_163 / shock-01)))
+
+(u_179 / initiate-01  :ARG0 (u_180 / paint-02  :ARG1-of (u_176 / beautiful-02)  :ARG1-of (u_181 / display-01  :ARG0 (u_182 / library)))  :ARG1 (u_177 / protest-01)  :manner (u_178 / enthusiastic-03))
+
+(u_192 / challenge-01  :ARG0 (u_193 / equation  :ARG1-of (u_188 / popular-02  :degree (u_194 / really))  :ARG1-of (u_196 / review-01  :ARG0 (u_191 / physician)))  :ARG1 (u_189 / procedure)  :manner (u_190 / effortlessly)  :time (u_195 / name  :op1 last  :op2 month))
+
+(u_205 / fix-02  :ARG0 (u_206 / method  :ARG1-of (u_201 / review-01  :ARG0 (u_204 / nurse  :mod (u_200 / timid))))  :ARG1 (u_202 / err-01)  :manner (u_203 / prompt))
+
+(u_220 / improve-01  :ARG0 (u_219 / procedure  :ARG1-of (u_217 / popular-02)  :ARG1-of (u_215 / review-01  :ARG0 (u_213 / person  :ARG0-of (u_222 / research-01))))  :ARG1 (u_216 / formula  :ARG1-of (u_214 / convenient  :degree (u_221 / quite)))  :manner (u_218 / effortlessly)  :manner (u_223 / enthusiastic-03))
+
+(u_232 / sanction-01  :ARG0 (u_227 / politician  :ARG1-of (u_228 / astonish-01  :ARG0 (u_231 / job)  :time (u_233 / name  :op1 last  :op2 year)))  :ARG1 (u_229 / project)  :manner (u_230 / prompt))
+
+(u_246 / consider-02  :ARG0 (u_240 / politician  :ARG1-of (u_241 / talented-01)  :ARG0-of (u_244 / astonish-01  :ARG1 (u_243 / thing  :ARG1-of (u_245 / achieve-01))  :time (u_247 / name  :op1 last  :op2 year)))  :ARG1 (u_242 / project)  :time (u_239 / name  :op1 last  :op2 year))
+
+(u_256 / person  :mod (u_259 / young  :degree (u_260 / really))  :ARG0-of (u_258 / guard-01)  :ARG1-of (u_269 / hug-01  :ARG0 (u_257 / kid  :ARG0-of (u_262 / cheerful  :degree (u_261 / really)))  :manner (u_263 / enthusiastic-03))  :ARG0-of (u_266 / confiscate-01  :ARG1 (u_264 / rock  :mod (u_267 / name  :op1 last  :op2 month)  :ARG1-of (u_268 / pretty  :degree (u_265 / quite)))))
+
+(u_279 / astonish-01  :ARG0 (u_280 / plan-01  :ARG0-of (u_274 / interesting)  :ARG1-of (u_277 / manage-02  :ARG0 (u_273 / person  :ARG0-of (u_278 / assist-01))  :manner (u_276 / enthusiastic-03)))  :ARG1 (u_275 / politician))
+
+(u_291 / astonish-01  :ARG0 (u_290 / program  :ARG0-of (u_293 / intrigue-01  :degree (u_296 / rather))  :ARG1-of (u_297 / manage-01  :ARG0 (u_292 / person  :ARG0-of (u_294 / assist-01))))  :ARG1 (u_288 / person  :ARG0-of (u_295 / manage-01)  :ARG0-of (u_289 / eager-01  :degree (u_299 / quite)))  :time (u_298 / name  :op1 last  :op2 week))
+
+(u_308 / shock-01  :ARG0 (u_309 / program  :ARG1-of (u_305 / manage-01  :ARG0 (u_303 / person  :ARG1-of (u_310 / assist-01))))  :ARG1 (u_306 / manage-01)  :quant (u_304 / person)  :mod (u_307 / name  :op1 last  :op2 year))
+
+(u_317 / console-01  :ARG0 (u_318 / bug  :ARG1-of (u_314 / chase-01  :ARG0 (u_316 / toddler)))  :ARG1 (u_315 / kid)  :time (u_319 / name  :op1 last  :op2 week))
+
+(u_327 / sabotage-01  :ARG0 (u_328 / protest-01  :ARG1-of (u_329 / welcome-01  :ARG0 (u_326 / team  :ARG0-of (u_324 / eager-01))))  :ARG1 (u_325 / program)  :time (u_330 / name  :op1 last  :op2 year))
+
+(u_341 / scar-01  :ARG0 (u_342 / conspire-01  :ARG1-of (u_343 / welcome-01  :ARG0 (u_339 / crowd  :ARG1-of (u_337 / startle-01))  :mod (u_336 / name  :op1 last  :op2 year)))  :ARG1 (u_338 / professor)  :ARG1-of (u_340 / rapid))
+
+(u_351 / upset-01  :ARG0 (u_349 / rebel-01  :ARG1-of (u_348 / welcome-01  :ARG0 (u_346 / person  :mod (u_350 / ambitious)  :ARG1-of (u_352 / employ-01))  :time (u_354 / name  :op1 last  :op2 year)))  :ARG1 (u_347 / person  :ARG0-of (u_353 / manage-01)))
+
+(u_364 / shape-01  :ARG0 (u_359 / secret  :ARG1-of (u_362 / welcome-01  :ARG0 (u_363 / team  :ARG1-of (u_360 / gentle-01))))  :ARG1 (u_361 / program))
+
+(u_373 / divide-02  :ARG0 (u_374 / secret  :ARG1-of (u_369 / terrible-01)  :ARG1-of (u_371 / welcome-01  :ARG0 (u_368 / person  :ARG1-of (u_375 / employ-01))))  :ARG1 (u_370 / country)  :manner (u_372 / rapid))
+
+(u_390 / mislead-01  :ARG0 (u_393 / movement-07  :mod (u_383 / scandalous)  :ARG1-of (u_387 / welcome-01  :ARG0 (u_388 / team  :ARG1-of (u_391 / nervous-01))  :ARG1-of (u_386 / happy-01)))  :ARG1 (u_385 / crowd  :ARG1-of (u_384 / startle-01  :degree (u_389 / rather)))  :time (u_392 / name  :op1 last  :op2 year))
+
+(u_401 / inspire-01  :ARG0 (u_402 / article  :ARG1-of (u_398 / google-01  :ARG0 (u_400 / colleague)  :name (u_403 / name  :op1 last  :op2 year)  :wiki -))  :ARG1 (u_399 / professor)  :mod (u_397 / name  :op1 last  :op2 year))
+
+(u_413 / spread-03  :ARG0 (u_414 / paper  :ARG1-of (u_408 / google-01  :ARG0 (u_410 / professor  :ARG0-of (u_409 / cheerful))))  :ARG1 (u_411 / news)  :manner (u_412 / rapid))
+
+(u_424 / initiate-01  :ARG0 (u_425 / novel  :ARG1-of (u_422 / display-01  :ARG0 (u_420 / museum)  :time (u_426 / name  :op1 last  :op2 year)))  :ARG1 (u_423 / protest-01  :mod (u_419 / aggressive  :degree (u_421 / really))))
+
+(u_436 / help-01  :ARG0 (u_434 / sculpture  :ARG1-of (u_432 / display-01  :ARG0 (u_435 / museum  :ARG1-of (u_431 / beautiful-02))))  :ARG1 (u_433 / protest-01)  :time (u_437 / name  :op1 last  :op2 year))
+
+(u_451 / challenge-01  :ARG0 (u_449 / formula  :ARG1-of (u_448 / review-01  :ARG0 (u_452 / physicist  :mod (u_444 / cheerful))  :ARG1-of (u_446 / happy-01)))  :ARG1 (u_447 / principle  :ARG1-of (u_445 / convenient  :degree (u_450 / really))))
+
+(u_459 / fix-02  :ARG0 (u_460 / principle  :ARG1-of (u_461 / popular-02  :degree (u_463 / quite))  :ARG1-of (u_464 / review-01  :ARG0 (u_465 / clinician)))  :ARG1 (u_462 / err-01)  :ARG1-of (u_466 / efficient-01))
+
+(u_480 / improve-01  :ARG0 (u_482 / principle  :ARG1-of (u_481 / popular-02)  :ARG1-of (u_474 / review-01  :ARG0 (u_475 / clinician)  :ARG1-of (u_479 / efficient-01)))  :ARG1 (u_477 / equation  :ARG1-of (u_476 / convenient  :degree (u_483 / extreme)))  :manner (u_478 / gloomily))
+
+(u_493 / trust-02  :ARG0 (u_491 / chief)  :ARG1 (u_489 / person  :ARG0-of (u_496 / assist-01)  :ARG1-of (u_490 / gentle-01))  :ARG1-of (u_495 / astonish-01  :ARG0 (u_492 / succeed-01  :mod (u_488 / sudden  :degree (u_494 / quite)))  :name (u_497 / name  :op1 last  :op2 year)  :wiki -))
+
+(u_505 / fill-01  :ARG0 (u_506 / person  :ARG0-of (u_513 / teach-01)  :ARG1-of (u_508 / lively  :degree (u_510 / really))  :ARG1-of (u_512 / hug-01  :ARG0 (u_507 / preschooler  :ARG1-of (u_504 / short-07))  :ARG1-of (u_511 / happy-01)))  :ARG1 (u_509 / cup))
+
+(u_521 / astonish-01  :ARG0 (u_522 / plan-01  :ARG0-of (u_520 / intrigue-01)  :ARG1-of (u_519 / manage-02  :ARG0 (u_525 / person  :ARG0-of (u_524 / have-org-role-91  :ARG2 (u_523 / secretary)))))  :ARG1 (u_518 / person  :mod (u_517 / rude-01)  :ARG0-of (u_526 / manage-01))  :time (u_527 / name  :op1 last  :op2 year))
+
+(u_544 / tie-01  :ARG0 (u_538 / person  :ARG0-of (u_545 / teach-01)  :ARG0-of (u_536 / cheerful  :degree (u_546 / extreme))  :ARG1-of (u_541 / hug-01  :ARG0 (u_537 / preschooler  :ARG1-of (u_542 / short-07  :degree (u_547 / rather)))))  :ARG1 (u_540 / thread  :ARG1-of (u_539 / shiny))  :ARG1-of (u_543 / efficient-01))
+
+(u_556 / astonish-01  :ARG0 (u_557 / budget  :ARG2-of (u_553 / interesting)  :ARG1-of (u_554 / manage-01  :ARG0 (u_552 / person  :ARG0-of (u_559 / assist-01)  :ARG0-of (u_558 / gentle-01))))  :ARG1 (u_555 / manage-01))
+
+(u_570 / shock-01  :ARG0 (u_569 / thing  :ARG1-of (u_571 / propose-01)  :ARG1-of (u_573 / manage-02  :ARG0 (u_566 / person  :ARG0-of (u_575 / assist-01)  :ARG0-of (u_567 / eager-01  :degree (u_572 / really)))))  :ARG1 (u_568 / manage-01)  :mod (u_565 / person)  :mod (u_574 / name  :op1 last  :op2 month))
+
+(u_589 / console-01  :ARG0 (u_590 / butterfly  :ARG1-of (u_585 / green-02  :degree (u_587 / really))  :ARG1-of (u_583 / chase-01  :ARG0 (u_592 / toddler  :ARG1-of (u_584 / gentle-01  :degree (u_588 / real-04)))))  :ARG1 (u_586 / kid)  :time (u_591 / name  :op1 last  :op2 month))
+
+(u_603 / upset-01  :ARG0 (u_599 / secret  :ARG1-of (u_601 / welcome-01  :ARG0 (u_602 / team  :ARG1-of (u_597 / anxious))  :manner (u_600 / enthusiastic-03)))  :ARG1 (u_598 / manage-01)  :time (u_604 / name  :op1 last  :op2 month))
+
+(u_617 / mislead-01  :ARG0 (u_613 / revolution-03  :ARG1-of (u_612 / welcome-01  :ARG0 (u_614 / team)))  :ARG1 (u_611 / crowd  :ARG1-of (u_610 / gentle-01  :degree (u_615 / extreme)))  :time (u_616 / name  :op1 last  :op2 year))
+
+(u_629 / shape-01  :ARG0 (u_628 / true-01  :ARG1 (u_631 / welcome-01  :ARG0 (u_630 / crowd  :ARG0-of (u_624 / eager-01))  :ARG1 (u_625 / name  :op1 last  :op2 month)))  :ARG1 (u_627 / propose-01  :ARG2-of (u_626 / interesting)))
+
+(u_642 / sabotage-01  :ARG0 (u_646 / revolution-03  :ARG0-of (u_641 / scary-03)  :ARG1-of (u_645 / welcome-01  :ARG0 (u_639 / gather-03  :ARG1-of (u_638 / gentle-01))))  :ARG1 (u_643 / thing  :ARG1-of (u_644 / propose-01))  :ARG1-of (u_640 / quick-02))
+
+(u_658 / divide-02  :ARG0 (u_660 / truth  :ARG0-of (u_659 / shock-01  :degree (u_656 / quite))  :ARG1-of (u_662 / welcome-01  :ARG0 (u_661 / team  :ARG1-of (u_663 / anxious))  :mod (u_654 / name  :op1 last  :op2 year)))  :ARG1 (u_657 / union  :ARG1-of (u_655 / remarkable-02)))
+
+(u_673 / scar-01  :ARG0 (u_671 / secret  :ARG1-of (u_668 / welcome-01  :ARG0 (u_672 / crowd)  :time (u_675 / name  :op1 last  :op2 year)))  :ARG1 (u_669 / person  :ARG0-of (u_674 / study-01)  :ARG0-of (u_670 / cheer-01))  :mod (u_667 / name  :op1 last  :op2 year))
+
+(u_683 / inspire-01  :ARG0 (u_689 / paper  :ARG1-of (u_685 / remarkable-02)  :ARG1-of (u_688 / google-01  :ARG0 (u_684 / person  :ARG0-of (u_690 / study-01))))  :ARG1 (u_687 / painter  :ARG1-of (u_686 / nervous-01  :degree (u_681 / quite)))  :mod (u_682 / name  :op1 last  :op2 year))
+
+(u_696 / spread-03  :ARG1 (u_698 / idea)  :ARG2 (u_703 / i)  :ARG0 (u_702 / paper  :ARG1-of (u_697 / google-01  :ARG0 (u_695 / person  :ARG0-of (u_700 / have-rel-role-91  :ARG2 (u_699 / cousin)))  :name (u_704 / name  :op1 last  :op2 year)  :wiki -))  :ARG1-of (u_701 / quick-02))
+
+(u_715 / help-01  :ARG0 (u_711 / sculpture  :ARG1-of (u_716 / gorgeous-01)  :ARG1-of (u_717 / display-01  :ARG0 (u_719 / library)  :time (u_718 / name  :op1 last  :op2 year)))  :ARG1 (u_713 / movement-07  :ARG0-of (u_712 / scary-03  :degree (u_714 / quite))))
+
+(u_737 / improve-01  :ARG0 (u_739 / principle  :ARG1-of (u_738 / remarkable-02  :degree (u_735 / quite))  :ARG1-of (u_730 / review-01  :ARG0 (u_731 / clinician)  :ARG1-of (u_729 / easy-05)))  :ARG1 (u_734 / formula  :ARG1-of (u_732 / convenient  :degree (u_733 / rather)))  :ARG0-of (u_736 / sad-02))
+
+(u_746 / challenge-01  :ARG0 (u_748 / equation  :ARG1-of (u_751 / review-01  :ARG0 (u_752 / scientist  :ARG1-of (u_747 / lively))))  :ARG1 (u_750 / principle  :ARG1-of (u_749 / convenient  :degree (u_753 / extreme)))  :time (u_754 / name  :op1 last  :op2 year))
+
+(u_767 / fix-01  :ARG0 (u_768 / method  :ARG1-of (u_761 / review-01  :ARG0 (u_762 / clinician  :ARG0-of (u_764 / scary-03))))  :ARG1 (u_765 / flaw-01  :mod (u_760 / disastrous  :degree (u_763 / really)))  :manner (u_766 / urgent))
+
+(u_779 / thank-01  :ARG0 (u_781 / manage-01  :ARG0-of (u_780 / eager-01)  :ARG1-of (u_784 / astonish-01  :ARG0 (u_783 / assert-03  :ARG0-of (u_782 / shock-01))))  :ARG1 (u_777 / clerk  :ARG0-of (u_776 / eager-01  :degree (u_778 / quite))))
+
+(u_797 / conduct-01  :ARG0 (u_793 / person  :mod (u_789 / uptight-00  :degree (u_796 / really))  :ARG0-of (u_798 / manage-01)  :ARG1-of (u_790 / astonish-01  :ARG0 (u_792 / win-01  :ARG1-of (u_799 / expect-01  :polarity -))))  :ARG1 (u_795 / audit-01  :ARG0-of (u_794 / shock-01)))
+
+(u_809 / cook-01  :ARG0 (u_807 / person  :ARG0-of (u_814 / teach-01)  :ARG1-of (u_813 / hug-01  :ARG0 (u_815 / child  :mod (u_805 / cheery))  :manner (u_811 / enthusiastic-03)))  :ARG1 (u_810 / chicken  :ARG0-of (u_808 / taste-01  :degree (u_806 / extreme)))  :manner (u_812 / enthusiastic-03))
+
+(u_826 / astonish-01  :ARG0 (u_824 / thing  :ARG1-of (u_821 / propose-01)  :ARG1-of (u_829 / manage-01  :ARG0 (u_825 / clerk  :ARG1-of (u_822 / nervous-01))))  :ARG1 (u_823 / manage-01)  :manner (u_827 / enthusiastic-03)  :time (u_828 / name  :op1 last  :op2 year))
+
+(u_834 / neglect-01  :ARG0 (u_836 / person  :mod (u_833 / young  :degree (u_839 / really))  :ARG0-of (u_840 / teach-01)  :ARG1-of (u_837 / hug-01  :ARG0 (u_835 / kid)))  :ARG1 (u_838 / child)  :time (u_841 / name  :op1 last  :op2 month))
+
+(u_849 / shock-01  :ARG0 (u_854 / budget  :ARG0-of (u_851 / interesting)  :ARG1-of (u_847 / manage-01  :ARG0 (u_848 / receptionist)  :manner (u_853 / eagerly)))  :ARG1 (u_852 / principal  :ARG0-of (u_850 / resourceful)))
+
+(u_862 / astonish-01  :ARG1 (u_865 / principal)  :ARG2 (u_868 / person)  :ARG0 (u_867 / budget  :ARG2-of (u_863 / interesting  :degree (u_861 / extreme))  :ARG1-of (u_864 / manage-01  :ARG0 (u_866 / receptionist)))  :quant (u_860 / person)  :time (u_869 / name  :op1 last  :op2 week))
+
+(u_876 / console-01  :ARG0 (u_877 / kite  :ARG1-of (u_874 / chase-01  :ARG0 (u_878 / kid)))  :ARG1 (u_875 / child  :mod (u_873 / young)))
+
+(u_887 / scar-01  :ARG0 (u_885 / secret  :ARG1-of (u_882 / welcome-01  :ARG0 (u_881 / person  :ARG1-of (u_886 / employ-01))  :time (u_888 / name  :op1 yesterday)))  :ARG1 (u_883 / paint-02)  :manner (u_884 / rapid))
+
+(u_900 / shape-01  :ARG0 (u_898 / movement-07  :ARG1-of (u_901 / welcome-01  :ARG0 (u_899 / team  :mod (u_894 / ambitious  :degree (u_896 / quite)))))  :ARG1 (u_897 / plan-01  :ARG2-of (u_895 / interesting))  :time (u_902 / name  :op1 yesterday))
+
+(u_912 / upset-01  :ARG0 (u_909 / protest-01  :ARG1-of (u_907 / welcome-01  :ARG0 (u_910 / team  :mod (u_906 / shy-away-01))  :time (u_911 / name  :op1 last  :op2 week)))  :ARG1 (u_908 / principal))
+
+(u_923 / sabotage-01  :ARG0 (u_919 / movement-07  :ARG1-of (u_920 / welcome-01  :ARG0 (u_921 / crowd  :ARG0-of (u_917 / fear-01))))  :ARG1 (u_918 / plan-01)  :time (u_922 / name  :op1 last  :op2 week))
+
+(u_937 / divide-02  :ARG0 (u_933 / secret  :mod (u_929 / scandalous  :degree (u_935 / quite))  :ARG1-of (u_932 / welcome-01  :ARG0 (u_936 / person  :ARG1-of (u_934 / employ-01))))  :ARG1 (u_931 / country  :ARG1-of (u_930 / remarkable-02)))
+
+(u_948 / mislead-01  :ARG0 (u_943 / protest-01  :ARG1-of (u_944 / welcome-01  :ARG0 (u_946 / person  :ARG1-of (u_949 / employ-01))))  :ARG1 (u_945 / team  :mod (u_942 / ambitious  :degree (u_947 / rather)))  :time (u_950 / name  :op1 last  :op2 week))
+
+(u_953 / inspire-01  :ARG0 (u_956 / movie  :ARG1-of (u_955 / google-01  :ARG0 (u_959 / professor)))  :ARG1 (u_954 / person  :ARG0-of (u_960 / paint-01))  :mod (u_958 / event  :name (u_957 / name  :op1 last  :op2 week)  :wiki -))
+
+(u_968 / spread-03  :ARG0 (u_969 / article  :ARG1-of (u_974 / google-01  :ARG0 (u_966 / person  :ARG0-of (u_975 / have-rel-role-91  :ARG2 (u_970 / sibling)  :ARG1 (u_967 / i)))  :ARG1-of (u_973 / urgent)))  :ARG1 (u_971 / information)  :manner (u_972 / rapid))
+
+(u_989 / help-01  :ARG0 (u_986 / sculpture  :ARG1-of (u_983 / beautiful-02  :degree (u_982 / rather))  :ARG1-of (u_984 / display-01  :ARG0 (u_988 / library)  :time (u_990 / name  :op1 last  :op2 week)))  :ARG1 (u_985 / protest-01)  :time (u_987 / name  :op1 last  :op2 week))
+
+(u_1001 / improve-01  :ARG0 (u_1002 / procedure  :ARG1-of (u_998 / review-01  :ARG0 (u_1000 / physicist  :ARG1-of (u_996 / resourceful  :degree (u_1003 / really)))))  :ARG1 (u_997 / formula)  :manner (u_999 / effortlessly))
+
+(u_1014 / challenge-01  :ARG0 (u_1016 / proof  :mod (u_1009 / convenient  :degree (u_1012 / quite))  :ARG1-of (u_1015 / review-01  :ARG0 (u_1013 / scientist)))  :ARG1 (u_1011 / principle  :ARG1-of (u_1010 / remarkable-02)))
+
+(u_1024 / fix-02  :ARG0 (u_1026 / principle  :ARG1-of (u_1031 / review-01  :ARG0 (u_1032 / scientist  :ARG0-of (u_1025 / shy-away-01  :degree (u_1030 / quite)))))  :ARG1 (u_1028 / thing  :ARG1-of (u_1029 / err-01)  :ARG1-of (u_1027 / fatal))  :ARG1-of (u_1033 / effortlessly-01))
+
+(u_1049 / control-01  :ARG0 (u_1051 / principal  :ARG0-of (u_1043 / resourceful  :degree (u_1042 / quite))  :ARG1-of (u_1046 / astonish-01  :ARG0 (u_1048 / achieve-01  :ARG1-of (u_1047 / unanticipated-01  :degree (u_1044 / extreme)))  :time (u_1052 / name  :op1 last  :op2 week)))  :ARG1 (u_1045 / plan-01)  :time (u_1050 / name  :op1 yesterday))
+
+(u_1059 / cover-01  :ARG0 (u_1062 / name  :op1 guardian  :ARG1-of (u_1060 / hug-01  :ARG0 (u_1065 / kid)))  :ARG1 (u_1063 / bottle  :ARG1-of (u_1061 / green-03  :degree (u_1058 / rather)))  :time (u_1064 / name  :op1 yesterday))
+
+(u_1077 / astonish-01  :ARG0 (u_1081 / budget  :ARG1-of (u_1074 / manage-02  :ARG0 (u_1071 / person  :mod (u_1073 / modest  :degree (u_1072 / really))  :ARG0-of (u_1080 / have-org-role-91  :ARG2 (u_1079 / secretary)))  :ARG1-of (u_1075 / effortlessly-01)))  :ARG1 (u_1076 / principal  :ARG2-of (u_1078 / person  :ARG0 u_1077))  :time (u_1082 / name  :op1 yesterday))
+
+(u_1094 / fry-01  :ARG0 (u_1088 / person  :mod (u_1087 / chubby)  :ARG0-of (u_1093 / guardian-01)  :ARG1-of (u_1095 / hug-01  :ARG0 (u_1096 / toddler)))  :ARG1 (u_1090 / potato  :ARG1-of (u_1089 / delicious  :degree (u_1092 / quite)))  :manner (u_1091 / eagerly))
+
+(u_1103 / astonish-01  :ARG0 (u_1104 / budget  :ARG2-of (u_1105 / interesting  :degree (u_1109 / rather))  :ARG1-of (u_1102 / manage-01  :ARG0 (u_1101 / person  :ARG0-of (u_1108 / have-org-role-91  :ARG2 (u_1107 / secretary)))))  :ARG1 (u_1106 / principal))
+
+(u_1115 / shock-01  :ARG0 (u_1119 / thing  :mod (u_1113 / interesting)  :ARG1-of (u_1117 / propose-01)  :ARG1-of (u_1116 / manage-02  :ARG0 (u_1114 / receptionist)))  :ARG1 (u_1118 / officer))
+
+(u_1134 / astonish-01  :ARG0 (u_1136 / propose-01  :mod (u_1135 / interesting  :degree (u_1128 / quite))  :ARG1-of (u_1131 / manage-01  :ARG0 (u_1130 / clerk  :mod (u_1129 / resourceful))))  :ARG1 (u_1133 / officer  :mod (u_1127 / obnoxious))  :mod (u_1132 / name  :op1 last  :op2 month))
+
+(u_1146 / console-01  :ARG0 (u_1147 / ball  :ARG1-of (u_1142 / chase-01  :ARG0 (u_1145 / preschooler  :mod (u_1141 / witty))  :mod (u_1144 / name  :op1 last  :op2 month)))  :ARG1 (u_1143 / kid))
+
+(u_1157 / upset-01  :ARG0 (u_1158 / true-01  :mod (u_1152 / outrageous-02  :degree (u_1155 / rather))  :ARG1-of (u_1153 / welcome-01  :ARG0 (u_1156 / crowd)  :time (u_1159 / name  :op1 last  :op2 month)))  :ARG1 (u_1154 / officer))
+
+(u_1167 / sabotage-01  :ARG0 (u_1168 / true-01  :ARG1-of (u_1163 / welcome-01  :ARG0 (u_1162 / person  :ARG1-of (u_1166 / employ-01))))  :ARG1 (u_1164 / project)  :manner (u_1165 / rapid))
+
+(u_1181 / shape-01  :ARG0 (u_1183 / conspiracy  :ARG1-of (u_1182 / terrible-01)  :ARG1-of (u_1178 / welcome-01  :ARG0 (u_1174 / person  :ARG1-of (u_1180 / employ-01))))  :ARG1 (u_1176 / project  :ARG2-of (u_1175 / interesting  :degree (u_1179 / quite)))  :manner (u_1177 / enthusiastic-03))
+
+(u_1191 / mislead-01  :ARG0 (u_1194 / movement-07  :ARG1-of (u_1196 / welcome-01  :ARG0 (u_1197 / team  :ARG1-of (u_1192 / petrify-01))))  :ARG1 (u_1189 / person  :ARG1-of (u_1195 / employ-01)  :ARG0-of (u_1193 / eager-01  :degree (u_1190 / really))))
+
+(u_1203 / divide-02  :ARG0 (u_1207 / conspire-01  :ARG1-of (u_1205 / welcome-01  :ARG0 (u_1202 / crowd)))  :ARG1 (u_1206 / nation  :ARG1-of (u_1204 / popular-02))  :manner (u_1208 / enthusiastic-03)  :time (u_1209 / name  :op1 last  :op2 week))
+
+(u_1219 / scar-01  :ARG0 (u_1218 / conspire-01  :ARG1-of (u_1216 / outrageous-02)  :ARG1-of (u_1217 / welcome-01  :ARG0 (u_1213 / person  :ARG1-of (u_1220 / employ-01))  :mod (u_1215 / name  :op1 last  :op2 month)))  :ARG1 (u_1214 / person  :ARG0-of (u_1221 / study-01)))
+
+(u_1229 / spread-03  :ARG0 (u_1232 / movie  :ARG1-of (u_1231 / google-01  :ARG0 (u_1227 / teenager)))  :ARG1 (u_1228 / information  :ARG2-of (u_1226 / interest-01))  :manner (u_1230 / rapid))
+
+(u_1243 / inspire-01  :ARG0 (u_1240 / book  :ARG1-of (u_1239 / google-01  :ARG0 (u_1236 / person  :ARG0-of (u_1244 / have-rel-role-91  :ARG2 (u_1238 / colleague)  :ARG1 (u_1241 / i)))  :manner (u_1242 / prompt)))  :ARG1 (u_1237 / person  :ARG0-of (u_1245 / study-01)))
+
+(u_1255 / initiate-01  :ARG0 (u_1257 / sculpture  :ARG1-of (u_1256 / display-01  :ARG0 (u_1254 / museum  :mod (u_1250 / majestic))))  :ARG1 (u_1251 / rebel-01  :ARG0 (u_1252 / populace))  :manner (u_1253 / enthusiastic-03))
+
+(u_1265 / help-01  :ARG0 (u_1266 / novel  :mod (u_1261 / majestic)  :ARG1-of (u_1262 / display-01  :ARG0 (u_1264 / library)))  :ARG1 (u_1263 / rebel-01))
+
+(u_1275 / fix-02  :ARG0 (u_1277 / method  :ARG1-of (u_1276 / review-01  :ARG0 (u_1273 / scientist)))  :ARG1 (u_1272 / flaw-01  :ARG0-of (u_1271 / disastrous))  :manner (u_1274 / rapid))
+
+(u_1286 / improve-01  :ARG0 (u_1287 / principle  :ARG1-of (u_1282 / review-01  :ARG0 (u_1284 / scientist  :mod (u_1281 / witty))))  :ARG1 (u_1283 / formula)  :manner (u_1285 / enthusiastic-03))
+
+(u_1298 / challenge-01  :ARG0 (u_1300 / formula  :ARG1-of (u_1299 / useful-05)  :ARG1-of (u_1295 / review-01  :ARG0 (u_1297 / doctor  :mod (u_1293 / modest))))  :ARG1 (u_1296 / principle  :ARG1-of (u_1294 / popular-02)))
+
+(u_1312 / trust-02  :ARG0 (u_1307 / person  :mod (u_1313 / obnoxious)  :ARG0-of (u_1315 / manage-01)  :ARG1-of (u_1310 / astonish-01  :ARG0 (u_1314 / job  :ARG2-of (u_1308 / interest-01))))  :ARG1 (u_1309 / receptionist  :mod (u_1306 / modest))  :mod (u_1311 / name  :op1 last  :op2 month))
+
+(u_1323 / watch-01  :ARG0 (u_1324 / chief  :ARG1-of (u_1320 / astonish-01  :ARG0 (u_1322 / achieve-01  :ARG1-of (u_1325 / expect-01  :polarity -))))  :ARG1 (u_1321 / rebel-01))
+
+(u_1337 / kiss-01  :ARG0 (u_1338 / person  :ARG0-of (u_1335 / have-rel-role-91  :ARG2 (u_1334 / parent))  :ARG1-of (u_1331 / hug-01  :ARG0 (u_1332 / toddler  :mod (u_1336 / modest))  :manner (u_1333 / enthusiastic-03)))  :ARG1 (u_1330 / person  :mod (u_1329 / modest)  :ARG0-of (u_1339 / chef)))
+
+(u_1348 / astonish-01  :ARG0 (u_1350 / project  :ARG1-of (u_1349 / manage-01  :ARG0 (u_1347 / person  :mod (u_1344 / modest  :degree (u_1345 / extreme))  :ARG0-of (u_1352 / assist-01))  :ARG1-of (u_1346 / efficient-01)))  :ARG1 (u_1351 / officer))
+
+(u_1364 / crack-02  :ARG0 (u_1365 / stone  :ARG1-of (u_1359 / shiny  :degree (u_1358 / really))  :ARG1-of (u_1360 / store-01  :ARG0 (u_1362 / toddler)))  :ARG1 (u_1361 / glass)  :manner (u_1363 / eagerly)  :time (u_1366 / name  :op1 yesterday))
+
+(u_1378 / inhabit-01  :ARG0 (u_1379 / cat  :ARG1-of (u_1375 / save-02  :ARG0 (u_1376 / toddler  :ARG1-of (u_1373 / short-07))  :time (u_1380 / name  :op1 yesterday)))  :ARG1 (u_1374 / mountain  :mod (u_1372 / majestic  :degree (u_1377 / really))))
+
+(u_1386 / escape-01  :ARG0 (u_1387 / deer  :ARG1-of (u_1388 / petrify-01)  :ARG1-of (u_1391 / capture-01  :ARG0 (u_1392 / bear)))  :ARG1 (u_1389 / tiger)  :manner (u_1390 / rapid)  :ARG1-of (u_1393 / easy-05))
+
+(u_1401 / satisfy-01  :ARG1 (u_1398 / person  :ARG0-of (u_1406 / have-rel-role-91  :ARG2 (u_1405 / colleague)))  :ARG2 (u_1404 / i)  :ARG0 (u_1402 / fish  :ARG0-of (u_1403 / enjoyable-01  :degree (u_1407 / quite))  :ARG1-of (u_1399 / sample-01  :ARG0 (u_1400 / waitress))))
+
+(u_1418 / satisfy-01  :ARG0 (u_1420 / potato  :ARG0-of (u_1419 / enjoyable-01)  :ARG1-of (u_1423 / sample-01  :ARG0 (u_1417 / waitress)  :ARG0-of (u_1422 / happy-01)))  :ARG1 (u_1414 / person  :ARG0-of (u_1421 / have-rel-role-91  :ARG2 (u_1415 / colleague)  :ARG1 (u_1416 / i))))
+
+(u_1435 / satisfy-01  :ARG0 (u_1437 / chicken  :ARG1-of (u_1430 / sample-01  :ARG0 (u_1434 / waitress  :mod (u_1436 / modest))  :ARG0-of (u_1433 / happy-01)))  :ARG1 (u_1431 / preschooler  :mod (u_1429 / skin))  :duration (u_1432 / multiple  :op1 (u_1439 / temporal-quantity  :unit (u_1438 / name  :op1 last  :op2 week))))
+
+(u_1448 / satisfy-01  :ARG1 (u_1445 / person  :ARG0-of (u_1455 / have-rel-role-91  :ARG2 (u_1454 / colleague)))  :ARG2 (u_1451 / i)  :ARG0 (u_1453 / potato  :ARG0-of (u_1449 / enjoyable-01)  :ARG1-of (u_1446 / sample-01  :ARG0 (u_1450 / waitress  :ARG1-of (u_1447 / drive-02))))  :ARG0-of (u_1452 / happy-01))
+
+(u_1462 / satisfy-01  :ARG0 (u_1460 / cake  :ARG1-of (u_1459 / sample-01  :ARG0 (u_1461 / waitress)))  :ARG1 (u_1458 / person  :ARG0-of (u_1463 / preschooler-01)))
+
+(u_1470 / satisfy-01  :ARG1 (u_1475 / person  :ARG0-of (u_1473 / have-rel-role-91  :ARG2 (u_1472 / colleague)))  :ARG2 (u_1471 / i)  :ARG0 (u_1474 / chocolate  :ARG1-of (u_1481 / sample-01  :ARG0 (u_1482 / chef  :ARG0-of (u_1477 / gentle-01  :degree (u_1478 / really)))  :ARG1-of (u_1479 / happy-01)))  :frequency (u_1476 / rate-entity-91  :ARG3 (u_1480 / temporal-quantity  :unit (u_1483 / name  :op1 last  :op2 week))))
+
+(u_1494 / satisfy-01  :ARG0 (u_1493 / cake  :ARG0-of (u_1491 / enjoyable-01  :degree (u_1488 / extreme))  :ARG1-of (u_1490 / sample-01  :ARG0 (u_1492 / waitress)))  :ARG1 (u_1489 / person  :ARG0-of (u_1495 / preschooler-01)))
+
+(u_1506 / satisfy-01  :ARG0 (u_1504 / cake  :ARG1-of (u_1503 / sample-01  :ARG0 (u_1505 / chef  :ARG0-of (u_1502 / resourceful  :degree (u_1501 / really)))))  :ARG1 (u_1500 / person  :ARG0-of (u_1507 / preschooler-01)))
+
+(u_1525 / satisfy-01  :ARG0 (u_1518 / chicken  :mod (u_1527 / delicious)  :ARG1-of (u_1517 / sample-01  :ARG0 (u_1520 / waitress)  :ARG0-of (u_1519 / eagerly-01)))  :ARG1 (u_1521 / person  :ARG0-of (u_1516 / have-rel-role-91  :ARG2 (u_1523 / colleague)  :ARG1 (u_1515 / i)))  :frequency (u_1522 / rate-entity-91  :ARG3 (u_1524 / temporal-quantity  :unit (u_1526 / name  :op1 last  :op2 week))))
+
+(u_1539 / satisfy-01  :ARG0 (u_1540 / cake  :ARG1-of (u_1535 / delicious  :degree (u_1541 / really))  :ARG1-of (u_1536 / sample-01  :ARG0 (u_1538 / chef)  :ARG0-of (u_1542 / happy-01)))  :ARG1 (u_1537 / preschooler  :mod (u_1534 / tall)))
+
+(u_1555 / satisfy-01  :ARG0 (u_1556 / chicken  :ARG0-of (u_1550 / enjoyable-01  :degree (u_1552 / quite))  :ARG1-of (u_1553 / hate-01  :ARG0 (u_1549 / person  :ARG0-of (u_1557 / preschooler-01)  :ARG0-of (u_1554 / gentle-01))))  :ARG1 (u_1551 / toddler  :mod (u_1548 / shy-away-01)))
+
+(u_1563 / satisfy-01  :ARG0 (u_1565 / fish  :ARG1-of (u_1564 / hate-01  :ARG0 (u_1568 / preschooler)))  :ARG1 (u_1567 / toddler  :ARG1-of (u_1566 / gentle-01  :degree (u_1569 / quite)))  :time (u_1570 / name  :op1 yesterday))
+
+(u_1576 / satisfy-01  :ARG0 (u_1578 / chicken  :ARG1-of (u_1579 / hate-01  :ARG0 (u_1575 / preschooler  :mod (u_1574 / merry))))  :ARG1 (u_1577 / colleague  :ARG2-of (u_1583 / have-rel-role-91  :ARG0 (u_1580 / i)))  :mod (u_1582 / event  :name (u_1581 / name  :op1 last  :op2 week)  :wiki -))
+
+(u_1590 / satisfy-01  :ARG1 (u_1594 / person  :mod (u_1599 / shy-away-01)  :ARG0-of (u_1593 / have-rel-role-91  :ARG2 (u_1592 / colleague)))  :ARG2 (u_1591 / i)  :ARG0 (u_1602 / potato  :mod (u_1603 / delicious  :degree (u_1595 / rather))  :ARG1-of (u_1597 / hate-01  :ARG0 (u_1598 / toddler)))  :frequency (u_1596 / rate-entity-91  :ARG3 (u_1600 / temporal-quantity  :unit (u_1601 / name  :op1 last  :op2 week))))
+
+(u_1614 / satisfy-01  :ARG0 (u_1617 / fish  :mod (u_1615 / delicious)  :ARG1-of (u_1610 / hate-01  :ARG0 (u_1613 / preschooler  :mod (u_1612 / skin))  :time (u_1616 / name  :op1 last  :op2 week)))  :ARG1 (u_1611 / toddler  :mod (u_1609 / skin)))
+
+(u_1625 / satisfy-01  :ARG1 (u_1634 / person  :mod (u_1637 / skin  :degree (u_1636 / rather))  :ARG0-of (u_1628 / have-rel-role-91  :ARG2 (u_1627 / colleague)))  :ARG2 (u_1626 / i)  :ARG0 (u_1638 / fish  :ARG0-of (u_1635 / enjoyable-01  :degree (u_1631 / rather))  :ARG1-of (u_1633 / hate-01  :ARG0 (u_1624 / person  :mod (u_1629 / witty)  :ARG0-of (u_1630 / preschooler-01))))  :time (u_1632 / name  :op1 yesterday))
+
+(u_1645 / satisfy-01  :ARG0 (u_1648 / potato  :ARG1-of (u_1647 / hate-01  :ARG0 (u_1650 / toddler)  :time (u_1651 / name  :op1 yesterday)))  :ARG1 (u_1643 / colleague  :ARG2-of (u_1649 / have-rel-role-91  :ARG0 (u_1646 / i))  :ARG1-of (u_1644 / gentle-01)))
+
+(u_1661 / satisfy-01  :ARG0 (u_1662 / fish  :ARG1-of (u_1657 / hate-01  :ARG0 (u_1660 / preschooler  :mod (u_1656 / modest  :degree (u_1659 / really)))))  :ARG1 (u_1658 / toddler)  :time (u_1663 / name  :op1 last  :op2 week))
+
+(u_1673 / satisfy-01  :ARG0 (u_1670 / chicken  :ARG1-of (u_1669 / hate-01  :ARG0 (u_1672 / toddler  :mod (u_1667 / shy-away-01  :degree (u_1671 / rather)))))  :ARG1 (u_1668 / person  :ARG0-of (u_1674 / preschooler-01))  :time (u_1675 / name  :op1 last  :op2 week))
+
+(u_1688 / satisfy-01  :ARG0 (u_1684 / fish  :mod (u_1681 / rich  :degree (u_1685 / really))  :ARG1-of (u_1690 / hate-01  :ARG0 (u_1687 / toddler  :mod (u_1686 / chubby))))  :ARG1 (u_1682 / person  :ARG0-of (u_1689 / preschooler-01)  :ARG1-of (u_1683 / lively)))
+
+(u_1704 / satisfy-01  :ARG0 (u_1708 / fish  :mod (u_1707 / rich  :degree (u_1710 / rather))  :ARG1-of (u_1703 / hate-01  :ARG0 (u_1701 / toddler  :mod (u_1700 / witty))  :time (u_1709 / name  :op1 yesterday)))  :ARG1 (u_1705 / preschooler  :mod (u_1699 / tall  :degree (u_1702 / really)))  :time (u_1706 / name  :op1 yesterday))
+
+(u_1725 / satisfy-01  :ARG0 (u_1718 / potato  :ARG1-of (u_1731 / hate-01  :ARG0 (u_1722 / preschooler  :mod (u_1727 / merry  :degree (u_1721 / really)))  :time (u_1728 / name  :op1 yesterday)))  :ARG1 (u_1729 / person  :mod (u_1723 / cheery)  :ARG0-of (u_1720 / have-rel-role-91  :ARG2 (u_1719 / colleague)))  :mod (u_1724 / i)  :frequency (u_1730 / rate-entity-91  :ARG3 (u_1732 / temporal-quantity  :unit (u_1726 / name  :op1 last  :op2 week))))
+
+(u_1750 / satisfy-01  :ARG0 (u_1744 / chicken  :mod (u_1751 / rich  :degree (u_1746 / extreme))  :ARG1-of (u_1747 / hate-01  :ARG0 (u_1748 / preschooler  :ARG1-of (u_1752 / lively))))  :ARG1 (u_1741 / person  :mod (u_1749 / modest)  :ARG0-of (u_1745 / have-rel-role-91  :ARG2 (u_1742 / colleague)  :ARG1 (u_1743 / i))))
+
+(u_1757 / satisfy-01  :ARG1 (u_1756 / person  :ARG0-of (u_1763 / have-rel-role-91  :ARG2 (u_1760 / colleague)))  :ARG2 (u_1759 / i)  :ARG0 (u_1762 / fish  :ARG1-of (u_1758 / hate-01  :ARG0 (u_1761 / preschooler  :mod (u_1764 / modest))  :time (u_1765 / name  :op1 last  :op2 week))))
+
+(u_1773 / satisfy-01  :ARG1 (u_1771 / person  :ARG0-of (u_1777 / have-rel-role-91  :ARG2 (u_1776 / colleague)))  :ARG2 (u_1775 / i)  :ARG0 (u_1781 / chicken  :mod (u_1772 / delicious)  :ARG1-of (u_1779 / hate-01  :ARG0 (u_1780 / toddler  :ARG0-of (u_1774 / gentle-01  :degree (u_1778 / real-04))))))
+
+(u_1796 / satisfy-01  :ARG0 (u_1798 / fish  :ARG0-of (u_1791 / enjoyable-01  :degree (u_1790 / quite))  :ARG1-of (u_1792 / hate-01  :ARG0 (u_1794 / preschooler)  :time (u_1799 / name  :op1 last  :op2 week)))  :ARG1 (u_1793 / colleague  :mod (u_1789 / modest  :degree (u_1795 / really)))  :time (u_1797 / name  :op1 yesterday))
+
+(u_1806 / satisfy-01  :ARG1 (u_1817 / person  :ARG0-of (u_1809 / have-rel-role-91  :ARG2 (u_1808 / colleague))  :ARG0-of (u_1818 / shy-away-01))  :ARG2 (u_1807 / i)  :ARG0 (u_1813 / fish  :mod (u_1814 / rich  :degree (u_1810 / quite))  :ARG1-of (u_1811 / hate-01  :ARG0 (u_1812 / toddler  :ARG1-of (u_1815 / short-07))  :time (u_1816 / name  :op1 yesterday))))
+
+(u_1825 / satisfy-01  :ARG1 (u_1823 / person  :ARG0-of (u_1830 / have-rel-role-91  :ARG2 (u_1828 / colleague))  :ARG1-of (u_1826 / shy-away-01))  :ARG2 (u_1827 / i)  :ARG0 (u_1829 / chicken  :mod (u_1831 / rich)  :ARG1-of (u_1832 / hate-01  :ARG0 (u_1824 / preschooler))))
+
+(u_1841 / satisfy-01  :ARG0 (u_1842 / fish  :ARG0-of (u_1837 / enjoyable-01)  :ARG1-of (u_1839 / hate-01  :ARG0 (u_1840 / preschooler)))  :ARG1 (u_1838 / toddler)  :time (u_1843 / name  :op1 yesterday))
+
+(u_1853 / satisfy-01  :ARG0 (u_1855 / fish  :ARG1-of (u_1854 / hate-01  :ARG0 (u_1851 / toddler)))  :ARG1 (u_1850 / preschooler  :ARG1-of (u_1849 / short-07  :degree (u_1852 / quite)))  :time (u_1856 / name  :op1 yesterday))
+
+(u_1862 / satisfy-01  :ARG1 (u_1861 / person  :ARG0-of (u_1867 / have-rel-role-91  :ARG2 (u_1866 / colleague)))  :ARG2 (u_1865 / i)  :ARG0 (u_1870 / chicken  :mod (u_1863 / delicious)  :ARG1-of (u_1864 / hate-01  :ARG0 (u_1869 / toddler  :mod (u_1868 / modest))  :time (u_1871 / name  :op1 last  :op2 week))))
+
+(u_1882 / satisfy-01  :ARG0 (u_1885 / chicken  :ARG0-of (u_1883 / enjoyable-01)  :ARG1-of (u_1880 / hate-01  :ARG0 (u_1881 / preschooler)))  :ARG1 (u_1877 / person  :ARG0-of (u_1884 / have-rel-role-91  :ARG2 (u_1878 / colleague)  :ARG1 (u_1879 / i))))
+
+(u_1901 / satisfy-01  :ARG0 (u_1893 / chicken  :ARG0-of (u_1895 / enjoyable-01  :degree (u_1898 / rather))  :ARG1-of (u_1899 / hate-01  :ARG0 (u_1900 / toddler)))  :ARG1 (u_1896 / preschooler)  :frequency (u_1894 / rate-entity-91  :ARG3 (u_1897 / temporal-quantity  :unit (u_1892 / name  :op1 last  :op2 week))))
+
+(u_1909 / satisfy-01  :ARG1 (u_1907 / person  :mod (u_1917 / surly  :degree (u_1916 / extreme))  :ARG0-of (u_1913 / have-rel-role-91  :ARG2 (u_1912 / colleague)))  :ARG2 (u_1911 / i)  :ARG0 (u_1908 / potato  :ARG0-of (u_1910 / enjoyable-01)  :ARG1-of (u_1914 / hate-01  :ARG0 (u_1915 / preschooler))))
+
+(u_1929 / satisfy-01  :ARG0 (u_1933 / fish  :mod (u_1931 / rich  :degree (u_1925 / rather))  :ARG1-of (u_1932 / hate-01  :ARG0 (u_1926 / toddler)))  :ARG1 (u_1934 / person  :ARG0-of (u_1928 / have-rel-role-91  :ARG2 (u_1936 / colleague)  :ARG1 (u_1927 / i)))  :frequency (u_1935 / rate-entity-91  :ARG3 (u_1937 / temporal-quantity  :unit (u_1930 / name  :op1 last  :op2 week))))
+
+(u_1943 / satisfy-01  :ARG0 (u_1948 / chicken  :mod (u_1942 / delicious)  :ARG1-of (u_1947 / hate-01  :ARG0 (u_1950 / toddler)))  :ARG1 (u_1944 / colleague  :ARG2-of (u_1949 / have-rel-role-91  :ARG0 (u_1946 / i))  :ARG1-of (u_1945 / shy-away-01)))
+
+(u_1963 / satisfy-01  :ARG0 (u_1965 / chicken  :mod (u_1957 / rich)  :ARG1-of (u_1961 / hate-01  :ARG0 (u_1962 / preschooler  :ARG1-of (u_1964 / gentle-01  :degree (u_1960 / extreme)))  :time (u_1966 / name  :op1 yesterday)))  :ARG1 (u_1959 / toddler  :ARG1-of (u_1958 / lively)))
+
+(u_1975 / satisfy-01  :ARG0 (u_1978 / chicken  :mod (u_1973 / rich  :degree (u_1979 / quite))  :ARG1-of (u_1974 / hate-01  :ARG0 (u_1981 / preschooler  :mod (u_1980 / skin))  :time (u_1982 / name  :op1 yesterday)))  :ARG1 (u_1976 / toddler)  :time (u_1977 / name  :op1 yesterday))
+
+(u_1992 / satisfy-01  :ARG1 (u_2000 / person  :mod (u_1998 / rude-01  :degree (u_1997 / rather))  :ARG0-of (u_1995 / have-rel-role-91  :ARG2 (u_1994 / colleague)))  :ARG2 (u_1993 / i)  :ARG0 (u_2001 / potato  :mod (u_2002 / rich  :degree (u_2006 / rather))  :ARG1-of (u_2004 / hate-01  :ARG0 (u_1996 / toddler  :mod (u_2008 / witty  :degree (u_2007 / quite)))))  :frequency (u_2003 / rate-entity-91  :ARG3 (u_2005 / temporal-quantity  :unit (u_1999 / name  :op1 last  :op2 week))))
+
+(u_2014 / satisfy-01  :ARG0 (u_2013 / chicken  :ARG1-of (u_2016 / hate-01  :ARG0 (u_2020 / preschooler)))  :ARG1 (u_2015 / colleague  :mod (u_2022 / merry)  :ARG2-of (u_2019 / have-rel-role-91  :ARG0 (u_2017 / i)))  :duration (u_2018 / multiple  :op1 (u_2023 / temporal-quantity  :unit (u_2021 / name  :op1 last  :op2 week))))
+
+(u_2046 / satisfy-01  :ARG0 (u_2032 / potato  :ARG0-of (u_2039 / enjoyable-01)  :ARG1-of (u_2037 / hate-01  :ARG0 (u_2041 / toddler  :ARG1-of (u_2043 / lively  :degree (u_2040 / extreme)))  :time (u_2035 / name  :op1 yesterday)))  :ARG1 (u_2036 / person  :mod (u_2044 / witty  :degree (u_2045 / quite))  :ARG0-of (u_2034 / have-rel-role-91  :ARG2 (u_2033 / colleague)))  :frequency (u_2038 / rate-entity-91  :ARG3 (u_2042 / temporal-quantity  :unit (u_2047 / name  :op1 last  :op2 week))))
+
+(u_2068 / satisfy-01  :ARG0 (u_2060 / fish  :mod (u_2067 / delicious)  :ARG1-of (u_2062 / hate-01  :ARG0 (u_2064 / toddler  :ARG1-of (u_2061 / short-07  :degree (u_2063 / quite)))  :mod (u_2058 / event  :name (u_2057 / name  :op1 last  :op2 week)  :wiki -)))  :ARG1 (u_2056 / preschooler  :mod (u_2059 / skin  :degree (u_2066 / quite)))  :mod (u_2065 / name  :op1 last  :op2 week))
+
+(u_2075 / satisfy-01  :ARG1 (u_2073 / person  :mod (u_2080 / chubby)  :ARG0-of (u_2079 / have-rel-role-91  :ARG2 (u_2078 / colleague)))  :ARG2 (u_2077 / i)  :ARG0 (u_2081 / potato  :ARG1-of (u_2076 / hate-01  :ARG0 (u_2074 / preschooler)  :time (u_2083 / name  :op1 yesterday)))  :time (u_2082 / name  :op1 yesterday))
+
+(u_2092 / satisfy-01  :ARG0 (u_2096 / fish  :ARG0-of (u_2091 / enjoyable-01  :degree (u_2098 / really))  :ARG1-of (u_2097 / hate-01  :ARG0 (u_2102 / toddler)))  :ARG1 (u_2094 / preschooler  :ARG1-of (u_2093 / shy-away-01  :degree (u_2100 / rather)))  :duration (u_2095 / multiple  :op1 (u_2101 / temporal-quantity  :unit (u_2099 / name  :op1 last  :op2 week))))
+
+(u_2118 / satisfy-01  :ARG0 (u_2119 / chicken  :mod (u_2110 / rich)  :ARG1-of (u_2114 / hate-01  :ARG0 (u_2113 / preschooler  :ARG1-of (u_2117 / short-07))))  :ARG1 (u_2112 / toddler  :ARG1-of (u_2111 / lively  :degree (u_2116 / really)))  :mod (u_2115 / name  :op1 last  :op2 week))
+
+(u_2131 / satisfy-01  :ARG0 (u_2133 / chicken  :mod (u_2126 / delicious  :degree (u_2134 / rather))  :ARG1-of (u_2129 / hate-01  :ARG0 (u_2127 / preschooler  :mod (u_2128 / chubby))))  :ARG1 (u_2132 / toddler  :ARG1-of (u_2130 / short-07))  :time (u_2135 / name  :op1 yesterday))
+
+(u_2149 / satisfy-01  :ARG0 (u_2152 / fish  :ARG0-of (u_2144 / enjoyable-01  :degree (u_2148 / really))  :ARG1-of (u_2146 / hate-01  :ARG0 (u_2150 / preschooler)))  :ARG1 (u_2145 / toddler  :mod (u_2142 / chubby))  :frequency (u_2143 / rate-entity-91  :ARG3 (u_2147 / temporal-quantity  :unit (u_2151 / name  :op1 last  :op2 week))))
+
+(u_2156 / roll-out-02  :ARG0 (u_2155 / person  :ARG0-of (u_2161 / have-rel-role-91  :ARG2 (u_2160 / cousin))  :ARG1-of (u_2158 / admire-01  :ARG0 (u_2157 / person  :ARG0-of (u_2162 / guardian-01))))  :ARG1 (u_2159 / cloth)  :ARG1-of (u_2163 / easy-05))
+
+(u_2178 / cover-01  :ARG0 (u_2175 / person  :ARG0-of (u_2173 / have-rel-role-91  :ARG2 (u_2172 / parent))  :ARG1-of (u_2177 / admire-01  :ARG0 (u_2176 / person  :mod (u_2183 / modest)  :ARG0-of (u_2180 / have-rel-role-91  :ARG2 (u_2181 / cousin)  :ARG1 (u_2182 / i)))))  :ARG1 (u_2171 / glass  :ARG1-of (u_2179 / pretty))  :time (u_2174 / name  :op1 yesterday))
+
+(u_2194 / chew-01  :ARG0 (u_2188 / person  :ARG0-of (u_2192 / have-rel-role-91  :ARG2 (u_2190 / cousin)  :ARG1 (u_2189 / i))  :ARG1-of (u_2193 / admire-01  :ARG0 (u_2195 / guardian)))  :ARG1 (u_2191 / chicken))
+
+(u_2209 / move-01  :ARG0 (u_2203 / person  :ARG0-of (u_2207 / guard-01)  :ARG1-of (u_2210 / admire-01  :ARG0 (u_2200 / person  :ARG0-of (u_2206 / have-rel-role-91  :ARG2 (u_2202 / cousin)  :ARG1 (u_2201 / i)))  :time (u_2208 / name  :op1 yesterday)))  :ARG1 (u_2205 / pebble  :ARG1-of (u_2204 / pretty)))
+
+(u_2225 / hang-01  :ARG0 (u_2217 / person  :mod (u_2218 / chubby  :degree (u_2220 / really))  :ARG0-of (u_2227 / have-rel-role-91  :ARG2 (u_2219 / cousin)  :ARG1 (u_2224 / i))  :ARG1-of (u_2223 / admire-01  :ARG0 (u_2222 / guardian)  :time (u_2228 / name  :op1 last  :op2 month)))  :ARG1 (u_2221 / clothes)  :consist-of (u_2226 / person))
+
+(u_2238 / buy-01  :ARG0 (u_2234 / person  :mod (u_2243 / merry)  :ARG0-of (u_2242 / have-rel-role-91  :ARG2 (u_2241 / partner))  :ARG1-of (u_2237 / admire-01  :ARG0 (u_2244 / person  :ARG0-of (u_2235 / have-rel-role-91  :ARG2 (u_2236 / parent)))  :time (u_2245 / name  :op1 yesterday)))  :ARG1 (u_2239 / clothes)  :manner (u_2240 / enthusiastic-03))
+
+(u_2260 / inhale-01  :ARG0 (u_2251 / person  :mod (u_2255 / surly)  :ARG0-of (u_2259 / have-rel-role-91  :ARG2 (u_2256 / sibling))  :ARG1-of (u_2252 / admire-01  :ARG0 (u_2254 / person  :ARG0-of (u_2257 / have-rel-role-91  :ARG2 (u_2258 / cousin)))  :time (u_2261 / name  :op1 yesterday)))  :ARG1 (u_2253 / fume))
+
+(u_2269 / decorate-01  :ARG0 (u_2271 / sibling  :ARG1-of (u_2268 / admire-01  :ARG0 (u_2267 / person  :mod (u_2275 / witty  :degree (u_2277 / quite))  :ARG0-of (u_2274 / have-rel-role-91  :ARG2 (u_2273 / cousin)))  :name (u_2276 / name  :op1 last  :op2 month)  :wiki -))  :ARG1 (u_2272 / gate  :ARG1-of (u_2270 / yellow)))
+
+(u_2290 / want-01  :ARG0 (u_2284 / person  :mod (u_2285 / obnoxious)  :ARG0-of (u_2289 / have-rel-role-91  :ARG2 (u_2293 / cousin)  :ARG1 (u_2292 / i))  :ARG1-of (u_2288 / admire-01  :ARG0 (u_2291 / parent)))  :ARG1 (u_2287 / cake  :ARG0-of (u_2286 / taste-01))  :time (u_2294 / name  :op1 yesterday))
+
+(u_2302 / empty-01  :ARG0 (u_2300 / person  :mod (u_2309 / tall)  :ARG0-of (u_2307 / have-rel-role-91  :ARG2 (u_2306 / cousin))  :ARG1-of (u_2301 / admire-01  :ARG0 (u_2304 / guardian  :mod (u_2308 / skin))))  :ARG1 (u_2305 / glass  :ARG1-of (u_2303 / blue)))
+
+(u_2328 / close-01  :ARG0 (u_2321 / person  :mod (u_2322 / timid  :degree (u_2324 / really))  :ARG0-of (u_2319 / have-rel-role-91  :ARG2 (u_2318 / parent))  :ARG1-of (u_2327 / admire-01  :ARG0 (u_2316 / person  :ARG0-of (u_2320 / guardian-01))))  :ARG1 (u_2317 / gate  :ARG1-of (u_2323 / yellow  :degree (u_2326 / really)))  :ARG1-of (u_2325 / quick-02))
+
+(u_2339 / spill-out-03  :ARG0 (u_2342 / i)  :ARG1 (u_2341 / water)  :unit (u_2346 / name  :op1 last  :op2 month)  :ARG1-of (u_2344 / have-rel-role-91  :ARG2 (u_2338 / cousin)  :ARG0 (u_2335 / person  :ARG1-of (u_2336 / admire-01  :ARG0 (u_2337 / person  :mod (u_2345 / witty)  :ARG0-of (u_2340 / have-rel-role-91  :ARG2 (u_2343 / parent)))))))
+
+(u_2357 / open-01  :ARG0 (u_2359 / guardian  :ARG1-of (u_2355 / admire-01  :ARG0 (u_2351 / person  :ARG0-of (u_2356 / have-rel-role-91  :ARG2 (u_2352 / sibling)  :ARG1 (u_2354 / i)))  :name (u_2358 / name  :op1 last  :op2 month)  :wiki -))  :ARG1 (u_2353 / gate))
+
+(u_2373 / sibling  :mod (u_2367 / merry  :degree (u_2376 / extreme))  :ARG1-of (u_2371 / admire-01  :ARG0 (u_2369 / person  :ARG0-of (u_2375 / have-rel-role-91  :ARG2 (u_2374 / cousin)))  :mod (u_2378 / name  :op1 last  :op2 month))  :ARG0-of (u_2372 / fancy-01  :ARG1 (u_2370 / partner  :mod (u_2368 / modest  :degree (u_2377 / really)))))
+
+(u_2388 / sort-out-02  :ARG0 (u_2381 / person  :ARG0-of (u_2387 / have-rel-role-91  :ARG2 (u_2386 / parent))  :ARG1-of (u_2383 / admire-01  :ARG0 (u_2382 / person  :ARG0-of (u_2389 / guard-01))  :time (u_2390 / name  :op1 yesterday)))  :ARG1 (u_2384 / pebble)  :ARG1-of (u_2385 / eagerly-01))
+
+(u_2398 / enter-01  :ARG0 (u_2397 / person  :mod (u_2405 / cheery  :degree (u_2403 / extreme))  :ARG0-of (u_2402 / have-rel-role-91  :ARG2 (u_2401 / partner))  :ARG1-of (u_2399 / admire-01  :ARG0 (u_2404 / person  :ARG0-of (u_2406 / have-rel-role-91  :ARG2 (u_2407 / cousin)))))  :ARG1 (u_2400 / building))
+
+(u_2425 / cook-01  :ARG0 (u_2422 / person  :mod (u_2418 / pretty-02)  :ARG0-of (u_2417 / have-rel-role-91  :ARG2 (u_2416 / parent))  :ARG1-of (u_2427 / admire-01  :ARG0 (u_2414 / person  :mod (u_2423 / chubby  :degree (u_2420 / rather))  :ARG0-of (u_2419 / guard-01))  :time (u_2421 / name  :op1 yesterday)))  :ARG1 (u_2415 / chicken  :ARG1-of (u_2424 / delicious))  :ARG1-of (u_2426 / quick-02))
+
+(u_2436 / congratulate-01  :ARG1 (u_2439 / manage-01  :mod (u_2434 / obnoxious))  :ARG2 (u_2441 / i)  :ARG0 (u_2438 / partner  :mod (u_2435 / modest)  :ARG1-of (u_2437 / admire-01  :ARG0 (u_2444 / person  :ARG0-of (u_2443 / have-rel-role-91  :ARG2 (u_2442 / cousin)))  :mod (u_2445 / name  :op1 last  :op2 month)))  :manner (u_2440 / remorsefully))
+
+(u_2457 / approach-02  :ARG0 (u_2450 / person  :ARG0-of (u_2456 / have-rel-role-91  :ARG2 (u_2453 / sibling))  :ARG1-of (u_2451 / admire-01  :ARG0 (u_2455 / person  :ARG0-of (u_2458 / have-rel-role-91  :ARG2 (u_2454 / cousin)))))  :ARG1 (u_2452 / building))
+
+(u_2471 / stretch-01  :ARG0 (u_2469 / person  :ARG0-of (u_2474 / have-rel-role-91  :ARG2 (u_2473 / sibling))  :ARG1-of (u_2470 / admire-01  :ARG0 (u_2477 / person  :mod (u_2475 / merry)  :ARG0-of (u_2468 / have-rel-role-91  :ARG2 (u_2476 / cousin)))))  :ARG1 (u_2472 / clothes  :mod (u_2466 / blue  :degree (u_2467 / rather))))
+
+(u_2490 / escape-01  :ARG0 (u_2483 / person  :ARG0-of (u_2489 / steal-01)  :ARG1-of (u_2488 / attack-01  :ARG0 (u_2491 / sea-lion)))  :ARG1 (u_2485 / tiger  :ARG0-of (u_2484 / terrify-01  :degree (u_2486 / rather)))  :ARG1-of (u_2487 / easy-05))
+
+(u_2501 / astonish-01  :ARG0 (u_2497 / propose-01  :ARG1-of (u_2498 / manage-01  :ARG0 (u_2502 / clerk)  :ARG1-of (u_2500 / effortlessly-01)))  :ARG1 (u_2499 / manage-01)  :mod (u_2496 / name  :op1 last  :op2 month))
+
+(u_2509 / submit-01  :ARG0 (u_2511 / receptionist  :ARG1-of (u_2506 / thank-01  :ARG0 (u_2510 / manage-01)  :manner (u_2508 / enthusiastic-03)))  :ARG1 (u_2507 / project))
+
+(u_2521 / guard-01  :ARG0 (u_2517 / person  :ARG0-of (u_2525 / clerk-01)  :ARG1-of (u_2524 / thank-01  :ARG0 (u_2523 / principal  :mod (u_2516 / obnoxious))))  :ARG1 (u_2519 / project  :ARG2-of (u_2518 / interest-01  :degree (u_2522 / really)))  :manner (u_2520 / enthusiastic-03))
+
+(u_2540 / manage-02  :ARG0 (u_2532 / person  :mod (u_2531 / timid)  :ARG0-of (u_2539 / clerk-01)  :ARG1-of (u_2533 / thank-01  :ARG0 (u_2534 / artist  :mod (u_2538 / surly  :degree (u_2536 / extreme)))))  :ARG1 (u_2535 / project)  :ARG1-of (u_2537 / easy-05))
+
+(u_2549 / pay-01  :ARG0 (u_2548 / receptionist  :ARG1-of (u_2547 / thank-01  :ARG0 (u_2543 / person  :mod (u_2546 / obnoxious)  :ARG0-of (u_2551 / have-org-role-91  :ARG2 (u_2550 / principal)))))  :ARG2 (u_2544 / person  :ARG0-of (u_2552 / study-01))  :ARG1-of (u_2545 / remorsefully-01))
+
+(u_2566 / report-01  :ARG0 (u_2565 / clerk  :ARG0-of (u_2560 / shy-away-01  :degree (u_2559 / really))  :ARG1-of (u_2564 / thank-01  :ARG0 (u_2562 / manage-01)))  :ARG1 (u_2561 / flaw-01  :mod (u_2558 / disastrous))  :manner (u_2563 / urgent))
+
+(u_2576 / phone-01  :ARG0 (u_2578 / clerk  :ARG1-of (u_2575 / thank-01  :ARG0 (u_2574 / principal  :ARG0-of (u_2572 / drive-03))))  :ARG1 (u_2573 / manage-01  :mod (u_2571 / anxious))  :time (u_2577 / name  :op1 last  :op2 month))
+
+(u_2594 / suggest-01  :ARG0 (u_2586 / person  :ARG0-of (u_2592 / clerk-01)  :ARG1-of (u_2593 / drive-02)  :ARG1-of (u_2590 / thank-01  :ARG0 (u_2585 / manage-01  :mod (u_2584 / surly))))  :ARG1 (u_2588 / process-02  :ARG0-of (u_2587 / shock-01  :degree (u_2591 / extreme)))  :manner (u_2589 / eagerly))
+
+(u_2601 / manage-01  :ARG0 (u_2605 / receptionist  :mod (u_2599 / timid)  :ARG1-of (u_2600 / thank-01  :ARG0 (u_2603 / politician  :ARG1-of (u_2602 / talented-01))))  :ARG1 (u_2604 / project))
+
+(u_2619 / manage-02  :ARG0 (u_2616 / receptionist  :ARG1-of (u_2614 / competency)  :ARG1-of (u_2618 / thank-01  :ARG0 (u_2617 / politician)))  :ARG1 (u_2613 / project  :ARG2-of (u_2612 / interesting  :degree (u_2620 / quite)))  :manner (u_2615 / eagerly))
+
+(u_2631 / manage-01  :ARG0 (u_2625 / person  :ARG0-of (u_2632 / clerk-01)  :ARG1-of (u_2626 / thank-01  :ARG0 (u_2630 / manage-01  :mod (u_2624 / obnoxious))))  :ARG1 (u_2627 / project)  :manner (u_2628 / enthusiastic-03)  :ARG1-of (u_2629 / eagerly-01))
+
+(u_2648 / manage-02  :ARG0 (u_2649 / clerk  :mod (u_2640 / shy-away-01  :degree (u_2644 / rather))  :ARG1-of (u_2643 / thank-01  :ARG0 (u_2645 / principal  :ARG1-of (u_2647 / anxious))  :mod (u_2646 / name  :op1 last  :op2 month)))  :ARG1 (u_2642 / project  :ARG0-of (u_2641 / excite-01)))
+
+(u_2656 / manage-01  :ARG0 (u_2660 / receptionist  :ARG0-of (u_2662 / resourceful)  :ARG1-of (u_2655 / thank-01  :ARG0 (u_2658 / manage-01)))  :ARG1 (u_2659 / project  :ARG2-of (u_2657 / interest-01))  :manner (u_2661 / enthusiastic-03))
+
+(u_2670 / manage-01  :ARG0 (u_2672 / clerk  :ARG1-of (u_2668 / thank-01  :ARG0 (u_2667 / manage-01)  :time (u_2673 / name  :op1 yesterday)))  :ARG1 (u_2669 / project)  :ARG1-of (u_2671 / eagerly-01))
+
+(u_2682 / manage-01  :ARG0 (u_2680 / receptionist  :ARG1-of (u_2678 / thank-01  :ARG0 (u_2677 / politician)))  :ARG1 (u_2679 / project)  :manner (u_2681 / enthusiastic-03))
+
+(u_2690 / manage-01  :ARG0 (u_2687 / person  :ARG0-of (u_2692 / clerk-01)  :ARG1-of (u_2689 / thank-01  :ARG0 (u_2688 / manage-01)))  :ARG1 (u_2691 / project)  :ARG1-of (u_2686 / easy-05))
+
+(u_2700 / manage-01  :ARG0 (u_2704 / clerk  :ARG1-of (u_2699 / thank-01  :ARG0 (u_2698 / principal  :ARG1-of (u_2701 / drive-02))))  :ARG1 (u_2703 / project)  :ARG1-of (u_2702 / eagerly-01))
+
+(u_2711 / manage-01  :ARG0 (u_2708 / person  :ARG0-of (u_2712 / clerk-01)  :ARG1-of (u_2709 / thank-01  :ARG0 (u_2715 / manage-01)  :name (u_2714 / name  :op1 last  :op2 month)  :wiki -))  :ARG1 (u_2710 / project)  :ARG1-of (u_2713 / easy-05))
+
+(u_2728 / manage-02  :ARG0 (u_2724 / clerk  :ARG1-of (u_2727 / thank-01  :ARG0 (u_2725 / principal  :mod (u_2721 / surly  :degree (u_2726 / really)))))  :ARG1 (u_2723 / project  :ARG0-of (u_2722 / excite-01)))
+
+(u_2741 / manage-02  :ARG0 (u_2736 / person  :ARG0-of (u_2742 / clerk-01)  :ARG0-of (u_2740 / anxious  :degree (u_2743 / extreme))  :ARG1-of (u_2748 / thank-01  :ARG0 (u_2744 / person  :mod (u_2746 / obnoxious  :degree (u_2747 / rather))  :ARG0-of (u_2739 / have-org-role-91  :ARG2 (u_2738 / principal)))  :ARG1-of (u_2749 / eagerly-01)))  :ARG1 (u_2737 / project  :ARG0-of (u_2745 / excite-01)))
+
+(u_2760 / manage-02  :ARG0 (u_2762 / receptionist  :ARG1-of (u_2763 / competency)  :ARG1-of (u_2758 / thank-01  :ARG0 (u_2756 / manage-01)  :time (u_2764 / name  :op1 yesterday)))  :ARG1 (u_2759 / project  :ARG2-of (u_2757 / interest-01))  :ARG1-of (u_2761 / effortlessly-01))
+
+(u_2778 / manage-01  :ARG0 (u_2772 / receptionist  :ARG1-of (u_2780 / thank-01  :ARG0 (u_2776 / manage-01  :mod (u_2771 / obnoxious))  :ARG1-of (u_2777 / eagerly-01)))  :ARG1 (u_2774 / project  :ARG2-of (u_2773 / interesting  :degree (u_2779 / extreme)))  :manner (u_2775 / effortlessly))
+
+(u_2790 / manage-01  :ARG0 (u_2788 / receptionist  :ARG1-of (u_2789 / thank-01  :ARG0 (u_2786 / principal  :mod (u_2785 / obnoxious  :degree (u_2787 / extreme)))  :name (u_2792 / name  :op1 last  :op2 month)  :wiki -))  :ARG1 (u_2791 / project))
+
+(u_2798 / manage-01  :ARG0 (u_2803 / receptionist  :ARG1-of (u_2799 / thank-01  :ARG0 (u_2797 / manage-01)))  :ARG1 (u_2801 / project)  :manner (u_2802 / eagerly)  :manner (u_2800 / effortlessly))
+
+(u_2816 / manage-02  :ARG0 (u_2814 / receptionist  :ARG1-of (u_2809 / thank-01  :ARG0 (u_2812 / politician  :mod (u_2808 / obnoxious  :degree (u_2813 / quite)))  :time (u_2815 / name  :op1 yesterday)))  :ARG1 (u_2810 / project)  :manner (u_2811 / enthusiastic-03))
+
+(u_2827 / manage-02  :ARG0 (u_2829 / clerk  :ARG1-of (u_2830 / talented-01)  :ARG1-of (u_2832 / thank-01  :ARG0 (u_2831 / manage-01)))  :ARG1 (u_2826 / project  :ARG2-of (u_2825 / interesting  :degree (u_2824 / extreme)))  :ARG1-of (u_2828 / easy-05))
+
+(u_2840 / manage-01  :ARG0 (u_2836 / person  :ARG0-of (u_2842 / clerk-01)  :ARG1-of (u_2839 / thank-01  :ARG0 (u_2841 / manage-01)))  :ARG1 (u_2838 / project  :ARG0-of (u_2837 / excite-01)))
+
+(u_2857 / manage-02  :ARG0 (u_2858 / receptionist  :mod (u_2849 / shy-away-01)  :ARG1-of (u_2856 / thank-01  :ARG0 (u_2854 / principal  :mod (u_2855 / surly  :degree (u_2853 / quite)))))  :ARG1 (u_2851 / project  :ARG2-of (u_2850 / interesting))  :manner (u_2852 / enthusiastic-03))
+
+(u_2865 / manage-01  :ARG0 (u_2863 / receptionist  :ARG1-of (u_2864 / thank-01  :ARG0 (u_2862 / person  :mod (u_2870 / obnoxious)  :ARG0-of (u_2869 / have-org-role-91  :ARG2 (u_2868 / principal)))  :name (u_2871 / name  :op1 last  :op2 month)  :wiki -))  :ARG1 (u_2866 / project)  :manner (u_2867 / enthusiastic-03))
+
+(u_2883 / roll-out-02  :ARG0 (u_2886 / person  :mod (u_2889 / modest)  :ARG0-of (u_2882 / have-rel-role-91  :ARG2 (u_2888 / friend)  :ARG1 (u_2885 / i))  :ARG1-of (u_2892 / admire-01  :ARG0 (u_2893 / person  :mod (u_2891 / witty  :degree (u_2887 / extreme))  :ARG0-of (u_2884 / have-rel-role-91  :ARG2 (u_2881 / parent)))))  :ARG1 (u_2880 / cloth)  :manner (u_2890 / rapid))
+
+(u_2909 / empty-01  :ARG0 (u_2911 / sibling  :ARG1-of (u_2907 / admire-01  :ARG0 (u_2900 / person  :mod (u_2901 / witty)  :ARG0-of (u_2910 / have-rel-role-91  :ARG2 (u_2908 / friend)))  :time (u_2906 / festival  :name (u_2905 / name  :op1 last  :op2 week)  :wiki -)))  :ARG1 (u_2903 / glass  :ARG1-of (u_2902 / blue))  :ARG1-of (u_2904 / gloomily-01))
+
+(u_2925 / fill-01  :ARG0 (u_2930 / person  :mod (u_2923 / modest)  :ARG0-of (u_2922 / have-rel-role-91  :ARG2 (u_2921 / parent))  :ARG1-of (u_2927 / admire-01  :ARG0 (u_2919 / guardian  :mod (u_2926 / modest  :degree (u_2924 / quite)))  :time (u_2928 / name  :op1 yesterday)))  :ARG1 (u_2920 / glass  :ARG1-of (u_2931 / red))  :time (u_2929 / name  :op1 yesterday))
+
+(u_2939 / confiscate-01  :ARG1 (u_2941 / stone  :ARG1-of (u_2940 / pretty-02))  :ARG2 (u_2946 / person)  :ARG0 (u_2947 / parent  :ARG1-of (u_2944 / admire-01  :ARG0 (u_2938 / person  :ARG0-of (u_2943 / have-rel-role-91  :ARG2 (u_2948 / colleague)  :ARG1 (u_2942 / i)))  :time (u_2949 / name  :op1 yesterday)))  :time (u_2945 / name  :op1 last  :op2 week))
+
+(u_2961 / open-01  :ARG0 (u_2966 / person  :ARG0-of (u_2960 / have-rel-role-91  :ARG2 (u_2959 / parent))  :ARG1-of (u_2969 / admire-01  :ARG0 (u_2968 / person  :ARG0-of (u_2971 / have-rel-role-91  :ARG2 (u_2964 / friend)  :ARG1 (u_2963 / i)))  :time (u_2965 / name  :op1 last  :op2 week)))  :ARG1 (u_2958 / gate  :ARG1-of (u_2967 / blue  :degree (u_2970 / rather)))  :mod (u_2962 / person))
+
+(u_2984 / cover-01  :ARG0 (u_2976 / person  :ARG0-of (u_2985 / have-rel-role-91  :ARG2 (u_2983 / parent))  :ARG1-of (u_2982 / admire-01  :ARG0 (u_2977 / person  :mod (u_2980 / timid  :degree (u_2981 / quite))  :ARG0-of (u_2986 / guard-01))  :time (u_2987 / name  :op1 yesterday)))  :ARG1 (u_2979 / glass  :ARG1-of (u_2978 / pretty)))
+
+(u_2999 / drop-05  :ARG0 (u_2996 / partner  :mod (u_3005 / witty  :degree (u_3004 / really))  :ARG2-of (u_3003 / have-rel-role-91  :ARG0 (u_2997 / i))  :ARG1-of (u_2998 / admire-01  :ARG0 (u_2995 / person  :ARG0-of (u_2994 / have-rel-role-91  :ARG2 (u_3002 / friend)))))  :ARG1 (u_3000 / glass)  :manner (u_3001 / reluctant))
+
+(u_3012 / cut-01  :ARG0 (u_3020 / person)  :ARG1 (u_3013 / cloth)  :ARG1-of (u_3017 / have-rel-role-91  :ARG2 (u_3016 / colleague)  :ARG0 (u_3011 / person  :ARG1-of (u_3014 / admire-01  :ARG0 (u_3018 / name  :op1 guardian)  :time (u_3019 / name  :op1 yesterday))))  :ARG1-of (u_3015 / wearily-01))
+
+(u_3027 / spill-out-03  :ARG0 (u_3025 / person  :ARG0-of (u_3032 / have-rel-role-91  :ARG2 (u_3031 / sibling))  :ARG1-of (u_3034 / admire-01  :ARG0 (u_3028 / person  :ARG0-of (u_3033 / guard-01)  :ARG0-of (u_3026 / cheerful  :degree (u_3036 / really)))  :name (u_3035 / name  :op1 last  :op2 week)  :wiki -))  :ARG1 (u_3030 / water  :ARG1-of (u_3029 / fresh-04)))
+
+(u_3051 / stretch-01  :ARG0 (u_3042 / person  :mod (u_3043 / rude-01)  :ARG0-of (u_3049 / have-rel-role-91  :ARG2 (u_3048 / colleague))  :ARG1-of (u_3044 / admire-01  :ARG0 (u_3047 / person  :ARG0-of (u_3050 / have-rel-role-91  :ARG2 (u_3046 / partner)))  :time (u_3052 / name  :op1 yesterday)))  :ARG1 (u_3045 / cloth))
+
+(u_3068 / pass-05  :ARG0 (u_3063 / person  :ARG0-of (u_3060 / have-rel-role-91  :ARG2 (u_3059 / parent))  :ARG0-of (u_3064 / cheerful)  :ARG1-of (u_3067 / admire-01  :ARG0 (u_3057 / person  :ARG0-of (u_3061 / guard-01))  :time (u_3062 / name  :op1 yesterday)))  :ARG1 (u_3058 / fish  :ARG1-of (u_3065 / delicious  :degree (u_3069 / extreme)))  :manner (u_3066 / rapid))
+
+(u_3086 / inhale-01  :ARG0 (u_3085 / person  :mod (u_3082 / surly)  :ARG0-of (u_3080 / have-rel-role-91  :ARG2 (u_3079 / sibling))  :ARG1-of (u_3077 / admire-01  :ARG0 (u_3081 / person  :ARG0-of (u_3083 / have-rel-role-91  :ARG2 (u_3084 / partner)))  :time (u_3087 / name  :op1 yesterday)))  :ARG1 (u_3078 / fume  :mod (u_3076 / fatal)))
+
+(u_3105 / accept-01  :ARG0 (u_3100 / person  :ARG0-of (u_3098 / have-rel-role-91  :ARG2 (u_3096 / friend))  :ARG1-of (u_3104 / admire-01  :ARG0 (u_3106 / person  :ARG0-of (u_3097 / have-rel-role-91  :ARG2 (u_3101 / parent)))  :time (u_3099 / name  :op1 yesterday)))  :ARG1 (u_3094 / job  :ARG0-of (u_3102 / intrigue-01  :degree (u_3095 / quite)))  :manner (u_3103 / eagerly))
+
+(u_3118 / achieve-01  :ARG0 (u_3120 / person  :ARG0-of (u_3117 / have-rel-role-91  :ARG2 (u_3114 / friend)  :ARG1 (u_3113 / i))  :ARG1-of (u_3116 / admire-01  :ARG0 (u_3119 / name  :op1 guardian)))  :ARG1 (u_3115 / ambition  :mod (u_3112 / worthwhile)))
+
+(u_3141 / fry-01  :ARG0 (u_3140 / person)  :ARG1 (u_3130 / fish  :ARG1-of (u_3136 / delicious))  :ARG1-of (u_3131 / have-rel-role-91  :ARG2 (u_3139 / parent)  :ARG0 (u_3132 / person  :ARG1-of (u_3134 / admire-01  :ARG0 (u_3133 / person  :mod (u_3142 / rude-01)  :ARG0-of (u_3135 / have-rel-role-91  :ARG2 (u_3137 / colleague)  :ARG1 (u_3138 / i)))))))
+
+(u_3151 / tie-01  :ARG1 (u_3155 / rope)  :ARG2 (u_3154 / person)  :ARG0 (u_3148 / person  :ARG0-of (u_3157 / have-rel-role-91  :ARG2 (u_3156 / parent))  :ARG1-of (u_3158 / admire-01  :ARG0 (u_3150 / person  :ARG0-of (u_3149 / have-rel-role-91  :ARG2 (u_3153 / partner)  :ARG1 (u_3152 / i))))))
+
+(u_3165 / fancy-01  :ARG1 (u_3166 / colleague  :mod (u_3170 / surly  :degree (u_3176 / quite)))  :ARG2 (u_3177 / i)  :ARG0 (u_3175 / person  :ARG0-of (u_3168 / have-rel-role-91  :ARG2 (u_3167 / sibling))  :ARG1-of (u_3171 / admire-01  :ARG0 (u_3172 / person  :ARG0-of (u_3173 / have-rel-role-91  :ARG2 (u_3174 / partner)))))  :time (u_3169 / name  :op1 yesterday))
+
+(u_3184 / close-01  :ARG0 (u_3180 / person  :ARG0-of (u_3187 / have-rel-role-91  :ARG2 (u_3186 / parent))  :ARG1-of (u_3183 / admire-01  :ARG0 (u_3182 / person  :ARG0-of (u_3188 / guardian-01))))  :ARG1 (u_3185 / gate)  :ARG1-of (u_3181 / happy-01))
+
+(u_3203 / decorate-01  :ARG0 (u_3194 / person  :ARG0-of (u_3202 / have-rel-role-91  :ARG2 (u_3199 / friend))  :ARG1-of (u_3200 / admire-01  :ARG0 (u_3204 / partner  :ARG1-of (u_3201 / merry  :degree (u_3195 / quite)))  :time (u_3205 / name  :op1 last  :op2 week)))  :ARG1 (u_3197 / gate  :ARG1-of (u_3196 / blue))  :manner (u_3198 / eagerly))
+
+(u_3222 / marry-01  :ARG0 (u_3221 / person  :ARG0-of (u_3223 / have-rel-role-91  :ARG2 (u_3225 / partner))  :ARG1-of (u_3224 / short-07)  :ARG1-of (u_3217 / admire-01  :ARG0 (u_3214 / colleague  :mod (u_3218 / modest  :degree (u_3226 / quite)))))  :ARG1 (u_3220 / person  :ARG0-of (u_3216 / have-rel-role-91  :ARG2 (u_3215 / friend)))  :ARG1-of (u_3219 / wearily-01))
+
+(u_3237 / escape-01  :ARG0 (u_3238 / giraffe  :ARG1-of (u_3239 / petrify-01)  :ARG1-of (u_3236 / attack-01  :ARG0 (u_3235 / sea-lion)))  :ARG1 (u_3233 / tiger  :ARG0-of (u_3232 / terrify-01))  :manner (u_3234 / effortlessly))
+
+(u_3247 / protect-01  :ARG0 (u_3249 / city  :ARG1-of (u_3246 / fame-01  :degree (u_3251 / real-04))  :ARG1-of (u_3254 / expand-01  :ARG0 (u_3252 / contractor)))  :ARG1 (u_3250 / squirrel  :ARG0-of (u_3248 / fear-01))  :time (u_3253 / name  :op1 last  :op2 week))
+
+(u_3269 / astonish-01  :ARG0 (u_3271 / program  :ARG1-of (u_3265 / manage-02  :ARG0 (u_3267 / person  :mod (u_3264 / timid  :degree (u_3262 / quite))  :ARG0-of (u_3270 / have-org-role-91  :ARG2 (u_3268 / secretary)))  :ARG1-of (u_3263 / effortlessly-01)))  :ARG1 (u_3266 / chief  :mod (u_3261 / ambitious))  :time (u_3272 / name  :op1 yesterday))
+
+(u_3285 / satisfy-01  :ARG0 (u_3284 / fish  :ARG1-of (u_3286 / taste-01  :ARG0 (u_3290 / chef  :mod (u_3283 / modest))  :ARG0-of (u_3287 / happy-01)))  :ARG1 (u_3278 / colleague  :mod (u_3288 / merry)  :ARG2-of (u_3281 / have-rel-role-91  :ARG0 (u_3279 / i)))  :duration (u_3280 / multiple  :op1 (u_3289 / temporal-quantity  :unit (u_3282 / name  :op1 last  :op2 week))))
+
+(u_3293 / insult-01  :ARG0 (u_3297 / teenager  :ARG3-of (u_3295 / pay-01  :ARG0 (u_3296 / principal)))  :ARG1 (u_3294 / chief)  :time (u_3298 / name  :op1 last  :op2 week))
+
+(u_3310 / achieve-01  :ARG0 (u_3312 / person  :mod (u_3314 / rude-01  :degree (u_3313 / really))  :ARG0-of (u_3309 / have-rel-role-91  :ARG2 (u_3308 / sibling))  :ARG1-of (u_3316 / admire-01  :ARG0 (u_3319 / person  :mod (u_3315 / merry)  :ARG0-of (u_3321 / have-rel-role-91  :ARG2 (u_3318 / friend)))  :time (u_3311 / name  :op1 last  :op2 week)))  :ARG1 (u_3317 / thing  :ARG1-of (u_3307 / ambition))  :ARG1-of (u_3320 / effortlessly-01))
+
+(u_3339 / satisfy-01  :ARG0 (u_3332 / jar  :ARG1-of (u_3333 / empty-01  :ARG0 (u_3335 / guardian  :mod (u_3342 / timid  :degree (u_3338 / extreme)))))  :ARG1 (u_3334 / person  :mod (u_3341 / shy-away-01)  :ARG0-of (u_3331 / have-rel-role-91  :ARG2 (u_3337 / colleague)  :ARG1 (u_3330 / i)))  :frequency (u_3336 / rate-entity-91  :ARG3 (u_3340 / temporal-quantity  :unit (u_3343 / name  :op1 last  :op2 week))))
+
+(u_3353 / achieve-01  :ARG1 (u_3356 / ambition  :ARG1-of (u_3354 / deserve-01  :degree (u_3357 / quite)))  :ARG2 (u_3362 / she)  :ARG0 (u_3351 / person  :ARG0-of (u_3361 / have-rel-role-91  :ARG2 (u_3360 / partner))  :ARG1-of (u_3359 / admire-01  :ARG0 (u_3355 / person  :ARG0-of (u_3358 / have-rel-role-91  :ARG2 (u_3352 / friend))))))
+
+(u_3373 / protect-01  :ARG0 (u_3366 / hall  :ARG1-of (u_3367 / expand-01  :ARG0 (u_3368 / person  :ARG0-of (u_3372 / contract-02))  :manner (u_3371 / rapid)))  :ARG1 (u_3370 / squirrel  :ARG0-of (u_3369 / fear-01)))
+
+(u_3380 / satisfy-01  :ARG0 (u_3384 / jar  :ARG1-of (u_3385 / empty-01  :ARG0 (u_3390 / parent  :mod (u_3379 / modest))))  :ARG1 (u_3382 / colleague  :mod (u_3381 / surly)  :ARG2-of (u_3389 / have-rel-role-91  :ARG0 (u_3387 / i)))  :frequency (u_3383 / rate-entity-91  :ARG3 (u_3388 / temporal-quantity  :unit (u_3386 / name  :op1 last  :op2 week))))
+
+(u_3406 / achieve-01  :ARG0 (u_3407 / i)  :ARG1 (u_3400 / ambition  :ARG1-of (u_3408 / deserve-01  :degree (u_3414 / extreme)))  :quant (u_3399 / i)  :ARG1-of (u_3404 / have-rel-role-91  :ARG2 (u_3413 / partner)  :ARG0 (u_3405 / person  :mod (u_3410 / obnoxious)  :ARG1-of (u_3412 / admire-01  :ARG0 (u_3409 / person  :ARG0-of (u_3411 / have-rel-role-91  :ARG2 (u_3403 / sibling)))  :mod (u_3402 / event  :name (u_3401 / name  :op1 last  :op2 week)  :wiki -)))))
+
+(u_3421 / protect-01  :ARG0 (u_3422 / city  :ARG1-of (u_3418 / expand-01  :ARG0 (u_3417 / person  :ARG0-of (u_3423 / architect-00))  :manner (u_3420 / rapid)))  :ARG1 (u_3419 / squirrel)  :time (u_3424 / name  :op1 yesterday))
+
+(u_3436 / satisfy-01  :ARG0 (u_3431 / cup  :ARG1-of (u_3430 / shiny)  :ARG1-of (u_3434 / empty-01  :ARG0 (u_3433 / colleague)))  :ARG1 (u_3429 / person  :mod (u_3437 / timid)  :ARG0-of (u_3435 / have-rel-role-91  :ARG2 (u_3432 / partner))))
+
+(u_3452 / clean-01  :ARG0 (u_3454 / guard-01  :mod (u_3455 / modest)  :ARG1-of (u_3456 / admire-01  :ARG0 (u_3447 / person  :mod (u_3449 / witty)  :ARG0-of (u_3448 / have-rel-role-91  :ARG2 (u_3446 / parent)))  :time (u_3450 / name  :op1 last  :op2 week)))  :ARG1 (u_3445 / glass  :mod (u_3451 / purple-02  :degree (u_3457 / quite)))  :ARG1-of (u_3453 / eagerly-01))
+
+(u_3464 / satisfy-01  :ARG1 (u_3470 / person  :ARG0-of (u_3467 / have-rel-role-91  :ARG2 (u_3466 / colleague))  :ARG1-of (u_3471 / merry  :degree (u_3475 / extreme)))  :ARG2 (u_3465 / i)  :ARG0 (u_3477 / cup  :ARG1-of (u_3473 / empty-01  :ARG0 (u_3463 / person  :ARG0-of (u_3468 / guardian-01)  :ARG0-of (u_3476 / cheerful  :degree (u_3474 / quite)))  :manner (u_3472 / rapid)))  :time (u_3469 / name  :op1 yesterday))
+
+(u_3499 / clean-01  :ARG0 (u_3490 / parent  :mod (u_3489 / pretty)  :ARG1-of (u_3493 / admire-01  :ARG0 (u_3491 / colleague-01  :ARG0 (u_3497 / i)  :mod (u_3495 / merry  :degree (u_3494 / extreme)))  :time (u_3488 / name  :op1 last  :op2 week)))  :ARG1 (u_3487 / glass  :ARG1-of (u_3492 / shiny  :degree (u_3496 / really)))  :time (u_3498 / name  :op1 last  :op2 week))
+
+(u_3512 / satisfy-01  :ARG0 (u_3514 / cup  :ARG1-of (u_3511 / blue)  :ARG1-of (u_3510 / empty-01  :ARG0 (u_3506 / person  :ARG0-of (u_3515 / guard-01))))  :ARG1 (u_3505 / person  :mod (u_3509 / merry)  :ARG0-of (u_3513 / have-rel-role-91  :ARG2 (u_3507 / colleague)  :ARG1 (u_3508 / i))))
+
+(u_3522 / achieve-01  :ARG1 (u_3523 / ambition  :ARG1-of (u_3532 / admirable-02  :degree (u_3526 / extreme)))  :ARG2 (u_3531 / person)  :ARG0 (u_3528 / colleague  :mod (u_3530 / surly  :degree (u_3525 / extreme))  :ARG1-of (u_3533 / admire-01  :ARG0 (u_3529 / newspaper  :name (u_3524 / name  :op1 guardian)  :wiki -)  :time (u_3527 / name  :op1 yesterday)))  :manner (u_3534 / effortlessly))
+
+(u_3548 / satisfy-01  :ARG0 (u_3543 / jar  :ARG1-of (u_3552 / empty-01  :ARG0 (u_3551 / person  :mod (u_3554 / witty  :degree (u_3555 / quite))  :ARG0-of (u_3553 / have-rel-role-91  :ARG2 (u_3550 / sibling)))))  :ARG1 (u_3549 / person  :mod (u_3546 / obnoxious  :degree (u_3547 / really))  :ARG0-of (u_3545 / have-rel-role-91  :ARG2 (u_3544 / colleague))))
+
+(u_3566 / clean-01  :ARG0 (u_3570 / guardian  :ARG0-of (u_3569 / cheerful  :degree (u_3564 / really))  :ARG1-of (u_3567 / admire-01  :ARG0 (u_3561 / person  :ARG0-of (u_3568 / have-rel-role-91  :ARG2 (u_3565 / parent)))))  :ARG1 (u_3563 / glass  :ARG1-of (u_3562 / shiny)))
+
+(u_3587 / satisfy-01  :ARG0 (u_3579 / bottle  :mod (u_3585 / purple-02  :degree (u_3591 / extreme))  :ARG1-of (u_3586 / empty-01  :ARG0 (u_3584 / person  :mod (u_3590 / chubby)  :ARG0-of (u_3588 / have-rel-role-91  :ARG2 (u_3589 / colleague)))))  :ARG1 (u_3582 / person  :mod (u_3583 / witty)  :ARG0-of (u_3581 / have-rel-role-91  :ARG2 (u_3580 / partner))))
+
+(u_3601 / achieve-01  :ARG0 (u_3602 / i)  :ARG1 (u_3603 / ambition)  :mod (u_3600 / i)  :ARG1-of (u_3604 / have-rel-role-91  :ARG2 (u_3606 / colleague)  :ARG0 (u_3598 / person  :mod (u_3605 / shy-away-01)  :ARG1-of (u_3607 / admire-01  :ARG0 (u_3599 / sibling)))))
+
+(u_3617 / clean-01  :ARG0 (u_3614 / person  :mod (u_3613 / witty)  :ARG0-of (u_3623 / guard-01)  :ARG1-of (u_3620 / admire-01  :ARG0 (u_3624 / person  :mod (u_3622 / merry)  :ARG0-of (u_3621 / have-rel-role-91  :ARG2 (u_3619 / parent)))))  :ARG1 (u_3616 / glass  :ARG1-of (u_3615 / blue  :degree (u_3618 / rather))))
+
+(u_3637 / satisfy-01  :ARG0 (u_3634 / bottle  :ARG1-of (u_3639 / empty-01  :ARG0 (u_3640 / person  :ARG0-of (u_3633 / have-rel-role-91  :ARG2 (u_3641 / sibling)))))  :ARG1 (u_3631 / person  :ARG0-of (u_3636 / have-rel-role-91  :ARG2 (u_3635 / colleague))  :ARG1-of (u_3632 / short-07  :degree (u_3638 / extreme)))  :time (u_3642 / name  :op1 yesterday))
+
+(u_3658 / achieve-01  :ARG0 (u_3657 / person  :ARG0-of (u_3653 / have-rel-role-91  :ARG2 (u_3652 / partner))  :ARG0-of (u_3659 / shy-away-01  :degree (u_3661 / extreme))  :ARG1-of (u_3655 / admire-01  :ARG0 (u_3662 / person  :mod (u_3663 / rude-01  :degree (u_3660 / quite))  :ARG0-of (u_3656 / have-rel-role-91  :ARG2 (u_3654 / friend)))))  :ARG1 (u_3651 / ambition))
+
+(u_3667 / clean-01  :ARG0 (u_3665 / person  :ARG0-of (u_3672 / have-rel-role-91  :ARG2 (u_3671 / parent))  :ARG1-of (u_3668 / admire-01  :ARG0 (u_3666 / person  :ARG0-of (u_3673 / guard-01))))  :ARG1 (u_3669 / glass)  :manner (u_3670 / eagerly))
+
+(u_3680 / satisfy-01  :ARG0 (u_3683 / cup  :ARG1-of (u_3682 / empty-01  :ARG0 (u_3685 / person  :mod (u_3681 / chubby)  :ARG0-of (u_3687 / have-rel-role-91  :ARG2 (u_3684 / friend)))))  :ARG1 (u_3679 / person  :ARG0-of (u_3688 / have-rel-role-91  :ARG2 (u_3686 / colleague)))  :time (u_3689 / name  :op1 yesterday))
+
+(u_3705 / clean-01  :ARG0 (u_3696 / parent  :mod (u_3695 / timid  :degree (u_3702 / extreme))  :ARG1-of (u_3706 / admire-01  :ARG0 (u_3697 / person  :ARG0-of (u_3703 / guard-01)  :ARG0-of (u_3698 / shy-away-01  :degree (u_3701 / quite)))  :time (u_3704 / name  :op1 last  :op2 week)))  :ARG1 (u_3699 / glass)  :manner (u_3700 / gloomily))
+
+(u_3712 / satisfy-01  :ARG1 (u_3720 / person  :ARG0-of (u_3715 / have-rel-role-91  :ARG2 (u_3722 / colleague)  :ARG1 (u_3713 / i)))  :ARG2 (u_3725 / person)  :ARG0 (u_3717 / glass  :ARG1-of (u_3723 / empty-01  :ARG0 (u_3718 / newspaper  :name (u_3714 / name  :op1 guardian)  :wiki -)  :ARG0-of (u_3716 / happy-01)))  :frequency (u_3721 / rate-entity-91  :ARG3 (u_3724 / temporal-quantity  :unit (u_3719 / name  :op1 last  :op2 week))))
+
+(u_3747 / achieve-01  :ARG0 (u_3741 / person  :ARG0-of (u_3736 / have-rel-role-91  :ARG2 (u_3735 / friend))  :ARG0-of (u_3743 / shy-away-01  :degree (u_3738 / quite))  :ARG1-of (u_3739 / admire-01  :ARG0 (u_3740 / person  :mod (u_3737 / rude-01)  :ARG0-of (u_3746 / have-rel-role-91  :ARG2 (u_3742 / colleague)))))  :ARG1 (u_3734 / ambition)  :manner (u_3745 / rapid)  :mod (u_3744 / i))
+
+(u_3766 / fold-06  :ARG0 (u_3768 / person  :mod (u_3760 / timid)  :ARG0-of (u_3758 / have-rel-role-91  :ARG2 (u_3757 / cousin))  :ARG1-of (u_3764 / admire-01  :ARG0 (u_3759 / person  :ARG0-of (u_3765 / have-rel-role-91  :ARG2 (u_3762 / colleague)))))  :ARG1 (u_3756 / clothes  :mod (u_3761 / blue  :degree (u_3763 / extreme)))  :ARG1-of (u_3767 / efficient-01))
+
+(u_3778 / empty-01  :ARG0 (u_3774 / person  :ARG0-of (u_3781 / have-rel-role-91  :ARG2 (u_3780 / cousin))  :ARG1-of (u_3782 / admire-01  :ARG0 (u_3783 / person  :ARG0-of (u_3775 / have-rel-role-91  :ARG2 (u_3776 / friend))  :ARG1-of (u_3777 / nervous-01))  :name (u_3784 / name  :op1 last  :op2 month)  :wiki -))  :ARG1 (u_3779 / glass))
+
+(u_3792 / buy-01  :ARG0 (u_3801 / i)  :ARG1 (u_3794 / cloth  :ARG1-of (u_3800 / have-rel-role-91  :ARG0 u_3792  :ARG2 (u_3793 / partner  :mod (u_3796 / tall  :degree (u_3791 / extreme))  :ARG1-of (u_3797 / admire-01  :ARG0 (u_3795 / person  :ARG0-of (u_3799 / have-rel-role-91  :ARG2 (u_3798 / colleague))))))))
+
+(u_3814 / accompany-01  :ARG1 (u_3827 / person  :ARG0-of (u_3817 / have-rel-role-91  :ARG2 (u_3816 / friend))  :ARG1-of (u_3828 / nervous-01  :degree (u_3825 / rather)))  :ARG2 (u_3815 / i)  :ARG0 (u_3820 / person  :ARG0-of (u_3829 / have-rel-role-91  :ARG2 (u_3830 / colleague))  :ARG1-of (u_3819 / lively  :degree (u_3818 / extreme))  :ARG1-of (u_3824 / admire-01  :ARG0 (u_3821 / person  :mod (u_3822 / cheerful)  :ARG0-of (u_3826 / have-rel-role-91  :ARG2 (u_3823 / cousin))))))
+
+(u_3844 / roll-out-02  :ARG0 (u_3836 / person  :mod (u_3839 / cheery)  :ARG0-of (u_3843 / have-rel-role-91  :ARG2 (u_3840 / partner))  :ARG1-of (u_3837 / admire-01  :ARG0 (u_3842 / person  :ARG0-of (u_3845 / have-rel-role-91  :ARG2 (u_3841 / cousin)))  :name (u_3846 / name  :op1 last  :op2 year)  :wiki -))  :ARG1 (u_3838 / clothes))
+
+(u_3868 / kiss-01  :ARG0 (u_3869 / i)  :ARG1 (u_3856 / chef  :ARG0-of (u_3864 / anxious))  :ARG1-of (u_3858 / have-rel-role-91  :ARG2 (u_3867 / friend)  :ARG0 (u_3862 / person  :ARG1-of (u_3859 / admire-01  :ARG0 (u_3861 / person  :ARG0-of (u_3863 / have-rel-role-91  :ARG2 (u_3857 / partner))  :ARG1-of (u_3865 / short-07))  :mod (u_3860 / name  :op1 last  :op2 month))))  :ARG0-of (u_3866 / sad-02))
+
+(u_3893 / marry-01  :ARG0 (u_3892 / person  :mod (u_3888 / skin)  :ARG0-of (u_3882 / have-rel-role-91  :ARG2 (u_3883 / colleague))  :ARG1-of (u_3889 / admire-01  :ARG0 (u_3887 / person  :mod (u_3885 / cheerful  :degree (u_3886 / quite))  :ARG0-of (u_3890 / have-rel-role-91  :ARG2 (u_3891 / friend)))))  :ARG1 (u_3884 / person  :ARG0-of (u_3881 / have-rel-role-91  :ARG2 (u_3880 / cousin))))
+
+(u_3907 / stir-up-04  :ARG0 (u_3899 / person  :ARG0-of (u_3908 / have-rel-role-91  :ARG2 (u_3906 / friend))  :ARG1-of (u_3901 / short-07)  :ARG1-of (u_3900 / admire-01  :ARG0 (u_3902 / person  :ARG0-of (u_3904 / have-rel-role-91  :ARG2 (u_3905 / cousin)))))  :ARG1 (u_3903 / water))
+
+(u_3922 / chew-01  :ARG0 (u_3913 / person  :ARG0-of (u_3921 / have-rel-role-91  :ARG2 (u_3918 / cousin))  :ARG1-of (u_3915 / admire-01  :ARG0 (u_3920 / colleague  :mod (u_3919 / rude-01  :degree (u_3914 / extreme)))  :name (u_3923 / name  :op1 last  :op2 year)  :wiki -))  :ARG1 (u_3916 / chicken)  :manner (u_3917 / enthusiastic-03))
+
+(u_3939 / fill-01  :ARG0 (u_3930 / person  :ARG0-of (u_3934 / have-rel-role-91  :ARG2 (u_3933 / partner))  :ARG1-of (u_3931 / admire-01  :ARG0 (u_3938 / person  :mod (u_3935 / uptight-00  :degree (u_3936 / extreme))  :ARG0-of (u_3941 / have-rel-role-91  :ARG2 (u_3937 / friend)))))  :ARG1 (u_3932 / glass)  :time (u_3940 / name  :op1 last  :op2 year))
+
+(u_3949 / spill-out-03  :ARG0 (u_3945 / person  :ARG0-of (u_3951 / have-rel-role-91  :ARG2 (u_3948 / colleague))  :ARG1-of (u_3946 / admire-01  :ARG0 (u_3952 / partner  :mod (u_3950 / pretty))))  :ARG1 (u_3947 / water)  :unit (u_3953 / name  :op1 last  :op2 month))
+
+(u_3967 / escape-01  :ARG0 (u_3968 / deer  :ARG1-of (u_3961 / attack-01  :ARG0 (u_3965 / police  :mod (u_3966 / fierce  :degree (u_3963 / really)))))  :ARG1 (u_3962 / tiger  :mod (u_3960 / aggressive  :degree (u_3964 / extreme))))
+
+(u_3977 / satisfy-01  :ARG0 (u_3979 / bacon  :ARG1-of (u_3975 / taste-01  :ARG0 (u_3980 / chef)  :time (u_3981 / name  :op1 last  :op2 month)))  :ARG1 (u_3978 / colleague  :ARG1-of (u_3976 / short-07  :degree (u_3974 / extreme))))
+
+(u_3990 / suggest-01  :ARG0 (u_3985 / person  :ARG0-of (u_3991 / assist-01)  :ARG1-of (u_3988 / thank-01  :ARG0 (u_3987 / person  :ARG0-of (u_3986 / study-01))))  :ARG1 (u_3989 / policy-01))
+
+(u_3999 / phone-01  :ARG0 (u_3996 / person  :ARG0-of (u_4002 / assist-01)  :ARG1-of (u_3995 / thank-01  :ARG0 (u_3997 / manage-01  :ARG1-of (u_3998 / talented-01))  :manner (u_4001 / enthusiastic-03)))  :ARG1 (u_4000 / chief))
+
+(u_4009 / resolve-01  :ARG0 (u_4010 / person  :ARG0-of (u_4015 / assist-01)  :ARG1-of (u_4011 / drive-02)  :ARG1-of (u_4008 / thank-01  :ARG0 (u_4014 / manage-01  :mod (u_4007 / uptight-00  :degree (u_4012 / quite)))  :name (u_4016 / name  :op1 last  :op2 year)  :wiki -))  :ARG1 (u_4013 / flaw-01))
+
+(u_4025 / report-01  :ARG0 (u_4020 / person  :ARG0-of (u_4026 / clerk-01)  :ARG0-of (u_4021 / anxious)  :ARG1-of (u_4024 / thank-01  :ARG0 (u_4023 / officer)))  :ARG1 (u_4022 / flaw-01))
+
+(u_4037 / satisfy-01  :ARG0 (u_4035 / jar  :ARG1-of (u_4034 / empty-01  :ARG0 (u_4038 / person  :ARG0-of (u_4041 / have-rel-role-91  :ARG2 (u_4040 / cousin)))))  :ARG1 (u_4032 / person  :mod (u_4033 / timid)  :ARG0-of (u_4039 / have-rel-role-91  :ARG2 (u_4036 / colleague))))
+
+(u_4056 / satisfy-01  :ARG0 (u_4050 / jar  :ARG1-of (u_4049 / blue)  :ARG1-of (u_4055 / empty-01  :ARG0 (u_4053 / person  :ARG0-of (u_4048 / have-rel-role-91  :ARG2 (u_4054 / friend)))))  :ARG1 (u_4047 / person  :ARG0-of (u_4052 / have-rel-role-91  :ARG2 (u_4051 / colleague))))
+
+(u_4073 / satisfy-01  :ARG0 (u_4068 / jar  :ARG1-of (u_4066 / blue)  :ARG1-of (u_4065 / empty-01  :ARG0 (u_4067 / partner  :mod (u_4071 / rude-01))))  :ARG1 (u_4063 / person  :ARG0-of (u_4070 / have-rel-role-91  :ARG2 (u_4069 / colleague)))  :mod (u_4072 / name  :op1 last  :op2 month)  :ARG0-of (u_4064 / sad-02))
+
+(u_4088 / satisfy-01  :ARG0 (u_4081 / glass  :ARG1-of (u_4080 / empty-01  :ARG0 (u_4089 / person  :mod (u_4085 / pretty)  :ARG0-of (u_4087 / have-rel-role-91  :ARG2 (u_4086 / cousin)))))  :ARG1 (u_4079 / person  :ARG0-of (u_4084 / have-rel-role-91  :ARG2 (u_4083 / colleague)))  :manner (u_4082 / reluctant))
+
+(u_4109 / satisfy-01  :ARG0 (u_4098 / jar  :mod (u_4106 / purple-02)  :ARG1-of (u_4105 / empty-01  :ARG0 (u_4100 / person  :mod (u_4102 / uptight-00)  :ARG0-of (u_4110 / have-rel-role-91  :ARG2 (u_4107 / friend)))  :ARG1-of (u_4099 / quick-02)))  :ARG1 (u_4104 / person  :ARG0-of (u_4103 / have-rel-role-91  :ARG2 (u_4101 / colleague)))  :mod (u_4108 / name  :op1 last  :op2 month))
+
+(u_4123 / satisfy-01  :ARG0 (u_4118 / glass  :ARG1-of (u_4126 / shiny  :degree (u_4130 / really))  :ARG1-of (u_4127 / empty-01  :ARG0 (u_4124 / person  :ARG0-of (u_4129 / have-rel-role-91  :ARG2 (u_4128 / partner)))  :ARG0-of (u_4125 / enthusiastic-03)))  :ARG1 (u_4122 / person  :ARG0-of (u_4120 / have-rel-role-91  :ARG2 (u_4119 / colleague)))  :time (u_4121 / name  :op1 last  :op2 year))
+
+(u_4147 / satisfy-01  :ARG0 (u_4142 / cup  :ARG1-of (u_4148 / empty-01  :ARG0 (u_4139 / person  :ARG0-of (u_4138 / have-rel-role-91  :ARG2 (u_4141 / cousin))  :ARG1-of (u_4140 / short-07))  :manner (u_4143 / gloomily)))  :ARG1 (u_4137 / person  :mod (u_4146 / rude-01)  :ARG0-of (u_4145 / have-rel-role-91  :ARG2 (u_4144 / colleague))))
+
+(u_4162 / satisfy-01  :ARG0 (u_4157 / jar  :ARG1-of (u_4156 / empty-01  :ARG0 (u_4164 / person  :mod (u_4159 / tall)  :ARG0-of (u_4163 / have-rel-role-91  :ARG2 (u_4165 / cousin)))  :ARG0-of (u_4161 / sad-02)))  :ARG1 (u_4155 / person  :ARG0-of (u_4160 / have-rel-role-91  :ARG2 (u_4158 / colleague))))
+
+(u_4173 / satisfy-01  :ARG1 (u_4170 / person  :ARG0-of (u_4178 / have-rel-role-91  :ARG2 (u_4177 / cousin)))  :ARG2 (u_4176 / i)  :ARG0 (u_4175 / jar  :ARG1-of (u_4174 / empty-01  :ARG0 (u_4179 / colleague  :mod (u_4171 / rude-01))))  :mod (u_4172 / name  :op1 last  :op2 month))
+
+(u_4196 / satisfy-01  :ARG0 (u_4188 / jar  :ARG1-of (u_4187 / yellow)  :ARG1-of (u_4194 / empty-01  :ARG0 (u_4192 / friend  :ARG1-of (u_4195 / gentle-01  :degree (u_4189 / quite)))))  :ARG1 (u_4186 / person  :mod (u_4193 / cheerful)  :ARG0-of (u_4191 / have-rel-role-91  :ARG2 (u_4190 / colleague))))
+
+(u_4213 / satisfy-01  :ARG0 (u_4205 / cup  :ARG1-of (u_4212 / empty-01  :ARG0 (u_4209 / person  :ARG0-of (u_4214 / have-rel-role-91  :ARG2 (u_4210 / cousin)))  :ARG1-of (u_4217 / happy-01)))  :ARG1 (u_4208 / person  :mod (u_4216 / witty  :degree (u_4215 / really))  :ARG0-of (u_4207 / have-rel-role-91  :ARG2 (u_4206 / colleague)))  :mod (u_4211 / name  :op1 last  :op2 month))
+
+(u_4236 / satisfy-01  :ARG0 (u_4230 / cup  :mod (u_4227 / blue)  :ARG1-of (u_4228 / empty-01  :ARG0 (u_4235 / person  :mod (u_4231 / timid)  :ARG0-of (u_4226 / have-rel-role-91  :ARG2 (u_4229 / friend)))  :ARG1-of (u_4234 / quick-02)))  :ARG1 (u_4225 / person  :ARG0-of (u_4233 / have-rel-role-91  :ARG2 (u_4232 / colleague))))
+
+(u_4245 / satisfy-01  :ARG1 (u_4244 / person  :ARG0-of (u_4251 / have-rel-role-91  :ARG2 (u_4248 / colleague)))  :ARG2 (u_4247 / i)  :ARG0 (u_4254 / cup  :mod (u_4255 / pretty  :degree (u_4249 / really))  :ARG1-of (u_4246 / empty-01  :ARG0 (u_4250 / person  :ARG0-of (u_4253 / have-rel-role-91  :ARG2 (u_4252 / cousin))))))
+
+(u_4262 / satisfy-01  :ARG0 (u_4266 / cup  :ARG1-of (u_4264 / empty-01  :ARG0 (u_4263 / person  :ARG0-of (u_4270 / have-rel-role-91  :ARG2 (u_4268 / partner)))))  :ARG1 (u_4261 / person  :ARG0-of (u_4269 / have-rel-role-91  :ARG2 (u_4267 / colleague)))  :mod (u_4265 / name  :op1 last  :op2 month))
+
+(u_4282 / satisfy-01  :ARG0 (u_4283 / jar  :ARG1-of (u_4277 / shiny)  :ARG1-of (u_4281 / empty-01  :ARG0 (u_4275 / person  :ARG0-of (u_4284 / have-rel-role-91  :ARG2 (u_4279 / colleague)))))  :ARG1 (u_4278 / name  :op1 last  :op2 year  :ARG0-of (u_4280 / have-rel-role-91  :ARG2 (u_4276 / cousin))))
+
+(u_4297 / satisfy-01  :ARG0 (u_4292 / cup  :ARG1-of (u_4291 / empty-01  :ARG0 (u_4295 / person  :ARG0-of (u_4290 / have-rel-role-91  :ARG2 (u_4296 / friend)))))  :ARG1 (u_4289 / person  :ARG0-of (u_4294 / have-rel-role-91  :ARG2 (u_4293 / colleague))))
+
+(u_4310 / satisfy-01  :ARG0 (u_4315 / glass  :ARG1-of (u_4311 / yellow  :degree (u_4317 / quite))  :ARG1-of (u_4312 / empty-01  :ARG0 (u_4309 / person  :ARG0-of (u_4316 / have-rel-role-91  :ARG2 (u_4307 / colleague)))))  :ARG1 (u_4306 / name  :op1 last  :op2 year  :ARG0-of (u_4308 / have-rel-role-91  :ARG2 (u_4305 / cousin  :ARG1-of (u_4313 / short-07  :degree (u_4314 / rather))))))
+
+(u_4336 / satisfy-01  :ARG0 (u_4326 / jar  :ARG1-of (u_4335 / empty-01  :ARG0 (u_4332 / person  :mod (u_4329 / timid)  :ARG0-of (u_4337 / have-rel-role-91  :ARG2 (u_4333 / friend)))))  :ARG1 (u_4331 / person  :mod (u_4338 / skin  :degree (u_4330 / rather))  :ARG0-of (u_4328 / have-rel-role-91  :ARG2 (u_4327 / colleague)))  :ARG1-of (u_4334 / quick-02))
+
+(u_4355 / satisfy-01  :ARG0 (u_4349 / glass  :ARG1-of (u_4354 / shiny)  :ARG1-of (u_4350 / empty-01  :ARG0 (u_4353 / person  :ARG0-of (u_4348 / have-rel-role-91  :ARG2 (u_4346 / friend)))))  :ARG1 (u_4345 / person  :ARG0-of (u_4352 / have-rel-role-91  :ARG2 (u_4351 / colleague))  :ARG1-of (u_4347 / nervous-01)))
+
+(u_4376 / satisfy-01  :ARG0 (u_4364 / cup  :ARG1-of (u_4370 / shiny  :degree (u_4368 / really))  :ARG1-of (u_4371 / empty-01  :ARG0 (u_4372 / colleague  :mod (u_4374 / pretty))  :ARG1-of (u_4369 / happy-01)))  :ARG1 (u_4367 / person  :mod (u_4375 / witty  :degree (u_4373 / really))  :ARG0-of (u_4366 / have-rel-role-91  :ARG2 (u_4365 / cousin))))
+
+(u_4386 / satisfy-01  :ARG0 (u_4387 / glass  :ARG1-of (u_4384 / empty-01  :ARG0 (u_4383 / person  :ARG0-of (u_4390 / have-rel-role-91  :ARG2 (u_4391 / partner)))))  :ARG1 (u_4382 / person  :ARG0-of (u_4389 / have-rel-role-91  :ARG2 (u_4388 / colleague))  :ARG1-of (u_4385 / gentle-01)))
+
+(u_4410 / satisfy-01  :ARG0 (u_4402 / cup  :mod (u_4407 / pretty)  :ARG1-of (u_4401 / empty-01  :ARG0 (u_4406 / person  :mod (u_4405 / cheery)  :ARG0-of (u_4400 / have-rel-role-91  :ARG2 (u_4408 / partner)))))  :ARG1 (u_4399 / person  :mod (u_4409 / rude-01)  :ARG0-of (u_4404 / have-rel-role-91  :ARG2 (u_4403 / colleague))))
+
+(u_4425 / satisfy-01  :ARG0 (u_4421 / cup  :ARG1-of (u_4420 / empty-01  :ARG0 (u_4426 / person  :mod (u_4418 / pretty)  :ARG0-of (u_4423 / have-rel-role-91  :ARG2 (u_4422 / friend)))))  :ARG1 (u_4417 / person  :mod (u_4419 / timid)  :ARG0-of (u_4427 / have-rel-role-91  :ARG2 (u_4424 / colleague))))
+
+(u_4439 / satisfy-01  :ARG0 (u_4435 / jar  :ARG1-of (u_4434 / empty-01  :ARG0 (u_4440 / person  :ARG0-of (u_4433 / have-rel-role-91  :ARG2 (u_4441 / friend)))))  :ARG1 (u_4432 / person  :ARG0-of (u_4438 / have-rel-role-91  :ARG2 (u_4437 / colleague)))  :manner (u_4436 / enthusiastic-03)  :time (u_4442 / name  :op1 last  :op2 year))
+
+(u_4449 / satisfy-01  :ARG0 (u_4447 / cup)  :ARG1 (u_4451 / name  :op1 last  :op2 year  :ARG0-of (u_4452 / have-rel-role-91  :ARG2 (u_4448 / cousin)))  :ARG1-of (u_4450 / empty-01  :ARG0 (u_4446 / colleague)))
+
+(u_4460 / satisfy-01  :ARG0 (u_4464 / cup  :ARG1-of (u_4462 / empty-01  :ARG0 (u_4463 / colleague  :mod (u_4466 / witty  :degree (u_4461 / extreme)))))  :ARG1 (u_4458 / person  :mod (u_4459 / pretty)  :ARG0-of (u_4467 / have-rel-role-91  :ARG2 (u_4465 / cousin))))
+
+(u_4489 / satisfy-01  :ARG0 (u_4476 / cup  :mod (u_4486 / pretty)  :ARG1-of (u_4481 / empty-01  :ARG0 (u_4484 / person  :mod (u_4483 / gentle)  :ARG0-of (u_4480 / have-rel-role-91  :ARG2 (u_4487 / colleague)))  :manner (u_4482 / enthusiastic-03)))  :ARG1 (u_4479 / person  :mod (u_4488 / uptight-00  :degree (u_4485 / rather))  :ARG0-of (u_4478 / have-rel-role-91  :ARG2 (u_4477 / cousin))))
+
+(u_4498 / satisfy-01  :ARG0 (u_4499 / glass  :ARG1-of (u_4494 / empty-01  :ARG0 (u_4500 / colleague)  :manner (u_4496 / enthusiastic-03)))  :ARG1 (u_4495 / name  :op1 last  :op2 year  :ARG0-of (u_4497 / have-rel-role-91  :ARG2 (u_4493 / cousin))))
+
+(u_4518 / satisfy-01  :ARG0 (u_4508 / jar  :ARG1-of (u_4516 / shiny)  :ARG1-of (u_4519 / empty-01  :ARG0 (u_4512 / person  :ARG0-of (u_4511 / have-rel-role-91  :ARG2 (u_4513 / friend)))))  :ARG1 (u_4515 / person  :mod (u_4517 / rude-01  :degree (u_4520 / quite))  :ARG0-of (u_4510 / have-rel-role-91  :ARG2 (u_4509 / colleague)))  :time (u_4514 / name  :op1 last  :op2 year))
+
+(u_4526 / satisfy-01  :ARG0 (u_4529 / cup  :ARG1-of (u_4528 / shiny)  :ARG1-of (u_4525 / empty-01  :ARG0 (u_4527 / person  :mod (u_4531 / witty)  :ARG0-of (u_4533 / partner))))  :ARG1 (u_4524 / person  :ARG0-of (u_4532 / have-rel-role-91  :ARG2 (u_4530 / colleague)))  :time (u_4534 / name  :op1 last  :op2 year))
+
+(u_4550 / satisfy-01  :ARG0 (u_4543 / jar  :mod (u_4551 / purple-02  :degree (u_4547 / extreme))  :ARG1-of (u_4542 / empty-01  :ARG0 (u_4544 / partner)))  :ARG1 (u_4541 / person  :ARG0-of (u_4548 / have-rel-role-91  :ARG2 (u_4546 / colleague)))  :mod (u_4549 / name  :op1 last  :op2 month)  :ARG1-of (u_4545 / quick-02))
+
+(u_4572 / satisfy-01  :ARG0 (u_4560 / glass  :ARG1-of (u_4567 / shiny)  :ARG1-of (u_4568 / empty-01  :ARG0 (u_4573 / person  :mod (u_4566 / tall)  :ARG0-of (u_4571 / have-rel-role-91  :ARG2 (u_4570 / cousin)))  :manner (u_4569 / wearily)))  :ARG1 (u_4563 / person  :mod (u_4564 / skin)  :ARG0-of (u_4562 / have-rel-role-91  :ARG2 (u_4561 / colleague)))  :mod (u_4565 / name  :op1 last  :op2 month))
+
+(u_4584 / satisfy-01  :ARG0 (u_4585 / glass  :ARG1-of (u_4583 / shiny)  :ARG1-of (u_4582 / empty-01  :ARG0 (u_4580 / person  :ARG0-of (u_4588 / have-rel-role-91  :ARG2 (u_4581 / friend)))  :manner (u_4586 / enthusiastic-03)))  :ARG1 (u_4579 / person  :ARG0-of (u_4589 / have-rel-role-91  :ARG2 (u_4587 / colleague))))
+
+(u_4602 / fold-06  :ARG0 (u_4597 / person  :mod (u_4596 / tall)  :ARG0-of (u_4604 / teach-01)  :ARG1-of (u_4603 / admire-01  :ARG0 (u_4600 / person  :ARG0-of (u_4601 / guardian-01))  :time (u_4606 / name  :op1 yesterday)))  :ARG1 (u_4599 / cloth  :ARG1-of (u_4598 / blue  :degree (u_4605 / quite)))  :ARG1-of (u_4607 / happy-01))
+
+(u_4620 / confiscate-01  :ARG0 (u_4616 / person  :mod (u_4614 / gentle)  :ARG0-of (u_4622 / teach-01)  :ARG1-of (u_4619 / admire-01  :ARG0 (u_4623 / person  :ARG0-of (u_4625 / guard-01))  :time (u_4624 / name  :op1 yesterday)))  :ARG1 (u_4618 / stone  :ARG1-of (u_4617 / shiny  :degree (u_4615 / quite)))  :time (u_4621 / name  :op1 yesterday))
+
+(u_4636 / clean-01  :ARG0 (u_4634 / person  :mod (u_4632 / shy-away-01)  :ARG0-of (u_4642 / teach-01)  :ARG1-of (u_4633 / admire-01  :ARG0 (u_4638 / person  :mod (u_4641 / cheerful  :degree (u_4640 / rather))  :ARG0-of (u_4639 / guard-01))  :time (u_4643 / name  :op1 last  :op2 year)))  :ARG1 (u_4637 / glass  :ARG1-of (u_4635 / yellow)))
+
+(u_4655 / paint-03  :ARG0 (u_4651 / person  :mod (u_4650 / merry)  :ARG0-of (u_4661 / teach-01)  :ARG1-of (u_4657 / admire-01  :ARG0 (u_4654 / person  :mod (u_4656 / merry)  :ARG0-of (u_4658 / have-rel-role-91  :ARG2 (u_4659 / partner)  :ARG1 (u_4660 / i)))))  :ARG1 (u_4653 / window  :ARG1-of (u_4652 / yellow)))
+
+(u_4669 / refuse-01  :ARG0 (u_4670 / person  :ARG0-of (u_4678 / teach-01)  :ARG1-of (u_4676 / gentle-01  :degree (u_4671 / quite))  :ARG1-of (u_4673 / admire-01  :ARG0 (u_4677 / guardian)))  :ARG1 (u_4674 / chicken  :ARG0-of (u_4672 / taste-01  :degree (u_4668 / really)))  :manner (u_4675 / halfheartedly))
+
+(u_4691 / drop-05  :ARG0 (u_4683 / person  :mod (u_4682 / timid)  :ARG0-of (u_4689 / partner)  :ARG1-of (u_4684 / admire-01  :ARG0 (u_4686 / person  :ARG0-of (u_4688 / have-rel-role-91  :ARG2 (u_4687 / sibling)))))  :ARG1 (u_4685 / stone)  :ARG0-of (u_4690 / sad-02))
+
+(u_4702 / fry-01  :ARG0 (u_4697 / guardian  :ARG1-of (u_4703 / admire-01  :ARG0 (u_4696 / person  :ARG0-of (u_4700 / have-rel-role-91  :ARG2 (u_4698 / friend)  :ARG1 (u_4701 / i)))))  :ARG1 (u_4699 / chicken))
+
+(u_4710 / accompany-01  :ARG1 (u_4709 / person  :mod (u_4721 / tall)  :ARG0-of (u_4717 / guard-01))  :ARG2 (u_4711 / i)  :ARG0 (u_4720 / person  :ARG0-of (u_4713 / have-rel-role-91  :ARG2 (u_4712 / sibling))  :ARG1-of (u_4722 / admire-01  :ARG0 (u_4716 / person  :ARG0-of (u_4715 / have-rel-role-91  :ARG2 (u_4714 / cousin)))  :time (u_4718 / name  :op1 yesterday)))  :ARG1-of (u_4719 / happy-01))
+
+(u_4730 / hang-01  :ARG1 (u_4732 / clothes)  :ARG2 (u_4736 / i)  :ARG0 (u_4729 / person  :ARG0-of (u_4739 / guard-01)  :ARG1-of (u_4731 / nervous-01  :degree (u_4733 / quite))  :ARG1-of (u_4738 / admire-01  :ARG0 (u_4728 / person  :mod (u_4734 / surly)  :ARG0-of (u_4737 / have-rel-role-91  :ARG2 (u_4735 / partner))))))
+
+(u_4745 / sort-out-02  :ARG0 (u_4746 / person  :mod (u_4743 / pretty)  :ARG0-of (u_4750 / guard-01)  :ARG1-of (u_4748 / admire-01  :ARG0 (u_4747 / person  :ARG0-of (u_4744 / teach-01))))  :ARG1 (u_4749 / stone))
+
+(u_4762 / pass-04  :ARG0 (u_4763 / guardian  :ARG1-of (u_4760 / admire-01  :ARG0 (u_4756 / person  :ARG0-of (u_4764 / have-rel-role-91  :ARG2 (u_4759 / partner)  :ARG1 (u_4757 / i)))  :name (u_4765 / name  :op1 last  :op2 year)  :wiki -))  :ARG1 (u_4761 / cake)  :ARG1-of (u_4758 / quick-02))
+
+(u_4773 / explore-01  :ARG0 (u_4782 / i)  :ARG1 (u_4774 / city)  :ARG1-of (u_4779 / have-rel-role-91  :ARG2 (u_4780 / sibling)  :ARG0 (u_4772 / person  :ARG1-of (u_4775 / admire-01  :ARG0 (u_4778 / person  :ARG0-of (u_4776 / have-rel-role-91  :ARG2 (u_4777 / cousin)))  :time (u_4783 / name  :op1 last  :op2 year))))  :ARG1-of (u_4781 / eagerly-01))
+
+(u_4790 / move-01  :ARG0 (u_4791 / person  :ARG0-of (u_4798 / teach-01)  :ARG1-of (u_4789 / admire-01  :ARG0 (u_4788 / person  :ARG0-of (u_4797 / have-rel-role-91  :ARG2 (u_4792 / partner)  :ARG1 (u_4796 / i))  :ARG0-of (u_4793 / shy-away-01))  :time (u_4799 / name  :op1 last  :op2 year)))  :ARG1 (u_4794 / stone)  :manner (u_4795 / remorsefully))
+
+(u_4813 / approach-02  :ARG0 (u_4805 / person  :mod (u_4808 / chubby)  :ARG0-of (u_4812 / have-rel-role-91  :ARG2 (u_4811 / partner))  :ARG1-of (u_4806 / admire-01  :ARG0 (u_4810 / person  :ARG0-of (u_4815 / have-rel-role-91  :ARG2 (u_4814 / friend)))))  :ARG1 (u_4807 / city)  :manner (u_4809 / halfheartedly))
+
+(u_4827 / fill-01  :ARG0 (u_4822 / person  :mod (u_4821 / pretty  :degree (u_4826 / rather))  :ARG0-of (u_4828 / guard-01)  :ARG1-of (u_4823 / admire-01  :ARG0 (u_4829 / person  :ARG0-of (u_4831 / teach-01))  :time (u_4830 / name  :op1 yesterday)))  :ARG1 (u_4824 / glass)  :time (u_4825 / name  :op1 yesterday))
+
+(u_4841 / cover-01  :ARG0 (u_4837 / person  :ARG0-of (u_4845 / teach-01)  :ARG1-of (u_4840 / admire-01  :ARG0 (u_4836 / person  :ARG0-of (u_4843 / have-rel-role-91  :ARG2 (u_4838 / cousin)  :ARG1 (u_4844 / i))  :ARG1-of (u_4842 / short-07))))  :ARG1 (u_4839 / glass)  :time (u_4846 / name  :op1 last  :op2 year))
+
+(u_4852 / buy-01  :ARG1 (u_4853 / cake  :mod (u_4861 / rich))  :ARG2 (u_4863 / i)  :ARG0 (u_4857 / person  :ARG0-of (u_4855 / have-rel-role-91  :ARG2 (u_4854 / sibling))  :ARG1-of (u_4862 / admire-01  :ARG0 (u_4851 / person  :mod (u_4858 / cheery)  :ARG0-of (u_4859 / partner))  :time (u_4860 / name  :op1 yesterday)))  :ARG1-of (u_4856 / eagerly-01))
+
+(u_4882 / enter-01  :ARG0 (u_4871 / person  :mod (u_4878 / shy-away-01  :degree (u_4877 / rather))  :ARG0-of (u_4879 / have-rel-role-91  :ARG2 (u_4876 / sibling))  :ARG1-of (u_4872 / admire-01  :ARG0 (u_4874 / person  :ARG0-of (u_4880 / have-rel-role-91  :ARG2 (u_4875 / partner)))))  :ARG1 (u_4873 / city)  :ARG1-of (u_4881 / quick-02))
+
+(u_4899 / congratulate-01  :ARG0 (u_4900 / person  :ARG0-of (u_4892 / have-rel-role-91  :ARG2 (u_4891 / cousin))  :ARG1-of (u_4895 / admire-01  :ARG0 (u_4896 / person  :ARG0-of (u_4902 / have-rel-role-91  :ARG2 (u_4901 / partner))  :ARG0-of (u_4897 / cheer-01  :degree (u_4898 / quite)))))  :ARG1 (u_4890 / person  :mod (u_4894 / merry)  :ARG0-of (u_4893 / research-01)))
+
+(u_4923 / marry-01  :ARG0 (u_4912 / i)  :ARG1 (u_4922 / person  :ARG0-of (u_4914 / have-rel-role-91  :ARG2 (u_4913 / sibling)))  :quant (u_4910 / member)  :unit (u_4919 / name  :op1 last  :op2 year)  :ARG1-of (u_4911 / have-rel-role-91  :ARG2 (u_4915 / friend)  :ARG0 (u_4917 / person))  :ARG1-of (u_4920 / admire-01  :ARG0 (u_4916 / person  :ARG0-of (u_4921 / have-rel-role-91  :ARG2 (u_4918 / partner)))))
+
+(u_4935 / escape-01  :ARG0 (u_4936 / deer  :ARG1-of (u_4933 / attack-01  :ARG0 (u_4931 / tiger  :ARG0-of (u_4929 / scary-03))  :time (u_4934 / name  :op1 last  :op2 year)))  :ARG1 (u_4930 / lion)  :ARG1-of (u_4932 / effortlessly-01))
+
+(u_4944 / protect-01  :ARG0 (u_4948 / city  :ARG1-of (u_4946 / expand-01  :ARG0 (u_4941 / person  :mod (u_4940 / ambitious)  :ARG0-of (u_4945 / build-01))))  :ARG1 (u_4943 / cat  :ARG1-of (u_4942 / startle-01))  :time (u_4947 / name  :op1 last  :op2 year))
+
+(u_4954 / insult-01  :ARG0 (u_4958 / paint-02  :ARG2-of (u_4957 / pay-01  :ARG0 (u_4959 / principal)  :time (u_4960 / name  :op1 last  :op2 year)))  :ARG1 (u_4956 / manage-01  :ARG1-of (u_4955 / drive-02  :degree (u_4953 / extreme))))
+
+(u_4973 / satisfy-01  :ARG0 (u_4972 / jar  :ARG1-of (u_4974 / clean-01  :ARG0 (u_4969 / person  :ARG0-of (u_4977 / guard-01))))  :ARG1 (u_4976 / name  :poss (u_4966 / person  :mod (u_4968 / skin  :degree (u_4967 / quite))  :ARG0-of (u_4975 / have-rel-role-91  :ARG2 (u_4970 / sibling)  :ARG1 (u_4971 / i)))  :op1 last  :op2 year))
+
+(u_4985 / crack-02  :ARG0 (u_4986 / coin  :ARG1-of (u_4982 / move-01  :ARG0 (u_4981 / person  :ARG0-of (u_4987 / guardian-01))  :ARG1-of (u_4984 / effortlessly-01)))  :ARG1 (u_4983 / glass))
+
+(u_5003 / satisfy-01  :ARG0 (u_4995 / jar  :ARG1-of (u_5000 / empty-01  :ARG0 (u_4993 / person  :ARG0-of (u_5002 / teach-01)  :ARG1-of (u_4994 / short-07  :degree (u_4997 / quite)))  :manner (u_4996 / eagerly)))  :ARG1 (u_4992 / person  :mod (u_5001 / skin)  :ARG0-of (u_4999 / have-rel-role-91  :ARG2 (u_4998 / sibling))))
+
+(u_5009 / clean-01  :ARG0 (u_5015 / guardian  :mod (u_5008 / cheerful)  :ARG1-of (u_5013 / admire-01  :ARG0 (u_5011 / person  :mod (u_5012 / cheerful)  :ARG0-of (u_5016 / teach-01))  :time (u_5017 / name  :op1 last  :op2 year)))  :ARG1 (u_5014 / glass)  :time (u_5010 / name  :op1 yesterday))
+
+(u_5025 / protect-01  :ARG0 (u_5026 / hall  :ARG1-of (u_5022 / remarkable-02)  :ARG1-of (u_5024 / expand-01  :ARG0 (u_5021 / person  :ARG0-of (u_5027 / architect))))  :ARG1 (u_5023 / cat)  :time (u_5028 / name  :op1 yesterday))
+
+(u_5043 / satisfy-01  :ARG0 (u_5036 / jar  :ARG1-of (u_5035 / empty-01  :ARG0 (u_5041 / partner  :mod (u_5045 / tall  :degree (u_5039 / quite)))))  :ARG1 (u_5034 / person  :mod (u_5042 / rude-01)  :ARG0-of (u_5040 / have-rel-role-91  :ARG2 (u_5038 / sibling)))  :manner (u_5037 / eagerly)  :time (u_5044 / name  :op1 yesterday))
+
+(u_5057 / move-01  :ARG0 (u_5052 / person  :ARG0-of (u_5058 / teach-01)  :ARG0-of (u_5054 / cheerful  :degree (u_5059 / really))  :ARG1-of (u_5055 / admire-01  :ARG0 (u_5053 / person  :ARG0-of (u_5051 / guardian-01))))  :ARG1 (u_5056 / stone))
+
+(u_5072 / protect-01  :ARG0 (u_5070 / city  :ARG1-of (u_5071 / expand-01  :ARG0 (u_5065 / person  :ARG0-of (u_5073 / architect-00)  :ARG1-of (u_5069 / talented-01  :degree (u_5068 / really)))))  :ARG1 (u_5067 / cat  :ARG0-of (u_5066 / fear-01))  :time (u_5074 / name  :op1 last  :op2 year))
+
+(u_5091 / satisfy-01  :ARG0 (u_5084 / glass  :mod (u_5092 / purple-02)  :ARG1-of (u_5085 / empty-01  :ARG0 (u_5082 / person  :mod (u_5093 / gentle)  :ARG0-of (u_5087 / teach-01))  :ARG1-of (u_5090 / quick-02)))  :ARG1 (u_5088 / person  :mod (u_5094 / surly)  :ARG0-of (u_5086 / have-rel-role-91  :ARG2 (u_5089 / sibling)  :ARG1 (u_5083 / i))))
+
+(u_5109 / move-01  :ARG0 (u_5101 / person  :mod (u_5100 / lively  :degree (u_5106 / quite))  :ARG0-of (u_5107 / teach-01)  :ARG1-of (u_5102 / admire-01  :ARG0 (u_5105 / person  :mod (u_5104 / chubby)  :ARG0-of (u_5108 / guard-01))))  :ARG1 (u_5103 / glass))
+
+(u_5117 / clean-01  :ARG0 (u_5116 / person  :ARG0-of (u_5123 / name  :op1 guardian)  :ARG1-of (u_5119 / admire-01  :ARG0 (u_5124 / person  :mod (u_5115 / shy-away-01)  :ARG0-of (u_5121 / teach-01))))  :ARG1 (u_5120 / glass  :ARG1-of (u_5118 / pretty  :degree (u_5122 / rather))))
+
+(u_5138 / satisfy-01  :ARG0 (u_5144 / bottle  :ARG1-of (u_5143 / shiny)  :ARG1-of (u_5137 / empty-01  :ARG0 (u_5131 / person  :mod (u_5142 / tall  :degree (u_5140 / quite))  :ARG0-of (u_5134 / teach-01))  :manner (u_5141 / remorsefully)))  :ARG1 (u_5136 / person  :ARG0-of (u_5133 / have-rel-role-91  :ARG2 (u_5139 / sibling)  :ARG1 (u_5132 / i)))  :time (u_5135 / name  :op1 yesterday))
+
+(u_5150 / clean-01  :ARG0 (u_5151 / person  :mod (u_5149 / chubby)  :ARG0-of (u_5156 / guard-01)  :ARG1-of (u_5153 / admire-01  :ARG0 (u_5152 / person  :mod (u_5157 / tall)  :ARG0-of (u_5154 / teach-01))))  :ARG1 (u_5155 / glass))
+
+(u_5173 / satisfy-01  :ARG0 (u_5177 / glass  :ARG1-of (u_5174 / shiny)  :ARG1-of (u_5170 / empty-01  :ARG0 (u_5165 / person  :ARG0-of (u_5168 / teach-01)  :ARG1-of (u_5175 / merry  :degree (u_5172 / quite)))))  :ARG1 (u_5169 / person  :ARG0-of (u_5167 / have-rel-role-91  :ARG2 (u_5171 / sibling)  :ARG1 (u_5166 / i))  :ARG1-of (u_5176 / shy-away-01)))
+
+(u_5186 / clean-01  :ARG0 (u_5182 / person  :ARG0-of (u_5188 / guard-01)  :ARG1-of (u_5187 / admire-01  :ARG0 (u_5189 / person  :ARG0-of (u_5183 / teach-01))))  :ARG1 (u_5185 / glass  :ARG1-of (u_5184 / yellow)))
+
+(u_5201 / satisfy-01  :ARG0 (u_5205 / glass  :ARG1-of (u_5208 / empty-01  :ARG0 (u_5207 / person  :ARG0-of (u_5206 / have-rel-role-91  :ARG2 (u_5202 / cousin)))  :ARG0-of (u_5203 / eagerly-01)))  :ARG1 (u_5199 / name  :op1 last  :op2 year  :ARG1-of (u_5204 / have-rel-role-91  :ARG2 (u_5198 / sibling)  :ARG0 (u_5197 / person  :ARG1-of (u_5200 / short-07)))))
+
+(u_5215 / clean-01  :ARG0 (u_5214 / person  :ARG0-of (u_5220 / guard-01)  :ARG1-of (u_5216 / admire-01  :ARG0 (u_5219 / person  :mod (u_5213 / skin  :degree (u_5218 / rather))  :ARG0-of (u_5221 / teach-01))))  :ARG1 (u_5217 / glass)  :time (u_5222 / name  :op1 yesterday))
+
+(u_5230 / satisfy-01  :ARG0 (u_5227 / bottle  :ARG1-of (u_5229 / empty-01  :ARG0 (u_5226 / person  :ARG0-of (u_5233 / have-rel-role-91  :ARG2 (u_5232 / cousin)))))  :ARG1 (u_5231 / sibling)  :time (u_5234 / name  :op1 yesterday)  :ARG1-of (u_5228 / quick-02))
+
+(u_5247 / clean-01  :ARG0 (u_5242 / person  :ARG0-of (u_5249 / teach-01)  :ARG1-of (u_5248 / admire-01  :ARG0 (u_5244 / person  :ARG0-of (u_5240 / name  :op1 guardian))  :time (u_5250 / name  :op1 yesterday)))  :ARG1 (u_5245 / glass  :ARG1-of (u_5243 / yellow  :degree (u_5241 / rather)))  :manner (u_5246 / remorsefully))
+
+(u_5260 / move-01  :ARG0 (u_5256 / person  :ARG0-of (u_5262 / guard-01)  :ARG1-of (u_5261 / admire-01  :ARG0 (u_5259 / person  :ARG0-of (u_5263 / teach-01))  :time (u_5264 / name  :op1 yesterday)))  :ARG1 (u_5258 / glass  :ARG1-of (u_5257 / blue  :degree (u_5265 / rather))))
+
+(u_5274 / satisfy-01  :ARG0 (u_5275 / jar  :ARG1-of (u_5273 / empty-01  :ARG0 (u_5272 / partner  :mod (u_5271 / uptight-00  :degree (u_5279 / rather)))))  :ARG1 (u_5270 / person  :ARG0-of (u_5278 / have-rel-role-91  :ARG2 (u_5277 / sibling)))  :manner (u_5276 / reluctant))
+
+(u_5289 / move-01  :ARG0 (u_5285 / person  :ARG0-of (u_5292 / teach-01)  :ARG1-of (u_5286 / admire-01  :ARG0 (u_5288 / person  :mod (u_5284 / gentle)  :ARG0-of (u_5290 / guard-01))))  :ARG1 (u_5287 / glass)  :ARG0-of (u_5291 / happy-01))
+
+(u_5308 / clean-01  :ARG0 (u_5299 / person  :ARG0-of (u_5306 / teach-01)  :ARG1-of (u_5309 / admire-01  :ARG0 (u_5303 / person  :mod (u_5298 / chubby  :degree (u_5305 / rather))  :ARG0-of (u_5304 / guard-01))  :time (u_5307 / name  :op1 last  :op2 year)))  :ARG1 (u_5301 / glass  :ARG1-of (u_5300 / purple-02))  :manner (u_5302 / halfheartedly))
+
+(u_5330 / satisfy-01  :ARG0 (u_5319 / jar  :ARG1-of (u_5326 / yellow)  :ARG1-of (u_5327 / empty-01  :ARG0 (u_5331 / person  :mod (u_5332 / surly)  :ARG0-of (u_5329 / have-rel-role-91  :ARG2 (u_5328 / cousin)))  :ARG1-of (u_5325 / quick-02)))  :ARG1 (u_5322 / person  :mod (u_5324 / rude-01  :degree (u_5323 / extreme))  :ARG0-of (u_5321 / have-rel-role-91  :ARG2 (u_5320 / sibling))))
+
+(u_5337 / clean-01  :ARG0 (u_5338 / person  :mod (u_5336 / skin)  :ARG0-of (u_5343 / guardian-01)  :ARG1-of (u_5340 / admire-01  :ARG0 (u_5339 / person  :ARG0-of (u_5341 / teach-01))  :time (u_5344 / name  :op1 yesterday)))  :ARG1 (u_5342 / glass))
+
+(u_5352 / satisfy-01  :ARG0 (u_5358 / bottle  :ARG1-of (u_5357 / blue  :degree (u_5355 / really))  :ARG1-of (u_5351 / empty-01  :ARG0 (u_5353 / person  :ARG0-of (u_5360 / guard-01))))  :ARG1 (u_5350 / person  :ARG0-of (u_5359 / have-rel-role-91  :ARG2 (u_5354 / sibling)  :ARG1 (u_5356 / i))))
+
+(u_5375 / move-01  :ARG0 (u_5368 / person  :mod (u_5367 / young)  :ARG0-of (u_5374 / guardian-01)  :ARG1-of (u_5369 / admire-01  :ARG0 (u_5372 / person  :ARG0-of (u_5376 / teach-01))  :time (u_5377 / name  :op1 yesterday)))  :ARG1 (u_5371 / glass  :ARG1-of (u_5370 / pretty  :degree (u_5378 / really)))  :ARG1-of (u_5373 / happy-01))
+

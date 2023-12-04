@@ -1,0 +1,616 @@
+# ::snt Water landings: if you have successfully attached to a companion whose chute opens, keep in mind that both your arms may be broken or dislocated, and you may be unable to swim or tread water before your chute fills and drags you under.
+(k / keep-in-mind-08
+      :mode imperative
+      :ARG1 (y / you
+            :part (a / arm
+                  :mod (b / both)))
+      :ARG2 (a2 / and
+            :op1 (p / possible-01
+                  :ARG1 (o / or
+                        :op1 (b2 / break-01
+                              :ARG1 a)
+                        :op2 (d / dislocate-01
+                              :ARG1 a)))
+            :op2 (p2 / possible-01
+                  :ARG1 (o2 / or
+                        :op1 (s / swim-01
+                              :ARG0 y)
+                        :op2 (t / tread-01
+                              :ARG0 y
+                              :ARG1 (w / water))
+                        :time (b3 / before
+                              :op1 (a3 / and
+                                    :op1 (f / fill-01
+                                          :ARG1 (c / chute
+                                                :poss y))
+                                    :op2 (d2 / drag-01
+                                          :ARG0 c
+                                          :ARG1 y
+                                          :ARG2 (u / under)))))))
+      :condition (a4 / attach-01
+            :ARG0 y
+            :ARG1 y
+            :ARG2 (c2 / companion
+                  :poss-of (c3 / chute
+                        :ARG1-of (o3 / open-01)))
+            :ARG1-of (s2 / succeed-01
+                  :ARG0 y))
+      :topic (l / land-01
+            :location w))
+
+# ::snt The actual author is Johann Valentin Andreae, whose name didn’t appear on the book originally, thus ensuring the confusion.
+(a / author-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Johann"
+                  :op2 "Valentin"
+                  :op3 "Andreae")
+            :ARG1-of (a2 / appear-01
+                  :polarity -
+                  :location (b / book)
+                  :mod (o / original)
+                  :ARG0-of (e / ensure-01
+                        :ARG1 (c / confuse-01)))
+            :ARG1-of (n2 / name-01))
+      :ARG1-of (a3 / actual-02))
+
+# ::snt And when I saw that the reef was but the black basalt crown of a shocking eikon whose monstrous forehead now shown in the dim moonlight and whose vile hooves must paw the hellish ooze miles below, I shrieked and shrieked lest the hidden face rise above the waters, and lest the hidden eyes look at me after the slinking away of that leering and treacherous yellow moon.
+(a / and
+      :op2 (s / shriek-01
+            :ARG0 (ii / i)
+            :ARG1 (a2 / and
+                  :op1 (f / fear-01
+                        :ARG0 ii
+                        :ARG1 (r / rise-01
+                              :ARG1 (f2 / face
+                                    :ARG1-of (h / hide-01))
+                              :ARG4 (a3 / above
+                                    :op1 (w / water))))
+                  :op2 (f3 / fear-01
+                        :ARG0 ii
+                        :ARG1 (l / look-01
+                              :ARG0 (e / eye
+                                    :ARG1-of (h2 / hide-01))
+                              :ARG1 ii
+                              :time (a4 / after
+                                    :op1 (s2 / slink-01
+                                          :ARG0 (m / moon
+                                                :ARG0-of (l2 / leer-01)
+                                                :mod (y / yellow)
+                                                :mod (t / treacherous))
+                                          :direction (a5 / away))))))
+            :time (s3 / see-01
+                  :ARG0 ii
+                  :ARG1 (c / crown-01
+                        :ARG1 (e2 / eikon
+                              :part (f4 / forehead
+                                    :mod (m2 / monster)
+                                    :ARG1-of (s4 / show-01
+                                          :ARG0 (m3 / moonlight
+                                                :ARG1-of (d / dim-02))
+                                          :time (n / now)))
+                              :part (h3 / hoove
+                                    :ARG1-of (v / vile-02)
+                                    :ARG0-of (p / paw-01
+                                          :ARG1 (o / oze
+                                                :mod (h4 / hell)
+                                                :location (b / below
+                                                      :op1 w
+                                                      :quant (m4 / multiple
+                                                            :op1 (d2 / distance-quantity
+                                                                  :quant 1
+                                                                  :unit (m5 / mile))))
+                                                :ARG2-of (o2 / obligate-01)))))
+                        :ARG2 (b2 / basalt
+                              :ARG1-of (b3 / black-04))
+                        :domain (r2 / reef)))))
+
+# ::snt As a country, we are also privileged to have a National ICT Policy whose goal is to create a prosperous ICT - driven Kenyan society.
+(p / privilege-01
+      :ARG1 (w / we
+            :mod (c / country))
+      :ARG2 (h / have-03
+            :ARG0 w
+            :ARG1 (p2 / policy-01
+                  :ARG2 (t / technology
+                        :mod (ii / information)
+                        :mod (n / nation))
+                  :ARG0-of h
+                  :ARG1 (g / goal
+                        :op1 (c2 / create-01
+                              :ARG0 p2
+                              :ARG1 (s / society
+                                    :ARG0-of (p3 / prosper-01)
+                                    :ARG1-of (d / drive-02
+                                          :ARG0 t)
+                                    :mod (c3 / country
+                                          :name (n2 / name
+                                                :op1 "Kenya")))))))
+      :mod (a / also))
+
+# ::snt An empire whose costly mistakes would for many years to come echo into every corner of the known galaxy.
+(e / empire
+      :poss-of (m / mistake-02
+            :mod (c / costly)
+            :ARG0-of (e2 / echo-01
+                  :ARG2 (c2 / corner
+                        :mod (e3 / every)
+                        :part-of (g / galaxy
+                              :ARG1-of (k / know-02)))
+                  :duration (m2 / many
+                        :op1 (t / temporal-quantity
+                              :quant 1
+                              :unit (y / year)))
+                  :time (c3 / come-01))))
+
+# ::snt The stories of her mature period (1894 – 96) were not only marked by her experience living near the red-light district and greater concern over the plight of women, but also by the influence of Ihara Saikaku, a 17th-century writer, whose stories she had recently discovered.
+(m / mark-01
+      :ARG0 (a / and
+            :op1 (e / experience-01
+                  :ARG0 (s / she)
+                  :ARG1 (l / live-01
+                        :ARG0 s
+                        :location (n / near-02
+                              :ARG2 (d / district
+                                    :mod (r / red-light)))))
+            :op2 (c / concern-01
+                  :ARG0 (p / plight
+                        :poss (w / woman))
+                  :ARG1 s
+                  :ARG1-of (h / have-degree-91
+                        :ARG2 (g / great)
+                        :ARG3 (m2 / more)))
+            :op3 (ii / influence-01
+                  :ARG0 (p2 / person
+                        :name (n2 / name
+                              :op1 "Ihara"
+                              :op2 "Saikaku")
+                        :ARG0-of (w2 / write-01)
+                        :time (d2 / date-entity
+                              :century 17)
+                        :ARG0-of (h2 / have-03
+                              :ARG1 (s2 / story
+                                    :ARG1-of (d3 / discover-01
+                                          :ARG0 s
+                                          :time (r2 / recent)))))
+                  :ARG1 s2
+                  :mod (a2 / also)))
+      :ARG1 s2
+      :poss (p3 / period
+            :poss s
+            :ARG1-of (m3 / mature-02)
+            :time (d4 / date-interval
+                  :op1 (d5 / date-entity
+                        :year 1890)
+                  :op2 (d6 / date-entity
+                        :year 1996))))
+
+# ::snt Nor had my flesh trembled without cause, for when I raised my eyes I saw that the waters had ebbed very low, shewing much of the vast reef whose rim I had seen before.
+(a / and
+      :op1 (t / tremble-01
+            :polarity -
+            :ARG1 (f / flesh
+                  :part-of (ii / i
+                        :part (e / eye)))
+            :ARG1-of (c / cause-01
+                  :polarity -))
+      :op2 (s / see-01
+            :ARG0 ii
+            :ARG1 (e2 / ebb-01
+                  :ARG1 (w / water)
+                  :ARG1-of (l / low-04
+                        :degree (v / very))
+                  :ARG0-of (w2 / work-06
+                        :ARG1 (r / reef
+                              :quant (m / much)
+                              :ARG1-of (ii2 / include-91
+                                    :ARG2 (r2 / reef
+                                          :mod (v2 / vast)
+                                          :part (r3 / rim
+                                                :ARG1-of s
+                                                :ARG0 ii
+                                                :time (b / before))))))))
+      :time (r4 / raise-01
+            :ARG0 ii
+            :ARG1 e))
+
+# ::snt Although I am sure that being there would enhance my understanding of the animals and the system in which they live, and would help me formulate more and better questions about the anemones, ship time is expensive, especially in Antarctica, and if there are biologists whose contribution is predicated on being there, they should have priority to be there.
+(a / and
+      :op1 (e / expensive
+            :domain (t / time
+                  :mod (s / ship))
+            :location (c / continent
+                  :name (n / name
+                        :op1 "Antarctica")
+                  :mod (e2 / especially)))
+      :op2 (r / recommend-01
+            :ARG1 (p / prioritize-01
+                  :ARG1 (b / be-located-at-91
+                        :ARG1 (b2 / biologist
+                              :ARG0-of (c2 / contribute-01
+                                    :ARG1-of (p2 / predicate-01
+                                          :ARG2 (b3 / be-located-at-91
+                                                :ARG1 b2
+                                                :ARG2 c))))
+                        :ARG2 c)))
+      :concession (s2 / sure-02
+            :ARG0 (ii / i)
+            :ARG1 (a2 / and
+                  :op1 (e3 / enhance-01
+                        :ARG0 (b4 / be-located-at-91
+                              :ARG1 ii
+                              :ARG2 c)
+                        :ARG1 (u / understand-01
+                              :ARG0 ii
+                              :ARG1 (a3 / and
+                                    :op1 (a4 / animal)
+                                    :op2 (s3 / system
+                                          :location-of (l / live-01
+                                                :ARG0 a4)))))
+                  :op2 (h / help-01
+                        :ARG0 b4
+                        :ARG1 (f / formulate-01
+                              :ARG0 ii
+                              :ARG1 (q / question-01
+                                    :ARG1 (a5 / anemic)
+                                    :ARG1-of (h2 / have-degree-91
+                                          :ARG2 (g / good-02
+                                                :ARG1 q)
+                                          :ARG3 (m / more))))
+                        :ARG2 ii))))
+
+# ::snt It is an oath whose power derives from its common sense: that a juror must always be impartial for a trial to be fair.
+(o / oath
+      :domain (ii / it)
+      :ARG1-of (d / derive-01
+            :ARG2 (s / sense-01
+                  :ARG1 (o2 / obligate-01
+                        :ARG1 (j / juror)
+                        :ARG2 (ii2 / impartial
+                              :domain j)
+                        :time (a / always)
+                        :purpose (f / fair-01
+                              :ARG1 (t / try-02)))
+                  :mod (c / common)))
+      :ARG0-of (p / power-01))
+
+# ::snt Eegimaa is an endangered language whose transmission to new generations has been declining significantly in the last decades.
+(l / language
+      :ARG1-of (e / endanger-01)
+      :domain (l2 / language
+            :name (n / name
+                  :op1 "Eegimaa"))
+      :ARG1-of (t / transmit-01
+            :ARG2 (g / generation
+                  :ARG1-of (n2 / new-01))
+            :ARG1-of (d / decline-01
+                  :ARG2 (s / significant-02)
+                  :time (b / before
+                        :op1 (n3 / now)
+                        :duration (m / multiple
+                              :op1 (t2 / temporal-quantity
+                                    :quant 1
+                                    :unit (d2 / decade)))))))
+
+# ::snt Many southwest Asian kingdoms, such as Saudi Arabia, Qatar, and the United Arab Emirates, have absolute monarchs whose power is unrestricted.
+(h / have-03
+      :ARG0 (k / kingdom
+            :quant (m / many)
+            :location (w / world-region
+                  :name (n / name
+                        :op1 "Southwest"
+                        :op2 "Asia"))
+            :example (a / and
+                  :op1 (c / country
+                        :name (n2 / name
+                              :op1 "Saudi"
+                              :op2 "Arabia"))
+                  :op2 (c2 / country
+                        :name (n3 / name
+                              :op1 "Qatar"))
+                  :op3 (c3 / country
+                        :name (n4 / name
+                              :op1 "United"
+                              :op2 "Arab"
+                              :op3 "Emirates"))))
+      :ARG1 (m2 / monarch
+            :mod (a2 / absolute)
+            :ARG1-of (p / power-01
+                  :ARG1-of (r / restrict-01
+                        :polarity -))))
+
+# ::snt As to his opponent in the duel, Alexandre Dumas names Pescheux d'Herbinville, [13] who was actually one of the nineteen artillery officers whose acquittal was celebrated at the banquet that occasioned Galois' first arrest. [20]
+(n / name-02
+      :ARG0 (p / person
+            :name (n2 / name
+                  :op1 "Alexandre"
+                  :op2 "Dumas"))
+      :ARG1 (p2 / person
+            :name (n3 / name
+                  :op1 "Pescheux"
+                  :op2 "d'Herbinville")
+            :ARG1-of (ii / include-91
+                  :ARG2 (p3 / person
+                        :quant 19
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (o / officer
+                                    :mod (a / artillery)))
+                        :ARG1-of (a2 / acquit-01
+                              :ARG1-of (c / celebrate-01
+                                    :location (b / banquet
+                                          :ARG0-of (o2 / occasion-01
+                                                :ARG1 (a3 / arrest-01
+                                                      :ARG1 (p4 / person
+                                                            :name (n4 / name
+                                                                  :op1 "Galois"))
+                                                      :ord (o3 / ordinal-entity
+                                                            :value 1)))))))
+                  :ARG1-of (a4 / actual-02))
+            :ARG1-of (d / describe-01
+                  :ARG0 (p5 / publication
+                        :ARG1-of (c2 / cite-01
+                              :ARG2 20)))
+            :ARG1-of (d2 / describe-01
+                  :ARG0 p5
+                  :ARG1-of (c3 / cite-01
+                        :ARG2 13)))
+      :topic (p6 / person
+            :ARG0-of (o4 / oppose-01
+                  :ARG1 p
+                  :ARG2 (d3 / duel-01))))
+
+# ::snt The group whose three robots collectively earned the most points won that match.
+(w / win-01
+      :ARG0 (g / group
+            :poss-of (r / robot
+                  :quant 3
+                  :ARG0-of (e / earn-01
+                        :ARG1 (p / point
+                              :quant (m / most))
+                        :manner (c / collective))))
+      :ARG1 (m2 / match-03
+            :mod (t / that)))
+
+# ::snt We are now in the second medium term plan cycle (2013 - 2017) whose theme is “Transforming Kenya: Pathways to Devolution, Socio-economic Development, Equity and National Unity”.
+(c / cycle-02
+      :ARG0 (w / we)
+      :ARG1 (p / plan-01
+            :ARG1-of (t / theme-01
+                  :ARG2 (t2 / transform-01
+                        :ARG1 (c2 / country
+                              :name (n / name
+                                    :op1 "Kenya"))
+                        :ARG3 (p2 / path
+                              :destination (a / and
+                                    :op1 (d / devolve-01)
+                                    :op2 (d2 / develop-02
+                                          :ARG1 (e / economy
+                                                :mod (s / society)))
+                                    :op3 (e2 / equity)
+                                    :op4 (u / unity
+                                          :mod (n2 / nation)))))))
+      :duration (t3 / term
+            :mod (m / medium)
+            :ord (o / ordinal-entity
+                  :value 2))
+      :time (n3 / now)
+      :time (d3 / date-interval
+            :op1 (d4 / date-entity
+                  :year 2013)
+            :op2 (d5 / date-entity
+                  :year 2017)))
+
+# ::snt Besides works whose copyright has expired, there is an increasing number of modern books available under Creative Commons and similar licenses.
+(a / available-02
+      :ARG2 (b / book
+            :ARG1-of (m / modern-02)
+            :quant (n / number
+                  :ARG1-of (ii / increase-01)))
+      :prep-under (a2 / and
+            :op1 (t / thing
+                  :name (n2 / name
+                        :op1 "Creative"
+                        :op2 "Commons"))
+            :op2 (t2 / thing
+                  :ARG2-of (l / license-01)
+                  :ARG1-of (r / resemble-01
+                        :ARG2 t)))
+      :ARG2-of (e / except-01
+            :ARG1 (t3 / thing
+                  :ARG1-of (w / work-12)
+                  :ARG1-of (c / copyright-01
+                        :ARG1-of (e2 / expire-01)))))
+
+# ::snt On 2 June, Évariste Galois was buried in a common grave of the Montparnasse Cemetery whose exact location is unknown. [17] [15]
+(b / bury-01
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Évariste"
+                  :op2 "Galois"))
+      :ARG2 (g / grave
+            :mod (c / common)
+            :poss (f / facility
+                  :name (n2 / name
+                        :op1 "Montparnasse"
+                        :op2 "Cemetery"))
+            :location (l / location
+                  :ARG1-of (k / know-01
+                        :polarity -)
+                  :mod (e / exact)))
+      :time (d / date-entity
+            :month 6
+            :day 2)
+      :ARG1-of (d2 / describe-01
+            :ARG0 (p2 / publication
+                  :ARG1-of (c2 / cite-01
+                        :ARG2 17
+                        :ARG1 p2)
+                  :ARG2 15)))
+
+# ::snt At first I thought the children meant my father, whose golden skin, the color of the night-monkey’s pelt, was a rarity in the islands; but certainly the children of Tyom were familiar with my father, and would never have greeted a council-member with such ill-mannered yells.
+(c / contrast-01
+      :ARG1 (t / think-01
+            :ARG0 (ii / i)
+            :ARG1 (m / mean-01
+                  :ARG1 (c2 / child)
+                  :ARG2 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f / father))
+                        :part (s / skin
+                              :mod (g / golden)
+                              :ARG1-of (c3 / color-01
+                                    :ARG2 (p2 / pelt
+                                          :part-of (m2 / monkey
+                                                :time (d / date-entity
+                                                      :dayperiod (n / night)))))
+                              :ARG1-of (r / rare-02
+                                    :location (ii2 / island)))))
+            :time (a / at-first))
+      :ARG2 (a2 / and
+            :op1 (f2 / familiarize-01
+                  :ARG1 (c4 / child
+                        :source (c5 / city
+                              :name (n2 / name
+                                    :op1 "Tyom")))
+                  :ARG2 p)
+            :op2 (g2 / greet-01
+                  :polarity -
+                  :ARG0 c4
+                  :ARG1 (p3 / person
+                        :ARG0-of (h2 / have-org-role-91
+                              :ARG1 (c6 / council)
+                              :ARG2 (m3 / member)))
+                  :ARG2 (y / yell-01
+                        :ARG0 c4
+                        :manner (m4 / mannered
+                              :polarity -
+                              :degree (s2 / such)))
+                  :time (e / ever))
+            :mod (c7 / certain)))
+
+# ::snt We cannot encourage communalism or narrow - mindedness, for no nation can be great whose people are narrow in thought or in action.
+(p / possible-01
+      :polarity -
+      :ARG1 (e / encourage-01
+            :ARG0 (w / we)
+            :ARG1 (o / or
+                  :op1 (c / communalism)
+                  :op2 (n / narrow-02
+                        :ARG1 (m / mind))))
+      :ARG1-of (c2 / cause-01
+            :ARG0 (p2 / possible-01
+                  :polarity -
+                  :ARG1 (g / great
+                        :domain (n2 / nation
+                              :poss-of (p3 / person
+                                    :ARG1-of (n3 / narrow-02
+                                          :ARG3 (o2 / or
+                                                :op1 (t / think-01
+                                                      :ARG0 n2)
+                                                :op2 (a / act-02
+                                                      :ARG0 n2)))))))))
+
+# ::snt On Friday, fishermen rescued over 700 asylum seekers whose boat sank, and the Indonesian Navy reportedly saved 200 more after they were found swimming along the coast of Aceh, Indonesia.
+(a / and
+      :op1 (r / rescue-01
+            :ARG0 (p / person
+                  :ARG0-of (f / fish-01))
+            :ARG1 (p2 / person
+                  :ARG0-of (s / seek-01
+                        :ARG1 (a2 / asylum))
+                  :quant (o / over
+                        :op1 700)
+                  :poss-of (b / boat
+                        :ARG1-of (s2 / sink-01))))
+      :op2 (s3 / save-02
+            :ARG0 (m / military
+                  :name (n / name
+                        :op1 "Indonesian"
+                        :op2 "Navy"))
+            :ARG1 (p3 / person
+                  :quant 200
+                  :mod (m2 / more))
+            :time (a3 / after
+                  :op1 (f2 / find-01
+                        :ARG1 (s4 / swim-01
+                              :ARG0 p3
+                              :location (a4 / along
+                                    :op1 (c / coast
+                                          :location (p4 / province
+                                                :name (n2 / name
+                                                      :op1 "Aceh")
+                                                :location (c2 / country
+                                                      :name (n3 / name
+                                                            :op1 "Indonesia"))))))))
+            :ARG1-of (r2 / report-01))
+      :time (d / date-entity
+            :weekday (f3 / friday)))
+
+# ::snt Some disciplines, like political science, are organized around a single professional society, whose membership roll approximates a full census [7].
+(o / organize-01
+      :ARG1 (d / discipline
+            :example (s / science
+                  :mod (p / politics)))
+      :ARG2 (a / around
+            :op1 (s2 / society
+                  :mod (p2 / professional)
+                  :ARG1-of (s3 / single-02)
+                  :ARG0-of (h / have-03
+                        :ARG1 (r / roll
+                              :mod (m / membership)
+                              :ARG1-of (a2 / approximate-01
+                                    :ARG2 (c / census
+                                          :mod (f / full)))))))
+      :ARG1-of (d2 / describe-01
+            :ARG0 (p3 / publication
+                  :ARG1-of (c2 / cite-01
+                        :ARG2 7))))
+
+# ::snt The area that now encompasses Phoenix was a center of the Hohokam culture, which built large canal systems and a network of towns and villages, whose remains may be viewed in the city to this day.
+(c / center
+      :mod (c2 / culture
+            :name (n / name
+                  :op1 "Hohokam"))
+      :ARG0-of (b / build-01
+            :ARG1 (a / and
+                  :op1 (s / system
+                        :mod (c3 / canal)
+                        :mod (l / large))
+                  :op2 (n2 / network-01
+                        :ARG1 (a2 / and
+                              :op1 (t / town)
+                              :op2 (v / village)
+                              :ARG1-of (r / remain-01
+                                    :ARG1-of (v2 / view-01
+                                          :ARG1-of (p / possible-01)
+                                          :location (c4 / city
+                                                :name (n3 / name
+                                                      :op1 "Phoenix"))
+                                          :time (u / until
+                                                :op1 (d / day
+                                                      :mod (t2 / this)))))))))
+      :domain (a3 / area
+            :ARG0-of (e / encompass-01
+                  :ARG1 c4
+                  :time (n4 / now))))
+
+# ::snt To the people of India, whose representatives we are, we make an appeal to join us with faith and confidence in this great adventure.
+(a / appeal-02
+      :ARG0 (w / we)
+      :ARG1 (p / person
+            :mod (c / country
+                  :name (n / name
+                        :op1 "India"))
+            :ARG0-of (r / represent-01
+                  :ARG1 w))
+      :ARG2 (j / join-04
+            :ARG0 p
+            :ARG1 w
+            :ARG2 (a2 / adventure
+                  :mod (g / great)
+                  :mod (t / this))
+            :manner (a3 / and
+                  :op1 (f / faith)
+                  :op2 (c2 / confidence))))
+

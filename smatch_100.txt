@@ -1,0 +1,2339 @@
+F: 0.125
+EN:
+# ::id lpp_1943.568 ::date 2012-11-25T18:17:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " But there is nobody here to judge ! "
+# ::save-date Mon Apr 22, 2013 ::file lpp_1943_568.txt
+(n / nobody
+      :location (h / here)
+      :ARG1-of (j / judge-01))
+Translated DE:
+# ::id lpp_de.32 ::annotator CO
+# ::snt Aber es gibt doch niemanden , den man verurteilen könnte !
+(c / contrast-01
+    :ARG2 (g / give-01
+              :mode conclusive
+              :polarity -
+              :ARG1 (p / person
+                        :ARG1-of (c2 / convict-01))))
+
+F: 0.16666666666666666
+EN:
+# ::id DF-200-192400-625_6344.19 ::date 2013-09-05T03:18:11 ::annotator SDL-AMR-09 ::preferred
+# ::snt It's nice to vent.
+# ::save-date Thu Sep 5, 2013 ::file DF-200-192400-625_6344_19.txt
+(n / nice-01
+      :ARG1 (v / vent-01))
+Translated DE:
+# ::id DF-200-192400-625_6344.19 ::date 2013-09-05T03:18:11 ::annotator SDL-AMR-09 ::preferred
+# ::snt Es ist schön, sich mal Luft machen zu können.
+(b / beautiful
+      :ARG1 (p / possible-01
+            :ARG1 (d / do-01)
+                    :ARG1 (a / air)))
+
+F: 0.25
+EN:
+# ::id lpp_1943.779 ::date 2012-11-13T18:48:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Orders are orders .
+# ::save-date Thu May 9, 2013 ::file lpp_1943_779.txt
+(o / order
+  :domain (o2 / order))
+Translated DE:
+# ::id lpp_de.43 ::annotator CO
+# ::snt Eine Anordnung ist eine Anordnung .
+(a / arrangement
+    :domain (a2 / arrangement))
+
+F: 0.25
+EN:
+# ::id lpp_1943.783 ::date 2012-11-13T18:53:43 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I follow a terrible profession .
+# ::save-date Tue Apr 7, 2015 ::file lpp_1943_783.txt
+(f / follow-02
+      :ARG0 (i / i)
+      :ARG1 (p / profession
+            :ARG1-of (t / terrible-01)))
+Translated DE:
+# ::id lpp_de.45 ::annotator CO
+# ::snt Ich habe einen schrecklichen Beruf . 
+(h / have-01
+    :ARG1 (i / i)
+    :ARG2 (p / profession
+          :mod (t / terrible)))
+
+F: 0.27272727272727276
+EN:
+# ::id lpp_1943.624 ::date 2012-11-26T19:56:45 ::annotator ISI-AMR-05 ::preferred
+# ::snt Conceited people never hear anything but praise .
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_624.txt
+(h / hear-01 :polarity -
+      :ARG0 (p / person
+            :mod (c / conceit))
+      :ARG1 (a / anything
+            :concession (p2 / praise-01))
+      :time (e / ever))
+Translated DE:
+# ::id lpp_de.35 ::annotator CO
+# ::snt Eitle Menschen hören nur , wenn sie gelobt werden .
+(l / listen-01
+    :ARG0 (h / human
+              :mod (e / vain))
+    :condition (p / praise-01
+                   :ARG1 h))
+
+F: 0.29411764705882354
+EN:
+# ::id lpp_1943.496 ::date 2012-11-13T15:07:27 ::annotator ISI-AMR-05 ::preferred
+# ::snt I can n't stop myself , " replied the little prince , thoroughly embarrassed .
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_496.txt
+(r / reply-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG2 (p2 / possible-01 :polarity -
+            :ARG1 (s / stop-01
+                  :ARG0 p
+                  :ARG1 p))
+      :manner (e / embarrass-01
+            :ARG1 p
+            :degree (t / thorough)))
+Translated DE:
+# ::id lpp_de.26 ::annotator CO
+# ::snt " Ich kann aber nicht anders " , entgegnete der kleine Prinz ganz verwirrt .
+(c / counter-01
+    :ARG0 (p / prince
+              :mod (s / small))
+    :ARG1 (a / able-01
+              :polarity -
+              :manner (d / different)
+              :ARG1 p)
+    :manner (c2 / confuse-01
+                :mod (w / whole)))
+
+F: 0.30303030303030304
+EN:
+# ::id lpp_1943.682 ::date 2012-11-09T15:19:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt The businessman suddenly realized that there was no hope of being left in peace until he answered this question .
+# ::save-date Fri Jul 17, 2015 ::file lpp_1943_682.txt
+(r / realize-01
+      :ARG0 (b / businessman)
+      :ARG1 (h / hopeful-03 :polarity -
+            :ARG1 (l / leave-14
+                  :ARG1 (p / peace
+                        :domain b))
+            :time (u / until
+                  :op1 (a / answer-01
+                        :ARG0 b
+                        :ARG1 (q / question-01
+                              :ARG1 (t / this)))))
+      :manner (s / sudden))
+Translated DE:
+# ::id lpp_de.40 ::annotator CO
+# ::snt Der Geschäftsmann verstand , dass er nicht darauf hoffen konnte , in Ruhe gelassen zu werden .
+(u / understand-01
+    :ARG0 (b / businessman)
+    :ARG1 (h / hope-01
+              :polarity -
+              :ARG0 b
+              :ARG1 (l / let-01)))
+
+F: 0.32
+EN:
+# ::id lpp_1943.563 ::date 2012-11-25T17:57:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Do not go , " said the king , who was very proud of having a subject .
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_563.txt
+(s / say-01
+      :ARG0 (k / king
+            :ARG0-of (p / pride-01
+                  :ARG2 (h / have-03
+                        :ARG0 k
+                        :ARG1 (s2 / subject))
+                  :degree (v / very)))
+      :ARG1 (g / go-02 :polarity - :mode imperative
+            :ARG0 (y / you)))
+Translated DE:
+# ::id lpp_de.31 ::annotator CO
+# ::snt Geh nicht .
+(g / go-01
+    :polarity -
+    :mode imperative
+    :ARG0 (y / you))
+
+F: 0.32
+EN:
+# ::id DF-199-194215-653_0484.12 ::date 2013-09-01T12:43:39 ::annotator SDL-AMR-09 ::preferred
+# ::snt What do I do to move on with my life.
+# ::save-date Sun Sep 15, 2013 ::file DF-199-194215-653_0484_12.txt
+(d / do-02
+      :ARG0 (i / i)
+      :ARG1 (a / amr-unknown)
+      :ARG2-of (m / move-01
+            :ARG0 i
+            :topic (l / life
+                  :poss i)))
+Translated DE:
+# ::id DF-199-194215-653_0484.12 ::date 2013-09-01T12:43:39 ::annotator SDL-AMR-09 ::preferred
+# ::snt Was soll ich tun, um mit meinem Leben weiterzumachen?
+(r / recommend-01
+      :ARG0 (i / i)
+      :ARG1 (d / do-01
+            :ARG1 (a / amr-unkown))
+      :purpose (c / continue-01
+            :ARG1 (l / live
+                  :poss i)))
+
+F: 0.32653061224489793
+EN:
+# ::id lpp_1943.806 ::date 2012-11-14T15:52:41 ::annotator ISI-AMR-05 ::preferred
+# ::snt " You know , " he said , " I can tell you a way you can rest whenever you want to ... "
+# ::save-date Tue Mar 1, 2016 ::file lpp_1943_806.txt
+(s / say-01
+      :ARG0 (h / he)
+      :ARG1 (p / possible-01
+            :ARG1 (t / tell-01
+                  :ARG0 h
+                  :ARG1 (w / way
+                        :purpose (p2 / possible-01
+                              :ARG1 (r / rest-01
+                                    :ARG1 (y / you)
+                                    :time (w2 / want-01
+                                          :ARG0 y
+                                          :mod (a / any)))))
+                  :ARG2 y)))
+Translated DE:
+# ::id lpp_de.44 ::annotator CO
+# ::snt Wenn du dich ausruhen willst , läufst du , und der Tag dauert so lange , wie du magst .
+(r / run-01
+    :ARG0 (y / you)
+    :time (p / prefer-01
+              :ARG1 (r2 / rest-01
+                        :ARG0 y)
+    :ARG0-of (c / cause-01
+                  :ARG1 (l / last-01
+                            :ARG0 (d / day)
+                            :ARG1 (t / temporal-quantity
+                                      :ARG1-of (h / have-quant-91
+                                                   :ARG3 (e / equal)
+                                                   :ARG4 (t2 / temporal-quantity
+                                                              :ARG1-of (w / want-01
+                                                                            :ARG0 y))))))))
+
+F: 0.33333333333333326
+EN:
+# ::id lpp_1943.667 ::date 2012-11-08T14:00:38 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have so much to do !
+# ::save-date Fri Apr 26, 2013 ::file lpp_1943_667.txt
+(o / obligate-01
+  :ARG1 (i / i)
+  :ARG2 (d / do-02
+          :ARG1 (m / much
+                  :degree (s / so))))
+Translated DE:
+# ::id lpp_de.39 ::annotator CO
+# ::snt Ich habe so viel Arbeit !
+(h / have-01
+    :ARG1 (w / work-01
+              :ARG0 (i / i)
+              :degree (m / much)))
+
+F: 0.3333333333333333
+EN:
+# ::id lpp_1943.130 ::date 2012-07-31T10:45:15 ::annotator ISI-AMR-05 ::preferred
+# ::snt " My little man , where do you come from ?
+# ::save-date Fri Apr 19, 2013 ::file lpp_1943_130.txt
+(s / say-01
+      :ARG1 (c / come-01
+            :ARG1 (y / you)
+            :ARG3 (a / amr-unknown))
+      :ARG2 (m / man
+            :mod (l / little)
+            :poss (i / i)))
+Translated DE:
+# ::id lpp_de.7 ::annotator CO
+# ::snt Wo kommst du her , kleiner Kerl ?
+(c / come-01
+    :ARG1 (y / you
+              :mod (g / guy
+                       :degree (s / small)))
+    :ARG2 (a / amr-unknown))
+
+F: 0.3333333333333333
+EN:
+# ::id wb.eng_0003.64 ::date 2012-10-17T07:35:31 ::annotator ISI-AMR-01 ::preferred
+# ::snt All else is spin .
+# ::save-date Mon Sep 22, 2014 ::file wb_eng_0003_64.txt
+(s / spin-03
+      :ARG1 (a / all
+            :mod (e / else)))
+Translated DE:
+# ::id wb.eng_0003.64 ::date 2012-10-17T07:35:31 ::annotator ISI-AMR-01 ::preferred
+# ::snt Alles andere ist nur Geschwätz.
+(c / chatter
+      :domain (a / all
+            :mod (a2 / other)))
+
+F: 0.3333333333333333
+EN:
+# ::id DF-200-192392-456_1160.4 ::date 2013-08-30T09:02:53 ::annotator SDL-AMR-09 ::preferred
+# ::snt People are getting lazy.
+# ::save-date Sun Sep 1, 2013 ::file DF-200-192392-456_1160_4.txt
+(g / get-03
+      :ARG1 (p / person)
+      :ARG2 (l / lazy))
+Translated DE:
+# ::id DF-200-192392-456_1160.4 ::date 2013-08-30T09:02:53 ::annotator SDL-AMR-09 ::preferred
+# ::snt Die Leute werden faul.
+(b / become-01
+      :ARG0 (p / person)
+      :ARG1 (l / lazy))
+
+F: 0.3529411764705882
+EN:
+# ::id lpp_1943.1213 ::date 2012-11-27T13:14:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Computations have been made by experts .
+# ::save-date Tue Nov 27, 2012 ::file lpp_1943_1213.txt
+(m / make-01
+      :ARG0 (p / person
+            :ARG1-of (e / expert-01))
+      :ARG1 (t / thing
+            :ARG1-of (c / compute-01)))
+Translated DE:
+# ::id lpp_de.49 ::annotator CO
+# ::snt Experten haben das schon berechnet .
+(c / calculate-01
+    :mode confirmation
+    :ARG0 (e / expert)
+    :ARG1 (t / thing))
+
+F: 0.36363636363636365
+EN:
+# ::id lpp_1943.181 ::date 2012-07-31T13:36:08 ::annotator ISI-AMR-05 ::preferred
+# ::snt Children should always show great forbearance toward grown - up people .
+# ::save-date Mon Nov 3, 2014 ::file lpp_1943_181.txt
+(r / recommend-01
+      :ARG1 (s / show-01
+            :ARG0 (c / child)
+            :ARG1 (f / forbearance
+                  :mod (g / great))
+            :ARG2 (g2 / grown-up)
+            :time (a / always)))
+Translated DE:
+# ::id lpp_de.9 ::annotator CO
+# ::snt Kinder müssen mit Erwachsenen nachsichtig sein .
+(o / obligate-01
+    :ARG1 (i / indulge-01
+              :ARG0 (c / child)
+              :ARG1 (a / adult)))
+
+F: 0.375
+EN:
+# ::id lpp_1943.610 ::date 2012-11-26T18:35:58 ::annotator ISI-AMR-05 ::preferred
+# ::snt " That is a queer hat you are wearing . "
+# ::save-date Wed Apr 24, 2013 ::file lpp_1943_610.txt
+(h2 / hat
+      :mod (q2 / queer)
+      :domain (t2 / that)
+      :ARG1-of (w2 / wear-01))
+Translated DE:
+# ::id lpp_de.34 ::annotator CO
+# ::snt Sie haben einen merkwürdigen Hut !
+(h / have-01
+    :ARG0 (t / they)
+    :ARG1 (h2 / hat
+              :mod (s / strange)))
+
+F: 0.37735849056603776
+EN:
+# ::id lpp_1943.491 ::date 2012-11-13T13:51:00 ::annotator ISI-AMR-05 ::preferred
+# ::snt The little prince looked everywhere to find a place to sit down ; but the entire planet was crammed and obstructed by the king 's magnificent ermine robe .
+# ::save-date Sun Jun 28, 2015 ::file lpp_1943_491.txt
+(a / and
+      :op1 (c / cram-01
+            :ARG1 (r2 / robe
+                  :mod (e2 / ermine)
+                  :mod (m / magnificent)
+                  :poss (k / king))
+            :ARG2 (p3 / planet
+                  :extent (e3 / entire)))
+      :op2 (o / obstruct-01
+            :ARG0 r2
+            :ARG1 p3)
+      :concession (l / look-01
+            :ARG0 (p / prince
+                  :mod (l2 / little))
+            :ARG1 (p2 / place
+                  :purpose (s / sit-down-02
+                        :ARG1 p))
+            :location (e / everywhere)))
+Translated DE:
+# ::id lpp_de.24 ::annotator CO
+# ::snt Der kleine Prinz sah sich nach einem Sitzplatz um , doch der ganze Planet wurde von dem herrlichen Hermelinmantel bedeckt .
+(l / look-01
+    :ARG0 (p / prince
+              :mod (s / small))
+    :ARG1 (s2 / seat)
+    :concession (c / cover-01
+                    :ARG1 (p2 / planet
+                              :mod (w / whole))
+                    :ARG2 (c2 / coat
+                              :mod (e / ermine)
+                              :mod (g / gorgeous))))
+
+F: 0.38235294117647056
+EN:
+# ::id lpp_1943.300 ::date 2012-11-18T17:19:31 ::annotator ISI-AMR-05 ::preferred
+# ::snt And I had so little drinking - water left that I had to fear for the worst .
+# ::save-date Thu Sep 21, 2017 ::file lpp_1943_300.txt
+(a / and
+      :op1 (h3 / have-degree-91
+            :ARG1 (w / water
+                  :purpose (d / drink-01)
+                  :ARG1-of (l2 / leave-17)
+                  :ARG1-of (h / have-03
+                        :ARG0 (i / i)))
+            :ARG2 (l / little)
+            :ARG3 (s / so)
+            :ARG6 (o / obligate-01
+                  :ARG1 i
+                  :ARG2 (f / fear-01
+                        :ARG0 i
+                        :ARG1 (t / thing
+                              :ARG1-of (h2 / have-degree-91
+                                    :ARG2 (b / bad-07)
+                                    :ARG3 (m / most)))))))
+Translated DE:
+# ::id lpp_de.15 ::annotator CO
+# ::snt Ich war sehr besorgt , denn langsam schien mir meine Panne doch sehr ernst und das zur Neige gehende Trinkwasser ließ mich das Schlimmste befürchten .
+(w / worry-01
+    :ARG0 (a / and
+              :op1 (s / seem-01
+                       :ARG0 (b / breakdown
+                                 :poss (i / i))
+                       :ARG1 i
+                       :mod (s2 / slow)
+                       :mod (s3 / serious
+                                 :degree (v / very))
+              :op2 (c / cause-01
+                        :ARG0 (w2 / water
+                                   :ARG0-of (d / dwindle-01
+                                                 :time (s4 / soon))
+                        :ARG1 (f / fear-01
+                                   :ARG0 i
+                                   :ARG1 (t / thing
+                                              :ARG1-of (h / have-degree-91
+                                                            :ARG2 (b2 / bad)
+                                                            :ARG3 (m / most)))))))))
+
+F: 0.39999999999999997
+EN:
+# ::id lpp_1943.638 ::date 2012-11-08T09:11:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am drinking , " replied the tippler , with a lugubrious air .
+# ::save-date Tue Apr 16, 2013 ::file lpp_1943_638.txt
+(r / reply-01
+      :ARG0 (p / person
+            :ARG0-of (t / tipple-01))
+      :ARG2 (d / drink-01
+            :ARG0 p)
+      :manner (l / lugubrious))
+Translated DE:
+# ::id lpp_de.37 ::annotator CO
+# ::snt " Ich saufe " , antwortete finster der Säufer .
+(a / answer-01
+    :ARG0 (d / drunkard)
+    :manner (s / sinister)
+    :ARG1 (d2 / drink-01
+              :ARG0 d))
+
+F: 0.39999999999999997
+EN:
+# ::id bolt12_6455_6561.31 ::date 2012-12-01T18:26:23 ::annotator SDL-AMR-09 ::preferred
+# ::snt Without strength, where does peace come from!
+# ::save-date Mon Nov 2, 2015 ::file bolt12_6455_6561_31.txt
+(c / come-03
+      :ARG1 (p / peace)
+      :ARG2 (a / amr-unknown)
+      :condition (s / strong-02 :polarity -))
+Translated DE:
+# ::id bolt12_6455_6561.31 ::date 2012-12-01T18:26:23 ::annotator SDL-AMR-09 ::preferred
+# ::snt Doch wo kommt Frieden her, wenn man keine Kraft hat?
+(c / contrast-01
+      :ARG1 (c2 / come-01
+            :ARG1 (p / peace)
+            :ARG3 (a / amr-unknown)
+      :ARG2 (f / force :polarity -)))
+
+F: 0.4
+EN:
+# ::id lpp_1943.454 ::date 2012-11-11T14:58:07 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I ask your forgiveness .
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_454.txt
+(a / ask-02
+      :ARG0 (i / i)
+      :ARG1 (f / forgive-01
+            :ARG0 y
+            :ARG1 i)
+      :ARG2 (y / you))
+Translated DE:
+# ::id lpp_de.20 ::annotator CO
+# ::snt Bitte verzeih mir .
+(f / forgive-01
+    :polite +
+    :ARG1 (i / i))
+
+F: 0.4000000000000001
+EN:
+# ::id nw.chtb_0324.10 ::date 2012-12-29T21:48:54 ::annotator SDL-AMR-09 ::preferred
+# ::snt At home , they carry out indoor training mostly .
+# ::save-date Mon Oct 23, 2017 ::file nw_chtb_0324_10.txt
+(t / trainieren-01
+      :ARG2 (s / sie)
+      :location (h / Halle)
+      :mod (m / meistens)
+      :location (z / zuhause))
+Translated DE:
+# ::id nw.chtb_0324.10 ::date 2012-12-29T21:48:54 ::annotator SDL-AMR-09 ::preferred
+# ::snt Zu Hause trainieren sie meistens in der Halle.
+(t / train-01
+      :ARG2 (t2 / they)
+      :location (h / hall)
+      :mod (u / usually)
+      :location (h2 / home))
+
+F: 0.4210526315789474
+EN:
+# ::id DF-200-192400-625_7806.18 ::date 2013-09-08T05:50:17 ::annotator SDL-AMR-09 ::preferred
+# ::snt The doctors gave her medication and it's made her much better.
+# ::save-date Sat Oct 7, 2017 ::file DF-200-192400-625_7806_18.txt
+(a / and
+      :op1 (g / give-01
+            :ARG0 (d / doctor)
+            :ARG1 (m2 / medication)
+            :ARG2 (s / she))
+      :op2 (m / make-02
+            :ARG0 m2
+            :ARG1 (g2 / good-02
+                  :ARG1 s
+                  :ARG2-of (h / have-degree-91
+                        :ARG1 s
+                        :ARG3 (m3 / more
+                              :quant (m4 / much))))))
+Translated DE:
+# ::id DF-200-192400-625_7806.18 ::date 2013-09-08T05:50:17 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sie bekam Medikamente und nun geht es ihr viel besser.
+(a / and
+      :op1 (g / get-01
+            :ARG1 (m / medicine)
+            :ARG2 (s / she))
+      :op2 (b / better-01 
+            :time (n / now)
+            :ARG0 s
+            :degree (m2 / much)))
+
+F: 0.42857142857142855
+EN:
+# ::id lpp_1943.122 ::date 2012-07-31T08:48:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt Which is your planet ? "
+# ::save-date Tue Jul 31, 2012 ::file lpp_1943_122.txt
+(p / planet
+      :poss (y / you)
+      :domain (a / amr-unknown))
+Translated DE:
+# ::id lpp_de.6 ::annotator CO
+# ::snt Von welchem Planeten stammst du ?
+(o / originate-01
+    :ARG1 (y / you)
+    :ARG2 (p / planet
+              :location (a / amr-unknown)))
+
+F: 0.42857142857142855
+EN:
+# ::id lpp_1943.477 ::date 2012-11-11T17:59:12 ::annotator ISI-AMR-05 ::preferred
+# ::snt Now go ! "
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_477.txt
+(g / go-02 :mode imperative
+      :ARG0 (y / you)
+      :time (n / now))
+Translated DE:
+# ::id lpp_de.21 ::annotator CO
+# ::snt Mach dich auf den Weg !
+(g / go-01
+    :mode imperative
+    :ARG0 (y / you)
+    :ARG3 (w / way))
+
+F: 0.42857142857142855
+EN:
+# ::id nw.chtb_0325.6 ::date 2012-12-29T22:32:54 ::annotator SDL-AMR-09 ::preferred
+# ::snt Her performance was 303.00 points .
+# ::save-date Tue Nov 21, 2017 ::file nw_chtb_0325_6.txt
+(p2 / point :quant 303.00
+      :domain (p / perform-01
+            :ARG0 (s / she)))
+Translated DE:
+# ::id nw.chtb_0325.6 ::date 2012-12-29T22:32:54 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sie erzielte 303,00 Punkte.
+(a / achieve-01
+    :ARG1 (s / she)
+    :ARG2 (p / point :quant 303.00))
+
+F: 0.4444444444444444
+EN:
+# ::id DF-200-192400-625_7200.15 ::date 2013-09-06T00:55:38 ::annotator SDL-AMR-09 ::preferred
+# ::snt So maybe you are dyspraxic or have short tendons.
+# ::save-date Mon Nov 2, 2015 ::file DF-200-192400-625_7200_15.txt
+(p / possible-01
+      :ARG1 (o / or
+            :op1 (d / dyspraxic
+                  :domain y)
+            :op2 (h / have-03
+                  :ARG0 (y / you)
+                  :ARG1 (t / tendon
+                        :ARG1-of (s2 / short-07))))
+      :mod (s / so))
+Translated DE:
+# ::id DF-200-192400-625_7200.15 ::date 2013-09-06T00:55:38 ::annotator SDL-AMR-09 ::preferred
+# ::snt Vielleicht leidest Du auch unter Dyspraxie oder hast verkürzte Sehnen.
+(p / possible-00
+      :ARG1 (o / or
+            :op1 (s / suffer-01
+                  :ARG0 (y / you)
+                  :ARG1 (d / dyspraxia)
+                  :mod (a / also))
+            :op2 (h / have-01
+                  :ARG0 y
+                  :ARG1 (t / tendon
+                        :mod (s2 / short)))))
+
+F: 0.4444444444444445
+EN:
+# ::id lpp_1943.500 ::date 2012-11-13T15:40:06 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is years since I have seen anyone yawning .
+# ::save-date Wed Apr 10, 2013 ::file lpp_1943_500.txt
+(p / pass-03
+      :ARG1 (y3 / year)
+      :time (s3 / since
+            :op1 (s / see-01
+                  :ARG0 (i / i)
+                  :ARG1 (a / anyone
+                        :ARG0-of (y / yawn-01)))))
+Translated DE:
+# ::id lpp_de.28 ::annotator CO
+# ::snt Seit Jahren habe ich niemanden gähnen gesehen .
+(s / see-01
+    :polarity -
+    :ARG0 (i / i)
+    :ARG1 (y / yawn-01
+              :ARG0 (n / nobody))
+    :time (y2 / year
+              :mod (m / much)))
+
+F: 0.4444444444444445
+EN:
+# ::id wb.eng_0003.31 ::date 2012-09-23T17:26:51 ::annotator ISI-AMR-01 ::preferred
+# ::snt I 'd usually take the pro-road position -
+# ::save-date Fri Jul 24, 2015 ::file wb_eng_0003_31.txt
+(t / take-01
+      :ARG0 (i / i)
+      :ARG1 (p / position-02
+            :ARG0 i
+            :ARG2 (f / favor-01
+                  :ARG1 (r / road)))
+      :mod (u / usual))
+Translated DE:
+# ::id wb.eng_0003.31 ::date 2012-09-23T17:26:51 ::annotator ISI-AMR-01 ::preferred
+# ::Ich würde normalerweise die Pro-Straßen-Position einnehmen -
+(p / prefer-01
+      :ARG1 (t / take-01
+                  :ARG0 (i / i)
+                  :ARG1 (p2 / position
+                        :mod (r / road)
+                        :mod (p3 / pro))
+                  :mod (n / normally)))
+
+F: 0.4736842105263158
+EN:
+# ::id DF-200-192400-625_6344.21 ::date 2013-09-06T04:04:10 ::annotator SDL-AMR-09 ::preferred
+# ::snt Does she even have a history of mental illness or a diagnosis?
+# ::save-date Sat Sep 23, 2017 ::file DF-200-192400-625_6344_21.txt
+(h / have-03
+      :ARG0 (s / she)
+      :ARG1 (o / or
+            :op1 (h2 / history
+                  :consist-of (i / ill-01
+                        :ARG1 s
+                        :ARG2 (m / mental)))
+            :op2 (d / diagnose-01
+                  :ARG1 s))
+      :mod (e / even)
+      :polarity (a / amr-unknown))
+Translated DE:
+# ::id DF-200-192400-625_6344.21 ::date 2013-09-06T04:04:10 ::annotator SDL-AMR-09 ::preferred
+# ::snt Hat sie überhaupt eine psychische Krankheitsgeschichte oder eine Diagnose?
+(h / have-01
+      :ARG0 (s / she)
+      :ARG1 (o / or
+            :op1 (h2 / history
+                  :mod (d / disease)
+                  :mod (m / mental))
+            :op2 (d2 / diagnosis)
+      :mod (e / ever)
+      :polarity (a / amr-unknown)))
+
+F: 0.47619047619047616
+EN:
+# ::id wb.eng_0003.46 ::date 2012-09-28T09:05:57 ::annotator ISI-AMR-01 ::preferred
+# ::snt 5:26 makes a good point .
+# ::save-date Fri Oct 13, 2017 ::file wb_eng_0003_46.txt
+(p / point-04
+      :ARG0 (p3 / person :wiki - :name (n / name :op1 "5:26"))
+      :ARG1-of (g / good-02))
+Translated DE:
+# ::id wb.eng_0003.46 ::date 2012-09-28T09:05:57 ::annotator ISI-AMR-01 ::preferred
+# ::snt 5:26 spricht einen wichtigen Punkt an.
+(a / address-01
+      :ARG0 (p / person :name (n / name :op1 "5:26"))
+      :ARG1 (p2 / point 
+            :mod (w / important)))
+
+F: 0.48000000000000004
+EN:
+# ::id DF-200-192400-625_7744.10 ::date 2013-09-07T08:52:51 ::annotator SDL-AMR-09 ::preferred
+# ::snt I really dont know what to do, and am afraid of going to the GP.
+# ::save-date Thu Oct 8, 2015 ::file DF-200-192400-625_7744_10.txt
+(a / and
+      :op1 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 i))
+            :ARG1-of (r / real-04))
+      :op2 (f / fear-01
+            :ARG0 i
+            :ARG1 (g / go-02
+                  :ARG0 i
+                  :ARG4 (p2 / practitioner
+                        :mod (g2 / general)))))
+Translated DE:
+# ::id DF-200-192400-625_7744.10 ::date 2013-09-07T08:52:51 ::annotator SDL-AMR-09 ::preferred
+# ::snt Ich weiß wirklich nicht, was ich tun soll, und habe Angst, zum Hausarzt zu gehen.
+(a / and
+      :op1 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :mod (r / really)
+            :ARG1 (r2 / recommend-01
+                  :ARG1 (d / do-01
+                        :ARG0 i)))
+      :op2 (h / have-01
+            :ARG0 i
+            :ARG1 (f / fear-01)
+            :ARG1-of (c / cause-01
+                  :ARG0 (g / go-01
+                        :ARG0 i
+                        :ARG1 (d2 / doctor)))))
+
+F: 0.48484848484848486
+EN:
+# ::id lpp_1943.482 ::date 2012-11-11T18:30:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt He began , therefore , by visiting them , in order to add to his knowledge .
+# ::save-date Thu Oct 16, 2014 ::file lpp_1943_482.txt
+(b / begin-01
+      :ARG0 (h / he)
+      :ARG2 (v / visit-01
+            :ARG0 h
+            :ARG1 (t2 / they))
+      :mod (t / therefore)
+      :purpose (a / add-02
+            :ARG0 v
+            :ARG2 (k / knowledge
+                  :poss h)))
+Translated DE:
+# ::id lpp_de.22 ::annotator CO
+# ::snt So begann er , ihnen einen Besuch abzustatten, um sich zu beschäftigen und sich schlau zu machen . 
+(b / begin-01
+    :ARG0 (h / he)
+    :ARG1 (v / visit-01
+              :ARG1 (t / they))
+    :purpose (a / and
+                 :op1 (b2 / busy-01
+                          :ARG0 h)
+                 :op2 (l / learn-01
+                          :ARG0 h)))
+
+F: 0.5
+EN:
+# ::id lpp_1943.489 ::date 2012-11-12T14:54:39 ::annotator ISI-AMR-05 ::preferred
+# ::snt To them , all men are subjects .
+# ::save-date Tue May 7, 2013 ::file lpp_1943_489.txt
+(o / opine-01
+      :ARG0 (t2 / they)
+      :ARG1 (s2 / subject
+            :domain (m2 / man
+                  :mod (a2 / all))))
+Translated DE:
+# ::id lpp_de.23 ::annotator CO
+# ::snt Alle Menschen sind Untertanen.
+*check plurals and variables in original deamr
+(s / subject
+    :domain (h / human
+                :mod (a / all)))
+
+F: 0.5
+EN:
+# ::id lpp_1943.517 ::date 2012-11-16T13:42:02 ::annotator ISI-AMR-05 ::preferred
+# ::snt " May I sit down ? " came now a timid inquiry from the little prince .
+# ::save-date Mon Sep 18, 2017 ::file lpp_1943_517.txt
+(i / inquire-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (t2 / truth-value
+            :polarity-of (p2 / permit-01
+                  :ARG1 (s / sit-down-02
+                        :ARG1 p)))
+      :manner (t / timid)
+      :time (n / now))
+Translated DE:
+
+# ::id lpp_de.30 ::annotator CO
+# ::snt " Darf ich mich setzen ? " , fragte der kleine Prinz zaghaft .
+(a / ask-01
+    :ARG0 (p / prince
+              :mod (s / small))
+    :ARG1 (p2 / permit-01
+              :ARG1 (s2 / sit-01
+                        :ARG0 p)
+              :polarity (a2 / amr-unknown))
+    :manner (t / timid))
+
+F: 0.5
+EN:
+# ::id DF-200-192400-625_7557.23 ::date 2013-09-07T04:57:40 ::annotator SDL-AMR-09 ::preferred
+# ::snt Are you on any drugs or getting any therapy?
+# ::save-date Sat Sep 23, 2017 ::file DF-200-192400-625_7557_23.txt
+(o / or
+      :op1 (y2 / you
+            :prep-on (d / drug
+                  :mod (a / any)))
+      :op2 (g / get-01
+            :ARG0 d
+            :ARG1 (t / therapy
+                  :mod (a2 / any)))
+      :polarity (a3 / amr-unknown))
+Translated DE:
+# ::id DF-200-192400-625_7557.23 ::date 2013-09-07T04:57:40 ::annotator SDL-AMR-09 ::preferred
+# ::snt Nimmst Du Medikamente oder bist Du in Behandlung?
+(o / or 
+      :op1 (t / take-01
+            :ARG0 (d / you)
+            :ARG1 (m / medication))
+      :op2 (b / be-01
+            :ARG0 d
+            :ARG1 (t2 / treatment))
+      :polarity (a / amr-unknown))
+
+F: 0.52
+EN:
+# ::id DF-200-192400-625_7744.8 ::date 2013-09-07T08:41:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt I feel if I lost my wallet or phone, then I'm doomed or so I feel.
+# ::save-date Thu Sep 12, 2013 ::file DF-200-192400-625_7744_8.txt
+(o / or
+      :op1 (f / feel-02
+            :ARG0 (i / i)
+            :ARG1 (h / have-condition-91
+                  :ARG1 (d / doom-01
+                        :ARG1 i)
+                  :ARG2 (l / lose-02
+                        :ARG0 i
+                        :ARG1 (o2 / or
+                              :op1 (w / wallet
+                                    :poss i)
+                              :op2 (p / phone
+                                    :poss i)))))
+      :op2 (f2 / feel-02
+            :ARG0 i
+            :ARG1 d))
+Translated DE:
+# ::id DF-200-192400-625_7744.8 ::date 2013-09-07T08:41:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt Ich habe das Gefühl, dass ich verloren wäre, wenn ich mein Portemonnaie oder mein Handy verlieren würde.
+(h / have-01
+      :ARG0 (i / i)
+      :ARG1 (f / feeling)
+      :ARG1-of (h2 / have-condition-91
+            :ARG1 (b / be-01
+                  :ARG0 i
+                  :ARG1 (l / lost))
+            :ARG2 (l2 / lose-01
+                  :ARG0 i
+                  :ARG1 (o2 / or
+                        :op1 (p / purse
+                              :poss i)
+                        :op2 (c / cellphone
+                              :poss i)))))
+
+F: 0.5217391304347826
+EN:
+# ::id lpp_1943.445 ::date 2012-11-11T13:55:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt He believed that he would never want to return .
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_445.txt
+(b / believe-01
+      :ARG0 (h / he)
+      :ARG1 (w / want-01 :polarity -
+            :ARG0 h
+            :ARG1 (r / return-01
+                  :ARG1 h)
+            :time (e / ever)))
+Translated DE:
+# ::id lpp_de.19 ::annotator CO
+# ::snt Er dachte , er würde nie wiederkommen .
+(t / think-01
+    :ARG0 (h / he)
+    :ARG1 (r / return-01
+              :polarity -
+              :ARG1 h
+              :time (e / ever)))
+
+F: 0.5454545454545454
+EN:
+# ::id lpp_1943.196 ::date 2012-08-07T10:27:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt But I am not at all sure of success .
+# ::save-date Sat Dec 23, 2017 ::file lpp_1943_196.txt
+(c / contrast-01
+      :ARG2 (s / sure-02 :polarity -
+            :ARG0 (i / i)
+            :degree (a / at-all)
+            :ARG1-of (s2 / succeed-01
+                  :ARG0 i)))
+Translated DE:
+# ::id lpp_de.13 ::annotator CO
+# ::snt Aber ich bin nicht sicher , ob ich es schaffe .
+(c / contrast-01
+    :ARG2 (s / sure
+              :polarity -
+              :ARG1 (i / i)
+              :ARG2 (a / achieve-01
+                        :ARG0 i)))
+
+F: 0.5500000000000002
+EN:
+# ::id DF-199-194215-653_0484.14 ::date 2013-09-01T12:50:57 ::annotator SDL-AMR-09 ::preferred
+# ::snt You can't give in to that or it will just escalate.
+# ::save-date Sun Sep 15, 2013 ::file DF-199-194215-653_0484_14.txt
+(o3 / obligate-01
+      :ARG1 (g2 / give-in-09 :polarity -
+            :ARG0 (y / you)
+            :ARG1 (t / that))
+      :ARG1-of (c2 / cause-01
+            :ARG0 (e / escalate-01
+                  :ARG1 (i / it)
+                  :mod (j / just)
+                  :condition (g3 / give-in-09
+                        :ARG0 y
+                        :ARG1 t))))
+Translated DE:
+# ::id DF-199-194215-653_0484.14 ::date 2013-09-01T12:50:57 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sie dürfen ihm nicht nachgeben, sonst könnte die Situation eskalieren.
+(p / permit-01
+      :ARG1 (y / yield-01 :polarity -
+            :ARG0 (s / she)
+            :ARG1 (h / he))
+      :ARG1-of (c / cause-01
+            :ARG0 (e / escalate-01
+                  :ARG1 (s2 / situation)
+                  :condition (y2 / yield-01
+                        :ARG0 s
+                        :ARG1 e))))
+
+F: 0.5517241379310344
+EN:
+# ::id lpp_1943.394 ::date 2012-11-25T08:31:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I think it is time for breakfast , " she added an instant later .
+# ::save-date Tue Sep 19, 2017 ::file lpp_1943_394.txt
+(a / add-01
+      :ARG0 (s / she)
+      :ARG1 (t / think-01
+            :ARG0 s
+            :ARG1 (t2 / time
+                  :purpose (b / breakfast-01)))
+      :time (a2 / after
+            :quant (i / instant)))
+Translated DE:
+# ::id lpp_de.16 ::annotator CO
+# ::snt " Es ist bald Zeit zum Frühstücken " , fügte sie kurz darauf hinzu . 
+(a / add-01
+    :ARG0 (s / she)
+    :ARG1 (t / time
+              :purpose (b / breakfast-01)
+              :time (s2 / soon))
+    :time (o / on
+              :degree (s3 / short)))
+
+F: 0.5517241379310344
+EN:
+# ::id lpp_1943.493 ::date 2012-11-13T14:36:14 ::annotator ISI-AMR-05 ::preferred
+# ::snt " It is contrary to etiquette to yawn in the presence of a king , " the monarch said to him .
+# ::save-date Mon Apr 29, 2013 ::file lpp_1943_493.txt
+(s / say-01
+      :ARG0 (m / monarch)
+      :ARG1 (c / contrary-01
+            :ARG1 (y / yawn-01
+                  :location (k / king))
+            :ARG2 (e / etiquette))
+      :ARG2 (h / he))
+Translated DE:
+# ::id lpp_de.25 ::annotator CO
+# ::snt " Es ist ein grober Verstoß gegen die Etikette, in der Gegenwart eines Königs zu gähnen" , sagte der Monarch .
+*where is Königs represented?
+(s / say-01
+    :ARG0 (m / monarch)
+    :ARG1 (t / transgress-01
+              :ARG1 (e / etiquette
+                        :consist-of (y / yawn-01
+                                        :location (n / next
+                                                     :op1 m))
+              :mod (c / coarse))))
+
+F: 0.5714285714285714
+EN:
+# ::id lpp_1943.1298 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Give me some of it to drink ... "
+# ::save-date Mon May 13, 2013 ::file lpp_1943_1298.txt
+(g / give-01
+  :ARG0 (y / you)
+  :ARG1 (t / thing
+          :ARG1-of (i3 / include-91
+                     :ARG2 (i / it))
+          :quant (s / some))
+  :ARG2 (i2 / i)
+  :mode imperative
+  :purpose (d / drink-01
+             :ARG0 i2
+             :ARG1 t))
+Translated DE:
+# ::id lpp_de.50 ::annotator CO
+# ::snt Gib mir zu trinken .
+(g / give-01
+    :mode imperative
+    :ARG0 (y / you)
+    :ARG1 (d / drink-01)
+    :ARG2 (i / i))
+
+F: 0.5925925925925926
+EN:
+# ::id lpp_1943.497 ::date 2012-11-13T15:12:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I have come on a long journey , and I have had no sleep ... "
+# ::save-date Thu Jun 4, 2015 ::file lpp_1943_497.txt
+(a / and
+      :op1 (c / come-01
+            :ARG1 (i / i)
+            :ARG2 (j / journey-01
+                  :ARG0 i
+                  :ARG1-of (l / long-03)))
+      :op2 (s / sleep-01 :polarity -
+            :ARG0 i))
+Translated DE:
+# ::id lpp_de.27 ::annotator CO
+# ::snt Ich hatte eine lange Reise und habe nicht geschlafen .
+(a / and
+    :op1 (t / travel-01
+             :ARG0 (i / i)
+             :degree (l / long))
+    :op2 (s / sleep-01
+             :polarity -
+             :ARG0 i))
+
+F: 0.5925925925925927
+EN:
+# ::id lpp_1943.182 ::date 2012-07-31T13:39:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt But certainly , for us who understand life , figures are a matter of indifference .
+# ::save-date Wed Apr 17, 2013 ::file lpp_1943_182.txt
+(c2 / contrast-01
+  :ARG2 (c / certain
+          :domain (i2 / indifferent-01
+                    :ARG1 (w2 / we
+                            :ARG0-of (u / understand-01
+                                       :ARG1 (l / life)))
+                    :ARG2 (f2 / figure))))
+Translated DE:
+# ::id lpp_de.10 ::annotator CO
+# ::snt Aber wir , die das Leben verstehen , lachen natürlich über Zahlen !
+(c / contrast-01
+    :ARG0 (w / we
+              :ARG0-of (u / understand-01
+                           :ARG1 (l / life))
+    :ARG2 (l2 / laugh-01
+              :ARG0 w
+              :ARG2 (n / number))))
+
+F: 0.5957446808510639
+EN:
+# ::id lpp_1943.150 ::date 2012-07-31T11:42:19 ::annotator ISI-AMR-05 ::preferred
+# ::snt When an astronomer discovers one of these he does not give it a name , but only a number .
+# ::save-date Tue Jun 3, 2014 ::file lpp_1943_150.txt
+(g / give-01
+      :ARG0 (a / astronomer)
+      :ARG1 (n2 / number)
+      :ARG2 (t / thing :quant 1
+            :ARG1-of (i / include-91
+                  :ARG2 (t2 / this)))
+      :mod (o2 / only)
+      :time (d / discover-01
+            :ARG0 a
+            :ARG1 t)
+      :ARG1-of (i2 / instead-of-91
+            :ARG2 (n3 / name-01
+                  :ARG0 a
+                  :ARG1 t)))
+Translated DE:
+# ::id lpp_de.8 ::annotator CO
+# ::snt Wenn ein Astronom einen von ihnen entdeckt , so gibt er ihm eine Nummer anstelle eines Namens .
+(h / have-condition-91
+     :ARG1 (g / give-01
+               :ARG0 (a / astronomer)
+               :ARG1 (i / instead-of-91
+                          :ARG1 (n / number)
+                          :ARG2 (n2 / name))
+     :ARG2 (d / discover-01
+               :ARG0 a
+               :ARG1 (t / thing
+                          :quant 1
+                          :ARG1-of (i2 / include-91
+                                        :ARG2 (t2 / them))))))
+
+F: 0.5999999999999999
+EN:
+# ::id DF-200-192400-625_7557.27 ::date 2013-09-07T05:42:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt if you keep it bottled up inside it's likely to only get worse.
+# ::save-date Tue Jan 23, 2018 ::file DF-200-192400-625_7557_27.txt
+(l / likely-01
+      :ARG1 (w / worsen-01
+            :ARG1 i2
+            :mod (o / only))
+      :condition (k / keep-01
+            :ARG0 (y / you)
+            :ARG1 (i2 / it
+                  :ARG1-of (b / bottle-up-02)
+                  :location (i3 / inside))))
+Translated DE:
+# ::id DF-200-192400-625_7557.27 ::date 2013-09-07T05:42:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt Wenn Du alles in Dich hineinfrisst, wird es wahrscheinlich nur schlimmer werden.
+(p / possible-00
+      :ARG1 (w / worsen-01
+            :ARG1 a
+            :mod (o / only))
+      :condition (t / take-on-09
+            :ARG0 (d / you)
+            :ARG1 (a / all)))
+
+F: 0.5999999999999999
+EN:
+# ::id DF-200-192400-625_7557.27 ::date 2013-09-07T05:42:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt if you keep it bottled up inside it's likely to only get worse.
+# ::save-date Tue Jan 23, 2018 ::file DF-200-192400-625_7557_27.txt
+(l / likely-01
+      :ARG1 (w / worsen-01
+            :ARG1 i2
+            :mod (o / only))
+      :condition (k / keep-01
+            :ARG0 (y / you)
+            :ARG1 (i2 / it
+                  :ARG1-of (b / bottle-up-02)
+                  :location (i3 / inside))))
+Translated DE:
+# ::id DF-200-192400-625_7557.27 ::date 2013-09-07T05:42:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt wenn Du alles in Dich hineinfrisst, wird es wahrscheinlich nur schlimmer werden.
+*Repeated sentence
+(p / possible-00
+      :ARG1 (w / worsen-01
+            :ARG1 a
+            :mod (n / only))
+      :condition (t / take-on-09
+            :ARG0 (d / you)
+            :ARG1 (a / all)))
+
+F: 0.6
+EN:
+# ::id lpp_1943.944 ::date 2012-11-17T19:51:01 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is unnecessary .
+# ::save-date Sat Nov 17, 2012 ::file lpp_1943_944.txt
+(n / need-01
+  :ARG1 (i / it)
+  :polarity -)
+Translated DE:
+# ::id lpp_de.46 ::annotator CO
+# ::snt Es ist zwecklos .
+(p / purpose-01
+    :ARG1 (i / it)
+    :polarity -)
+
+F: 0.6
+EN:
+# ::id DF-200-192400-625_6344.20 ::date 2013-09-05T03:19:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt You can't get her sectioned for that.
+# ::save-date Tue Jul 21, 2015 ::file DF-200-192400-625_6344_20.txt
+(p / possible-01 :polarity -
+      :ARG1 (g / get-04
+            :ARG0 (y / you)
+            :ARG1 (s / section-02
+                  :ARG1 (s2 / she)
+                  :ARG1-of (c / cause-01
+                        :ARG0 (t / that)))))
+Translated DE:
+# ::id DF-200-192400-625_6344.20 ::date 2013-09-05T03:19:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt Du kannst Sie deshalb nicht einweisen lassen.
+(p / permit-01 :polarity -
+      :ARG1 (l / let-01
+            :ARG0 (y / you)
+            :ARG1 (i / instruct-01
+                  :ARG1 (t / they)
+                  :ARG1-of (c / cause-01
+                        :ARG0 (t2 / therefore)))))
+
+F: 0.6046511627906976
+EN:
+# ::id lpp_1943.627 ::date 2012-11-26T20:08:34 ::annotator ISI-AMR-05 ::preferred
+# ::snt " To admire mean that you regard me as the handsomest , the best - dressed , the richest , and the most intelligent man on this planet . "
+# ::save-date Wed Sep 20, 2017 ::file lpp_1943_627.txt
+(m / mean-01
+      :ARG1 (a / admire-01)
+      :ARG2 (r / regard-01
+            :ARG0 (y / you)
+            :ARG1 (i / i)
+            :ARG2 (m6 / man
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG2 (h / handsome)
+                        :ARG3 (m2 / most)
+                        :ARG5 (p2 / planet
+                              :mod (t / this)))
+                  :ARG1-of (h3 / have-degree-91
+                        :ARG2 (w2 / well-09
+                              :ARG1 (d / dress-01
+                                    :ARG1 m6))
+                        :ARG3 (m3 / most)
+                        :ARG5 p2)
+                  :ARG1-of (h4 / have-degree-91
+                        :ARG2 (r2 / rich)
+                        :ARG3 (m4 / most)
+                        :ARG5 p2)
+                  :ARG1-of (h5 / have-degree-91
+                        :ARG2 (i2 / intelligent-01
+                              :ARG1 m6)
+                        :ARG3 (m5 / most)
+                        :ARG5 p2))))
+Translated DE:
+# ::id lpp_de.36 ::annotator CO
+# ::snt Verehren bedeutet , zuzugeben , dass ich der schönste , am besten gekleidete , reichste und intelligenteste Mensch auf dem Planeten bin .
+(m / mean-01
+    :ARG1 (w / worship-01)
+    :ARG2 (a / admit-01
+              :ARG1 (i / i
+                        :ARG1-of (h / have-degree-91
+                                     :ARG2 (b / beautiful)
+                                     :ARG3 (m4 / most)
+                                     :ARG5 (h5 / human
+                                               :location (p / planet))
+                        :ARG1-of (h2 / have-degree-91
+                                      :ARG2 (d / dress-01)
+                                      :ARG3 (b2 / best)
+                                      :ARG5 h5)
+                        :ARG1-of (h3 / have-degree-91
+                                      :ARG2 (r / rich)
+                                      :ARG3 (m2 / most)
+                                      :ARG5 h5)
+                        :ARG1-of (h4 / have-degree-91
+                                      :ARG2 (i2 / intelligent)
+                                      :ARG3 (m3 / most)
+                                      :ARG5 h5)))))
+
+F: 0.6086956521739131
+EN:
+# ::id lpp_1943.191 ::date 2012-08-07T07:39:32 ::annotator ISI-AMR-05 ::preferred
+# ::snt Not every one has had a friend .
+# ::save-date Fri Apr 18, 2014 ::file lpp_1943_191.txt
+(h / have-03 :polarity -
+      :ARG0 (e / everyone)
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 e
+                  :ARG2 (f / friend))))
+Translated DE:
+# ::id lpp_de.12 ::annotator CO
+# ::snt Nicht jeder hat einen Freund gehabt .
+(h / have-01
+    :ARG0 (e / each :polarity -)
+    :ARG1 (p / person
+              :ARG0-of (h2 / have-rel-role-91
+                           :ARG2 (f / friend))))
+
+F: 0.6190476190476191
+EN:
+# ::id lpp_1943.757 ::date 2012-11-13T16:26:17 ::annotator ISI-AMR-05 ::preferred
+# ::snt There was just enough room on it for a street lamp and a lamplighter .
+# ::save-date Fri Sep 22, 2017 ::file lpp_1943_757.txt
+(h / have-quant-91
+      :ARG1 (r / room
+            :location (i2 / it))
+      :ARG3 (e / enough
+            :mod (j / just))
+      :ARG6 (a2 / accommodate-01
+            :ARG0 r
+            :ARG1 (a / and
+                  :op1 (l / lamp
+                        :mod (s / street))
+                  :op2 (p / person
+                        :ARG0-of (l2 / light-04
+                              :ARG1 (l3 / lamp))))))
+Translated DE:
+# ::id lpp_de.42 ::annotator CO
+# ::snt Es gab gerade genug Platz für eine Straßenlaterne und einen Laternenanzünder .
+(h / have-quant-91
+    :ARG1 (p / place)
+    :ARG3 (e / enough
+              :mod (s / straight))
+    :ARG6 (a / accommodate-01
+              :ARG0 p
+              :ARG1 (a2 / and
+                        :op1 (s2 / streetlight)
+                        :op2 (l / lantern))))
+
+F: 0.625
+EN:
+# ::id DF-200-192400-625_7744.3 ::date 2013-09-07T06:20:11 ::annotator SDL-AMR-09 ::preferred
+# ::snt Why is this!?
+# ::save-date Sun Jan 31, 2016 ::file DF-200-192400-625_7744_3.txt
+(c / cause-01
+      :ARG0 (a / amr-unknown)
+      :ARG1 (t / this))
+Translated DE:
+# ::id DF-200-192400-625_7744.3 ::date 2013-09-07T06:20:11 ::annotator SDL-AMR-09 ::preferred
+# ::snt Warum bin ich so?
+*Repeated sentence
+(c / cause-01
+      :ARG0 (a / amr-unknown)
+      :ARG1 (b / be-01)
+            :ARG0 (i / i)
+            :mod (s2 / so))
+
+F: 0.6363636363636364
+EN:
+# ::id DF-199-194215-653_0484.19 ::date 2013-09-01T18:57:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt Meet all kinds of people.
+# ::save-date Tue Nov 3, 2015 ::file DF-199-194215-653_0484_19.txt
+(m / meet-03 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (k / kind
+            :mod (p / person)
+            :mod (a / all)))
+Translated DE:
+# ::id DF-199-194215-653_0484.19 ::date 2013-09-01T18:57:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt Lernen Sie alle möglichen Leute kennen.
+(m / meet-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / people
+            :mod (a / all)
+                  :mod (p2 / possible)))
+
+F: 0.6363636363636365
+EN:
+# ::id DF-200-192400-625_7744.14 ::date 2013-09-07T10:15:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt What advice could you give me?
+# ::save-date Sat Sep 7, 2013 ::file DF-200-192400-625_7744_14.txt
+(a / advise-01
+      :ARG0 (y / you)
+      :ARG1 (i / i)
+      :ARG2 (a2 / amr-unknown)
+      :ARG1-of (p / possible-01))
+Translated DE:
+# ::id DF-200-192400-625_7744.14 ::date 2013-09-07T10:15:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt Welchen Rat könnt Ihr mir geben?
+(p / possible-01
+      :ARG1 (g / give-01
+            :ARG0 (y / you)
+            :ARG1 (i / i)
+            :ARG2 (c2 / council :mod (a / amr-unknown))))
+
+F: 0.6428571428571429
+EN:
+# ::id DF-200-192400-625_7806.8 ::date 2013-09-08T03:18:21 ::annotator SDL-AMR-09 ::preferred
+# ::snt See if I can speak to a counsellor?
+# ::save-date Wed Jan 24, 2018 ::file DF-200-192400-625_7806_8.txt
+(s / see-01
+      :ARG0 i
+      :ARG1 (s2 / speak-01
+            :ARG0 (i / i)
+            :ARG2 (p / person
+                  :ARG0-of (c / counsel-01))
+            :ARG1-of (p2 / possible-01))
+      :polarity (a / amr-unknown))
+Translated DE:
+# ::id DF-200-192400-625_7806.8 ::date 2013-09-08T03:18:21 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sollte ich vielleicht mit einem Therapeuten sprechen?
+(r / recommend-01
+      :ARG0 (i / i)
+      :ARG1 (s / speak-01
+            :ARG0 i 
+            :ARG1 (p / person
+                        :ARG0-of (t / therapy-01)))
+      :polarity (a / amr-unknown))
+
+F: 0.6666666666666666
+EN:
+# ::id lpp_1943.1260 ::annotator ISI-AMR-05 ::preferred
+# ::snt But it cast an enchantment over that house .
+# ::save-date Mon May 13, 2013 ::file lpp_1943_1260.txt
+(c / contrast-01
+  :ARG2 (c2 / cast-01
+          :ARG0 (i / it)
+          :ARG1 (e / enchant-01)
+          :ARG2 (h / house
+                  :mod (t / that))))
+Translated DE:
+# ::id llp_de.87 ::annotator CO
+# ::snt Aber er verzauberte dieses ganze Haus .
+(c / contrast-01
+  :ARG2 (e / cast-01
+          :ARG0 (h / he)
+          :ARG2 (h2 / house
+                  :mod (t / this)
+                  :mod (w / whole))))
+
+F: 0.6666666666666667
+EN:
+# ::id DF-200-192400-625_6344.15 ::date 2013-09-05T11:37:49 ::annotator SDL-AMR-09 ::preferred
+# ::snt It should be so much better. B
+# ::save-date Fri Dec 22, 2017 ::file DF-200-192400-625_6344_15.txt
+(r / recommend-01
+      :ARG1 (h / have-degree-91
+            :ARG1 i
+            :ARG2 (g / good-02
+                  :ARG1 (i / it))
+            :ARG3 (m / more
+                  :ARG1-of (h2 / have-quant-91
+                        :ARG2 (m2 / much)
+                        :ARG3 (s / so)))))
+Translated DE:
+# ::id DF-200-192400-625_6344.15 ::date 2013-09-05T11:37:49 ::annotator SDL-AMR-09 ::preferred
+# ::snt Es sollte so viel besser sein. 
+(r / recommend-01
+      :mod (s / so)
+      :ARG1 (h / have-degree-91
+            :ARG1 (i / it)
+            :ARG2 (b / better-01
+                  :ARG1 i)
+            :ARG3 (m / much)))
+
+F: 0.6666666666666667
+EN:
+# ::id DF-200-192400-625_7557.31 ::date 2013-09-07T05:53:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt its hard but you can do it.
+# ::save-date Sat Jul 25, 2015 ::file DF-200-192400-625_7557_31.txt
+(c / contrast-01
+      :ARG1 (h / hard-02
+            :ARG1 (i2 / it))
+      :ARG2 (p / possible-01
+            :ARG1 (d / do-02
+                  :ARG0 (y / you)
+                  :ARG1 i2)))
+Translated DE:
+# ::id DF-200-192400-625_7557.31 ::date 2013-09-07T05:53:47 ::annotator SDL-AMR-09 ::preferred
+# ::snt es ist schwierig, aber Du schaffst das.
+(c / contrast-01
+      :ARG1 (d / difficult-00
+            :ARG1 (i / it))
+      :ARG2 (a / achieve-01
+            :ARG0 (y / you)
+            :ARG1 i))
+
+F: 0.6875
+EN:
+# ::id lpp_1943.578 ::date 2012-11-25T19:15:20 ::annotator ISI-AMR-05 ::preferred
+# ::snt It is much more difficult to judge oneself than to judge others .
+# ::save-date Tue Oct 10, 2017 ::file lpp_1943_578.txt
+(h / have-degree-91
+      :ARG1 (j / judge-01
+            :ARG0 (o / one)
+            :ARG1 o)
+      :ARG2 (d / difficult)
+      :ARG3 (m / more
+            :quant (m2 / much))
+      :ARG4 (j2 / judge-01
+            :ARG1 (o2 / other)))
+Translated DE:
+# ::id lpp_de.33 ::annotator CO
+# ::snt Es ist viel schwerer, über sich selbst zu richten , als über andere zu urteilen .
+(h / have-degree-91
+    :ARG1 (t / turn-01
+              :ARG0 (s / self)
+              :ARG1 s)
+    :ARG2 (h2 / heavy)
+    :ARG3 (m / much)
+    :ARG4 (j / judge-01
+              :ARG1 (o / other)))
+
+F: 0.6896551724137931
+EN:
+# ::id DF-199-194215-653_0484.30 ::date 2013-09-01T19:44:20 ::annotator SDL-AMR-09 ::preferred
+# ::snt Get a lawyer and get a divorce.
+# ::save-date Sun Sep 1, 2013 ::file DF-199-194215-653_0484_30.txt
+(a / and
+      :op1 (g / get-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (l / lawyer))
+      :op2 (d / divorce-01 :mode imperative
+            :ARG0 y))
+Translated DE:
+
+# ::id DF-199-194215-653_0484.30 ::date 2013-09-01T19:44:20 ::annotator SDL-AMR-09 ::preferred
+# ::snt Holen Sie sich einen Anwalt und lassen Sie sich scheiden.
+(a / and
+      :op1 (g / get-01
+            :ARG0 (y / you :polite +)
+            :ARG1 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG2 (l / lawyer))))
+      :op2 (d / divorce-01
+            :ARG0 y))
+
+F: 0.6923076923076923
+EN:
+# ::id nw.chtb_0324.13 ::date 2012-12-29T21:54:03 ::annotator SDL-AMR-09 ::preferred
+# ::snt They still lack experience in international competitions .
+# ::save-date Tue Dec 17, 2013 ::file nw_chtb_0324_13.txt
+(l / lack-01
+      :ARG0 (t / they)
+      :ARG1 (e / experience-01
+            :ARG0 t
+            :ARG1 (c / compete-01
+                  :mod (i / international)))
+      :time (s / still))
+Translated DE:
+# ::id nw.chtb_0324.13 ::date 2012-12-29T21:54:03 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sie haben noch wenig Erfahrung bei internationalen Wettkämpfen.
+(h / have-01
+      :ARG0 (t / they)
+      :ARG1 (e / experience-01
+            :ARG0 t
+            :ARG1 (c / competition
+                  :mod (i / international))
+      :time (s / still)))
+
+F: 0.6956521739130435
+EN:
+# ::id lpp_1943.64 ::date 2012-07-24T13:07:59 ::annotator ISI-AMR-05 ::preferred
+# ::snt He answered me : " That does n't matter .
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_64.txt
+(a / answer-01
+  :ARG0 (h / he)
+  :ARG1 (i / i)
+  :ARG2 (m2 / matter-01
+          :ARG1 (t / that)
+          :polarity -))
+Translated DE:
+# ::id lpp_de.2 ::annotator CO
+# ::snt Er antwortete mir : " Das macht nichts . "
+(a / answer-01
+    :ARG0 (h / he)
+    :ARG1 (i / i)
+    :ARG2 (m / make-01
+              :ARG0 (t / that)
+              :ARG1 (n / nothing)))
+
+F: 0.7
+EN:
+# ::id lpp_1943.190 ::date 2012-08-07T07:24:50 ::annotator ISI-AMR-05 ::preferred
+# ::snt To forget a friend is sad .
+# ::save-date Sun Jul 26, 2015 ::file lpp_1943_190.txt
+(s / sad-02
+      :ARG0 (f3 / forget-01
+            :ARG1 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG2 (f / friend)))))
+Translated DE:
+# ::id lpp_de.11 ::annotator CO
+# ::snt Es ist traurig einen Freund zu vergessen .
+*Is this how AMR normally represents "friend"? 
+(m / mourn-01
+    :ARG1 (f / forget-01
+              :ARG1 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                                      :ARG2 (f2 / friend)))))
+
+F: 0.7
+EN:
+# ::id DF-200-192400-625_7744.4 ::date 2013-09-07T06:22:51 ::annotator SDL-AMR-09 ::preferred
+# ::snt Am I going crazy or something?
+# ::save-date Sat Sep 23, 2017 ::file DF-200-192400-625_7744_4.txt
+(o / or
+      :op1 (c / craze-01
+            :ARG1 (i / i))
+      :op2 (s / something)
+      :polarity (a / amr-unknown))
+Translated DE:
+# ::id DF-200-192400-625_7744.4 ::date 2013-09-07T06:22:51 ::annotator SDL-AMR-09 ::preferred
+# ::snt Werde ich verrückt oder so?
+(o / or
+      :op1 (c / crazy
+            :domain (i / i))
+      :op2 (s / so)
+      :polarity (a / amr-unknown))
+
+F: 0.7
+EN:
+# ::id DF-199-194215-653_0484.20 ::date 2013-09-01T18:59:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt Do what you want.
+# ::save-date Sun Sep 8, 2013 ::file DF-199-194215-653_0484_20.txt
+(d / do-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (w / want-01
+                  :ARG0 y)))
+Translated DE:
+# ::id DF-199-194215-653_0484.20 ::date 2013-09-01T18:59:42 ::annotator SDL-AMR-09 ::preferred
+# ::snt Tun Sie das, was Sie möchten.
+(d / do-01 
+      :ARG0 (y / you :polite +)
+      :ARG1 (t / thing
+            :ARG1-of (w / want-01
+                  :ARG0 y)))
+
+F: 0.7272727272727273
+EN:
+# ::id DF-200-192400-625_6344.18 ::date 2013-09-05T03:16:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt Thanks for reading.
+# ::save-date Sun Sep 8, 2013 ::file DF-200-192400-625_6344_18.txt
+(t / thank-01
+      :ARG1 (y / you)
+      :ARG2 (r / read-01
+            :ARG0 y))
+Translated DE:
+# ::id DF-200-192400-625_6344.18 ::date 2013-09-05T03:16:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt Danke fürs Lesen!
+(t / thank-01
+      :ARG2 (r / read-01))
+
+F: 0.7333333333333334
+EN:
+# ::id DF-200-192400-625_7744.12 ::date 2013-09-07T09:36:20 ::annotator SDL-AMR-09 ::preferred
+# ::snt Do any of you have a similar 'ritual'?
+# ::save-date Mon Jan 20, 2014 ::file DF-200-192400-625_7744_12.txt
+(h / have-03 :polarity (a2 / amr-unknown)
+      :ARG0 (p / person
+            :ARG1-of (i / include-91
+                  :ARG2 (y / you))
+            :mod (a / any))
+      :ARG1 (r / ritual
+            :ARG1-of (r2 / resemble-01)))
+Translated DE:
+# ::id DF-200-192400-625_7744.12 ::date 2013-09-07T09:36:20 ::annotator SDL-AMR-09 ::preferred
+# ::snt Hat jemand von euch ein ähnliches "Ritual"?
+(h / have-01 :polarity (a2 / amr-unknown)
+      :ARG0 (s / someone
+            :ARG1-of (i / include-91
+                  :ARG2 (y / you)))
+      :ARG1 (r / ritual
+            :ARG1-of (r2 / resemble-01)))
+
+F: 0.7499999999999999
+EN:
+# ::id DF-200-192400-625_6344.24 ::date 2013-09-06T04:38:34 ::annotator SDL-AMR-09 ::preferred
+# ::snt If it's not someone in your family, it's an outsider.
+# ::save-date Wed May 7, 2014 ::file DF-200-192400-625_6344_24.txt
+(h / have-condition-91
+      :ARG1 (o / outsider)
+      :ARG2 (s / someone :polarity -
+            :part-of (f / family
+                  :ARG1-of (h2 / have-org-role-91
+                        :ARG0 (y / you)
+                        :ARG2 (m / member)))))
+Translated DE:
+# ::id DF-200-192400-625_6344.24 ::date 2013-09-06T04:38:34 ::annotator SDL-AMR-09 ::preferred
+# ::snt Wenn es nicht jemand aus der Familie ist, dann ist es ein Außenstehender.
+(h / have-condition-91
+      :ARG1 (o / outsider)
+      :ARG2 (j / someone :polarity -
+            :part-of (f / family)))
+
+F: 0.75
+EN:
+# ::id wb.eng_0003.29 ::date 2012-09-20T21:58:53 ::annotator ISI-AMR-01 ::preferred
+# ::snt Additional traffic congestion in old places ?
+# ::save-date Mon Sep 18, 2017 ::file wb_eng_0003_29.txt
+(c / congest-01
+      :ARG2 (t / traffic)
+      :location (p / place
+            :mod (o / old))
+      :mod (a2 / additional)
+      :polarity (a / amr-unknown))
+Translated DE:
+# ::id wb.eng_0003.29 ::date 2012-09-20T21:58:53 ::annotator ISI-AMR-01 ::preferred
+# ::snt Zusätzliche Verkehrsstaus an alten Orten?
+(j / jam-01
+      :ARG0 (t / traffic)
+      :location (p / place
+            :mod (o / old))
+      :mod (a / additional)
+      :polarity (a2 / amr-unknown))
+
+F: 0.75
+EN:
+# ::id DF-200-192400-625_7557.36 ::date 2013-09-07T06:04:50 ::annotator SDL-AMR-09 ::preferred
+# ::snt You can overcome it.
+# ::save-date Sat Sep 7, 2013 ::file DF-200-192400-625_7557_36.txt
+(p / possible-01
+      :ARG1 (o / overcome-01
+            :ARG0 (y / you)
+            :ARG1 (i / it)))
+Translated DE:
+# ::id DF-200-192400-625_7557.36 ::date 2013-09-07T06:04:50 ::annotator SDL-AMR-09 ::preferred
+# ::snt Du kannst es überwinden.
+(c / can-01
+      :ARG1 (o / overcome-01
+            :ARG0 (y / you)
+            :ARG1 (i / it)))
+
+F: 0.75
+EN:
+# ::id bolt12_6455_6562.19 ::date 2012-12-02T08:19:24 ::annotator SDL-AMR-09 ::preferred
+# ::snt Smoke and clouds chase the flying waves
+# ::save-date Sun Dec 2, 2012 ::file bolt12_6455_6562_19.txt
+(c / chase-01
+  :ARG0 (a / and
+          :op1 (s / smoke)
+          :op2 (c2 / cloud))
+  :ARG1 (w / wave
+          :ARG1-of (f / fly-01)))
+Translated DE:
+# ::id bolt12_6455_6562.19 ::date 2012-12-02T08:19:24 ::annotator SDL-AMR-09 ::preferred
+# ::snt Rauch und Wolken jagen die fliegenden Wellen.
+# ::save-date Sun Dec 2, 2012 ::file bolt12_6455_6562_19.txt
+(h / hunt-01
+  :ARG0 (a / and
+          :op1 (s / smoke)
+          :op2 (c / clouds))
+  :ARG1 (w / wave
+          :ARG1-of (f / fly-01)))
+
+F: 0.76
+EN:
+# ::id DF-200-192392-456_1160.1 ::date 2013-09-01T19:54:19 ::annotator SDL-AMR-09 ::preferred
+# ::snt The bus drivers want exact change, the till people want exact change, the people who deliver your food want exact change...
+# ::save-date Sun Sep 1, 2013 ::file DF-200-192392-456_1160_1.txt
+(w / want-01
+      :ARG0 (a / and
+            :op1 (p / person
+                  :ARG0-of (d / drive-01
+                        :ARG1 (b / bus)))
+            :op2 (p2 / person
+                  :location (t / till))
+            :op3 (p3 / person
+                  :ARG0-of (d2 / deliver-01
+                        :ARG1 (f / food
+                              :poss (y / you)))))
+      :ARG1 (c / change
+            :mod (e / exact)))
+Translated DE:
+# ::id DF-200-192392-456_1160.1 ::date 2013-09-01T19:54:19 ::annotator SDL-AMR-09 ::preferred
+# ::snt Busfahrer möchten die passende Summe, Kassierer möchten die passende Summe, Essenslieferanten möchten die passende Summe...
+(w / want-01
+      :ARG0 (a / and
+            :op1 (p / person
+                  :ARG0-of (d / drive-01
+                        :ARG1 (b / bus)))
+            :op1 (p2 / person
+                  :ARG0-of (c / collect-01))
+            :op3 (p3 / person
+                  :ARG0-of (d2 / deliver-01
+                        :ARG1 (f / food))))
+      :ARG1 (s / sum
+            :mod (a2 / appropriate)))
+
+F: 0.7692307692307692
+EN:
+# ::id DF-200-192400-625_6344.17 ::date 2013-09-05T03:13:50 ::annotator SDL-AMR-09 ::preferred
+# ::snt And I don't know what to do.
+# ::save-date Thu Sep 5, 2013 ::file DF-200-192400-625_6344_17.txt
+(a / and
+      :op2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :ARG1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 i))))
+Translated DE:
+# ::id DF-200-192400-625_6344.17 ::date 2013-09-05T03:13:50 ::annotator SDL-AMR-09 ::preferred
+# ::snt Und ich weiß nicht mehr, was ich tun soll.
+(a / and
+      :op2 (k / know-01 :polarity -
+            :ARG0 (i / i)
+            :mod (m / more)
+            :ARG1 (r / recommend-01
+                  :ARG1-of (d / do-01
+                        :ARG0 i))))
+
+F: 0.7777777777777778
+EN:
+# ::id lpp_1943.288 ::date 2012-11-18T16:25:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt But the little prince made no reply .
+# ::save-date Sun Dec 9, 2012 ::file lpp_1943_288.txt
+(c / contrast-01
+      :ARG2 (r / reply-01 :polarity -
+            :ARG0 (p / prince
+                  :mod (l / little))))
+Translated DE:
+# ::id lpp_de.14 ::annotator CO
+# ::snt Aber der kleine Prinz antwortete nicht .
+(c / contrast-01
+    :ARG2 (a / answer-01
+              :polarity -
+              :ARG0 (p / prince
+                        :mod (s / small))))
+
+F: 0.7826086956521738
+EN:
+# ::id lpp_1943.1189 ::date 2012-11-27T10:44:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt " They are in a great hurry , " said the little prince .
+# ::save-date Tue May 7, 2013 ::file lpp_1943_1189.txt
+(s / say-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (h / hurry-01
+            :ARG1 (t / they)
+            :degree (g / great)))
+Translated DE:
+# ::id lpp_de.48 ::annotator CO
+# ::snt " Sie haben es aber eilig " , sagte der kleine Prinz .
+(s / say-01
+    :ARG0 (p / prince
+              :mod (s2 / small))
+    :ARG1 (h / hurry-01
+              :mode surprised
+              :ARG1 (t / they)))
+
+F: 0.782608695652174
+EN:
+# ::id lpp_1943.43 ::date 2012-07-24T11:16:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt Thus you can imagine my amazement , at sunrise , when I was awakened by an odd little voice .
+# ::save-date Mon May 13, 2013 ::file lpp_1943_43.txt
+(c / cause-01
+      :ARG1 (p / possible-01
+            :ARG1 (i2 / imagine-01
+                  :ARG0 (y / you)
+                  :ARG1 (a / amaze-01
+                        :ARG1 (i / i)
+                        :time (s / sunrise
+                              :time-of (w / wake-01
+                                    :ARG0 (v / voice
+                                          :mod (o / odd)
+                                          :mod (l / little))
+                                    :ARG1 i))))))
+Translated DE:
+# ::id lpp_de.1 ::annotator CO
+# ::snt So könnt ihr euch vorstellen , wie überrascht ich war , als ich bei Sonnenaufgang von einer leisen , lustigen Stimme geweckt wurde .
+(c / cause-01
+     :ARG1 (p / possible-01
+                :ARG1 (i / imagine-01
+                           :ARG0 (y / you)
+                           :ARG1 (s / surprise-01
+                                      :ARG0 (w / wake-01
+                                                 :ARG0 (v / voice
+                                                            :mod (q / quiet)
+                                                            :mod (f / funny)
+                                                            :ARG1 i)
+                                                 :time (s2 / sunrise))
+                                      :ARG1 (i2 / i)))))
+
+F: 0.8181818181818182
+EN:
+# ::id DF-200-192400-625_7200.5 ::date 2013-09-06T00:29:10 ::annotator SDL-AMR-09 ::preferred
+# ::snt You guys know what I mean.
+# ::save-date Tue Mar 10, 2015 ::file DF-200-192400-625_7200_5.txt
+(k / know-01
+      :ARG0 (y / you
+            :mod (g / guy))
+      :ARG1 (t / thing
+            :ARG2-of (m / mean-01
+                  :ARG0 (i / i))))
+Translated DE:
+# ::id DF-200-192400-625_7200.5 ::date 2013-09-06T00:29:10 ::annotator SDL-AMR-09 ::preferred
+# ::snt Ihr wisst, was ich meine.
+(k / know-01
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (m / mean-01
+                  :ARG0 (i / i))))
+
+F: 0.8181818181818182
+EN:
+# ::id nw.chtb_0325.5 ::date 2012-12-29T22:31:52 ::annotator SDL-AMR-09 ::preferred
+# ::snt Occupying the second position is the US competitor , Richard .
+# ::save-date Tue Dec 17, 2013 ::file nw_chtb_0325_5.txt
+(o / occupy-01
+      :ARG0 (p2 / person :wiki -
+            :name (n / name :op1 "Richard")
+            :mod (c2 / country :wiki "United_States"
+                  :name (n2 / name :op1 "United" :op2 "States"))
+            :ARG0-of (c3 / compete-01))
+      :ARG1 (p3 / position
+            :ord (o2 / ordinal-entity :value 2)))
+Translated DE:
+# ::id nw.chtb_0325.5 ::date 2012-12-29T22:31:52 ::annotator SDL-AMR-09 ::preferred
+# ::snt Den zweiten Platz belegt die Konkurrentin aus den USA, Richard.
+(r / rank-01
+      :ARG0 (p2 / person :wiki -
+            :name (n / name :op1 "Richard")
+            :mod (c / country :wiki "United_States"
+                  :name (n2 / name :op1 "United" :op2 "States"))
+            :mod (c2 / competitor))
+      :ARG1 (p3 / position
+            :ord (o2 / ordinal-entity :value 2)))
+
+F: 0.8275862068965518
+EN:
+# ::id lpp_1943.722 ::date 2012-11-12T15:23:11 ::annotator ISI-AMR-05 ::preferred
+# ::snt When you find a diamond that belongs to nobody , it is yours .
+# ::save-date Wed May 15, 2013 ::file lpp_1943_722.txt
+(b / belong-01
+      :ARG0 d
+      :ARG1 (y / you)
+      :condition (f / find-01
+            :ARG0 y
+            :ARG1 (d / diamond
+                  :ARG0-of (b2 / belong-01
+                        :ARG1 (n / nobody)))))
+Translated DE:
+# ::id lpp_de.41 ::annotator CO
+# ::snt Wenn du einen Diamanten findest , der niemandem gehört , so gehört er dir .
+(b / belong-01
+    :ARG0 (d / diamond
+              :ARG0-of (b2 / belong-01
+                           :polarity -
+                           :ARG0 (s / someone)))
+    :ARG1 (y / you)
+    :condition (f / find-01
+                   :ARG0 y
+                   :ARG1 d))
+
+F: 0.8333333333333334
+EN:
+# ::id DF-200-192400-625_6344.16 ::date 2013-09-05T11:39:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt but I feel as if I have no control over this downhill spiral.
+# ::save-date Mon Jan 20, 2014 ::file DF-200-192400-625_6344_16.txt
+(c / contrast-01
+      :ARG2 (f / feel-01
+            :ARG0 (i / i)
+            :ARG1-of (r / resemble-01
+                  :ARG2 (c2 / control-01 :polarity -
+                        :ARG0 i
+                        :ARG1 (s / spiral
+                              :direction (d / downhill)
+                              :mod (t / this))))))
+Translated DE:
+# ::id DF-200-192400-625_6344.16 ::date 2013-09-05T11:39:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt Aber ich fühle mich, als hätte ich keine Kontrolle über diese Abwärtsspirale.
+(c / contrast-01
+      :ARG2 (f / feel-01
+            :ARG0 (i / i)
+            :ARG1 (s / similar-01
+                  :ARG2 (c2 / control-01 :polarity -
+                        :ARG0 i
+                        :ARG1 (s2 / spiral
+                              :direction (d / down)
+                              :mod (t / this))))))
+
+F: 0.8421052631578948
+EN:
+# ::id DF-200-192400-625_6677.3 ::date 2013-09-06T10:17:41 ::annotator SDL-AMR-09 ::preferred
+# ::snt they show absolutely no respect.
+# ::save-date Fri Sep 6, 2013 ::file DF-200-192400-625_6677_3.txt
+(s / show-01
+      :ARG0 (t / they)
+      :ARG1 (r / respect-01 :polarity -
+            :ARG0 t
+            :mod (a / absolute)))
+Translated DE:
+# ::id DF-200-192400-625_6677.3 ::date 2013-09-06T10:17:41 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sie zeigen absolut keinen Respekt.
+(s / show-01
+      :ARG0 (t / they)
+      :ARG1 (r / respect :polarity -
+            :mod (a / absolute)))
+
+F: 0.8666666666666666
+EN:
+# ::id lpp_1943.1046 ::date 2012-11-11T14:20:47 ::annotator ISI-AMR-05 ::preferred
+# ::snt " I am right here , " the voice said , " under the apple tree . "
+# ::save-date Sun Dec 20, 2015 ::file lpp_1943_1046.txt
+(s / say-01
+      :ARG0 (v / voice)
+      :ARG1 (i / i
+            :location (h / here
+                  :location (u / under
+                        :op1 (t / tree
+                              :mod (a / apple)))
+                  :mod (r / right))))
+Translated DE:
+# ::id lpp_de.47 ::annotator CO
+# ::snt " Hier bin ich " , sagte die Stimme , " unter dem Apfelbaum . "
+(s / say-01
+    :ARG0 (v / voice)
+    :ARG1 (i / i
+              :location (h / here)
+              :location (u / under
+                            :op1 (b / tree 
+                                    :mod (a / apple)))))
+
+F: 0.8695652173913043
+EN:
+# ::id DF-199-194215-653_0484.1 ::date 2013-08-30T09:02:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt I am 24 and a mother of a 2 and a half year old.
+# ::save-date Tue Apr 29, 2014 ::file DF-199-194215-653_0484_1.txt
+(a / and
+      :op1 (a2 / age-01
+            :ARG1 (i / i)
+            :ARG2 (t / temporal-quantity :quant 24
+                  :unit (y2 / year)))
+      :op2 (h / have-rel-role-91
+            :ARG0 i
+            :ARG1 (p / person
+                  :age (t3 / temporal-quantity :quant 2.5
+                              :unit (y / year)))
+            :ARG2 (m / mother)))
+Translated DE:
+# ::id DF-199-194215-653_0484.1 ::date 2013-08-30T09:02:09 ::annotator SDL-AMR-09 ::preferred
+# ::snt Ich bin 24 Jahre alt und Mutter eines zweieinhalbjährigen Kindes.
+# ::save-date Tue Apr 29, 2014 ::file DF-199-194215-653_0484_1.txt
+(a / and
+      :op1 (a2 / age-01
+            :ARG1 (i / i)
+            :ARG2 (t / time-quant :quant 24
+                  :unit (y / year)))
+      :op2 (h / have-rel-role-91
+            :ARG0 i
+            :ARG1 (p / person
+                  :age (t3 / time-quant :quant 2.5
+                              :unit (y2 / year))
+            :ARG2 (m / mother))))
+
+F: 0.88
+EN:
+# ::id lpp_1943.438 ::date 2012-11-11T13:02:46 ::annotator ISI-AMR-05 ::preferred
+# ::snt But , as he said , " One never knows ! "
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_438.txt
+(c / contrast-01
+      :ARG2 (s / say-01
+            :ARG0 (h / he)
+            :ARG1 (k / know-01 :polarity -
+                  :ARG0 (o / one))))
+Translated DE:
+# ::id lpp_de.17 ::annotator CO
+# ::snt Aber er sagte sich : Man weiß ja nie !
+(c / contrast-01
+    :ARG2 (s / say-01
+              :ARG0 (h / he)
+              :ARG1 (k / know-01
+                        :polarity -
+                        :ARG0 (o / one)
+                        :time (e / ever))
+              :ARG2 h))
+
+F: 0.888888888888889
+EN:
+# ::id lpp_1943.118 ::date 2012-07-31T08:38:53 ::annotator ISI-AMR-05 ::preferred
+# ::snt That is funny ! "
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_118.txt
+(f2 / funny
+  :domain (t2 / that))
+Translated DE:
+# ::id lpp_de.5 ::annotator CO
+# ::snt Das ist ja lustig !
+(f / funny
+    :mode surprised
+    :domain (t / that))
+
+F: 0.8928571428571429
+EN:
+# ::id nw.chtb_0318.4 ::date 2012-12-11T23:21:52 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sportsmen , coaches , doctors , nurses and officials of the delegation sat neatly below the stage .
+# ::save-date Mon Dec 16, 2013 ::file nw_chtb_0318_4.txt
+(s / sit-01
+      :ARG1 (a / and
+            :op1 (s2 / sportsman)
+            :op2 (p / person
+                  :ARG0-of (c / coach-01))
+            :op3 (d / doctor)
+            :op4 (n / nurse)
+            :op5 (p2 / person
+                  :ARG0-of (h / have-org-role-91
+                        :ARG1 (d2 / delegation)
+                        :ARG2 (o2 / official))))
+      :location (b / below
+            :op1 (s3 / stage))
+      :manner (n2 / neat))
+Translated DE:
+# ::id nw.chtb_0318.4 ::date 2012-12-11T23:21:52 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sportler, Trainer, Ärzte, Krankenschwestern und Beamte der Delegation saßen dicht unterhalb der Bühne.
+(s / sit-01
+      :ARG1 (a / and
+            :op1 (a2 / athlete)
+            :op2 (p / person
+                  :ARG0-of (e / exercise-01))
+            :op3 (d / doctor)
+            :op4 (n / nurse)
+            :op5 (p2 / person
+                  :ARG0-of (h / have-org-role-91
+                        :ARG1 (d2 / delegation)
+                        :ARG2 (o / official))))
+      :location (b / below
+            :op1 (s2 / stage))
+      :manner (d3 / dense))
+
+F: 0.9
+EN:
+# ::id lpp_1943.72 ::date 2012-07-24T13:22:24 ::annotator ISI-AMR-05 ::preferred
+# ::snt Where I live , everything is very small .
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_72.txt
+(s / small
+  :degree (v / very)
+  :domain (e / everything)
+  :location (l2 / live-01
+              :ARG0 (i / i)))
+Translated DE:
+# ::id lpp_de.4 ::annotator CO
+# ::snt Da , wo ich lebe , ist alles sehr klein .
+(s / small
+    :domain (a / all)
+    :degree (v / very)
+    :location (l / live-01
+                  :ARG0 (i / i)))
+
+F: 0.9
+EN:
+# ::id lpp_1943.441 ::date 2012-11-11T13:19:28 ::annotator ISI-AMR-05 ::preferred
+# ::snt Volcanic eruptions are like fires in a chimney .
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_441.txt
+(e / erupt-01
+      :ARG1 (v / volcano)
+      :ARG1-of (r / resemble-01
+            :ARG2 (f / fire
+                  :location (c / chimney))))
+Translated DE:
+# ::id lpp_de.18 ::annotator CO
+# ::snt Vulkanische Ausbrüche sind so wie Kaminbrände .
+(r / resemble-01
+    :ARG1 (e / erupt-01
+              :ARG1 (v / volcano))
+    :ARG2 (f / fire
+              :location (c / chimney)))
+
+F: 0.9090909090909091
+EN:
+# ::id DF-199-194215-653_0484.2 ::date 2013-09-01T11:08:33 ::annotator SDL-AMR-09 ::preferred
+# ::snt Me and my son's father have been broken up since August.
+# ::save-date Thu Feb 11, 2016 ::file DF-199-194215-653_0484_2.txt
+(b / break-up-08
+      :ARG1 (i / i)
+      :ARG3 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 i
+                              :ARG2 (s3 / son)))
+                  :ARG2 (f / father)))
+      :time (s2 / since
+            :op1 (d / date-entity :month 8)))
+Translated DE:
+# ::id DF-199-194215-653_0484.2 ::date 2013-09-01T11:08:33 ::annotator SDL-AMR-09 ::preferred
+# ::snt Ich und der Vater meines Sohnes sind seit August getrennt.
+(d / disconnect-01
+      :ARG1 (i / i)
+      :ARG3 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 i
+                              :ARG2 (s3 / son)))
+                  :ARG2 (f / father)))
+      :time (s2 / since
+            :op1 (d2 / date-entity :month 8)))
+
+F: 0.9090909090909091
+EN:
+# ::id DF-199-194215-653_0484.29 ::date 2013-09-01T19:42:36 ::annotator SDL-AMR-09 ::preferred
+# ::snt Keep those records.
+# ::save-date Sun Sep 1, 2013 ::file DF-199-194215-653_0484_29.txt
+(k / keep-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (r / record-01)
+            :mod (t2 / that)))
+Translated DE:
+# ::id DF-199-194215-653_0484.29 ::date 2013-09-01T19:42:36 ::annotator SDL-AMR-09 ::preferred
+# ::snt Bewahren Sie diese Aufzeichnungen auf
+(k / keep-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (r / record-01)
+            :mod (t2 / this)))
+
+F: 0.9375
+EN:
+# ::id lpp_1943.1211 ::date 2012-11-27T13:04:09 ::annotator ISI-AMR-05 ::preferred
+# ::snt " Why are you selling those ? " asked the little prince .
+# ::save-date Fri May 10, 2013 ::file lpp_1943_1211.txt
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s / sell-01
+            :ARG0 (y / you)
+            :ARG1 (t / that)
+            :ARG1-of (c / cause-01
+                  :ARG0 (a2 / amr-unknown))))
+Translated DE:
+# ::id llp_de.82 ::annotator CO
+# ::snt " Warum verkaufst du das ? " fragte der kleine Prinz 
+(a / ask-01
+      :ARG0 (p / prince
+            :mod (l / little))
+      :ARG1 (s / sell-01
+            :ARG0 (y / you)
+            :ARG1 (t / this)
+            :ARG1-of (c / cause-01
+                  :ARG0 (a2 / amr-unknown))))
+
+F: 0.9387755102040817
+EN:
+# ::id wb.eng_0003.79 ::date 2012-11-25T17:15:01 ::annotator ISI-AMR-01 ::preferred
+# ::snt I drive past Watkins Landing every morning and evening .
+# ::save-date Mon Sep 9, 2013 ::file wb_eng_0003_79.txt
+(d / drive-01
+      :ARG0 (i / i)
+      :path (p / past
+            :op1 (f / facility :wiki -
+                  :name (w / name :op1 "Watkins" :op2 "Landing")))
+      :frequency (r / rate-entity-91
+            :ARG4 (a / and
+                  :op1 (d2 / date-entity
+                        :dayperiod (m / morning))
+                  :op2 (d3 / date-entity
+                        :dayperiod (e / evening)))))
+Translated DE:
+# ::id wb.eng_0003.79 ::date 2012-11-25T17:15:01 ::annotator ISI-AMR-01 ::preferred
+# ::snt Ich fahre jeden Morgen und Abend an Watkins Landing vorbei.
+(d / drive-01
+      :ARG0 (i / i)
+      :path (b / by
+            :op1 (f / facility :name (n / name :op1 "Watkins" :op2 "Landing")))
+      :frequency (r / rate-entity-91
+            :ARG4 (a / and
+                  :op1 (d2 / date-entity
+                        :dayperiod (m / morning))
+                  :op2 (d3 / date-entity
+                        :dayperiod (e2 / evening)))))
+
+F: 0.9444444444444444
+EN:
+# ::id nw.chtb_0318.3 ::date 2012-12-11T23:21:04 ::annotator SDL-AMR-09 ::preferred
+# ::snt A Japanese flag hung from the Chairman 's stage .
+# ::save-date Fri Jan 3, 2014 ::file nw_chtb_0318_3.txt
+(h / hang-01
+      :ARG1 (f / flag
+            :mod (c2 / country :wiki "Japan"
+                  :name (n / name :op1 "Japan")))
+      :ARG2 (s / stage
+            :poss (p / person
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG2 (c3 / chairman)))))
+Translated DE:
+# ::id nw.chtb_0318.3 ::date 2012-12-11T23:21:04 ::annotator SDL-AMR-09 ::preferred
+# ::snt Eine japanische Flagge hing an der Bühne des Vorsitzenden.
+(h / hang-01
+      :ARG1 (f / flag
+            :mod (c / country :wiki "Japan")
+                  :name (n / name :op1 "Japan"))
+      :ARG2 (s / stage
+            :poss (p / person
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG2 (c2 / chairman)))))
+
+F: 1.0
+EN:
+# ::id lpp_1943.65 ::date 2012-07-24T13:09:35 ::annotator ISI-AMR-05 ::preferred
+# ::snt Draw me a sheep ... "
+# ::save-date Tue Apr 9, 2013 ::file lpp_1943_65.txt
+(d / draw-01
+  :ARG0 (y / you)
+  :ARG1 (s / sheep)
+  :ARG2 (i / i)
+  :mode imperative)
+Translated DE:
+# ::id lpp_de.3 ::annotator CO
+# ::snt Zeichne mir ein Schaf .
+(d / draw-01
+    :mode imperative
+    :ARG0 (y / you)
+    :ARG1 (s / sheep)
+    :ARG2 (i / i))
+
+F: 1.0
+EN:
+# ::id lpp_1943.513 ::date 2012-11-13T16:29:21 ::annotator ISI-AMR-05 ::preferred
+# ::snt He was an absolute monarch .
+# ::save-date Thu Apr 11, 2013 ::file lpp_1943_513.txt
+(m / monarch
+      :mod (a / absolute)
+      :domain (h2 / he))
+Translated DE:
+# ::id lpp_de.29 ::annotator CO
+# ::snt Er war ein absoluter Monarch .
+(m / monarch
+    :mod (a / absolute)
+    :domain (h / he))
+
+F: 1.0
+EN:
+# ::id lpp_1943.649 ::date 2012-11-08T09:44:48 ::annotator ISI-AMR-05 ::preferred
+# ::snt The fourth planet belonged to a businessman .
+# ::save-date Sat May 18, 2013 ::file lpp_1943_649.txt
+(b / belong-01
+      :ARG0 (p / planet
+            :ord (o / ordinal-entity :value 4))
+      :ARG1 (b3 / businessman))
+Translated DE:
+# ::id lpp_de.38 ::annotator CO
+# ::snt Der vierte Planet gehörte einem Geschäftsmann .
+(b / belong-01
+    :ARG0 (p / planet
+              :ord (o / ordinal-entity
+                       :value 4))
+    :ARG1 (b2 / businessman))
+
+F: 1.0
+EN:
+# ::id lpp_1943.1253 ::annotator ISI-AMR-05 ::preferred
+# ::snt I have always loved the desert .
+# ::save-date Thu Nov 29, 2012 ::file lpp_1943_1253.txt
+(l / love-01
+      :ARG0 (i / i)
+      :ARG1 (d / desert)
+      :time (a / always))
+Translated DE:
+# ::id llp_de.84 ::annotator CO
+# ::snt Ich habe die Wüste immer geliebt .
+(l / love-01
+      :ARG0 (i / i)
+      :ARG1 (d / desert)
+      :time (i2 / always))
+
+F: 1.0
+EN:
+# ::id DF-200-192400-625_6677.7 ::date 2013-09-05T03:28:46 ::annotator SDL-AMR-09 ::preferred
+# ::snt Just say no.
+# ::save-date Thu Sep 5, 2013 ::file DF-200-192400-625_6677_7.txt
+(s / say-01
+      :ARG0 (y / you)
+      :ARG1 (n / no)
+      :mod (j / just))
+Translated DE:
+# ::id DF-200-192400-625_6677.7 ::date 2013-09-05T03:28:46 ::annotator SDL-AMR-09 ::preferred
+# ::snt Sag einfach nein.
+(s / say-01
+      :ARG0 (y / you)
+      :ARG1 (n / no)
+      :mod (j / just))
+

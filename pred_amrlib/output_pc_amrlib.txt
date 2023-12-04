@@ -1,0 +1,1956 @@
+# ::snt Hugh McGuire with some books that have not yet been acoustically liberated.
+(p / person
+      :name (n / name
+            :op1 "Hugh"
+            :op2 "McGuire")
+      :accompanier (b / book
+            :quant (s / some)
+            :ARG1-of (l / liberate-01
+                  :polarity -
+                  :manner (a / acoustics)
+                  :time (y / yet))))
+
+# ::snt  The original people of the islands are the Moriori, who were descended from the Maori of mainland New Zealand, but who developed their own culture and variant of the language.
+(p / person
+      :mod (o / original)
+      :mod (ii / island)
+      :domain (p2 / person
+            :name (n / name
+                  :op1 "Moriori")
+            :ARG1-of (d / descend-01
+                  :ARG2 (e / ethnic-group
+                        :name (n2 / name
+                              :op1 "Maori")
+                        :location (m / mainland
+                              :part-of (c / country
+                                    :name (n3 / name
+                                          :op1 "New"
+                                          :op2 "Zealand"))))
+                  :concession-of (d2 / develop-02
+                        :ARG0 p2
+                        :ARG1 (a / and
+                              :op1 (c2 / culture
+                                    :poss p2)
+                              :op2 (v / variant
+                                    :mod (l / language)
+                                    :poss p2))))))
+
+# ::snt  Afghanistan is not one of the nations covered by President Trump's travel ban, but teams from Sudan, Iran, Libya, and Yemen, which are covered, are among the 163 teams in the competition.
+(c / contrast-01
+      :ARG1 (ii / include-91
+            :polarity -
+            :ARG1 (c2 / country
+                  :name (n / name
+                        :op1 "Afghanistan"))
+            :ARG2 (n2 / nation
+                  :ARG1-of (c3 / cover-03
+                        :ARG0 (b / ban-01
+                              :ARG0 (p / person
+                                    :name (n3 / name
+                                          :op1 "Trump")
+                                    :ARG0-of (h / have-org-role-91
+                                          :ARG2 (p2 / president)))
+                              :ARG2 (t / travel-01)))))
+      :ARG2 (ii2 / include-91
+            :ARG1 (a / and
+                  :op1 (t2 / team
+                        :source (c4 / country
+                              :name (n4 / name
+                                    :op1 "Sudan")))
+                  :op2 (t3 / team
+                        :source (c5 / country
+                              :name (n5 / name
+                                    :op1 "Iran")))
+                  :op3 (t4 / team
+                        :source (c6 / country
+                              :name (n6 / name
+                                    :op1 "Libya")))
+                  :op4 (t5 / team
+                        :source (c7 / country
+                              :name (n7 / name
+                                    :op1 "Yemen")))
+                  :ARG1-of (c8 / cover-03))
+            :ARG2 (t6 / team
+                  :quant 163
+                  :ARG0-of (c9 / compete-01))))
+
+# ::snt  By taking this action, I hope that I will have hastened the start of that process of healing which is so desperately needed in America.
+(h / hope-01
+      :ARG0 (ii / i)
+      :ARG1 (h2 / hasten-01
+            :ARG0 ii
+            :ARG1 (s / start-01
+                  :ARG1 (p / process-02
+                        :ARG1 (h3 / heal-01)
+                        :mod (t / that)
+                        :ARG1-of (n / need-01
+                              :ARG1-of (d / desperate-02)
+                              :location (c / country
+                                    :name (n2 / name
+                                          :op1 "America"))
+                              :degree (s2 / so))))
+            :manner (a / act-02
+                  :ARG0 ii
+                  :mod (t2 / this))))
+
+# ::snt  For the remainder of the year, short stays are permitted, which is interpreted by the authorities as a day or a night.
+(p / permit-01
+      :ARG1 (s / stay-01
+            :ARG1-of (s2 / short-07))
+      :time (r / remainder
+            :part-of (y / year))
+      :ARG1-of (ii / interpret-01
+            :ARG0 (a / authority)
+            :ARG2 (o / or
+                  :op1 (d / day)
+                  :op2 (n / night))))
+
+# ::snt  Use a room that isn't used every day such as the formal dining or living room.
+(u / use-01
+      :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (r / room
+            :ARG1-of (u2 / use-01
+                  :polarity -
+                  :frequency (d / day
+                        :mod (e / every)))
+            :example (o / or
+                  :op1 (r2 / room
+                        :location-of (d2 / dine-01
+                              :mod (f / formal)))
+                  :op2 (r3 / room
+                        :location-of (l / live-01)))))
+
+# ::snt  Stardust is a NASA Discovery mission that was launched in 1999.
+(m / mission-01
+      :ARG0 (r / research-institute
+            :name (n / name
+                  :op1 "NASA"))
+      :ARG1 (t / thing
+            :name (n2 / name
+                  :op1 "Stardust"))
+      :name (n3 / name
+            :op1 "Discovery")
+      :ARG1-of (l / launch-01
+            :time (d / date-entity
+                  :year 1999)))
+
+# ::snt  It is one, single message that is collaboratively curated by everybody.
+(m / message
+      :quant 1
+      :ARG1-of (s / single-02)
+      :domain (ii / it)
+      :ARG1-of (c / curate-01
+            :ARG0 (e / everybody)
+            :manner (c2 / collaborate-01)))
+
+# ::snt  The amount of distortion in spacetime depends on the mass of material that is involved and on how concentrated and compact it is.
+(d / depend-01
+      :ARG0 (a / amount
+            :quant-of (d2 / distort-01
+                  :ARG1 (s / space)))
+      :ARG1 (a2 / and
+            :op1 (m / mass
+                  :quant-of (m2 / material
+                        :ARG1-of (ii / involve-01)))
+            :op2 (a3 / and
+                  :op1 (t / thing
+                        :degree-of (c / concentrate-02
+                              :ARG1 m2))
+                  :op2 (t2 / thing
+                        :degree-of (c2 / compact
+                              :domain m2)))))
+
+# ::snt  Socotra takes pride in their eco-tourism and values their spectacular plant and wildlife that may sometimes be only found on this island.
+(a / and
+      :op1 (p / pride-01
+            :ARG0 (ii / island
+                  :name (n / name
+                        :op1 "Socotra"))
+            :ARG2 (t / tourism
+                  :mod (e / ecology)
+                  :poss ii))
+      :op2 (v / value-02
+            :ARG0 ii
+            :ARG1 (a2 / and
+                  :op1 (p2 / plant)
+                  :op2 (w / wildlife)
+                  :mod (s / spectacular)
+                  :ARG1-of (f / find-01
+                        :ARG1-of (p3 / possible-01)
+                        :mod (o / only)
+                        :frequency (s2 / sometimes)
+                        :location (ii2 / island
+                              :mod (t2 / this)))
+                  :poss ii)))
+
+# ::snt  Civil Defense Authority director General Suleiman al-Amr, in remarks to al-Ikhbariya television, said "All those who were wounded and the dead have been taken to hospital. There are no casualties left at the location."
+(m / multi-sentence
+      :snt1 (s / say-01
+            :ARG0 (p / person
+                  :name (n / name
+                        :op1 "Suleiman"
+                        :op2 "al-Amr")
+                  :ARG0-of (h / have-org-role-91
+                        :ARG1 (g / government-organization
+                              :name (n2 / name
+                                    :op1 "Civil"
+                                    :op2 "Defense"
+                                    :op3 "Authority"))
+                        :ARG2 (d / director
+                              :mod (g2 / general))))
+            :ARG1 (t / take-01
+                  :ARG1 (a / and
+                        :op1 (p2 / person
+                              :ARG1-of (w / wound-01))
+                        :op2 (p3 / person
+                              :ARG1-of (d2 / die-01))
+                        :mod (a2 / all))
+                  :ARG3 (h2 / hospital))
+            :time (r / remark-01
+                  :ARG0 p
+                  :ARG2 (t2 / television
+                        :name (n3 / name
+                              :op1 "al-Ikhbariya"))))
+      :snt2 (l / leave-12
+            :polarity -
+            :ARG1 (c / casualty)
+            :location (l2 / location)))
+
+# ::snt  Pack one room at a time if possible, and start with items that are least often used.
+(a / and
+      :op1 (p / pack-01
+            :mode imperative
+            :ARG0 (y / you)
+            :ARG2 (r / room
+                  :quant 1
+                  :mod (a2 / at-a-time))
+            :condition (p2 / possible-01))
+      :op2 (s / start-01
+            :mode imperative
+            :ARG0 y
+            :ARG2 (ii / item
+                  :ARG1-of (u / use-01
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (o / often)
+                              :ARG3 (l / least))))))
+
+# ::snt  Jerome initially used classical authors to describe Christian concepts such as hell that indicated both his classical education and his deep shame of their associated practices, such as pederasty which was found in Rome. [citation needed]
+(u / use-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Jerome"))
+      :ARG1 (p2 / person
+            :ARG0-of (a / author-01)
+            :mod (c / classical))
+      :ARG2 (d / describe-01
+            :ARG0 p
+            :ARG1 (c2 / concept
+                  :mod (r / religious-group
+                        :name (n2 / name
+                              :op1 "Christian"))
+                  :example (h / hell)
+                  :ARG0-of (ii / indicate-01
+                        :ARG1 (a2 / and
+                              :op1 (e / educate-01
+                                    :ARG1 p
+                                    :ARG2 c)
+                              :op2 (s / shame-02
+                                    :ARG0 (p3 / practice-01
+                                          :ARG1-of (a3 / associate-01
+                                                :ARG2 c2)
+                                          :example (p4 / pederasty
+                                                :ARG1-of (f / find-01
+                                                      :location (c3 / city
+                                                            :name (n3 / name
+                                                                  :op1 "Rome")))))
+                                    :ARG1 p
+                                    :ARG1-of (d2 / deep-02))))))
+      :time (ii2 / initial)
+      :ARG0-of (n4 / need-01
+            :ARG1 (t / thing
+                  :ARG1-of (c4 / cite-01))))
+
+# ::snt  Suppose we have an extremely intelligent ant—a friend of the comic book superhero Ant-Man, perhaps—that has been trained to walk in a straight line.
+(s / suppose-01
+      :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (h / have-03
+            :ARG0 (w / we)
+            :ARG1 (a / ant
+                  :ARG1-of (ii / intelligent-01
+                        :degree (e / extreme))
+                  :ARG2-of (t / train-01
+                        :ARG1 (w2 / walk-01
+                              :ARG0 a
+                              :ARG2 (l / line
+                                    :ARG1-of (s2 / straight-04))))
+                  :ARG0-of (h2 / have-rel-role-91
+                        :ARG1 (p / person
+                              :name (n / name
+                                    :op1 "Ant-Man")
+                              :mod (c / comic-book)
+                              :mod (p2 / perhaps))
+                        :ARG2 (f / friend)))))
+
+# ::snt  I regret deeply any injuries that may have been done in the course of the events that led to this decision.
+(r / regret-01
+      :ARG0 (ii / i)
+      :ARG1 (ii2 / injure-01
+            :ARG1-of (p / possible-01)
+            :time (e / event
+                  :ARG0-of (l / lead-03
+                        :ARG2 (d / decide-01
+                              :ARG1 (t / this))))
+            :mod (a / any))
+      :ARG1-of (d2 / deep-02))
+
+# ::snt  There are three general types of lighting that are widely used in the household nowadays: the (light-emitting diode) LED bulb, (compact fluorescent light) CFL bulb and the incandescent bulb.
+(m / multi-sentence
+      :snt1 (t / type
+            :quant 3
+            :ARG1-of (g / general-02)
+            :mod (l / lighting)
+            :ARG1-of (u / use-01
+                  :ARG1-of (w / wide-02)
+                  :location (h / household)
+                  :time (n / nowadays))
+            :domain (a / and
+                  :op1 (b / bulb
+                        :ARG0-of (e / emit-01
+                              :ARG1 (l2 / light)
+                              :mod (d / diode))
+                        :ARG1-of (l3 / light-04
+                              :ARG1 (b2 / bulb
+                                    :mod (f / fluorescent)
+                                    :ARG1-of (c / compact-01)
+                                    :mod (c2 / compact)
+                                    :op2-of a)))
+                  :op3 (b3 / bulb
+                        :mod (ii / incandescent)))))
+
+# ::snt  So this first product that I'm going to show you guys is the Nourished by Shawnta Curl Defining and Soft Hold Styler, which is enriched with sesame seed oil and rose essence.
+(s / show-01
+      :ARG0 (ii / i)
+      :ARG1 (p / product
+            :name (n / name
+                  :op1 "Nourished"
+                  :op2 "by"
+                  :op3 "Shawnta"
+                  :op4 "Curl"
+                  :op5 "Defining"
+                  :op6 "and"
+                  :op7 "Soft"
+                  :op8 "Hold"
+                  :op9 "Styler")
+            :ARG1-of (e / enrich-01
+                  :ARG2 (a / and
+                        :op1 (o / oil
+                              :source (s2 / seed
+                                    :mod (s3 / sesame)))
+                        :op2 (e2 / essence
+                              :source (r / rose))))
+            :ord (o2 / ordinal-entity
+                  :value 1)
+            :mod (t / this))
+      :ARG2 (y / you
+            :mod (g / guy)))
+
+# ::snt  The whore reason prefers to submit to the Devil, adjusts to all situations, and proves everything, that is demanded of her.
+(p / prefer-01
+      :ARG0 (r / reason
+            :mod (w / whore))
+      :ARG1 (a / and
+            :op1 (s / submit-02
+                  :ARG0 r
+                  :ARG2 (p2 / person
+                        :name (n / name
+                              :op1 "Devil")))
+            :op2 (a2 / adjust-01
+                  :ARG0 r
+                  :ARG2 (s2 / situation
+                        :mod (a3 / all)))
+            :op3 (p3 / prove-01
+                  :ARG0 r
+                  :ARG1 (e / everything
+                        :ARG1-of (d / demand-01
+                              :ARG2 r)))))
+
+# ::snt  You know, I mean, he was like, really off into wonderful abstract notions, that were all based in a peaceful world.
+(m / mean-01
+      :ARG0 (ii / i)
+      :ARG2 (b / be-located-at-91
+            :ARG1 (h / he)
+            :ARG2 (o / off
+                  :degree (r / really))
+            :direction (n / notion
+                  :ARG1-of (w / wonderful-03)
+                  :mod (a / abstract)
+                  :ARG1-of (b2 / base-02
+                        :ARG2 (w2 / world
+                              :mod (p / peaceful)))
+                  :mod (a2 / all)))
+      :mod (k / know-06
+            :ARG0 (y / you)))
+
+# ::snt  Padalecki originally auditioned for Welling's role, but gave it up in order to film a pilot titled Young MacGyver which was never picked up. [8]
+(h / have-concession-91
+      :ARG1 (g / give-up-07
+            :ARG0 (p / person
+                  :name (n / name
+                        :op1 "Padalecki"))
+            :ARG1 (r / role
+                  :ARG2-of (h2 / have-org-role-91
+                        :ARG0 (p2 / person
+                              :name (n2 / name
+                                    :op1 "Welling"))))
+            :purpose (f / film-01
+                  :ARG0 p
+                  :ARG1 (t / thing
+                        :ARG1-of (p3 / pilot-01)
+                        :ARG1-of (t2 / title-01
+                              :ARG2 (n3 / name
+                                    :op1 "Young"
+                                    :op2 "MacGyver"))
+                        :ARG1-of (p4 / pick-up-04
+                              :polarity -
+                              :time (e / ever)))))
+      :ARG2 (a / audition-01
+            :ARG0 p
+            :ARG1 p2
+            :mod (o / original))
+      :ARG1-of (d / describe-01
+            :ARG0 (p5 / publication
+                  :ARG1-of (c / cite-01
+                        :ARG2 8))))
+
+# ::snt  Based on many experiments, the L-band is evidenced as the optimal frequency for remote sensing of SSS, which has been adopted by SMOS, Aquarius/SAC-D and SMAP.
+(e / evidence-01
+      :ARG1 (f / frequency
+            :ARG1-of (o / optimal-00
+                  :ARG2 (s / sense-01
+                        :ARG1 (s2 / small-molecule
+                              :name (n / name
+                                    :op1 "SS"))
+                        :mod (r / remote)))
+            :ARG1-of (a / adopt-01
+                  :ARG0 (a2 / and
+                        :op1 (c / company
+                              :name (n2 / name
+                                    :op1 "SMOS"))
+                        :op2 (c2 / company
+                              :name (n3 / name
+                                    :op1 "Aquarius"))
+                        :op3 (c3 / company
+                              :name (n4 / name
+                                    :op1 "SAC-D"))
+                        :op4 (c4 / company
+                              :name (n5 / name
+                                    :op1 "SMAP"))))
+            :domain (b / band
+                  :name (n6 / name
+                        :op1 "L-band")))
+      :ARG1-of (b2 / base-02
+            :ARG2 (e2 / experiment-01
+                  :quant (m / many))))
+
+# ::snt  It is society that establishes, through political processes, the type of economic institutions that are adopted.
+(e / establish-01
+      :ARG0 (s / society)
+      :ARG1 (t / type
+            :mod (ii / institution
+                  :mod (e2 / economy)
+                  :ARG1-of (a / adopt-01)))
+      :manner (p / process-02
+            :ARG1 (p2 / politics)))
+
+# ::snt  For example, the Instruments for Research into Second Languages (IRIS) repository (http://www.irisdatabase.org) was established in 2011 and holds, at the time of writing, over 3,800 materials that can be used for replication, among other purposes, in L2 research (Marsden & Mackey, 2014; Marsden, Mackey, & Plonsky, 2016).
+(m / multi-sentence
+      :snt1 (e / exemplify-01
+            :ARG0 (a / and
+                  :op1 (e2 / establish-01
+                        :ARG1 (r / repository
+                              :name (n / name
+                                    :op1 "Instrument"
+                                    :op2 "for"
+                                    :op3 "Research"
+                                    :op4 "into"
+                                    :op5 "Second"
+                                    :op6 "Languages"))
+                        :time (d / date-entity
+                              :year 2011))
+                  :op2 (h / hold-01
+                        :ARG0 r
+                        :ARG1 (m2 / material
+                              :quant (o / over
+                                    :op1 3000)
+                              :ARG1-of (u / use-01
+                                    :ARG2 (a2 / and
+                                          :op1 (r2 / replicate-01)
+                                          :op2 (p / purpose
+                                                :mod (o2 / other)))
+                                    :ARG1-of (p2 / possible-01)
+                                    :purpose (r3 / research-01
+                                          :ARG1 (t / thing
+                                                :name (n2 / name
+                                                      :op1 "L2")))
+                                    :ARG1-of (d2 / describe-01
+                                          :ARG0 (a3 / and
+                                                :op1 (p3 / publication-91
+                                                      :ARG0 (p4 / person
+                                                            :name (n3 / name
+                                                                  :op1 "Marsden"))
+                                                      :ARG2 (p5 / person
+                                                            :name (n4 / name
+                                                                  :op1 "Mackey"))
+                                                      :time (d3 / date-entity
+                                                            :year 2014))
+                                                :op2 (p6 / publication-91
+                                                      :ARG0 (a4 / and
+                                                            :op1 p4
+                                                            :op2 p5
+                                                            :op3 (p7 / person
+                                                                  :name (n5 / name
+                                                                        :op1 "Plonsky")))
+                                                      :time (d4 / date-entity
+                                                            :year 2016)))))
+                              :time (w / write-01))))))
+
+# ::snt  This is a pretty cool little thing that is posted here at the loop so this Going-To-The-Sun Road is actually considered a national landmark now, how cool.
+(c / cool-04
+      :ARG1 (t / thing
+            :mod (l / little)
+            :mod (t2 / this)
+            :ARG1-of (p / post-01
+                  :ARG2 (h / here
+                        :location (l2 / loop))
+                  :ARG0-of (c2 / cause-01
+                        :ARG1 (c3 / consider-01
+                              :ARG1 (l3 / landmark
+                                    :mod (n / nation)
+                                    :domain (r / road
+                                          :name (n2 / name
+                                                :op1 "Going-To-The-Sun"
+                                                :op2 "Road")
+                                          :mod (t3 / this)))
+                              :ARG1-of (a / actual-02)
+                              :time (n3 / now)))))
+      :degree (p2 / pretty))
+
+# ::snt  Also, there are other sites, notably podiobooks.com, which are better suited to CC works than LibriVox.
+(s / site
+      :mod (o / other)
+      :mod (a / also)
+      :ARG1-of (s2 / suit-01
+            :ARG2 (w / work-12
+                  :mod (t / thing
+                        :name (n / name
+                              :op1 "CC")))
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (g / good-02)
+                  :ARG3 (m / more)
+                  :ARG4 (p / product
+                        :name (n2 / name
+                              :op1 "LibriVox"))))
+      :ARG1-of (n3 / notable-04
+            :ARG2 (u / url-entity
+                  :value "podiobooks.com")))
+
+# ::snt  Somehow we’ve weathered and witnessed a nation that isn’t broken but simply unfinished
+(a / and
+      :op1 (w / weather-01
+            :ARG0 (w2 / we)
+            :ARG1 (n / nation
+                  :ARG1-of (b / break-01
+                        :polarity -
+                        :ARG1-of (c / contrast-01
+                              :ARG2 (c2 / complete-01
+                                    :polarity -
+                                    :ARG1 n
+                                    :mod (s / simple))))))
+      :op2 (w3 / witness-01
+            :ARG0 w2
+            :ARG1 n)
+      :manner (s2 / somehow))
+
+# ::snt  The severe concerns underpinning the alleged crisis have several dimensions relating to: (a) the (small) amount of published replication research; (b) the (poor) quality of replication research; and (c) the (lack of) reproducibility, which refers to the extent to which findings can (not) be reproduced in replication attempts that have been undertaken.
+(r / relate-01
+      :ARG1 (c / concern-01
+            :mod (s / severe)
+            :ARG0-of (u / underpin-01
+                  :ARG1 (c2 / crisis
+                        :ARG1-of (a / allege-01))))
+      :ARG2 (a2 / and
+            :op1 (a3 / amount
+                  :mod (s2 / small)
+                  :quant-of (r2 / research-01
+                        :ARG1 (r3 / replicate-01)
+                        :ARG1-of (p / publish-01)))
+            :op2 (q / quality
+                  :mod (p2 / poor)
+                  :poss (r4 / research-01
+                        :ARG1 (r5 / replicate-01)))
+            :op3 (l / lack-01
+                  :li "c"
+                  :ARG1 (r6 / reproduce-01
+                        :ARG1 (t / thing
+                              :ARG1-of (f / find-01))
+                        :ARG1-of (p3 / possible-01
+                              :polarity -)
+                        :time (a4 / attempt-01
+                              :ARG1 (r7 / replicate-01)
+                              :ARG1-of (u2 / undertake-01)))))
+      :quant (s3 / several))
+
+# ::snt  In 2007, Jared served as the host of MTV's horror reality series, Room 401, which was discontinued after only eight episodes due to poor ratings. [11]
+(s / serve-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Jared"))
+      :ARG1 (h / host-01
+            :ARG0 p
+            :ARG1 (b / broadcast-program
+                  :name (n2 / name
+                        :op1 "Room"
+                        :op2 401)
+                  :poss (c / company
+                        :name (n3 / name
+                              :op1 "MTV"))
+                  :mod (r / reality
+                        :mod (h2 / horror))
+                  :ARG1-of (d / discontinue-01
+                        :time (a / after
+                              :quant (e / episode
+                                    :quant 8
+                                    :mod (o / only)))
+                        :ARG1-of (c2 / cause-01
+                              :ARG0 (r2 / rate-01
+                                    :mod (p2 / poor))))))
+      :time (d2 / date-entity
+            :year 2007)
+      :ARG1-of (d3 / describe-01
+            :ARG0 (p3 / publication
+                  :ARG1-of (c3 / cite-01
+                        :ARG2 11))))
+
+# ::snt  There are three main motivation concepts that have been found to directly relate to learning.
+(c / concept
+      :quant 3
+      :mod (m / main)
+      :ARG0-of (m2 / motivate-01)
+      :ARG1-of (r / relate-01
+            :ARG2 (l / learn-01)
+            :ARG1-of (d / direct-02)
+            :ARG1-of (f / find-01)))
+
+# ::snt  Stardust @ home is a highly distributed project using a "Virtual Microscope" that is written in html and javascript and runs on most browsers — no downloads are required.
+(p / project
+      :domain (p2 / product
+            :name (n / name
+                  :op1 "Stardust"
+                  :op2 "@Home"))
+      :ARG1-of (d / distribute-01
+            :degree (h / high-02))
+      :ARG0-of (u / use-01
+            :ARG1 (m / microscope
+                  :name (n2 / name
+                        :op1 "Virtual"
+                        :op2 "Microscope")
+                  :ARG1-of (w / write-01
+                        :medium (a / and
+                              :op1 (t / thing
+                                    :mod (h2 / html))
+                              :op2 (t2 / thing
+                                    :mod (j / javascript))))
+                  :ARG1-of (r / run-01
+                        :location p2
+                        :ARG0-of (b / browse-01)
+                        :mod (m2 / most)))
+            :ARG0-of (r2 / require-01
+                  :polarity -
+                  :ARG1 (t3 / thing
+                        :ARG1-of (d2 / download-01)))))
+
+# ::snt  Could I have a sample, not necessarily one that's filled out, but just one that you --
+(p / possible-01
+      :polarity (a / amr-unknown)
+      :ARG1 (h / have-03
+            :ARG0 (ii / i)
+            :ARG1 (s / sample
+                  :ARG1-of (f / fill-out-03
+                        :ARG0 ii
+                        :ARG1-of (c / contrast-01
+                              :ARG2 (s2 / sample
+                                    :ARG1-of (f2 / fill-out-03
+                                          :ARG0 (y / you)
+                                          :ARG1-of p
+                                          :polarity -))
+                              :mod (j / just))))))
+
+# ::snt  It is often grouped depending on its uses that are distributed for heating and cooling, lighting, operating appliances etc [1]
+(g / group-01
+      :ARG1 (ii / it)
+      :frequency (o / often)
+      :ARG0-of (d / depend-01
+            :ARG1 (t / thing
+                  :ARG2-of (u / use-01
+                        :ARG1 ii)
+                  :ARG1-of (d2 / distribute-01
+                        :purpose (a / and
+                              :op1 (h / heat-01)
+                              :op2 (c / cool-01)
+                              :op3 (l / light)
+                              :op4 (o2 / operate-01
+                                    :ARG1 (a2 / appliance))
+                              :op5 (e / et-cetera)))))
+      :ARG1-of (d3 / describe-01
+            :ARG0 (p / publication
+                  :ARG1-of (c2 / cite-01
+                        :ARG2 1))))
+
+# ::snt  The data set has an even number of values (14 data values), so the median will be the average of the two middle values (the average of 6.8 and 7.2), which is calculated as (6.8+7.2)/2 and equals 7.
+(c / cause-01
+      :ARG0 (h / have-03
+            :ARG0 (s / set
+                  :consist-of (d / data))
+            :ARG1 (n / number
+                  :mod (e / even)
+                  :consist-of (v / value
+                        :quant 14
+                        :mod (d2 / data))))
+      :ARG1 (m / median
+            :domain (a / average-01
+                  :ARG1 (v2 / value
+                        :quant 2
+                        :mod (m2 / middle)
+                        :ARG1-of (e2 / equal-01
+                              :ARG2 (a2 / and
+                                    :op1 (d3 / distribution-range-91
+                                          :ARG1 6.8
+                                          :ARG4 7.2)
+                                    :op2 (d4 / distribution-range-91
+                                          :ARG1 7.2
+                                          :ARG4 7.2))))
+                  :ARG1-of (c2 / calculate-01
+                        :ARG2 (d5 / distribution-range-91
+                              :ARG1 6.8
+                              :ARG4 7.2
+                              :ARG1-of (e3 / equal-01
+                                    :ARG2 2))))))
+
+# ::snt  There are many different ways of playing Quidditch, but the most commonly used set of rules are those given by the International Quidditch Association (which can be found here).
+(h / have-concession-91
+      :ARG1 (s / set
+            :consist-of (r / rule)
+            :ARG1-of (u / use-01
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG2 (c / common)
+                        :ARG3 (m / most)))
+            :ARG1-of (g / give-01
+                  :ARG0 (o / organization
+                        :name (n / name
+                              :op1 "International"
+                              :op2 "Quidditch"
+                              :op3 "Association")))
+            :ARG1-of (f / find-01
+                  :ARG1-of (p / possible-01)
+                  :location (h3 / here)))
+      :ARG2 (w / way
+            :manner-of (p2 / play-01
+                  :ARG1 (g2 / game
+                        :name n
+                        :op1 "Quidditch")))
+      :quant (m2 / many)
+      :ARG1-of (d / differ-02))
+
+# ::snt  She smelled like honey that has been kept a while in a dark room, a little fermented.
+(s / smell-02
+      :ARG1 (s2 / she)
+      :ARG2 (h / honey
+            :ARG1-of (k / keep-01
+                  :duration (w / while)
+                  :location (r / room
+                        :ARG1-of (d / dark-02)))
+            :ARG1-of (f / ferment-01
+                  :degree (l / little))))
+
+# ::snt  Later, we capture information about the methods of the SUT to be mutated, together with the information of the mutation operators that were already defined.
+(c / capture-01
+      :ARG0 (w / we)
+      :ARG1 (a / and
+            :op1 (ii / information
+                  :topic (m / method
+                        :manner-of (m2 / mutate-01
+                              :ARG1 (s / small-molecule
+                                    :name (n / name
+                                          :op1 "SSUT")))))
+            :op2 (ii2 / information
+                  :topic (p / person
+                        :ARG0-of (o / operate-01
+                              :ARG1 (m3 / mutate-01)))
+                  :ARG1-of (d / define-01
+                        :time (a2 / already))))
+      :time (a3 / after))
+
+# ::snt  This was a battle that could not be won; not now, not ever.
+(b / battle-01
+      :mod (t / this)
+      :ARG1-of (w / win-01
+            :ARG1-of (p / possible-01
+                  :polarity -)
+            :ARG1-of (m / mean-01
+                  :ARG2 (a / and
+                        :op1 (n / now
+                              :polarity -)
+                        :op2 (e / ever)))))
+
+# ::snt  The senses serve as the interface between the mind and the external environment, receiving stimuli and translating it into nervous impulses that are transmitted to the brain.
+(s / serve-01
+      :ARG0 (s2 / sense-01
+            :ARG0-of (r / receive-01
+                  :ARG1 (s3 / stimulus))
+            :ARG0-of (t / translate-01
+                  :ARG1 s3
+                  :ARG2 (ii / impulse
+                        :mod (n / nerve)
+                        :ARG1-of (t2 / transmit-01
+                              :ARG2 (b / brain)))))
+      :ARG1 (ii2 / interface
+            :mod (b2 / between
+                  :op1 (m / mind)
+                  :op2 (e / environment
+                        :mod (e2 / external)))))
+
+# ::snt  Socotra Island is very rich and is home to many rare spectacular species of reefs, fish, birds, plants, and trees which are not found anywhere else in the world.
+(a / and
+      :op1 (r / rich
+            :degree (v / very)
+            :domain (ii / island
+                  :name (n / name
+                        :op1 "Socotra"
+                        :op2 "Island")))
+      :op2 (h / home
+            :poss (s / species
+                  :quant (m / many)
+                  :ARG1-of (r2 / rare-02)
+                  :mod (s2 / spectacular)
+                  :mod (r3 / reef)
+                  :mod (f / fish)
+                  :mod (b / bird)
+                  :mod (p / plant)
+                  :mod (t / tree)
+                  :ARG1-of (f2 / find-01
+                        :polarity -
+                        :location (a2 / anywhere
+                              :mod (e / else)
+                              :part-of (w / world))))
+            :domain ii))
+
+# ::snt  Albania, as one of the 191 signatory countries of the Millennium Declaration, remains fully committed to implementation of the Millennium Development Goals, which have been properly reflected in a national strategy for social and economic development.
+(r / remain-01
+      :ARG1 (c / country
+            :name (n / name
+                  :op1 "Albania")
+            :ARG1-of (ii / include-91
+                  :ARG2 (c2 / country
+                        :quant 191
+                        :ARG0-of (s / sign-02
+                              :ARG1 (p / publication
+                                    :name (n2 / name
+                                          :op1 "Millennium"
+                                          :op2 "Declaration"))))))
+      :ARG3 (c3 / commit-01
+            :ARG1 c
+            :ARG2 (ii2 / implement-01
+                  :ARG0 c
+                  :ARG1 (g / goal
+                        :name (n3 / name
+                              :op1 "Millennium"
+                              :op2 "Development"
+                              :op3 "Goals")
+                        :ARG1-of (r2 / reflect-01
+                              :ARG2 (s2 / strategy
+                                    :mod (n4 / nation)
+                                    :topic (d / develop-02
+                                          :ARG1 (a / and
+                                                :op1 (s3 / society)
+                                                :op2 (e / economy))))
+                              :manner (p2 / proper))))
+            :degree (f / full)))
+
+# ::snt  However, a systematic metascience on replication research has not yet been established in the field of L2 research, leaving a poor understanding of the actual number and nature of replication studies that have been published.
+(m / multi-sentence
+      :snt1 (c / contrast-01
+            :ARG2 (e / establish-01
+                  :polarity -
+                  :ARG1 (m2 / metascience
+                        :mod (s / systematic)
+                        :topic (r / research-01
+                              :ARG1 (r2 / replicate-01)))
+                  :time (y / yet)
+                  :location (f / field
+                        :mod (r3 / research-01
+                              :ARG1 (t / thing
+                                    :name (n / name
+                                          :op1 "L2"))))
+                  :ARG0-of (l / leave-13
+                        :ARG1 (u / understand-01
+                              :ARG1 (a / and
+                                    :op1 (n2 / number
+                                          :ARG1-of (a2 / actual-02
+                                                :ARG1 (s2 / study-01
+                                                      :ARG1 (r4 / replicate-01))))
+                                    :op2 (n3 / nature
+                                          :poss s2)
+                                    :ARG1-of (p / publish-01))
+                              :mod (p2 / poor))))))
+
+# ::snt  Markus Landgraf has estimated the number of interstellar dust particles that should have been captured by Stardust during two periods of the "cruise" phase of the interplanetary orbit in which the spacecraft was moving with this wind.
+(e / estimate-01
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Markus"
+                  :op2 "Landgraf"))
+      :ARG1 (n2 / number
+            :quant-of (p2 / particle
+                  :mod (d / dust
+                        :mod (ii / interplanetary)))
+            :ARG1-of (c / capture-01
+                  :ARG0 (t / thing
+                        :name (n3 / name
+                              :op1 "Stardust"))
+                  :ARG1-of (r / recommend-01)
+                  :time (p3 / period
+                        :quant 2
+                        :subevent-of (p4 / phase
+                              :mod (c2 / cruise-01)
+                              :subevent-of (o / orbit-01
+                                    :mod (ii2 / interplanetary))
+                              :time-of (m / move-01
+                                    :ARG0 (s / spacecraft)
+                                    :accompanier (w / wind
+                                          :mod (t2 / this))))))))
+
+# ::snt  So you don’t have writers coming up with a story and headline, but you will instead have a team of writers choosing the best headlines and then assign it to a particular writer who was not necessarily involved?
+(m / multi-sentence
+      :snt1 (c / cause-01
+            :ARG1 (c2 / contrast-01
+                  :ARG1 (h / have-03
+                        :polarity -
+                        :ARG0 (y / you)
+                        :ARG1 (c3 / come-up-11
+                              :ARG0 (p / person
+                                    :ARG0-of (w / write-01))
+                              :ARG1 (a / and
+                                    :op1 (s / story)
+                                    :op2 (h2 / headline))))
+                  :ARG2 (h3 / have-03
+                        :ARG0 (y2 / you)
+                        :ARG1 (a2 / and
+                              :op1 (c4 / choose-01
+                                    :ARG0 (t / team
+                                          :consist-of (p2 / person
+                                                :ARG0-of (w2 / write-01)))
+                                    :ARG1 (h4 / headline
+                                          :ARG1-of (h5 / have-degree-91
+                                                :ARG2 (g / good-02
+                                                      :ARG1 h4)
+                                                :ARG3 (m2 / most))))
+                              :op2 (a3 / assign-01
+                                    :ARG0 t
+                                    :ARG1 h4
+                                    :ARG2 (p3 / person
+                                          :ARG0-of (w3 / write-01)
+                                          :mod (p4 / particular)
+                                          :ARG1-of (ii / involve-01
+                                                :ARG1-of (n / need-01
+                                                      :polarity -)))
+                                    :time (t2 / then)))
+                        :ARG1-of (ii2 / instead-of-91)))))
+
+# ::snt  We all laughed at the idea, except for a chemist with a crooked nose and rouge caked in the creases of her face, who was incensed.
+(l / laugh-01
+      :ARG0 (w / we
+            :mod (a / all)
+            :ARG2-of (e / except-01
+                  :ARG1 (c / chemist
+                        :ARG0-of (h / have-03
+                              :ARG1 (a2 / and
+                                    :op1 (n / nose
+                                          :ARG1-of (c2 / crooked-02))
+                                    :op2 (r / rouge
+                                          :ARG1-of (c3 / caked-01
+                                                :location (c4 / crease-01
+                                                      :ARG1 (f / face))))))
+                        :part f
+                        :ARG1-of (ii / incense-01))))
+      :ARG2 (ii2 / idea))
+
+# ::snt  Weapons made of obsidian, jewelry crafted from jade, feathers woven into clothing and ornaments, and cacao beans that were whipped into a chocolate drink formed the basis of commerce.
+(f / form-01
+      :ARG0 (a / and
+            :op1 (w / weapon
+                  :ARG1-of (m / make-01
+                        :ARG2 (o / obsidian)))
+            :op2 (j / jewelry
+                  :ARG1-of (c / craft-01
+                        :ARG2 (j2 / jade)))
+            :op3 (f2 / feather
+                  :ARG1-of (w2 / weave-01
+                        :ARG2 (a2 / and
+                              :op1 (c2 / clothing)
+                              :op2 (o2 / ornament))))
+            :op4 (b / bean
+                  :mod (c3 / cacao)
+                  :ARG1-of (w3 / whip-01
+                        :prep-into (d / drink
+                              :consist-of (c4 / chocolate)))))
+      :ARG1 (b2 / base-02
+            :ARG1 (c5 / commerce)))
+
+# ::snt  Paralympic sport brings attention to athletes who are typically overlooked in American society because the majority of the population does not want to identify with people who are disabled.
+(b / bring-01
+      :ARG0 (s / sport
+            :mod (p / paralympic))
+      :ARG1 (a / attend-02
+            :ARG1 (a2 / athlete
+                  :ARG1-of (o / overlook-01
+                        :ARG0 (s2 / society
+                              :mod (c / country
+                                    :name (n / name
+                                          :op1 "America")))
+                        :ARG1-of (t / typical-02))))
+      :ARG1-of (c2 / cause-01
+            :ARG0 (w / want-01
+                  :polarity -
+                  :ARG0 (p2 / population
+                        :quant (m / majority))
+                  :ARG1 (ii / identify-01
+                        :ARG0 p2
+                        :ARG1 a2
+                        :ARG2 (p3 / person
+                              :ARG1-of (d / disable-01))))))
+
+# ::snt  This cultural diversity is represented through the vast variety of international restaurants and small business, and in particular, there is a strong Korean presence that can be seen in retail and dining storefronts.
+(a / and
+      :op1 (r / represent-01
+            :ARG0 (v / variety
+                  :mod (v2 / vast)
+                  :domain (a2 / and
+                        :op1 (r2 / restaurant)
+                        :op2 (b / business
+                              :mod (s / small))
+                        :mod (ii / international)))
+            :ARG1 (d / diversity
+                  :mod (c / culture)
+                  :mod (t / this)))
+      :op2 (p / present-02
+            :ARG1 (p2 / person
+                  :mod (c2 / country
+                        :name (n / name
+                              :op1 "Korea")))
+            :ARG1-of (s2 / strong-02)
+            :ARG1-of (s3 / see-01
+                  :ARG1-of (p3 / possible-01)
+                  :location (s4 / storefront
+                        :mod (r3 / retail-01)
+                        :mod (d2 / dine-01))
+                  :mod (p4 / particular))))
+
+# ::snt  In support of the second claim, we show that Huh? meets the criteria of a word in the sense of being a conventional lexical sign which must be learnt.
+(s / show-01
+      :ARG0 (w / we)
+      :ARG1 (m / meet-01
+            :ARG0 (t / thing
+                  :name (n / name
+                        :op1 "Huh"))
+            :ARG1 (c / criteria
+                  :mod (w2 / word))
+            :ARG1-of (m2 / mean-01
+                  :ARG2 (s2 / signal-07
+                        :mod (l / lexical)
+                        :mod (c2 / conventional)
+                        :ARG1-of (l2 / learn-01
+                              :ARG2-of (o / obligate-01)))))
+      :purpose (s3 / support-01
+            :ARG0 w
+            :ARG1 (c3 / claim-01
+                  :ord (o2 / ordinal-entity
+                        :value 2))))
+
+# ::snt  The sample consisted of 71 students of the Application School of Basic Education, Federal University of Santa Catarina, aged 7 and 9 years old (M = 7.64 ± 1.12), which were divided into two groups: participant and control.
+(c / consist-01
+      :ARG1 (s / sample-01)
+      :ARG2 (p / person
+            :quant 71
+            :ARG0-of (s2 / study-01)
+            :ARG0-of (h / have-org-role-91
+                  :ARG1 (s3 / school
+                        :name (n / name
+                              :op1 "Application"
+                              :op2 "School"
+                              :op3 "of"
+                              :op4 "Basic"
+                              :op5 "Education")
+                        :part-of (u / university
+                              :name (n2 / name
+                                    :op1 "Federal"
+                                    :op2 "University"
+                                    :op3 "of"
+                                    :op4 "Santa"
+                                    :op5 "Catarina"))))
+            :age (a / and
+                  :op1 (t / temporal-quantity
+                        :quant 7
+                        :unit (y / year))
+                  :op2 (t2 / temporal-quantity
+                        :quant 9
+                        :unit (y2 / year)))
+            :ARG1-of (d / divide-02
+                  :ARG2 (g / group
+                        :quant 2
+                        :ARG1-of (m / mean-01
+                              :ARG2 (a2 / and
+                                    :op1 (p2 / person
+                                          :ARG0-of (p3 / participate-01))
+                                    :op2 (c2 / control-01)))))))
+
+# ::snt  USI's exhibit, which is located in Evansville, Indiana, is to run from January 23 through March 9.
+(r / run-04
+      :ARG1 (e / exhibit
+            :poss (u / university
+                  :name (n / name
+                        :op1 "USI"))
+            :location (c / city
+                  :name (n2 / name
+                        :op1 "Evansville")
+                  :location (s / state
+                        :name (n3 / name
+                              :op1 "Indiana"))))
+      :ARG3 (d / date-interval
+            :op1 (d2 / date-entity
+                  :month 1
+                  :day 23)
+            :op2 (d3 / date-entity
+                  :month 3
+                  :day 9)))
+
+# ::snt  We are committed to doing all that is required to ensure that the election process is fully compatible with international standards for free and fair elections.
+(c / commit-01
+      :ARG1 (w / we)
+      :ARG2 (d / do-02
+            :ARG0 w
+            :ARG1 (a / all
+                  :ARG1-of (r / require-01
+                        :purpose (e / ensure-01
+                              :ARG0 w
+                              :ARG1 (c2 / compatible
+                                    :domain (p / process-02
+                                          :ARG1 (e2 / elect-01))
+                                    :prep-with (s / standard
+                                          :mod (ii / international)
+                                          :topic (e3 / elect-01
+                                                :ARG1-of (f / free-04)
+                                                :ARG1-of (f2 / fair-01)))
+                                    :degree (f3 / full)))))))
+
+# ::snt  So it's a high grade grape that is made from Pinot Noir and the Hermitage.
+(ii / infer-01
+      :ARG1 (g / grape
+            :mod (g2 / grade
+                  :ARG1-of (h / high-02))
+            :ARG1-of (m / make-01
+                  :ARG2 (a / and
+                        :op1 (p / pinot-noir)
+                        :op2 (h2 / hermitage)))
+            :domain (ii2 / it)))
+
+# ::snt  If your “big project” is something that can’t be done in one sitting, make a list of small parts of it that you can accomplish today.
+(m / make-01
+      :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (l / list
+            :consist-of (p / part
+                  :mod (s / small)
+                  :part-of (p2 / project
+                        :mod (b / big)
+                        :poss y)
+                  :ARG1-of (a / accomplish-01
+                        :ARG0 y
+                        :ARG1-of (p3 / possible-01)
+                        :time (t / today))))
+      :condition (s2 / something
+            :ARG1-of (d / do-02
+                  :ARG1-of (p4 / possible-01
+                        :polarity -)
+                  :duration (s3 / sit-01
+                        :quant 1))
+            :domain p2))
+
+# ::snt  The few women and children inside the mission were allowed to leave with the only adult male survivor, a slave owned by Travis who was then freed by the Mexican Army.
+(a / allow-01
+      :ARG1 (l / leave-11
+            :ARG0 (a2 / and
+                  :op1 (w / woman)
+                  :op2 (c / child)
+                  :quant (f / few)
+                  :location (ii / inside
+                        :op1 (m / mission)))
+            :accompanier (p / person
+                  :ARG0-of (s / survive-01)
+                  :mod (a3 / adult)
+                  :mod (o / only)
+                  :mod (s2 / slave
+                        :ARG1-of (o2 / own-01
+                              :ARG0 (p2 / person
+                                    :name (n / name
+                                          :op1 "Travis")))
+                        :ARG1-of (f2 / free-01
+                              :ARG0 (a4 / army
+                                    :mod (c2 / country
+                                          :name (n2 / name
+                                                :op1 "Mexico")))
+                              :time (t / then))))))
+
+# ::snt  This is exploited by the wing of an aeroplane which is designed to create an area above its surface where the air velocity increases.
+(e / exploit-01
+      :ARG0 (w / wing
+            :part-of (a / airplane)
+            :ARG1-of (d / design-01
+                  :ARG3 (c / create-01
+                        :ARG0 w
+                        :ARG1 (a2 / area
+                              :location (a3 / above
+                                    :op1 (s / surface
+                                          :part-of a))
+                              :location-of (ii / increase-01
+                                    :ARG1 (v / velocity
+                                          :mod (a4 / air)))))))
+      :ARG1 (t / this))
+
+# ::snt  We just put the shoes that were already made, on a horse.
+(p / put-01
+      :ARG0 (w / we)
+      :ARG1 (s / shoe
+            :ARG1-of (m / make-01
+                  :time (a / already)))
+      :ARG2 (h / horse)
+      :mod (j / just))
+
+# ::snt  It exchanges the coordinate system of a geometry, so it does not match the coordinate system that is being used in the user interface.
+(e / exchange-01
+      :ARG0 (ii / it)
+      :ARG1 (s / system
+            :mod (c / coordinate)
+            :part-of (g / geometry))
+      :ARG0-of (c2 / cause-01
+            :ARG1 (m / match-01
+                  :polarity -
+                  :ARG1 ii
+                  :ARG2 (s2 / system
+                        :mod (c3 / coordinate)
+                        :ARG1-of (u / use-01
+                              :ARG2 (t / thing
+                                    :ARG2-of (ii2 / interface-01
+                                          :ARG1 (p / person
+                                                :ARG0-of u))))))))
+
+# ::snt  The tracks in the demo are from submicron carbonyl iron particles that were shot into aerogel using a particle accelerator modified to accelerate dust particles to very high speeds, to simulate the interstellar dust impacts that we're looking for.
+(t / track
+      :location (d / demo)
+      :source (p / particle
+            :consist-of (ii / iron
+                  :mod (c / carbonylate
+                        :mod (s / submicron)))
+            :ARG1-of (s2 / shoot-03
+                  :ARG2 (a / aerogel)
+                  :manner (u / use-01
+                        :ARG1 (t2 / thing
+                              :ARG0-of (a2 / accelerate-01
+                                    :ARG1 (p2 / particle))
+                              :ARG1-of (m / modify-01
+                                    :purpose (a3 / accelerate-01
+                                          :ARG0 t2
+                                          :ARG1 (p3 / particle
+                                                :mod (d2 / dust))
+                                          :ARG4 (s3 / speed
+                                                :ARG1-of (h / high-02
+                                                      :degree (v / very)))
+                                          :purpose (s4 / simulate-01
+                                                :ARG0 t2
+                                                :ARG1 (ii2 / impact-01
+                                                      :ARG2 (d3 / dust)
+                                                      :mod (ii3 / interstellar)
+                                                      :ARG1-of (l / look-04
+                                                            :ARG0 (w / we)))))))))))
+
+# ::snt  Alternatively the snitch can be a small yellow ball (tennis balls work great) that is hidden before the game starts by a bystander or referee.
+(o / or
+      :op2 (p / possible-01
+            :ARG1 (b / ball
+                  :mod (y / yellow)
+                  :mod (s / small)
+                  :ARG1-of (h / hide-01
+                        :ARG0 (o2 / or
+                              :op1 (b2 / bystander)
+                              :op2 (p2 / person
+                                    :ARG0-of (r / referee-01)))
+                        :time (b3 / before
+                              :op1 (s2 / start-01
+                                    :ARG1 (g / game))))
+                  :domain (s3 / snitch))
+            :ARG1-of (c / cause-01
+                  :ARG0 (w / work-09
+                        :ARG1 (b4 / ball
+                              :mod (t / tennis))
+                        :mod (g2 / great)))))
+
+# ::snt  We think also of our brothers and sisters who have been cut off from us by political boundaries and who unhappily can not share at present in the freedom that has come.
+(t / think-01
+      :ARG0 (w / we)
+      :ARG1 (a / and
+            :op1 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 w
+                        :ARG2 (b / brother)))
+            :op2 (p2 / person
+                  :ARG0-of (h2 / have-rel-role-91
+                        :ARG1 w
+                        :ARG2 (s / sister)))
+            :ARG1-of (c / cut-off-04
+                  :ARG0 (b2 / boundary
+                        :mod (p3 / politics))
+                  :ARG2 w)
+            :ARG0-of (s2 / share-01
+                  :ARG1 (f / free-04
+                        :ARG1-of (c2 / come-03))
+                  :ARG1-of (p4 / possible-01
+                        :polarity -)
+                  :manner (h3 / happy-01
+                        :polarity -)
+                  :time (p5 / present)))
+      :mod (a2 / also))
+
+# ::snt  This error causes the incorrect display of the resulting geometry that should be drawn in the user interface after the operation applied to the two initial geometries (Figure 2).
+(c / cause-01
+      :ARG0 (e / error
+            :mod (t / this))
+      :ARG1 (d / display-01
+            :ARG1 (g / geometry
+                  :ARG2-of (r / result-01)
+                  :ARG1-of (d2 / draw-01
+                        :ARG1-of (r2 / recommend-01)
+                        :location (t2 / thing
+                              :ARG2-of (ii / interface-01
+                                    :ARG1 (p / person
+                                          :ARG0-of (u / use-01))))
+                        :time (a / after
+                              :op1 (a2 / apply-02
+                                    :ARG1 (o / operate-01)
+                                    :ARG2 (g2 / geometry
+                                          :quant 2
+                                          :mod (ii2 / initial)))))
+                  :ARG1-of (c2 / correct-02
+                        :polarity -)))
+      :ARG1-of (d3 / describe-01
+            :ARG0 (f / figure
+                  :mod 2)))
+
+# ::snt  Often, the entrepreneurial mindset includes futuristic ideas that shake up the normal, conventional processes that are grounded in experience over time.
+(ii / include-01
+      :ARG1 (ii2 / idea
+            :mod (f / futuristic)
+            :ARG0-of (s / shake-up-03
+                  :ARG1 (p / process-02
+                        :ARG1-of (n / normal-02)
+                        :mod (c / conventional)
+                        :ARG1-of (g / ground-01
+                              :ARG2 (e / experience-01)
+                              :mod (o / over-time)))))
+      :ARG2 (m / mindset
+            :mod (e2 / entrepreneurial))
+      :frequency (o2 / often))
+
+# ::snt  Peace is said to be indivisible, so is freedom, so is prosperity now, and also is disaster in this one world that can no longer be split into isolated fragments.
+(s / say-01
+      :ARG1 (a / and
+            :op1 (p / possible-01
+                  :polarity -
+                  :ARG1 (s2 / separate-02
+                        :ARG1 (p2 / peace)))
+            :op2 (p3 / possible-01
+                  :polarity -
+                  :ARG1 (f / free-04))
+            :op3 (p4 / prosper-01
+                  :time (n / now))
+            :op4 (d / disaster
+                  :location (w / world
+                        :quant 1
+                        :mod (t / this)
+                        :ARG1-of (s3 / split-02
+                              :ARG2 (f2 / fragment
+                                    :ARG1-of (ii / isolate-01))
+                              :ARG1-of (p5 / possible-01
+                                    :time (n2 / no-longer))))
+                  :mod (a2 / also))))
+
+# ::snt  Concepts are, in many ways, big ideas that are generated by observing details, and categorizing and combining these details into cognitive structures.
+(ii / idea
+      :mod (b / big)
+      :ARG1-of (g / generate-01
+            :ARG0 (a / and
+                  :op1 (o / observe-01
+                        :ARG1 (d / detail))
+                  :op2 (a2 / and
+                        :op1 (c / categorize-01
+                              :ARG1 d)
+                        :op2 (c2 / combine-01
+                              :ARG1 d
+                              :ARG2 (s / structure
+                                    :mod (c3 / cognition))))))
+      :domain (c4 / concept)
+      :manner (w / way
+            :quant (m / many)))
+
+# ::snt  As the foam effect is significant at high wind speed conditions (above a threshold of 12 m/s) due to strong wave breaking, it has been corrected by numerous models; for example, the semi-empirical models [27,28] and radiative transfer equation (RTE) based models [29,30], which were developed to estimate the foam covered sea surface emissivity.
+(c / cause-01
+      :ARG0 (s / significant-02
+            :ARG1 (e / effect
+                  :mod (f / foam))
+            :ARG1-of (c2 / cause-01
+                  :ARG0 (b / break-01
+                        :ARG1 (w / wave)
+                        :ARG1-of (s2 / strong-02)))
+            :condition (c3 / condition
+                  :mod (s3 / speed
+                        :mod (w2 / wind))
+                  :ARG1-of (h / high-02)
+                  :mod (a / above
+                        :op1 (t / threshold
+                              :mod (r / rate-entity-91
+                                    :ARG1 (d / distance-quantity
+                                          :quant 12
+                                          :unit (m / meter))
+                                    :ARG2 (t2 / temporal-quantity
+                                          :quant 1
+                                          :unit (s4 / second)))))))
+      :ARG1 (c4 / correct-01
+            :ARG0 (m2 / model
+                  :quant (n / numerous)
+                  :example (a2 / and
+                        :op1 (m3 / model
+                              :ARG1-of (b2 / base-02
+                                    :ARG2 (e2 / empirical
+                                          :degree (s5 / semi)))
+                              :ARG1-of (c5 / cite-01
+                                    :ARG2 (p / publication
+                                          :ARG1-of (c6 / cite-01
+                                                :ARG2 27))))
+                        :op2 (m4 / model
+                              :ARG1-of (b3 / base-02
+                                    :ARG2 (e3 / equation
+                                          :name (n2 / name
+                                                :op1 "Radiation"
+                                                :op2 "Transfer"
+                                                :op3 "Equinide")))
+                              :ARG1-of (c7 / cite-01
+                                    :ARG2 (p2 / publication
+                                          :ARG1-of (c8 / cite-01
+                                                :ARG2 29
+                                                :ARG2 30))))
+                        :ARG1-of (d2 / develop-02
+                              :purpose (e4 / estimate-01
+                                    :ARG0 a2
+                                    :ARG1 (e5 / emissivity
+                                          :ARG1-of (c9 / cover-02
+                                                :ARG2 (f2 / foam))
+                                          :mod (s6 / surface
+                                                :mod (s7 / sea)))))))))
+
+# ::snt  And there is another topic which is very important in mathematics which is called representation theory.
+(a / and
+      :op2 (t / topic
+            :mod (a2 / another)
+            :ARG1-of (ii / important-01
+                  :degree (v / very)
+                  :topic (m / mathematics))
+            :ARG1-of (c / call-01
+                  :ARG2 (t2 / theory
+                        :topic (r / represent-01)))))
+
+# ::snt  The main entry points are Svendborg which is easily reach both by highway, bus and train - and Faaborg, which is best reached by bus from Odense.
+(p / point
+      :ARG1-of (e / enter-01)
+      :mod (m / main)
+      :domain (a / and
+            :op1 (c / city
+                  :name (n / name
+                        :op1 "Svendborg")
+                  :ARG1-of (r / reach-01
+                        :ARG2 (a2 / and
+                              :op1 (h / highway)
+                              :op2 (b / bus)
+                              :op3 (t / train))
+                        :ARG1-of (e2 / easy-05)))
+            :op2 (c2 / city
+                  :name (n2 / name
+                        :op1 "Faaborg")
+                  :ARG1-of (r2 / reach-01
+                        :ARG2 (b2 / bus)
+                        :source (c3 / city
+                              :name (n3 / name
+                                    :op1 "Orient"))
+                        :ARG1-of (h2 / have-degree-91
+                              :ARG2 (g / good-02
+                                    :ARG1 r2)
+                              :ARG3 (m2 / most))))))
+
+# ::snt  The main entry points are Svendborg which is easily reach both by highway, bus and train - and Faaborg, which is best reached by bus from Odense.
+(p / point
+      :ARG1-of (e / enter-01)
+      :mod (m / main)
+      :domain (a / and
+            :op1 (c / city
+                  :name (n / name
+                        :op1 "Svendborg")
+                  :ARG1-of (r / reach-01
+                        :ARG2 (a2 / and
+                              :op1 (h / highway)
+                              :op2 (b / bus)
+                              :op3 (t / train))
+                        :ARG1-of (e2 / easy-05)))
+            :op2 (c2 / city
+                  :name (n2 / name
+                        :op1 "Faaborg")
+                  :ARG1-of (r2 / reach-01
+                        :ARG2 (b2 / bus)
+                        :source (c3 / city
+                              :name (n3 / name
+                                    :op1 "Orient"))
+                        :ARG1-of (h2 / have-degree-91
+                              :ARG2 (g / good-02
+                                    :ARG1 r2)
+                              :ARG3 (m2 / most))))))
+
+# ::snt  On the other hand, extant newspaper clippings from only a few days after the duel give a description of his opponent (identified by the initials "L. D.") that appear to more accurately apply to one of Galois' Republican friends, most probably Ernest Duchatelet, who was imprisoned with Galois on the same charges. [21]
+(c / contrast-01
+      :ARG2 (g / give-01
+            :ARG0 (c2 / clippings
+                  :source (n / newspaper)
+                  :mod (e / extant)
+                  :time (a / after
+                        :op1 (d / duel-01
+                              :ARG0 (p / person
+                                    :name (n2 / name
+                                          :op1 "Galois")))
+                        :quant (f / few
+                              :op1 (t / temporal-quantity
+                                    :quant 1
+                                    :unit (d2 / day))
+                              :mod (o / only))))
+            :ARG1 (d3 / describe-01
+                  :ARG0 c2
+                  :ARG1 (p2 / person
+                        :ARG0-of (o2 / oppose-01
+                              :ARG1 p)
+                        :ARG1-of (ii / identify-01
+                              :ARG2 (n3 / name
+                                    :op1 "L.D.")))
+                  :ARG1-of (a2 / apply-02
+                        :ARG2 (p3 / person
+                              :quant 1
+                              :ARG0-of (h / have-rel-role-91
+                                    :ARG1 p
+                                    :ARG2 (f2 / friend))
+                              :mod (p4 / political-party
+                                    :name (n4 / name
+                                          :op1 "Republican"))
+                              :ARG1-of (ii2 / include-91
+                                    :ARG2 (p5 / person
+                                          :name (n5 / name
+                                                :op1 "Ernest"
+                                                :op2 "Duchatelet")
+                                          :ARG1-of (ii3 / imprison-01
+                                                :ARG2 (c3 / charge-05
+                                                      :ARG1 p5
+                                                      :ARG1-of (s / same-01))))
+                                    :ARG1-of (h2 / have-degree-91
+                                          :ARG2 (p6 / probable)
+                                          :ARG3 (m / most))))
+                        :ARG1-of (a3 / appear-02)
+                        :ARG1-of h2
+                        :ARG2 (a4 / accurate)
+                        :ARG3 (m2 / more))))
+      :ARG1-of d3
+      :ARG0 (p7 / publication
+            :ARG1-of (c4 / cite-01
+                  :ARG2 21)))
+
+# ::snt  One instance in which colleges and universities use percentiles is when SAT results are used to determine a minimum testing score that will be used as an acceptance factor.
+(ii / instance
+      :quant 1
+      :time-of (u / use-01
+            :ARG0 (a / and
+                  :op1 (c / college)
+                  :op2 (u2 / university))
+            :ARG1 (p / percentile))
+      :domain (u3 / use-01
+            :ARG1 (t / thing
+                  :ARG2-of (r / result-01
+                        :ARG1 (t2 / test-01
+                              :name (n / name
+                                    :op1 "SAT"))))
+            :ARG2 (d / determine-01
+                  :ARG1 (s / score-01
+                        :ARG3 (t3 / test-01)
+                        :mod (m / minimum)
+                        :ARG1-of (u4 / use-01
+                              :ARG2 (f / factor
+                                    :mod (a2 / accept-01)))))))
+
+# ::snt  And olive oil works fine if it's all that's left in the pantry.
+(a / and
+      :op2 (w / work-09
+            :ARG1 (o / oil
+                  :mod (o2 / olive))
+            :ARG1-of (f / fine-04)
+            :condition (a2 / all
+                  :ARG1-of (l / leave-17
+                        :location (p / pantry))
+                  :domain o)))
+
+# ::snt  Water burst over the barrels and cans standing under the eaves and gutters, flooding the pathways, carrying away all that wasn’t fixed solid and licking at the stairs to the back porch before climbing each step and lapping against the planks we were sitting on, a wooden raft surrounded by angry water and martial beat drum, drum, drumming on the roof above.
+(b / burst-02
+      :ARG1 (w / water)
+      :path (o / over
+            :op1 (a / and
+                  :op1 (b2 / barrel)
+                  :op2 (c / can)
+                  :ARG0-of (s / stand-01
+                        :ARG1 (u / under
+                              :op1 (a2 / and
+                                    :op1 (e / eaves)
+                                    :op2 (g / gutter))))))
+      :ARG0-of (f / flood-01
+            :ARG1 (p / pathway))
+      :ARG0-of (c2 / carry-01
+            :ARG1 (a3 / all
+                  :ARG1-of (f2 / fix-02
+                        :polarity -
+                        :mod (s2 / solid)))
+            :direction (a4 / away))
+      :ARG0-of (l / lick-01
+            :ARG1 (s3 / stair
+                  :destination (p2 / porch
+                        :mod (b3 / back)))
+            :time (b4 / before
+                  :op1 (a5 / and
+                        :op1 (c3 / climb-01
+                              :ARG0 w
+                              :ARG1 (s4 / step
+                                    :mod (e2 / each)))
+                        :op2 (l2 / lapping-02
+                              :ARG0 w
+                              :ARG1 (p3 / planks
+                                    :ARG2-of (s5 / sit-01
+                                          :ARG1 (w2 / we))))))
+            :ARG1-of (m / mean-01
+                  :ARG2 (r / raft
+                        :consist-of (w3 / wood)
+                        :ARG1-of (s6 / surround-01
+                              :ARG2 (a6 / and
+                                    :op1 (w4 / water
+                                          :ARG1-of (a7 / anger-01))
+                                    :op2 (d / drum
+                                          :ARG1-of (b5 / beat-01
+                                                :mod (m2 / martial)))
+                                    :op3 (d2 / drum
+                                          :location (r2 / roof
+                                                :location (a8 / above)))))))))
+
+# ::snt  The hope she spoke about—the strong and happy hope— the hope we feel today, is a hope, of course, that is tempered by reality.
+(h / hope-01
+      :ARG1-of (t / temper-01
+            :ARG0 (r / reality)
+            :mod (o / of-course))
+      :domain (h2 / hope-01
+            :ARG1-of (s / speak-01
+                  :ARG0 (s2 / she))
+            :ARG1-of (m / mean-01
+                  :ARG2 (f / feel-01
+                        :ARG0 (w / we)
+                        :ARG1 h2
+                        :time (t2 / today)))
+            :ARG1-of (s3 / strong-02)
+            :ARG1-of (h3 / happy-02)))
+
+# ::snt  This was followed by a memoir on the theory of the tides, to which, conjointly with the memoirs by Euler and Colin Maclaurin, a prize was awarded by the French Academy: these three memoirs contain all that was done on this subject between the publication of Isaac Newton's Philosophiae Naturalis Principia Mathematica and the investigations of Pierre-Simon Laplace.
+(m / multi-sentence
+      :snt1 (f / follow-01
+            :ARG1 (t / this)
+            :ARG2 (m2 / memoir
+                  :topic (t2 / theory
+                        :topic (t3 / tide))
+                  :ARG2-of (p / prize-01
+                        :ARG0 (a / academy
+                              :mod (c / country
+                                    :name (n / name
+                                          :op1 "France")))
+                        :ARG1-of (c2 / cause-01
+                              :ARG0 (c3 / contain-01
+                                    :ARG0 (m3 / memoir
+                                          :quant 3
+                                          :mod (t4 / this))
+                                    :ARG1 (a2 / all
+                                          :ARG1-of (d / do-02
+                                                :time (b / between
+                                                      :op1 (p2 / publication-91
+                                                            :ARG1 (p3 / publication
+                                                                  :name (n2 / name
+                                                                        :op1 "Philosophiae"
+                                                                        :op2 "Naturalis"
+                                                                        :op3 "Prinipia"
+                                                                        :op4 "Mathematica")
+                                                                  :poss (p4 / person
+                                                                        :name (n3 / name
+                                                                              :op1 "Isaac"
+                                                                              :op2 "Newton"))))
+                                                      :op2 (ii / investigate-01
+                                                            :ARG0 (p5 / person
+                                                                  :name (n4 / name
+                                                                        :op1 "Pierre-Simon"
+                                                                        :op2 "Laplace")))))))
+                              :manner (j / joint)))))
+      :snt2 (t5 / this))
+
+# ::snt  There is a whole topic which is called asymptotic groups theory.
+(t / topic
+      :mod (w / whole)
+      :ARG1-of (c / call-01
+            :ARG2 (t2 / theory
+                  :topic (g / group
+                        :mod (a / asymptotic)))))
+
+# ::snt  Chao possessed a natural gift for hearing fine distinctions in pronunciation that was said to be "legendary for its acuity", enabling him to record the sounds of various dialects with a high degree of accuracy.
+(p / possess-01
+      :ARG0 (p2 / person
+            :name (n / name
+                  :op1 "Chao"))
+      :ARG1 (g / gift
+            :ARG1-of (n2 / natural-03)
+            :topic (h / hear-01
+                  :ARG0 p2
+                  :ARG1 (d / distinguish-01
+                        :ARG1 (p3 / pronounce-01)
+                        :ARG1-of (f / fine-03)))
+            :ARG1-of (s / say-01
+                  :ARG3 (l / legendary
+                        :ARG1-of (c / cause-01
+                              :ARG0 (a / acuity
+                                    :poss g))))
+            :ARG0-of (e / enable-01
+                  :ARG1 (r / record-01
+                        :ARG0 p2
+                        :ARG1 (s2 / sound-02
+                              :ARG1 (d2 / dialect
+                                    :mod (v / various)))
+                        :manner (a2 / accurate
+                              :degree (d3 / degree
+                                    :ARG1-of (h2 / high-02))))
+                  :ARG2 p2)))
+
+# ::snt  The brain then processes this information and uses the relevant pieces to create thoughts, which can then be expressed through language or stored in memory for future use.
+(a / and
+      :op1 (p / process-01
+            :ARG0 (b / brain)
+            :ARG1 (ii / information
+                  :mod (t / this)))
+      :op2 (u / use-01
+            :ARG0 b
+            :ARG1 (p2 / piece
+                  :ARG1-of (r / relevant-01))
+            :ARG2 (c / create-01
+                  :ARG0 b
+                  :ARG1 (t2 / thing
+                        :ARG1-of (t3 / think-01)
+                        :ARG1-of (e / express-01
+                              :ARG3 (l / language)
+                              :ARG1-of (p3 / possible-01
+                                    :ARG1 (s / store-01
+                                          :ARG1 p2
+                                          :ARG2 (m / memory)
+                                          :purpose (u2 / use-01
+                                                :time (f / future)))))
+                        :ARG1-of s)))
+      :time (t4 / then))
+
+# ::snt  Einstein preferred to think that it is space and time that are affected by the presence of a large mass; light beams, and everything else that travels through space and time, then find their paths affected.
+(p / prefer-01
+      :ARG0 (p2 / person
+            :name (n / name
+                  :op1 "Einstein"))
+      :ARG1 (t / think-01
+            :ARG0 p2
+            :ARG1 (a / affect-01
+                  :ARG0 (p3 / present-02
+                        :ARG1 (a2 / and
+                              :op1 (m / mass
+                                    :mod (l / large))
+                              :op2 (b / beam
+                                    :ARG0-of (l2 / light-04))
+                              :op3 (e / everything
+                                    :mod (e2 / else)
+                                    :ARG0-of (t2 / travel-01
+                                          :ARG1 (a3 / and
+                                                :op1 (s / space)
+                                                :op2 (t3 / time)))
+                                    :ARG0-of (f / find-01
+                                          :ARG1 (a4 / affect-01
+                                                :ARG1 (p4 / path
+                                                      :poss a2))
+                                          :time (t4 / then)))))
+                  :ARG1 a3)))
+
+# ::snt  Those who were tripped were then crushed by the wave of people behind them.
+(c / crush-01
+      :ARG0 (w / wave-04
+            :ARG1 (p / person)
+            :ARG2 (b / behind
+                  :op1 (t / they)))
+      :ARG1 (p2 / person
+            :ARG1-of (t2 / trip-01)
+            :mod (t3 / that))
+      :time (t4 / then))
+
+# ::snt  We live in an epistemic environment that is heavily and deliberately polluted by agents who use mimicry and other methods as a means of inflating their pretense to expertise.
+(l / live-01
+      :ARG0 (w / we)
+      :location (e / environment
+            :mod (e2 / epistemic)
+            :ARG1-of (p / pollute-01
+                  :ARG0 (a / agent
+                        :ARG0-of (u / use-01
+                              :ARG1 (a2 / and
+                                    :op1 (m / mimic-01)
+                                    :op2 (m2 / method
+                                          :mod (o / other)))
+                              :ARG2 (ii / inflate-01
+                                    :ARG0 a
+                                    :ARG1 (p2 / pretend-01
+                                          :ARG0 a
+                                          :ARG1 (e3 / expertise)))))
+                  :manner (h / heavy)
+                  :manner (d / deliberate))))
+
+# ::snt  There's a lot of unfunny jokes that are told in a back room, that's why they stay and die in that back room and don’t go out in The Onion.
+(c / cause-01
+      :ARG0 (j / joke-01
+            :ARG1-of (f / funny-02
+                  :polarity -)
+            :quant (l / lot)
+            :ARG1-of (t / tell-01
+                  :location (r / room
+                        :mod (b / back))))
+      :ARG1 (a / and
+            :op1 (s / stay-01
+                  :ARG1 (t2 / they)
+                  :location r)
+            :op2 (d / die-01
+                  :ARG1 t2
+                  :location r)
+            :op3 (g / go-out-17
+                  :polarity -
+                  :ARG0 t2
+                  :medium (p / publication
+                        :name (n / name
+                              :op1 "The"
+                              :op2 "Onion")))))
+
+# ::snt  I am back in Philadelphia to express my thanks for that support and also to express appreciation for the help we received from those Democrats in this city and State, and to report to you on the progress that this country has made on the goals that were outlined 3 years ago.
+(b / be-located-at-91
+      :ARG1 (ii / i)
+      :ARG2 (c / city
+            :name (n / name
+                  :op1 "Philadelphia"))
+      :direction (b2 / back)
+      :purpose (a / and
+            :op1 (e / express-01
+                  :ARG0 ii
+                  :ARG1 (t / thank-01
+                        :ARG0 ii
+                        :ARG1 (s / support-01
+                              :mod (t2 / that))))
+            :op2 (e2 / express-01
+                  :ARG0 ii
+                  :ARG1 (a2 / appreciate-02
+                        :ARG0 ii
+                        :ARG1 (h / help-01
+                              :ARG0 (p / person
+                                    :ARG0-of (h2 / have-org-role-91
+                                          :ARG1 (p2 / political-party
+                                                :name (n2 / name
+                                                      :op1 "Democratic"
+                                                      :op2 "Party")))
+                                    :mod (t3 / that)
+                                    :location (a3 / and
+                                          :op1 c
+                                          :op2 (s2 / state)
+                                          :mod (t4 / this)))
+                              :ARG1 (w / we)))
+                  :mod (a4 / also))
+            :op3 (r / report-01
+                  :ARG0 ii
+                  :ARG1 (p3 / progress-01
+                        :ARG1 (c2 / country
+                              :mod (t5 / this))
+                        :topic (g / goal
+                              :ARG1-of (o / outline-01
+                                    :time (b3 / before
+                                          :op1 (n3 / now)
+                                          :quant (t6 / temporal-quantity
+                                                :quant 3
+                                                :unit (y / year))))))
+                  :ARG2 (y2 / you))))
+
+# ::snt  The many light toys such a swords, devil ears, and lanterns turn the milling crowd into a unique light show that can be observed by climbing the steps of the 70 meter memorial hall on the grounds.
+(t / turn-02
+      :ARG0 (t2 / toy
+            :ARG0-of (l / light-04)
+            :quant (m / many)
+            :example (a / and
+                  :op1 (s / sword)
+                  :op2 (e / ear
+                        :mod (d / devil))
+                  :op3 (l2 / lantern)))
+      :ARG1 (c / crowd
+            :ARG0-of (m2 / mill-01))
+      :ARG2 (s2 / show-04
+            :ARG1 (l3 / light-04)
+            :ARG1-of (u / unique-01)
+            :ARG1-of (o / observe-01
+                  :ARG1-of (p / possible-01)
+                  :manner (c2 / climb-01
+                        :ARG1 (s3 / step
+                              :part-of (h / hall
+                                    :mod (m3 / memorial)
+                                    :mod (d2 / distance-quantity
+                                          :quant 70
+                                          :unit (m4 / meter))
+                                    :location (g / grounds)))))))
+
+# ::snt  Moments like that must make you realize you have touched people who aren't normally touched by poetry.
+(o / obligate-01
+      :ARG1 (m / make-02
+            :ARG0 (m2 / moment
+                  :ARG1-of (r / resemble-01
+                        :ARG2 (t / that)))
+            :ARG1 (r2 / realize-01
+                  :ARG0 (y / you)
+                  :ARG1 (t2 / touch-01
+                        :ARG0 y
+                        :ARG1 (p / person
+                              :ARG1-of (t3 / touch-01
+                                    :polarity -
+                                    :ARG0 (p2 / poetry)
+                                    :ARG1-of (n / normal-02)))))))
+

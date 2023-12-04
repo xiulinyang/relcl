@@ -1,0 +1,44 @@
+(u_31 / have-03  :ARG0 (u_30 / We)  :ARG1 (u_17 / chair  :quant (u_16 / 2)  :location-of (u_20 / possible-01  :ARG1 (u_15 / and  :op1 (u_21 / sit-down-02)  :op2 (u_29 / enjoy-01  :ARG1 (u_18 / weather)  :mod (u_19 / sort))))  :ARG2-of (u_33 / more  :ARG1 (u_22 / cause-01  :ARG0 (u_24 / cold-01  :time (u_27 / now)  :degree (u_26 / really  :degree (u_23 / bit  :mod (u_25 / little))))  :ARG1 (u_32 / close-01  :mod (u_28 / just)))  :time-of u_31))  :mod (u_34 / um))
+
+(u_45 / newspaper  :name (u_40 / _NAME_)  :ARG1-of (u_39 / say-01  :ARG1-of (u_42 / possible-01  :ARG1-of (u_44 / actual-02)  :op1-of (u_38 / and  :op2 (u_41 / feel-01  :polarity (u_37 / -)  :ARG1-of (u_43 / real-04))))))
+
+(u_64 / think-01  :ARG0 (u_66 / "\"i")  :ARG1 (u_60 / _NAME_)  :op1-of (u_72 / and  :op2 (u_75 / and  :op1 (u_69 / scoop-01  :ARG0 (u_71 / they  :ARG0-of (u_73 / throw-01  :op2-of u_75)))))  :ARG2-of (u_63 / out-06  :ARG1 (u_70 / kid  :mod (u_61 / some)  :mod (u_65 / whole)  :mod (u_62 / other)  :ARG1-of (u_74 / grow-02  :mod (u_67 / just)  :mod (u_68 / back)))))
+
+(u_107 / coincide-01  :ARG1 (u_104 / anniversary  :poss (u_108 / mission  :ord (u_106 / ordinal-entity  :value (u_97 / 1))  :mod (u_96 / shuttle))  :ord (u_103 / ordinal-entity  :value (u_109 / 30)))  :ARG2 (u_92 / anniversary  :poss (u_91 / fly-01  :ord (u_94 / ordinal-entity  :value (u_90 / 1))  :mod (u_95 / space)  :time (u_100 / lift-off-02  :ARG1 (u_102 / person  :name (u_93 / _NAME_))  :name (u_105 / _NAME_))  :ARG1-of (u_99 / man-01))  :ord (u_98 / ordinal-entity  :value (u_101 / 25))))
+
+(u_127 / contrast-01  :ARG1 (u_120 / kill-01  :ARG0 (u_128 / They)  :ARG1 (u_121 / mouse)  :polarity (u_119 / -))  :ARG2 (u_124 / recommend-01  :ARG1 (u_129 / keep-04  :ARG1 (u_122 / out-06  :ARG2 (u_123 / area))))  :ARG1-of (u_125 / "applied.-01"  :ARG0 (u_126 / product)))
+
+(u_161 / become-01  :ARG1 (u_156 / be-located-at-91  :polarity (u_142 / -)  :ARG0-of (u_151 / learn-01  :ARG1 (u_159 / humanity  :mod (u_149 / digital))  :degree (u_158 / more)))  :ARG2 (u_145 / there)  :time (u_148 / meet-03  :mod (u_157 / initial))  :ARG1-of (u_153 / and  :ARG2 (u_143 / person  :quant (u_150 / most)  :ARG0-of (u_147 / participate-01))  :ARG1-of (u_146 / apparent))  :ARG1-of (u_152 / be-located-at-91  :ARG2 (u_144 / situation  :location-of (u_160 / possible-01  :ARG1 (u_154 / offer-01  :ARG1 (u_155 / expertise))))))
+
+(u_194 / and  :op2 (u_190 / have-condition-91  :ARG1 (u_182 / sail-01  :ARG0 (u_202 / person  :name (u_185 / _NAME_))  :ARG1 (u_184 / country  :mod (u_198 / this))  :time (u_200 / year)  :mod (u_196 / expand-01  :ARG1 (u_201 / economy)  :time (u_205 / peacetime)  :compared-to (u_206 / history)  :ARG1-of (u_183 / long-03  :degree (u_208 / most))  :ARG1-of (u_203 / strong-02  :degree (u_204 / most)))))  :op1 (u_189 / possible-01  :ARG1 (u_187 / obtain-01  :ARG0 (u_188 / we)  :ARG1 (u_193 / pass-01  :ARG1 (u_199 / cut-02  :ARG1 (u_207 / tax-01)  :ARG0-of (u_191 / effective-04)  :ARG1-of (u_192 / _NAME_  :time (u_197 / already)))  :time (u_186 / early))))  :op3 (u_195 / _NAME_))
+
+(u_216 / exclude-01  :ARG1 (u_215 / country  :name (u_224 / _NAME_))  :ARG2 (u_217 / study)  :mod (u_214 / program  :mod (u_221 / modernize-01  :ARG1 (u_220 / iodine))  :ARG1-of (u_222 / voluntary)  :ARG1-of (u_223 / use-01  :ARG2 (u_219 / salt  :ARG1-of (u_218 / iodise-01)))))
+
+(u_239 / allow-01  :ARG2 (u_233 / person  :ARG0-of (u_241 / work-01)  :ARG0-of (u_234 / focus-01  :ARG1 (u_240 / part  :part-of (u_235 / process-02  :ARG1 (u_231 / produce-01))  :location-of (u_237 / have-03))  :ARG1-of u_239))  :ARG0 (u_236 / specialization  :topic (u_232 / job  :mod (u_230 / particular)  :mod (u_238 / small))))
+
+(u_284 / take-01  :ARG0 (u_285 / treat-03  :ARG1-of (u_280 / typical-02))  :ARG1 (u_274 / "dilutions,")  :concession (u_278 / shake-01  :ARG0 (u_289 / between)  :time (u_283 / past  :op1 (u_281 / step  :mod (u_276 / each))  :location (u_286 / level  :ARG1-of (u_287 / likely-01)))  :ARG1-of (u_271 / legalize-01))  :ARG2-of (u_266 / "work,"  :ARG1 (u_275 / molecule  :mod (u_282 / any)  :part-of (u_267 / substance  :mod (u_265 / original))))  :ARG2-of (u_270 / obligate-01  :ARG1 (u_269 / treat-03  :ARG1 (u_288 / concept  :mod (u_268 / basic)  :location (u_273 / and  :op2 (u_279 / physics)  :op1 (u_277 / chemistry))  :ARG1-of (u_264 / dispute-01))  :mod (u_272 / homeopathic))))
+
+(u_304 / community  :mod (u_306 / also)  :mod (u_314 / small)  :mod (u_315 / _NAME_)  :location (u_302 / village  :name (u_305 / _NAME_)  :location (u_317 / and  :op2 (u_311 / worship-place  :name (u_318 / _NAME_))  :op1 (u_308 / state)  :location (u_303 / city  :name (u_316 / "(south")))  :ARG1-of (u_310 / cohabit-01  :ARG2 (u_309 / person  :ARG0-of (u_313 / use-01  :ARG1 (u_312 / _NAME_)))))  :ARG0-of (u_307 / migrate-01))
+
+(u_337 / resemble-01  :ARG1 (u_334 / create-01  :ARG0 (u_335 / i)  :ARG1 (u_332 / calendar  :mod (u_342 / digital)  :mod-of (u_336 / go-03  :ARG1 (u_329 / each)  :ARG1-of (u_339 / cause-01  :ARG0 (u_341 / have-03  :ARG1 (u_338 / temporal-quantity  :unit (u_330 / _NAME_))  :mod (u_331 / only))  :mod (u_340 / just)  :ARG1-of (u_343 / leave-17))))  :mod (u_333 / basic)))
+
+(u_365 / host-01  :ARG0 (u_366 / we)  :ARG1 (u_363 / discuss-01  :ARG0 (u_353 / person  :quant (u_361 / about  :op1 (u_360 / _NUMBER_))  :ARG0-of (u_356 / participate-01))  :ARG1 (u_354 / concept  :mod (u_357 / energy  :mod (u_362 / alternative)))  :purpose (u_355 / reach-01  :ARG1 (u_358 / goal  :mod (u_359 / energy))))  :mod (u_364 / last))
+
+(u_373 / send-01  :ARG1 (u_370 / he)  :ARG2 (u_372 / _NAME_  :location-of (u_374 / remain-01  :time (u_376 / until  :op1 (u_375 / date-entity  :month (u_371 / 7))))))
+
+(u_400 / start-01  :ARG0 (u_397 / initiate-01)  :ARG1 (u_395 / set-up-03  :ARG1 (u_403 / community  :mod (u_407 / "DH+Lib")  :ARG0-of (u_408 / speak-01  :ARG1 (u_394 / _NAME_)))  :location (u_404 / and  :part-of (u_401 / country  :name (u_406 / _NAME_))))  :ARG1-of (u_414 / base-02  :ARG2 (u_413 / example  :ARG0 (u_405 / space  :poss (u_415 / and  :op1 (u_396 / graduate  :mod (u_399 / _NAME_))  :op2 (u_409 / specialize-01  :ARG1 (u_410 / information)))  :mod (u_411 / country  :name (u_398 / _NAME_))  :mod (u_417 / communal)  :purpose (u_418 / discuss-01  :ARG1 (u_402 / organization  :name (u_416 / _NAME_))  :ARG0 (u_412 / topic))))))
+
+(u_423 / except-01  :mod (u_422 / random  :ARG1-of (u_426 / resemble-01  :ARG2 (u_424 / sit-01  :ARG1 (u_425 / you)))))
+
+(u_466 / talk-01  :ARG0 (u_467 / i  :ARG1-of (u_469 / contrast-01  :ARG2 u_466  :polarity (u_455 / -)))  :ARG1 (u_458 / kind  :mod (u_457 / country  :name (u_462 / _NAME_)  :ARG0-of (u_450 / want-01  :ARG1 (u_454 / and  :op2 (u_460 / citizen  :poss (u_446 / country  :mod (u_445 / this))  :mod (u_453 / difficult  :mod (u_461 / this))  :ARG1-of (u_465 / change-01)))  :beneficiary (u_463 / and  :op1 (u_459 / family)  :op2 (u_452 / family  :poss (u_451 / your)  :mod (u_449 / all)))))  :ARG2-of (u_468 / contrast-01  :ARG1 u_466  :op1-of (u_444 / or  :op2 (u_447 / Democrat))))  :location (u_456 / America  :mod (u_464 / kind))  :ARG1-of (u_448 / instead-of-91))
+
+(u_499 / contrast-01  :ARG1 (u_509 / time  :mod (u_518 / barren))  :ARG2 (u_519 / desperate-02  :ARG1 (u_517 / change-01)  :degree (u_506 / so))  :time (u_505 / possible-01  :ARG1 (u_524 / sure-02  :ARG1 (u_510 / you)  :ARG1-of (u_512 / real-04))  :time (u_503 / date-entity  :month (u_516 / 3))  :polarity (u_514 / -))  :ARG0-of (u_527 / sure-02  :ARG1 (u_529 / smell-02  :ARG1 (u_526 / soil  :ARG1-of (u_525 / wet-02))  :ARG2 (u_513 / scent-02  :ARG1 (u_515 / and  :op1 (u_501 / grass)  :op2 (u_511 / drown-01))  :manner (u_520 / sudden)  :degree (u_502 / bit)  :mod (u_498 / summer)))  :op2-of (u_528 / and  :op1 (u_521 / tell-01  :ARG0 u_499  :ARG2 u_499  :ARG1 (u_522 / differ-02  :ARG1 (u_500 / mud  :location (u_504 / edge  :poss (u_508 / sidewalk)))  :ARG2 (u_523 / mud  :mod (u_507 / winter)))))))
+
+(u_536 / place-01  :ARG2 (u_539 / "go.-01"  :ARG0 (u_540 / mouse))  :location (u_538 / and  :op2 (u_537 / place  :ARG1-of (u_543 / seem-01))  :op1 (u_541 / near-02  :ARG1 (u_542 / entrance))))
+
+(u_555 / contrast-01  :ARG2 (u_552 / resemble-01  :ARG2 (u_554 / think-01  :ARG0 (u_556 / I  :ARG1-of (u_553 / wake-up-02  :purpose (u_559 / class  :mod (u_558 / yoga)  :ARG1-of (u_549 / sign-up-03))  :ARG1-of (u_557 / possible-01  :ARG1-of u_554)))  :polarity (u_551 / -)  :mod (u_550 / even))))
+
+(u_571 / monarchy  :domain (u_567 / country  :ARG1-of (u_570 / color-01  :ARG2 (u_568 / yellow)))  :location-of (u_565 / play-01  :ARG0 (u_569 / person)  :ARG1 (u_566 / participate-01  :mod (u_564 / little))))
+
+(u_575 / large  :degree (u_576 / most)  :mod (u_572 / this)  :mod-of (u_574 / person  :location (u_573 / city  :name (u_577 / _NAME_))))
+

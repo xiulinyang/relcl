@@ -1,0 +1,705 @@
+sentence=1	Water	water	water	NN	O	(d<root> / --LEX--)	$LEMMA$	()	2	APP_o	true
+2	landings:	_	landings:	NNP	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	say-01	(s(), o())	14	MOD_s	true
+3	if	_	if	IN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	have-condition-91	(s(), o())	14	MOD_o	true
+4	you	_	you	PRP	O	(d<root> / --LEX--)	$LEMMA$	()	14	APP_s	true
+5	have	_	have	VBP	O	_	$LEMMA$-concession-91	_	0	IGNORE	true
+6	successfully	_	successfully	RB	O	(s<root> / --LEX--  :ARG1 (p<s>))	succeed-01	(s())	7	MOD_s	true
+7	attached	_	attach	VBN	O	(m<root> / --LEX--  :ARG1 (m2<o>)  :ARG0 (t<s>)  :condition-of (g<mod>))	$LEMMA$-01	(mod(), s(), o())	21	MOD_mod	true
+8	to	_	to	IN	O	_	-	_	0	IGNORE	true
+9	a	_	a	DT	O	_	1	_	0	IGNORE	true
+10	companion	_	companion	NN	O	(d<root> / --LEX--)	$LEMMA$	()	7	APP_o	true
+11	whose	_	whose	WP$	O	_	i	_	0	IGNORE	true
+12	chute	_	chute	NN	O	(d<root> / --LEX--)	$LEMMA$	()	7	APP_s	true
+13	opens,	_	opens,	NNP	O	_	multi-sentence	_	0	IGNORE	true
+14	keep	_	keep	VBP	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$-01	(s(), o())	0	ROOT	true
+15	in	_	in	IN	O	_	cause-01	_	0	IGNORE	true
+16	mind	_	mind	NN	O	(b<root> / --LEX--  :mode (explicitanon0 / imperative)  :ARG1 (g<s>)  :ARG0 (y / you))	remember-01	(s())	3	APP_s	true
+17	that	_	that	IN	O	_	and	_	0	IGNORE	true
+18	both	_	both	CC	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	20	MOD_mod	true
+19	your	_	your	PRP$	O	_	$LEMMA$	_	0	IGNORE	true
+20	arms	_	arm	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	24	APP_op1	true
+21	may	_	may	MD	O	(s<root> / --LEX--  :ARG1 (p<s>))	possible-01	(s())	26	APP_op1	true
+22	be	_	be	VB	O	_	cause-01	_	0	IGNORE	true
+23	broken	_	break	VBN	O	(d<root> / --LEX--)	$LEMMA$-01	()	24	APP_op2	true
+24	or	_	or	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	21	APP_s	true
+25	dislocated,	_	dislocated,	NNS	O	_	and	_	0	IGNORE	true
+26	and	_	and	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	16	APP_s	true
+27	you	_	you	PRP	O	_	$LEMMA$	_	0	IGNORE	true
+28	may	_	may	MD	O	(s<root> / --LEX--  :ARG1 (p<s>))	possible-01	(s())	26	APP_op2	true
+29	be	_	be	VB	O	_	possible-01	_	0	IGNORE	true
+30	unable	_	unable	JJ	O	(p<root> / --LEX--  :ARG1 (b<s>)  :polarity (explicitanon0 / -))	possible-01	(s())	28	APP_s	true
+31	to	_	to	TO	O	_	-	_	0	IGNORE	true
+32	swim	_	swim	VB	O	(d<root> / --LEX--)	$LEMMA$-01	()	33	APP_op1	true
+33	or	_	or	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	30	APP_s	true
+34	tread	_	tread	VB	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	33	APP_op2	true
+35	water	_	water	NN	O	(d<root> / --LEX--)	$LEMMA$	()	34	APP_s	true
+36	before	_	before	IN	O	(w<root> / --LEX--  :op1 (h<op1>)  :time-of (b<mod>))	$LEMMA$	(op1(), mod())	33	MOD_mod	true
+37	your	_	your	PRP$	O	_	$LEMMA$	_	0	IGNORE	true
+38	chute	_	chute	NN	O	(d<root> / --LEX--)	$LEMMA$	()	14	APP_o	true
+39	fills	_	fill	VBZ	O	(d<root> / --LEX--)	$LEMMA$-01	()	40	APP_op1	true
+40	and	_	and	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	36	APP_op1	true
+41	drags	_	drag	VBZ	O	(d<root> / --LEX--)	$LEMMA$-01	()	40	APP_op2	true
+42	you	_	you	PRP	O	_	$LEMMA$	_	0	IGNORE	true
+43	under.	_	under.	NN	O	_	$LEMMA$	_	0	IGNORE	true
+
+nodealignment=[21@@s@@possible-01, 16@@explicitanon0@@imperative, 14@@s@@keep-01, 3@@s@@have-condition-91, 20@@d@@arm, 1@@d@@water, 32@@d@@swim-01, 2@@s@@say-01, 30@@p@@possible-01, 7@@m@@attach-01, 28@@s@@possible-01, 41@@d@@drag-01, 40@@a@@and, 39@@d@@fill-01, 12@@d@@chute, 10@@d@@companion, 6@@s@@succeed-01, 16@@y@@you, 4@@d@@you, 16@@b@@remember-01, 38@@d@@chute, 33@@a@@or, 30@@explicitanon0@@-, 24@@a@@or, 34@@s@@tread-01, 26@@a@@and, 23@@d@@break-01, 36@@w@@before, 18@@p@@both, 35@@d@@water]
+sentence=1	The	the	the	DT	O	_	person	_	0	IGNORE	true
+2	actual	_	actual	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-02	(s())	3	MOD_s	true
+3	author	_	author	NN	O	(p2<root> / person  :ARG0-of (e2 / --LEX--))	$LEMMA$-01	()	0	ROOT	true
+4	is	_	be	VBZ	O	_	person	_	0	IGNORE	true
+5	Johann_Valentin_Andreae,	_name_	andreae,	NN	O	_	_NAME_	_	0	IGNORE	true
+6	whose	_	whose	WP$	O	_	name	_	0	IGNORE	true
+7	name	_	name	NN	O	(m<root> / --LEX--  :poss (i<poss>))	$LEMMA$-01	(poss())	3	MOD_poss	true
+8	didn’t	_	didn’t	NNP	O	(explicitanon0<root> / --LEX--  :polarity-of (e<mod>))	-	(mod())	9	MOD_mod	true
+9	appear	_	appear	VB	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	7	MOD_s	true
+10	on	_	on	IN	O	_	describe-01	_	0	IGNORE	true
+11	the	_	the	DT	O	_	person	_	0	IGNORE	true
+12	book	_	book	NN	O	(b<root> / --LEX--  :location-of (h<mod>))	$LEMMA$	(mod())	9	MOD_mod	true
+13	originally,	_	originally,	NNP	O	_	thing	_	0	IGNORE	true
+14	thus	_	thus	RB	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	cause-01	(s(), o())	9	MOD_s	true
+15	ensuring	_	ensure	VBG	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	14	APP_o	true
+16	the	_	the	DT	O	_	cause-01	_	0	IGNORE	true
+17	confusion.	_	confusion.	NN	O	(d<root> / --LEX--)	$LEMMA$	()	15	APP_s	true
+
+nodealignment=[2@@s@@actual-02, 17@@d@@confusion., 12@@b@@book, 8@@explicitanon0@@-, 3@@p2@@person, 15@@s@@ensure-01, 3@@e2@@author-01, 7@@m@@name-01, 9@@s@@appear-01, 14@@s@@cause-01]
+sentence=1	And	and	and	CC	O	(a<root> / --LEX--  :op1 (c<op1>)  :op2 (l<op2>))	$LEMMA$	(op2(s()), op1(s()))	0	ROOT	true
+2	when	_	when	WRB	O	_	$LEMMA$	_	0	IGNORE	true
+3	I	i	I	PRP	O	(d<root> / --LEX--)	$REPL$	()	39	APP_o	true
+4	saw	_	see	VBD	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	40	APP_op2	true
+5	that	_	that	IN	O	_	$LEMMA$	_	0	IGNORE	true
+6	the	_	the	DT	O	_	$LEMMA$y	_	0	IGNORE	true
+7	reef	_	reef	NN	O	(d<root> / --LEX--)	$LEMMA$	()	13	APP_dom	true
+8	was	_	be	VBD	O	_	person	_	0	IGNORE	true
+9	but	_	but	CC	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	13	MOD_mod	true
+10	the	_	the	DT	O	_	mean-01	_	0	IGNORE	true
+11	black	_	black	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-04	(s())	13	MOD_s	true
+12	basalt	_	basalt	NN	O	(g<root> / --LEX--  :consist (r<mod>))	$LEMMA$	(mod())	13	MOD_mod	true
+13	crown	_	crown	NN	O	(c<root> / --LEX--  :poss (a<poss>)  :domain (t<dom>))	$LEMMA$	(dom(), poss())	27	APP_o	true
+14	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+15	a	_	a	DT	O	_	$LEMMA$	_	0	IGNORE	true
+16	shocking	_	shocking	JJ	O	(s<root> / --LEX--  :ARG0 (y<s>))	$LEMMA$-01	(s())	17	MOD_s	true
+17	eikon	_	eikon	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	_NAME_	(mod())	13	APP_poss	true
+18	whose	_	whose	WP$	O	_	name	_	0	IGNORE	true
+19	monstrous	_	monstrous	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	monster	(mod())	20	MOD_mod	true
+20	forehead	_	forehead	NN	O	(d<root> / --LEX--)	$LEMMA$	()	22	APP_s	true
+21	now	_	now	RB	O	(n<root> / --LEX--  :time-of (p<mod>))	$LEMMA$	(mod())	22	MOD_mod	true
+22	shown	_	show	VBN	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	17	MOD_o	true
+23	in	_	in	IN	O	_	i	_	0	IGNORE	true
+24	the	_	the	DT	O	_	he	_	0	IGNORE	true
+25	dim	_	dim	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$	(s())	26	MOD_s	true
+26	moonlight	_	moonlight	NN	O	(d<root> / date-entity  :dayperiod (m / --LEX--)  :time-of (w<mod>))	$LEMMA$	(mod())	22	MOD_mod	true
+27	and	_	and	CC	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$	(s(), o())	1	APP_op1	true
+28	whose	_	whose	WP$	O	_	i	_	0	IGNORE	true
+29	vile	_	vile	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	30	MOD_mod	true
+30	hooves	_	hoof	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	32	APP_s	true
+31	must	_	must	MD	O	(s<root> / --LEX--  :ARG1 (p<s>))	obligate-01	(s())	32	MOD_s	true
+32	paw	_	paw	VB	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	17	APP_mod	true
+33	the	_	the	DT	O	_	he	_	0	IGNORE	true
+34	hellish	_	hellish	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	35	MOD_mod	true
+35	ooze	_	ooze	NN	O	(d<root> / --LEX--)	$LEMMA$	()	32	APP_o	true
+36	miles	_	mile	NNS	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	32	MOD_mod	true
+37	below,	_	below,	.	O	_	and	_	0	IGNORE	true
+38	I	i	I	PRP	O	(p<root> / --LEX--  :mod-of (s<mod>))	$REPL$	(mod())	1	MOD_mod	true
+39	shrieked	_	shriek	VBD	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	40	APP_op1	true
+40	and	_	and	CC	O	(a<root> / --LEX--  :op1 (c<op1>)  :op2 (l<op2>))	$LEMMA$	(op2(s()), op1(s()))	1	APP_op2	true
+41	shrieked	_	shriek	VBD	O	_	$LEMMA$-01	_	0	IGNORE	true
+42	lest	_	lest	IN	O	_	cause-01	_	0	IGNORE	true
+43	the	_	the	DT	O	_	$LEMMA$y	_	0	IGNORE	true
+44	hidden	_	hide	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	45	MOD_s	true
+45	face	_	face	NN	O	(d<root> / --LEX--)	$LEMMA$	()	46	APP_s	true
+46	rise	_	rise	NN	O	(g<root> / --LEX--  :ARG4 (n<o>)  :ARG1 (t<s>))	$LEMMA$-01	(s(), o())	50	APP_op1	true
+47	above	_	above	IN	O	(a<root> / --LEX--  :direction-of (r<mod>))	$LEMMA$	(mod())	46	MOD_mod	true
+48	the	_	the	DT	O	_	he	_	0	IGNORE	true
+49	waters,	_	waters,	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	46	APP_o	true
+50	and	_	and	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	1	APP_s	true
+51	lest	_	lest	IN	O	_	cause-01	_	0	IGNORE	true
+52	the	_	the	DT	O	_	mean-01	_	0	IGNORE	true
+53	hidden	_	hide	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	54	MOD_s	true
+54	eyes	_	eye	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	55	APP_s	true
+55	look	_	look	VBP	O	(s<root> / --LEX--  :ARG0 (y<s>))	$LEMMA$-01	(s())	50	APP_op2	true
+56	at	_	at	IN	O	_	have-concession-91	_	0	IGNORE	true
+57	me	_	I	PRP	O	_	i	_	0	IGNORE	true
+58	after	_	after	IN	O	(w<root> / --LEX--  :op1 (h<op1>)  :time-of (b<mod>))	$LEMMA$	(op1(), mod())	55	MOD_mod	true
+59	the	_	the	DT	O	_	person	_	0	IGNORE	true
+60	slinking	_	slinking	NN	O	(d<root> / --LEX--)	$LEMMA$-01	()	58	APP_op1	true
+61	away	_	away	RB	O	(a<root> / --LEX--  :direction-of (r<mod>))	$LEMMA$	(mod())	60	MOD_mod	true
+62	of	_	of	IN	O	_	$LEMMA$	_	0	IGNORE	true
+63	that	_	that	DT	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	1	MOD_mod	true
+64	leering	_	leering	NN	O	(s<root> / --LEX--  :ARG0 (y<s>))	$LEMMA$-01	(s())	67	MOD_s	true
+65	and	_	and	CC	O	_	$LEMMA$	_	0	IGNORE	true
+66	treacherous	_	treacherous	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	67	MOD_mod	true
+67	yellow	_	yellow	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$	(s())	68	MOD_s	true
+68	moon.	_	moon.	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	1	MOD_mod	true
+
+nodealignment=[68@@p@@moon., 36@@p@@mile, 13@@c@@crown, 60@@d@@slinking-01, 30@@d@@hoof, 54@@d@@eye, 50@@a@@and, 63@@p@@that, 46@@g@@rise-01, 16@@s@@shocking-01, 26@@m@@moonlight, 38@@p@@i, 25@@s@@dim, 22@@s@@show-01, 32@@s@@paw-01, 1@@a@@and, 26@@d@@date-entity, 61@@a@@away, 47@@a@@above, 7@@d@@reef, 12@@g@@basalt, 20@@d@@forehead, 58@@w@@after, 19@@p@@monster, 39@@s@@shriek-01, 35@@d@@ooze, 64@@s@@leering-01, 40@@a@@and, 44@@s@@hide-01, 11@@s@@black-04, 9@@p@@but, 3@@d@@i, 17@@p@@_NAME_, 29@@p@@vile, 55@@s@@look-01, 67@@s@@yellow, 27@@s@@and, 49@@d@@waters,, 53@@s@@hide-01, 31@@s@@obligate-01, 4@@s@@see-01, 21@@n@@now, 45@@d@@face, 66@@p@@treacherous, 34@@p@@hellish]
+sentence=1	As	as	as	IN	O	_	cause-01	_	0	IGNORE	true
+2	a	_	a	DT	O	_	cause-01	_	0	IGNORE	true
+3	country,	_	country,	NNS	O	_	$LEMMA$	_	0	IGNORE	true
+4	we	_	we	PRP	O	(d<root> / --LEX--)	$LEMMA$	()	7	APP_s	true
+5	are	_	be	VBP	O	_	person	_	0	IGNORE	true
+6	also	_	also	RB	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	7	MOD_mod	true
+7	privileged	_	privileged	JJ	O	(o<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (s<o>))	$LEMMA$-02	(o(s()))	0	ROOT	true
+8	to	_	to	TO	O	_	-1	_	0	IGNORE	true
+9	have	_	have	VB	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-03	(s(), o())	7	APP_o	true
+10	a	_	a	DT	O	_	$LEMMA$	_	0	IGNORE	true
+11	National	national	National	NNP	O	(p<root> / --LEX--  :mod-of (s<mod>))	nation	(mod())	13	MOD_mod	true
+12	ICT	ict	ICT	NNP	O	(d<root> / --LEX--)	$LEMMA$	()	13	APP_s	true
+13	Policy	policy	Policy	NNP	O	(s<root> / --LEX--  :ARG2 (g<s>))	$LEMMA$-01	(s())	9	APP_o	true
+14	whose	_	whose	WP$	O	_	have-org-role-91	_	0	IGNORE	true
+15	goal	_	goal	NN	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$	(s(), o())	7	MOD_o	true
+16	is	_	be	VBZ	O	_	person	_	0	IGNORE	true
+17	to	_	to	TO	O	_	thing	_	0	IGNORE	true
+18	create	_	create	VB	O	(i<root> / --LEX--  :ARG1 (c<s>)  :purpose-of (d<mod>))	$LEMMA$-01	(mod(), s())	15	MOD_mod	true
+19	a	_	a	DT	O	_	1	_	0	IGNORE	true
+20	prosperous	_	prosperous	JJ	O	(s<root> / --LEX--  :ARG0 (y<s>))	prosper-01	(s())	23	MOD_s	true
+21	ICT	ict	ICT	NNP	O	(d<root> / --LEX--)	$LEMMA$	()	23	APP_o	true
+22	-	_	-	HYPH	O	_	$LEMMA$	_	0	IGNORE	true
+23	driven	_	drive	VBN	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	15	APP_s	true
+24	Kenyan	_name_	kenyan	JJ	O	(c<root> / country  :name (n / --LEX--))	_NAME_	()	23	APP_s	true
+25	society.	_	society.	NN	O	_	name	_	0	IGNORE	true
+
+nodealignment=[18@@i@@create-01, 23@@s@@drive-01, 6@@p@@also, 24@@c@@country, 21@@d@@ICT, 4@@d@@we, 9@@s@@have-03, 11@@p@@nation, 13@@s@@Policy-01, 12@@d@@ICT, 15@@s@@goal, 20@@s@@prosper-01, 24@@n@@_NAME_, 7@@o@@privileged-02]
+sentence=1	An	an	an	DT	O	_	$LEMMA$	_	0	IGNORE	true
+2	empire	_	empire	NN	O	(d<root> / --LEX--)	$LEMMA$	()	0	ROOT	true
+3	whose	_	whose	WP$	O	_	have-03	_	0	IGNORE	true
+4	costly	_	costly	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	5	MOD_mod	true
+5	mistakes	_	mistake	NNS	O	(s<root> / --LEX--  :ARG0 (y<s>))	$LEMMA$-02	(s())	10	MOD_s	true
+6	would	_	would	MD	O	_	cause-01	_	0	IGNORE	true
+7	for	_	for	IN	O	_	and	_	0	IGNORE	true
+8	many_years	_name_	year	NNS	O	(t2<root> / temporal-quantity  :quant (explicitanon0 / --LEX--)  :duration-of (t3<mod>))	_NAME_	(mod())	5	MOD_mod	true
+9	to	_	to	TO	O	_	multiple	_	0	IGNORE	true
+10	come	_	come	VB	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$-01	(s(), o())	2	MOD_s	true
+11	echo	_	echo	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$-01	(mod())	10	MOD_mod	true
+12	into	_	into	IN	O	_	$LEMMA$	_	0	IGNORE	true
+13	every	_	every	DT	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	14	MOD_mod	true
+14	corner	_	corner	NN	O	(d<root> / --LEX--)	$LEMMA$	()	10	APP_o	true
+15	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+16	the	_	the	DT	O	_	person	_	0	IGNORE	true
+17	known	_	know	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	14	MOD_s	true
+18	galaxy.	_	galaxy.	NN	O	_	$LEMMA$	_	0	IGNORE	true
+
+nodealignment=[8@@explicitanon0@@_NAME_, 17@@s@@know-01, 2@@d@@empire, 11@@p@@echo-01, 4@@p@@costly, 13@@p@@every, 10@@s@@come-01, 14@@d@@corner, 5@@s@@mistake-02, 8@@t2@@temporal-quantity]
+sentence=1	The	the	the	DT	O	_	he	_	0	IGNORE	true
+2	stories	_	story	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	13	APP_o	true
+3	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+4	her	_	she	PRP$	O	_	$LEMMA$	_	0	IGNORE	true
+5	mature	_	mature	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	6	MOD_mod	true
+6	period	_	period	NN	O	(n<root> / --LEX--  :time-of (p<mod>))	$LEMMA$	(mod())	2	MOD_mod	true
+7	(1894	_	(1894	ADD	O	(explicitanon0<root> / --LEX--  :year-of (d<mod>))	_NUMBER_	(mod())	6	MOD_mod	true
+8	–	_	–	:	O	_	date-interval	_	0	IGNORE	true
+9	96)	_	96)	CD	O	_	and	_	0	IGNORE	true
+10	were	_	be	VBD	O	_	person	_	0	IGNORE	true
+11	not	_	not	RB	O	_	-	_	0	IGNORE	true
+12	only	_	only	RB	O	_	$LEMMA$	_	0	IGNORE	true
+13	marked	_	mark	VBN	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	0	ROOT	true
+14	by	_	by	IN	O	_	and	_	0	IGNORE	true
+15	her	_	she	PRP$	O	_	$LEMMA$	_	0	IGNORE	true
+16	experience	_	experience	NN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	22	APP_op1	true
+17	living	_	live	VBG	O	(d<root> / --LEX--)	$LEMMA$-01	()	16	APP_s	true
+18	near	_	near	IN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$-02	(s(), o())	17	MOD_s	true
+19	the	_	the	DT	O	_	he	_	0	IGNORE	true
+20	red-light	_	red-light	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	21	MOD_mod	true
+21	district	_	district	NN	O	(d<root> / --LEX--)	$LEMMA$	()	18	APP_o	true
+22	and	_	and	CC	O	(a<root> / --LEX--  :op2 (s<op2>)  :op1 (l<op1>)  :op3 (s2<op3>))	$LEMMA$	(op2(), op1(), op3())	13	APP_s	true
+23	greater	_	great	JJR	O	(f2<root> / --LEX--  :degree (m / more)  :mod-of (f<mod>))	great	(mod())	24	MOD_mod	true
+24	concern	_	concern	NN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	22	APP_op2	true
+25	over	_	over	IN	O	_	$LEMMA$	_	0	IGNORE	true
+26	the	_	the	DT	O	_	person	_	0	IGNORE	true
+27	plight	_	plight	NN	O	(d<root> / --LEX--)	$LEMMA$	()	24	APP_s	true
+28	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+29	women,	_	women,	NNP	O	_	_NAME_	_	0	IGNORE	true
+30	but	_	but	CC	O	_	contrast-01	_	0	IGNORE	true
+31	also	_	also	RB	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	34	MOD_mod	true
+32	by	_	by	IN	O	_	person	_	0	IGNORE	true
+33	the	_	the	DT	O	_	person	_	0	IGNORE	true
+34	influence	_	influence	NN	O	(s<root> / --LEX--  :ARG0 (y<s>))	$LEMMA$-01	(s())	22	APP_op3	true
+35	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+36	Ihara_Saikaku,	_name_	Saikaku,	NNP	O	_	include-91	_	0	IGNORE	true
+37	a	_	a	DT	O	_	1	_	0	IGNORE	true
+38	17th-century	_	17th-century	CD	O	(n<root> / --LEX--  :time-of (p<mod>))	_NAME_	(mod())	34	MOD_mod	true
+39	writer,	_	writer,	NNP	O	_	$LEMMA$	_	0	IGNORE	true
+40	whose	_	whose	WP$	O	_	name	_	0	IGNORE	true
+41	stories	_	story	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	34	APP_s	true
+42	she	_	she	PRP	O	_	$LEMMA$	_	0	IGNORE	true
+43	had	_	have	VBD	O	_	person	_	0	IGNORE	true
+44	recently	_	recently	RB	O	(n<root> / --LEX--  :time-of (p<mod>))	recent	(mod())	41	MOD_mod	true
+45	discovered.	_	discovered.	ADD	O	_	_NAME_	_	0	IGNORE	true
+
+nodealignment=[34@@s@@influence-01, 27@@d@@plight, 38@@n@@_NAME_, 13@@s@@mark-01, 23@@f2@@great, 16@@s@@experience-01, 23@@m@@more, 17@@d@@live-01, 44@@n@@recent, 20@@p@@red-light, 31@@p@@also, 24@@s@@concern-01, 22@@a@@and, 2@@d@@story, 7@@explicitanon0@@_NUMBER_, 5@@p@@mature, 18@@s@@near-02, 21@@d@@district, 41@@d@@story, 6@@n@@period]
+sentence=1	Nor	nor	nor	CC	O	(explicitanon0<root> / --LEX--  :polarity-of (e<mod>))	-	(mod())	5	MOD_mod	true
+2	had	_	have	VBD	O	_	cause-01	_	0	IGNORE	true
+3	my	_	my	PRP$	O	_	contrast-01	_	0	IGNORE	true
+4	flesh	_	flesh	NN	O	(d<root> / --LEX--)	$LEMMA$	()	5	APP_s	true
+5	trembled	_	tremble	VBD	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	8	APP_s	true
+6	without	_	without	IN	O	(explicitanon0<root> / --LEX--  :polarity-of (e<mod>))	-	(mod())	5	MOD_mod	true
+7	cause,	_	cause,	NNP	O	(explicitanon0<root> / --LEX--  :polarity-of (e<mod>))	have-concession-91	(mod())	5	MOD_mod	true
+8	for	_	for	IN	O	(s<root> / --LEX--  :ARG1 (p<s>))	cause-01	(s())	0	ROOT	true
+9	when	_	when	WRB	O	_	he	_	0	IGNORE	true
+10	I	i	I	PRP	O	_	$REPL$	_	0	IGNORE	true
+11	raised	_	raise	VBD	O	(s<root> / --LEX--  :ARG1 (d<s>)  :time-of (m<mod>))	$LEMMA$-01	(mod(), s())	15	MOD_mod	true
+12	my	_	my	PRP$	O	_	cause-01	_	0	IGNORE	true
+13	eyes	_	eye	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	11	APP_s	true
+14	I	i	I	PRP	O	_	$REPL$	_	0	IGNORE	true
+15	saw	_	see	VBD	O	(t<root> / --LEX--  :ARG1 (t2<o>)  :ARG0 (i<s>)  :time-of (f<mod>))	$LEMMA$-01	(mod(), s(), o())	8	MOD_mod	true
+16	that	_	that	IN	O	_	and	_	0	IGNORE	true
+17	the	_	the	DT	O	_	$LEMMA$y	_	0	IGNORE	true
+18	waters	_	water	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	20	APP_s	true
+19	had	_	have	VBD	O	_	cause-01	_	0	IGNORE	true
+20	ebbed	_	ebb	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	15	APP_o	true
+21	very	_	very	RB	O	(s<root> / --LEX--  :degree-of (t<mod>))	$LEMMA$	(mod())	20	MOD_mod	true
+22	low,	_	low,	RB	O	_	and	_	0	IGNORE	true
+23	shewing	_	shew	VBG	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	20	MOD_s	true
+24	much	_	much	JJ	O	(explicitanon0<root> / --LEX--  :quant-of (b<mod>))	$LEMMA$	(mod())	28	MOD_mod	true
+25	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+26	the	_	the	DT	O	_	he	_	0	IGNORE	true
+27	vast	_	vast	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	28	MOD_mod	true
+28	reef	_	reef	NN	O	(d<root> / --LEX--)	$LEMMA$	()	23	APP_o	true
+29	whose	_	whose	WP$	O	_	mean-01	_	0	IGNORE	true
+30	rim	_	rim	NN	O	(m<root> / --LEX--  :poss (i<poss>))	$LEMMA$	(poss())	28	MOD_poss	true
+31	I	i	I	PRP	O	_	$REPL$	_	0	IGNORE	true
+32	had	_	have	VBD	O	_	person	_	0	IGNORE	true
+33	seen	_	see	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	30	MOD_s	true
+34	before.	_	before.	NN	O	_	_NAME_	_	0	IGNORE	true
+
+nodealignment=[11@@s@@raise-01, 7@@explicitanon0@@have-concession-91, 13@@d@@eye, 8@@s@@cause-01, 20@@s@@ebb-01, 23@@s@@shew-01, 5@@s@@tremble-01, 1@@explicitanon0@@-, 27@@p@@vast, 4@@d@@flesh, 33@@s@@see-01, 6@@explicitanon0@@-, 28@@d@@reef, 30@@m@@rim, 18@@d@@water, 24@@explicitanon0@@much, 21@@s@@very, 15@@t@@see-01]
+sentence=1	Although	although	although	IN	O	(s<root> / --LEX--  :ARG2 (g<s>))	have-concession-91	(s())	41	APP_op1	true
+2	I	i	I	PRP	O	(d<root> / --LEX--)	$REPL$	()	4	APP_s	true
+3	am	_	be	VBP	O	_	have-concession-91	_	0	IGNORE	true
+4	sure	_	sure	JJ	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-02	(s(), o())	22	MOD_o	true
+5	that	_	that	IN	O	_	$LEMMA$	_	0	IGNORE	true
+6	being	_	be	VBG	O	(d<root> / --LEX--)	$LEMMA$-located-at-91	()	22	APP_s	true
+7	there	_	there	EX	O	(d<root> / --LEX--)	$LEMMA$	()	9	APP_o2	true
+8	would	_	would	MD	O	_	thing	_	0	IGNORE	true
+9	enhance	_	enhance	VB	O	(b<root> / --LEX--  :ARG1 (i<o>)  :ARG2 (h<o2>)  :ARG0 (a<s>))	$LEMMA$-01	(o2(), s(), o())	22	APP_op1	true
+10	my	_	my	PRP$	O	_	thing	_	0	IGNORE	true
+11	understanding	_	understanding	NN	O	(s<root> / --LEX--  :ARG1 (p<s>))	understand-01	(s())	9	APP_o	true
+12	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+13	the	_	the	DT	O	_	he	_	0	IGNORE	true
+14	animals	_	animal	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	15	APP_op1	true
+15	and	_	and	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	11	APP_s	true
+16	the	_	the	DT	O	_	thing	_	0	IGNORE	true
+17	system	_	system	NN	O	(d<root> / --LEX--)	$LEMMA$	()	15	APP_op2	true
+18	in	_	in	IN	O	_	i	_	0	IGNORE	true
+19	which	_	which	WDT	O	_	amr-unknown	_	0	IGNORE	true
+20	they	_	they	PRP	O	_	$LEMMA$	_	0	IGNORE	true
+21	live,	_	live,	NNP	O	_	and	_	0	IGNORE	true
+22	and	_	and	CC	O	(a<root> / --LEX--  :op1 (c<op1>)  :op2 (l<op2>))	$LEMMA$	(op2(s()), op1(s()))	1	APP_s	true
+23	would	_	would	MD	O	_	contrast-01	_	0	IGNORE	true
+24	help	_	help	VB	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	22	APP_op2	true
+25	me	_	I	PRP	O	_	i	_	0	IGNORE	true
+26	formulate	_	formulate	VB	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	24	APP_o	true
+27	more	_	more	JJR	O	(s<root> / --LEX--  :degree-of (t<mod>))	$LEMMA$	(mod())	30	MOD_mod	true
+28	and	_	and	CC	O	_	$LEMMA$	_	0	IGNORE	true
+29	better	_	well	JJR	O	(s<root> / --LEX--  :ARG1 (p<s>))	good-02	(s())	30	MOD_s	true
+30	questions	_	question	NNS	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	26	APP_s	true
+31	about	_	about	IN	O	_	$LEMMA$	_	0	IGNORE	true
+32	the	_	the	DT	O	_	person	_	0	IGNORE	true
+33	anemones,	_	anemones,	NNP	O	_	_NAME_	_	0	IGNORE	true
+34	ship	_	ship	NN	O	(a<root> / --LEX--  :topic-of (w<mod>))	$LEMMA$	(mod())	35	MOD_mod	true
+35	time	_	time	NN	O	(d<root> / --LEX--)	$LEMMA$	()	30	APP_s	true
+36	is	_	be	VBZ	O	_	$LEMMA$-located-at-91	_	0	IGNORE	true
+37	expensive,	_	expensive,	NNP	O	_	mean-01	_	0	IGNORE	true
+38	especially	_	especially	RB	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	40	MOD_mod	true
+39	in	_	in	IN	O	_	i	_	0	IGNORE	true
+40	Antarctica,	_name_	antarctica,	CD	O	(b<root> / --LEX--  :location-of (h<mod>))	and	(mod())	41	MOD_mod	true
+41	and	_	and	CC	O	(a<root> / --LEX--  :op2 (s<op2>)  :op1 (l<op1>)  :op3 (s2<op3>))	$LEMMA$	(op2(), op1(), op3())	0	ROOT	true
+42	if	_	if	IN	O	_	have-condition-91	_	0	IGNORE	true
+43	there	_	there	EX	O	_	cause-01	_	0	IGNORE	true
+44	are	_	be	VBP	O	_	$LEMMA$-located-at-91	_	0	IGNORE	true
+45	biologists	_	biologist	NNS	O	(r<root> / --LEX--  :condition-of (c<mod>))	$LEMMA$	(mod())	56	MOD_mod	true
+46	whose	_	whose	WP$	O	_	thing	_	0	IGNORE	true
+47	contribution	_	contribution	NN	O	(d<root> / --LEX--)	contribute-01	()	49	APP_o	true
+48	is	_	be	VBZ	O	_	person	_	0	IGNORE	true
+49	predicated	_	predicate	VBN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$-01	(s(), o())	45	MOD_s	true
+50	on	_	on	IN	O	_	mean-01	_	0	IGNORE	true
+51	being	_	be	VBG	O	_	$LEMMA$-located-at-91	_	0	IGNORE	true
+52	there,	_	there,	XX	O	_	and	_	0	IGNORE	true
+53	they	_	they	PRP	O	_	$LEMMA$	_	0	IGNORE	true
+54	should	_	should	MD	O	(d<root> / --LEX--)	recommend-01	()	41	APP_op2	true
+55	have	_	have	VB	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-03	(s())	41	APP_op3	true
+56	priority	_	priority	NN	O	(d<root> / --LEX--)	prioritize-01	()	55	APP_s	true
+57	to	_	to	TO	O	_	and	_	0	IGNORE	true
+58	be	_	be	VB	O	_	person	_	0	IGNORE	true
+59	there.	_	there.	NN	O	_	$LEMMA$	_	0	IGNORE	true
+
+nodealignment=[56@@d@@prioritize-01, 38@@p@@especially, 45@@r@@biologist, 30@@s@@question-01, 14@@d@@animal, 34@@a@@ship, 9@@b@@enhance-01, 29@@s@@good-02, 6@@d@@be-located-at-91, 54@@d@@recommend-01, 22@@a@@and, 15@@a@@and, 4@@s@@sure-02, 11@@s@@understand-01, 7@@d@@there, 27@@s@@more, 17@@d@@system, 2@@d@@i, 35@@d@@time, 26@@s@@formulate-01, 1@@s@@have-concession-91, 24@@s@@help-01, 47@@d@@contribute-01, 49@@s@@predicate-01, 55@@s@@have-03, 41@@a@@and, 40@@b@@and]
+sentence=1	It	it	It	PRP	O	(d<root> / --LEX--)	$LEMMA$	()	4	APP_dom	true
+2	is	_	be	VBZ	O	_	person	_	0	IGNORE	true
+3	an	_	an	DT	O	_	thing	_	0	IGNORE	true
+4	oath	_	oath	NN	O	(r<root> / --LEX--  :domain (q<dom>))	$LEMMA$	(dom())	0	ROOT	true
+5	whose	_	whose	WP$	O	_	contrast-01	_	0	IGNORE	true
+6	power	_	power	NN	O	(s<root> / --LEX--  :ARG0 (y<s>))	$LEMMA$	(s())	4	MOD_s	true
+7	derives	_	derive	VBZ	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$-01	(s(), o())	6	MOD_s	true
+8	from	_	from	IN	O	_	cause-01	_	0	IGNORE	true
+9	its	_	its	PRP$	O	_	$LEMMA$	_	0	IGNORE	true
+10	common	_	common	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	7	MOD_mod	true
+11	sense:	_	sense:	NNS	O	_	and	_	0	IGNORE	true
+12	that	_	that	IN	O	_	$LEMMA$	_	0	IGNORE	true
+13	a	_	a	DT	O	_	1	_	0	IGNORE	true
+14	juror	_	juror	NN	O	(p2<root> / person  :ARG0-of (e2 / --LEX--))	$LEMMA$	()	15	APP_s	true
+15	must	_	must	MD	O	(h<root> / --LEX--  :ARG2 (m<o>))	obligate-01	(o(s()))	7	APP_o	true
+16	always	_	always	RB	O	(n<root> / --LEX--  :time-of (p<mod>))	$LEMMA$	(mod())	18	MOD_mod	true
+17	be	_	be	VB	O	_	person	_	0	IGNORE	true
+18	impartial	_	impartial	JJ	O	(p<root> / --LEX--  :ARG1 (b<s>)  :polarity (explicitanon0 / -))	$LEMMA$	(s())	15	APP_o	true
+19	for	_	for	IN	O	_	cause-01	_	0	IGNORE	true
+20	a	_	a	DT	O	_	1	_	0	IGNORE	true
+21	trial	_	trial	NN	O	(o<root> / --LEX--  :purpose-of (a2<mod>))	try-02	(mod())	18	MOD_mod	true
+22	to	_	to	TO	O	_	cause-01	_	0	IGNORE	true
+23	be	_	be	VB	O	_	person	_	0	IGNORE	true
+24	fair.	_	fair.	JJ	O	_	$LEMMA$	_	0	IGNORE	true
+
+nodealignment=[6@@s@@power, 1@@d@@It, 10@@p@@common, 7@@s@@derive-01, 18@@p@@impartial, 21@@o@@try-02, 18@@explicitanon0@@-, 4@@r@@oath, 14@@p2@@person, 15@@h@@obligate-01, 14@@e2@@juror, 16@@n@@always]
+sentence=1	Eegimaa	_name_	Eegimaa	NNP	O	(p<root> / person  :name (n / --LEX--))	_NAME_	()	5	APP_dom	true
+2	is	_	be	VBZ	O	_	name	_	0	IGNORE	true
+3	an	_	an	DT	O	_	name	_	0	IGNORE	true
+4	endangered	_	endangered	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	5	MOD_s	true
+5	language	_	language	NN	O	(r<root> / --LEX--  :domain (q<dom>))	$LEMMA$	(dom())	0	ROOT	true
+6	whose	_	whose	WP$	O	_	-	_	0	IGNORE	true
+7	transmission	_	transmission	NN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	receive-01	(s(), o())	5	MOD_s	true
+8	to	_	to	IN	O	_	-	_	0	IGNORE	true
+9	new	_	new	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	10	MOD_s	true
+10	generations	_	generation	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	7	APP_o	true
+11	has	_	have	VBZ	O	_	person	_	0	IGNORE	true
+12	been	_	be	VBN	O	_	person	_	0	IGNORE	true
+13	declining	_	decline	VBG	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	7	MOD_s	true
+14	significantly	_	significantly	RB	O	(s<root> / --LEX--  :ARG1 (p<s>))	significant-02	(s())	13	MOD_s	true
+15	in	_	in	IN	O	_	future	_	0	IGNORE	true
+16	the	_	the	DT	O	_	by-$LEMMA$-way	_	0	IGNORE	true
+17	last	_	last	JJ	O	(b<root> / --LEX--  :op1 (n / now)  :time-of (t<mod>))	before	(mod())	13	MOD_mod	true
+18	decades.	_	decades.	NN	O	_	1	_	0	IGNORE	true
+
+nodealignment=[7@@s@@receive-01, 4@@s@@endangered-01, 9@@s@@new-01, 10@@d@@generation, 14@@s@@significant-02, 13@@s@@decline-01, 5@@r@@language, 17@@b@@before, 17@@n@@now, 1@@n@@_NAME_, 1@@p@@person]
+sentence=1	Many	many	many	JJ	O	(explicitanon0<root> / --LEX--  :quant-of (b<mod>))	$LEMMA$	(mod())	11	MOD_mod	true
+2	southwest	_	southw	JJS	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	14	MOD_mod	true
+3	Asian	_name_	asian	JJ	O	(c3<root> / continent  :name (n2 / --LEX--)  :location-of (c2<mod>))	_NAME_	(mod())	14	MOD_mod	true
+4	kingdoms,	_	kingdoms,	NNS	O	_	and	_	0	IGNORE	true
+5	such	_	such	JJ	O	_	$LEMMA$	_	0	IGNORE	true
+6	as	_	as	IN	O	_	and	_	0	IGNORE	true
+7	Saudi	_name_	saudi	JJ	O	(c<root> / country  :name (n / --LEX--))	_NAME_	()	10	APP_op1	true
+8	Arabia,	arabia,	arabia,	CD	O	_	and	_	0	IGNORE	true
+9	Qatar,	qatar,	qatar,	CD	O	_	include-91	_	0	IGNORE	true
+10	and	_	and	CC	O	(a<root> / --LEX--  :op1 (e<op1>)  :op2 (o2<op2>)  :example-of (r<mod>))	$LEMMA$	(op2(), op1(), mod())	2	MOD_mod	true
+11	the	_	the	DT	O	(d<root> / --LEX--)	person	()	14	APP_s	true
+12	United_Arab	_name_	Arab	NNP	O	(c<root> / country  :name (n / --LEX--))	_NAME_	()	10	APP_op2	true
+13	Emirates,	_name_	Emirates,	NFP	O	_	and	_	0	IGNORE	true
+14	have	_	have	VBP	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-03	(s(), o())	0	ROOT	true
+15	absolute	_	absolute	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	16	MOD_mod	true
+16	monarchs	_	monarchs	JJ	O	(d<root> / --LEX--)	$LEMMA$	()	14	APP_o	true
+17	whose	_	whose	WP$	O	_	have-org-role-91	_	0	IGNORE	true
+18	power	_	power	NN	O	(m<root> / --LEX--  :poss (i<poss>))	$LEMMA$	(poss())	16	MOD_poss	true
+19	is	_	be	VBZ	O	_	person	_	0	IGNORE	true
+20	unrestricted.	_	unrestricted.	ADD	O	_	$LEMMA$-01	_	0	IGNORE	true
+
+nodealignment=[18@@m@@power, 1@@explicitanon0@@many, 11@@d@@person, 12@@c@@country, 7@@c@@country, 16@@d@@monarchs, 7@@n@@_NAME_, 3@@n2@@_NAME_, 3@@c3@@continent, 14@@s@@have-03, 10@@a@@and, 2@@p@@southw, 12@@n@@_NAME_, 15@@p@@absolute]
+sentence=1	As	as	as	IN	O	_	cause-01	_	0	IGNORE	true
+2	to	_	to	IN	O	_	cause-01	_	0	IGNORE	true
+3	his	_	he	PRP$	O	_	$LEMMA$	_	0	IGNORE	true
+4	opponent	_	opponent	NN	O	(s<root> / --LEX--  :ARG0 (y<s>))	oppose-01	(s())	9	MOD_s	true
+5	in	_	in	IN	O	_	i	_	0	IGNORE	true
+6	the	_	the	DT	O	_	person	_	0	IGNORE	true
+7	duel,	_	duel,	NNP	O	_	have-org-role-91	_	0	IGNORE	true
+8	Alexandre_Dumas	_name_	Dumas	NNP	O	(p<root> / person  :name (n / --LEX--))	_NAME_	()	9	APP_s	true
+9	names	_	name	VBZ	O	(b<root> / --LEX--  :ARG1 (i<o>)  :ARG2 (h<o2>)  :ARG0 (a<s>))	$LEMMA$-01	(o2(), s(), o())	0	ROOT	true
+10	Pescheux	_name_	Pescheux	NNP	O	(p<root> / person  :name (n / --LEX--))	_NAME_	()	9	APP_o	true
+11	d'Herbinville,	d'herbinville,	d'Herbinville,	NFP	O	_	$LEMMA$	_	0	IGNORE	true
+12	[13]	_	[13]	XX	O	_	include-91	_	0	IGNORE	true
+13	who	_	who	WP	O	_	name	_	0	IGNORE	true
+14	was	_	be	VBD	O	_	person	_	0	IGNORE	true
+15	actually	_	actually	RB	O	(s<root> / --LEX--  :ARG1 (p<s>))	actual-02	(s())	25	MOD_s	true
+16	one	_	one	CD	O	(d<root> / --LEX--)	1	()	9	APP_o2	true
+17	of	_	of	IN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	include-91	(s(), o())	16	MOD_s	true
+18	the	_	the	DT	O	_	include-91	_	0	IGNORE	true
+19	nineteen	_	nineteen	CD	O	(explicitanon0<root> / --LEX--  :quant-of (b<mod>))	12	(mod())	21	MOD_mod	true
+20	artillery	_	artillery	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	21	MOD_mod	true
+21	officers	_	officer	NNS	O	(p<root> / person  :ARG0-of (h / have-org-role-91  :ARG2 (e / --LEX--)))	$LEMMA$	()	17	APP_o	true
+22	whose	_	whose	WP$	O	_	have-org-role-91	_	0	IGNORE	true
+23	acquittal	_	acquittal	NN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	21	MOD_s	true
+24	was	_	be	VBD	O	_	person	_	0	IGNORE	true
+25	celebrated	_	celebrate	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	23	MOD_s	true
+26	at	_	at	IN	O	_	i	_	0	IGNORE	true
+27	the	_	the	DT	O	_	person	_	0	IGNORE	true
+28	banquet	_	banquet	NN	O	(b<root> / --LEX--  :location-of (h<mod>))	$LEMMA$	(mod())	25	MOD_mod	true
+29	that	_	that	WDT	O	_	$LEMMA$	_	0	IGNORE	true
+30	occasioned	_	occasion	VBD	O	(s<root> / --LEX--  :ARG0 (y<s>))	$LEMMA$-01	(s())	28	MOD_s	true
+31	Galois'	galois'	galois'	NN	O	_	_NAME_	_	0	IGNORE	true
+32	first	_name_	first	JJ	O	(explicitanon0<root> / --LEX--  :value-of (o / ordinal-entity  :ord-of (p<mod>)))	1	(mod())	30	MOD_mod	true
+33	arrest.	_	arrest.	NN	O	_	1	_	0	IGNORE	true
+34	[20]	_name_	[20]	XX	O	_	multi-sentence	_	0	IGNORE	true
+
+nodealignment=[9@@b@@name-01, 32@@explicitanon0@@1, 4@@s@@oppose-01, 21@@h@@have-org-role-91, 10@@p@@person, 10@@n@@_NAME_, 30@@s@@occasion-01, 32@@o@@ordinal-entity, 25@@s@@celebrate-01, 21@@p@@person, 20@@p@@artillery, 19@@explicitanon0@@12, 23@@s@@acquittal-01, 28@@b@@banquet, 17@@s@@include-91, 16@@d@@1, 8@@p@@person, 21@@e@@officer, 8@@n@@_NAME_, 15@@s@@actual-02]
+sentence=1	The	the	the	DT	O	_	person	_	0	IGNORE	true
+2	group	_	group	NN	O	(d<root> / --LEX--)	$LEMMA$	()	11	APP_s	true
+3	whose	_	whose	WP$	O	_	have-03	_	0	IGNORE	true
+4	three	_	three	CD	O	(explicitanon0<root> / --LEX--  :quant-of (b<mod>))	3	(mod())	5	MOD_mod	true
+5	robots	_	robot	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	11	APP_o	true
+6	collectively	_	collectively	RB	O	(p<root> / --LEX--  :mod-of (s<mod>))	collective	(mod())	7	MOD_mod	true
+7	earned	_	earn	VBD	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	2	MOD_s	true
+8	the	_	the	DT	O	_	person	_	0	IGNORE	true
+9	most	_	most	JJS	O	(explicitanon0<root> / --LEX--  :quant-of (b<mod>))	$LEMMA$	(mod())	10	MOD_mod	true
+10	points	_	point	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	7	APP_o	true
+11	won	_	win	VBD	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	0	ROOT	true
+12	that	_	that	DT	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	11	MOD_mod	true
+13	match.	_	match.	NN	O	_	$LEMMA$	_	0	IGNORE	true
+
+nodealignment=[4@@explicitanon0@@3, 7@@s@@earn-01, 5@@d@@robot, 9@@explicitanon0@@most, 11@@s@@win-01, 6@@p@@collective, 2@@d@@group, 10@@d@@point, 12@@p@@that]
+sentence=1	We	we	We	PRP	O	(d<root> / --LEX--)	$LEMMA$	()	2	APP_s	true
+2	are	_	be	VBP	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$-located-at-91	(s(), o())	0	ROOT	true
+3	now	_	now	RB	O	(n<root> / --LEX--  :time-of (p<mod>))	$LEMMA$	(mod())	2	MOD_mod	true
+4	in	_	in	IN	O	_	after	_	0	IGNORE	true
+5	the	_	the	DT	O	_	and	_	0	IGNORE	true
+6	second	_name_	second	JJ	O	(explicitanon0<root> / --LEX--  :value-of (o / ordinal-entity  :ord-of (p<mod>)))	2	(mod())	10	MOD_mod	true
+7	medium	_	medium	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-03	(s())	9	MOD_s	true
+8	term	_	term	NN	O	_	$LEMMA$	_	0	IGNORE	true
+9	plan	_	plan	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$-01	(mod())	10	MOD_mod	true
+10	cycle	_	cycle	NN	O	(d<root> / --LEX--)	$LEMMA$	()	2	APP_o	true
+11	(2013	_	(2013	NNP	O	(explicitanon0<root> / --LEX--  :year-of (d<mod>))	_NUMBER_	(mod())	10	MOD_mod	true
+12	-	_	-	HYPH	O	_	date-interval	_	0	IGNORE	true
+13	2017)	_	2017)	NNP	O	_	and	_	0	IGNORE	true
+14	whose	_	whose	WP$	O	_	thing	_	0	IGNORE	true
+15	theme	_	theme	NN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$	(s(), o())	10	MOD_s	true
+16	is	_	be	VBZ	O	_	person	_	0	IGNORE	true
+17	“Transforming	“transforming	“transforme	VBG	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	15	APP_o	true
+18	Kenya:	kenya:	Kenya:	NNP	O	_	mean-01	_	0	IGNORE	true
+19	Pathways	pathways	Pathways	NNP	O	(t<root> / --LEX--  :path-of (d<mod>))	$LEMMA$	(mod())	17	APP_s	true
+20	to	_	to	IN	O	_	thing	_	0	IGNORE	true
+21	Devolution,	devolution,	devolution,	CD	O	_	name	_	0	IGNORE	true
+22	Socio-economic	socio-economic	Socio-economic	NNP	O	(d<root> / --LEX--)	economy	()	25	APP_op1	true
+23	Development,	development,	development,	CD	O	_	and	_	0	IGNORE	true
+24	Equity	equity	Equity	NNP	O	(d<root> / --LEX--)	$LEMMA$	()	25	APP_op2	true
+25	and	_	and	CC	O	(a<root> / --LEX--  :op2 (s<op2>)  :op1 (l<op1>)  :op3 (s2<op3>))	$LEMMA$	(op2(), op1(), op3())	19	APP_mod	true
+26	National	national	National	NNP	O	(d<root> / --LEX--)	nation	()	25	APP_op3	true
+27	Unity”.	unity”.	Unity”.	NNS	O	_	multi-sentence	_	0	IGNORE	true
+
+nodealignment=[1@@d@@We, 10@@d@@cycle, 22@@d@@economy, 3@@n@@now, 24@@d@@Equity, 6@@o@@ordinal-entity, 15@@s@@theme, 9@@p@@plan-01, 19@@t@@Pathways, 26@@d@@nation, 6@@explicitanon0@@2, 2@@s@@be-located-at-91, 25@@a@@and, 7@@s@@medium-03, 17@@s@@“transforme-01, 11@@explicitanon0@@_NUMBER_]
+sentence=1	Besides	besides	besides	IN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	except-01	(s(), o())	15	MOD_o	true
+2	works	_	work	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	1	APP_s	true
+3	whose	_	whose	WP$	O	_	have-03	_	0	IGNORE	true
+4	copyright	_	copyright	NN	O	(s<root> / --LEX--  :ARG2 (g<s>))	$LEMMA$-01	(s())	2	MOD_s	true
+5	has	_	have	VBZ	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	cause-01	(s(), o())	15	MOD_o	true
+6	expired,	_	expired,	VBN	O	_	have-concession-91	_	0	IGNORE	true
+7	there	_	there	EX	O	_	cause-01	_	0	IGNORE	true
+8	is	_	be	VBZ	O	_	$LEMMA$-located-at-91	_	0	IGNORE	true
+9	an	_	an	DT	O	_	1	_	0	IGNORE	true
+10	increasing	_	increase	VBG	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	11	MOD_s	true
+11	number	_	number	NN	O	(explicitanon0<root> / --LEX--  :quant-of (b<mod>))	$LEMMA$	(mod())	14	MOD_mod	true
+12	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+13	modern	_	modern	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-02	(s())	14	MOD_s	true
+14	books	_	book	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	15	APP_s	true
+15	available	_	available	JJ	O	(s<root> / --LEX--  :ARG2 (g<s>))	$LEMMA$-02	(s())	0	ROOT	true
+16	under	_	under	IN	O	_	$LEMMA$	_	0	IGNORE	true
+17	Creative_Commons	_name_	Commons	NNPS	O	(o2<root> / organization  :name (n / --LEX--))	_NAME_	()	18	APP_op2	true
+18	and	_	and	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	15	MOD_op1	true
+19	similar	_	similar	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	resemble-01	(s())	5	MOD_s	true
+20	licenses.	_	licenses.	NN	O	_	thing	_	0	IGNORE	true
+
+nodealignment=[11@@explicitanon0@@number, 13@@s@@modern-02, 18@@a@@and, 4@@s@@copyright-01, 17@@o2@@organization, 15@@s@@available-02, 2@@d@@work, 10@@s@@increase-01, 19@@s@@resemble-01, 14@@d@@book, 1@@s@@except-01, 17@@n@@_NAME_, 5@@s@@cause-01]
+sentence=1	On	on	on	IN	O	_	cause-01	_	0	IGNORE	true
+2	2	_	2	CD	O	(explicitanon4<root> / --LEX--  :day-of (d<mod>))	_NUMBER_	(mod())	5	MOD_mod	true
+3	June,_Évariste_Galois	_name_	Galois	NNP	O	(n<root> / --LEX--  :time-of (p<mod>))	name	(mod())	2	MOD_mod	true
+4	was	_	be	VBD	O	_	person	_	0	IGNORE	true
+5	buried	_	bury	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	0	ROOT	true
+6	in	_	in	IN	O	_	person	_	0	IGNORE	true
+7	a	_	a	DT	O	_	1	_	0	IGNORE	true
+8	common	_	common	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	share-01	(mod())	9	MOD_mod	true
+9	grave	_	grave	NN	O	(m<root> / --LEX--  :poss (i<poss>))	$LEMMA$	(poss())	5	APP_s	true
+10	of	_	of	IN	O	_	have-org-role-91	_	0	IGNORE	true
+11	the_Montparnasse_Cemetery	_name_	Cemetery	NNP	O	(c<root> / company  :name (n / --LEX--))	_NAME_	()	9	APP_poss	true
+12	whose	_	whose	WP$	O	_	have-org-role-91	_	0	IGNORE	true
+13	exact	_	exact	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	14	MOD_mod	true
+14	location	_	location	NN	O	(b<root> / --LEX--  :location-of (h<mod>))	$LEMMA$	(mod())	5	MOD_mod	true
+15	is	_	be	VBZ	O	_	person	_	0	IGNORE	true
+16	unknown.	_	unknown.	NN	O	_	$LEMMA$	_	0	IGNORE	true
+17	[17]	_	[17]	.	O	_	$LEMMA$	_	0	IGNORE	true
+18	[15]	_	[15]	XX	O	_	$LEMMA$	_	0	IGNORE	true
+
+nodealignment=[5@@s@@bury-01, 2@@explicitanon4@@_NUMBER_, 13@@p@@exact, 3@@n@@name, 8@@p@@share-01, 14@@b@@location, 11@@c@@company, 11@@n@@_NAME_, 9@@m@@grave]
+sentence=1	At	at	at	IN	O	_	1	_	0	IGNORE	true
+2	first	_	first	RB	O	(n<root> / --LEX--  :time-of (p<mod>))	at-$LEMMA$	(mod())	4	MOD_mod	true
+3	I	i	I	PRP	O	(d<root> / --LEX--)	$REPL$	()	4	APP_s	true
+4	thought	_	think	VBD	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	25	APP_s	true
+5	the	_	the	DT	O	_	person	_	0	IGNORE	true
+6	children	_	child	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	7	APP_s	true
+7	meant	_	mean	VBD	O	(t<root> / --LEX--  :ARG0 (y<s>)  :ARG2 (i<o>))	$LEMMA$-01	(s(), o())	4	APP_o	true
+8	my	_	my	PRP$	O	_	i	_	0	IGNORE	true
+9	father,	_	father,	NNS	O	_	and	_	0	IGNORE	true
+10	whose	_	whose	WP$	O	_	name	_	0	IGNORE	true
+11	golden	_	golden	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$	(s())	14	MOD_s	true
+12	skin,	_	skin,	NNS	O	_	mean-01	_	0	IGNORE	true
+13	the	_	the	DT	O	_	mean-01	_	0	IGNORE	true
+14	color	_	color	NN	O	(m<root> / --LEX--  :poss (i<poss>))	$LEMMA$	(poss())	21	APP_dom	true
+15	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+16	the	_	the	DT	O	_	he	_	0	IGNORE	true
+17	night-monkey’s	_	night-monkey’s	NN	O	(d<root> / --LEX--)	_NAME_	()	14	APP_poss	true
+18	pelt,	_	pelt,	NNP	O	_	original	_	0	IGNORE	true
+19	was	_	be	VBD	O	_	person	_	0	IGNORE	true
+20	a	_	a	DT	O	_	$LEMMA$	_	0	IGNORE	true
+21	rarity	_	rarity	NN	O	(r<root> / --LEX--  :domain (q<dom>))	$LEMMA$	(dom())	7	APP_o	true
+22	in	_	in	IN	O	_	i	_	0	IGNORE	true
+23	the	_	the	DT	O	_	he	_	0	IGNORE	true
+24	islands;	_	islands;	NNP	O	_	_NAME_	_	0	IGNORE	true
+25	but	_	but	CC	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	contrast-01	(s(), o())	0	ROOT	true
+26	certainly	_	certainly	RB	O	(p<root> / --LEX--  :mod-of (s<mod>))	certain	(mod())	32	MOD_mod	true
+27	the	_	the	DT	O	_	person	_	0	IGNORE	true
+28	children	_	child	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	36	APP_s	true
+29	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+30	Tyom	_name_	Tyom	NNP	O	(n<root> / --LEX--  :name-of (s<mod>))	_NAME_	(mod())	28	MOD_mod	true
+31	were	_	be	VBD	O	_	person	_	0	IGNORE	true
+32	familiar	_	familiar	JJ	O	(s<root> / --LEX--  :ARG2 (g<s>))	$LEMMA$ize-01	(s())	36	APP_op1	true
+33	with	_	with	IN	O	_	-	_	0	IGNORE	true
+34	my	_	my	PRP$	O	_	thing	_	0	IGNORE	true
+35	father,	_	father,	NNS	O	_	and	_	0	IGNORE	true
+36	and	_	and	CC	O	(a<root> / --LEX--  :op1 (c<op1>)  :op2 (l<op2>))	$LEMMA$	(op2(s()), op1(s()))	25	APP_o	true
+37	would	_	would	MD	O	_	name	_	0	IGNORE	true
+38	never	_	never	RB	O	(n<root> / --LEX--  :time-of (p<mod>))	ever	(mod())	40	MOD_mod	true
+39	have	_	have	VB	O	(explicitanon0<root> / --LEX--  :polarity-of (e<mod>))	-	(mod())	25	MOD_mod	true
+40	greeted	_	greet	VBN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$-01	(s(), o())	36	APP_op2	true
+41	a	_	a	DT	O	(explicitanon0<root> / --LEX--  :polarity-of (e<mod>))	-	(mod())	25	MOD_mod	true
+42	council-member	_	council-member	NN	O	(d<root> / --LEX--)	$LEMMA$	()	40	APP_o	true
+43	with	_	with	IN	O	(explicitanon0<root> / --LEX--  :polarity-of (e<mod>))	-	(mod())	25	MOD_mod	true
+44	such	_	such	JJ	O	(s<root> / --LEX--  :degree-of (t<mod>))	$LEMMA$	(mod())	45	MOD_mod	true
+45	ill-mannered	_	ill-mannered	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	type	(s())	40	MOD_s	true
+46	yells.	_	yells.	NN	O	_	_NAME_	_	0	IGNORE	true
+
+nodealignment=[39@@explicitanon0@@-, 7@@t@@mean-01, 28@@d@@child, 3@@d@@i, 14@@m@@color, 21@@r@@rarity, 25@@s@@contrast-01, 41@@explicitanon0@@-, 6@@d@@child, 40@@s@@greet-01, 17@@d@@_NAME_, 36@@a@@and, 2@@n@@at-first, 4@@s@@think-01, 30@@n@@_NAME_, 11@@s@@golden, 26@@p@@certain, 45@@s@@type, 42@@d@@council-member, 32@@s@@familiarize-01, 38@@n@@ever, 43@@explicitanon0@@-, 44@@s@@such]
+sentence=1	We	we	We	PRP	O	(d<root> / --LEX--)	$LEMMA$	()	3	APP_s	true
+2	cannot	_	cannot	VBP	O	(s<root> / --LEX--  :ARG1 (p<s>))	possible-01	(s())	0	ROOT	true
+3	encourage	_	encourage	VB	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	2	APP_s	true
+4	communalism	_	communalism	NN	O	(d<root> / --LEX--)	$LEMMA$	()	5	APP_op1	true
+5	or	_	or	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	3	APP_o	true
+6	narrow	_	narrow	JJ	O	(d<root> / --LEX--)	$LEMMA$-02	()	5	APP_op2	true
+7	-	_	-	HYPH	O	_	$LEMMA$	_	0	IGNORE	true
+8	mindedness,	_	mindedness,	NNS	O	_	and	_	0	IGNORE	true
+9	for	_	for	IN	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	cause-01	(s(), o())	2	MOD_o	true
+10	no	_	no	DT	O	(explicitanon0<root> / --LEX--  :polarity-of (e<mod>))	-	(mod())	12	MOD_mod	true
+11	nation	_	nation	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	14	MOD_mod	true
+12	can	_	can	MD	O	(s<root> / --LEX--  :ARG1 (p<s>))	possible-01	(s())	9	APP_s	true
+13	be	_	be	VB	O	_	person	_	0	IGNORE	true
+14	great	_	great	JJ	O	(r<root> / --LEX--  :domain (q<dom>))	$LEMMA$	(dom())	12	APP_s	true
+15	whose	_	whose	WP$	O	_	have-03	_	0	IGNORE	true
+16	people	_	people	NNS	O	(d<root> / --LEX--)	person	()	14	APP_dom	true
+17	are	_	be	VBP	O	_	person	_	0	IGNORE	true
+18	narrow	_	narrow	JJ	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	$LEMMA$-02	(s(), o())	16	MOD_s	true
+19	in	_	in	IN	O	_	cause-01	_	0	IGNORE	true
+20	thought	_	thought	NN	O	(d<root> / --LEX--)	think-01	()	21	APP_op1	true
+21	or	_	or	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	18	APP_o	true
+22	in	_	in	IN	O	_	except-01	_	0	IGNORE	true
+23	action.	_	action.	NN	O	(d<root> / --LEX--)	$LEMMA$	()	21	APP_op2	true
+
+nodealignment=[2@@s@@possible-01, 4@@d@@communalism, 14@@r@@great, 20@@d@@think-01, 3@@s@@encourage-01, 23@@d@@action., 18@@s@@narrow-02, 21@@a@@or, 12@@s@@possible-01, 5@@a@@or, 9@@s@@cause-01, 10@@explicitanon0@@-, 11@@p@@nation, 6@@d@@narrow-02, 1@@d@@We, 16@@d@@person]
+sentence=1	On	on	on	IN	O	_	name	_	0	IGNORE	true
+2	Friday,	_name_	friday,	CD	O	_	name	_	0	IGNORE	true
+3	fishermen	_	fisherman	NNS	O	(p2<root> / person  :ARG0-of (e2 / --LEX--))	$LEMMA$	()	4	APP_s	true
+4	rescued	_	rescue	VBN	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	12	APP_op1	true
+5	over	_	over	IN	O	(s<root> / --LEX--  :op1 (explicitanon0<op1>)  :quant-of (b<mod>))	$LEMMA$	(op1(), mod())	8	MOD_mod	true
+6	700	_	700	CD	O	(d<root> / --LEX--)	_NUMBER_	()	5	APP_op1	true
+7	asylum	_	asylum	NN	O	(d<root> / --LEX--)	$LEMMA$	()	8	APP_s	true
+8	seekers	_	seeker	NNS	O	(p<root> / person  :ARG0-of (w / --LEX--  :ARG1 (p2<s>)))	seek-01	(s())	4	APP_o	true
+9	whose	_	whose	WP$	O	_	cause-01	_	0	IGNORE	true
+10	boat	_	boat	NN	O	(m<root> / --LEX--  :poss (i<poss>))	$LEMMA$	(poss())	8	MOD_poss	true
+11	sank,	_	sank,	NNP	O	_	person	_	0	IGNORE	true
+12	and	_	and	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	0	ROOT	true
+13	the_Indonesian_Navy	_name_	Navy	NNP	O	(m<root> / military  :name (n / --LEX--))	_NAME_	()	15	APP_s	true
+14	reportedly	_	reportedly	RB	O	(s<root> / --LEX--  :ARG1 (p<s>))	report-01	(s())	15	MOD_s	true
+15	saved	_	save	VBD	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	12	APP_op2	true
+16	200	_	200	CD	O	(d<root> / --LEX--)	_NUMBER_	()	15	APP_o	true
+17	more	_	more	JJR	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	15	MOD_mod	true
+18	after	_	after	IN	O	(w<root> / --LEX--  :op1 (h<op1>)  :time-of (b<mod>))	$LEMMA$	(op1(), mod())	15	MOD_mod	true
+19	they	_	they	PRP	O	_	person	_	0	IGNORE	true
+20	were	_	be	VBD	O	_	person	_	0	IGNORE	true
+21	found	_	find	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	18	APP_op1	true
+22	swimming	_	swim	VBG	O	(d<root> / --LEX--)	$LEMMA$-01	()	21	APP_s	true
+23	along	_	along	IN	O	(b<root> / --LEX--  :op1 (p2<op1>)  :location-of (p<mod>))	$LEMMA$	(op1(), mod())	22	MOD_mod	true
+24	the	_	the	DT	O	_	person	_	0	IGNORE	true
+25	coast	_	coast	NN	O	(d<root> / --LEX--)	$LEMMA$	()	23	APP_op1	true
+26	of	_	of	IN	O	_	person	_	0	IGNORE	true
+27	Aceh,	aceh,	Aceh,	NNP	O	_	$LEMMA$	_	0	IGNORE	true
+28	Indonesia.	indonesia.	Indonesia.	.	O	_	_NAME_	_	0	IGNORE	true
+
+nodealignment=[3@@e2@@fisherman, 21@@s@@find-01, 13@@n@@_NAME_, 18@@w@@after, 4@@s@@rescue-01, 12@@a@@and, 8@@w@@seek-01, 5@@s@@over, 13@@m@@military, 15@@s@@save-01, 6@@d@@_NUMBER_, 7@@d@@asylum, 10@@m@@boat, 14@@s@@report-01, 25@@d@@coast, 23@@b@@along, 17@@p@@more, 3@@p2@@person, 22@@d@@swim-01, 16@@d@@_NUMBER_, 8@@p@@person]
+sentence=1	Some	some	some	DT	O	(explicitanon0<root> / --LEX--  :quant-of (b<mod>))	$LEMMA$	(mod())	3	MOD_mod	true
+2	disciplines,	_	disciplines,	NNS	O	_	resemble-01	_	0	IGNORE	true
+3	like	_	like	IN	O	(s<root> / --LEX--  :ARG1 (w<s>)  :ARG2 (d<o>))	resemble-01	(s(), o())	7	MOD_s	true
+4	political	_	political	JJ	O	(d<root> / --LEX--)	politics	()	3	APP_o	true
+5	science,	_	science,	NNP	O	_	and	_	0	IGNORE	true
+6	are	_	be	VBP	O	_	person	_	0	IGNORE	true
+7	organized	_	organize	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	0	ROOT	true
+8	around	_	around	IN	O	_	$LEMMA$	_	0	IGNORE	true
+9	a	_	a	DT	O	_	1	_	0	IGNORE	true
+10	single	_	single	JJ	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-02	(s())	11	MOD_s	true
+11	professional	_	professional	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	7	APP_s	true
+12	society,	_	society,	NNP	O	_	and	_	0	IGNORE	true
+13	whose	_	whose	WP$	O	_	have-org-role-91	_	0	IGNORE	true
+14	membership	_	membership	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	15	MOD_mod	true
+15	roll	_	roll	NN	O	(d<root> / --LEX--)	$LEMMA$	()	16	APP_s	true
+16	approximates	_	approximate	VBZ	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	11	APP_mod	true
+17	a	_	a	DT	O	_	1	_	0	IGNORE	true
+18	full	_	full	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	19	MOD_mod	true
+19	census	_	census	NN	O	(d<root> / --LEX--)	$LEMMA$	()	16	APP_o	true
+20	[7].	_	[7].	.	O	_	interrogative	_	0	IGNORE	true
+
+nodealignment=[14@@p@@membership, 15@@d@@roll, 18@@p@@full, 4@@d@@politics, 10@@s@@single-02, 11@@p@@professional, 3@@s@@resemble-01, 7@@s@@organize-01, 16@@s@@approximate-01, 19@@d@@census, 1@@explicitanon0@@some]
+sentence=1	The	the	the	DT	O	_	mean-01	_	0	IGNORE	true
+2	area	_	area	NN	O	(d<root> / --LEX--)	$LEMMA$	()	9	APP_dom	true
+3	that	_	that	WDT	O	_	$LEMMA$	_	0	IGNORE	true
+4	now	_	now	RB	O	(n<root> / --LEX--  :time-of (p<mod>))	$LEMMA$	(mod())	5	MOD_mod	true
+5	encompasses	_	encompass	VBZ	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	2	MOD_s	true
+6	Phoenix	_name_	Phoenix	NNP	O	(c<root> / city  :name (n / --LEX--))	_NAME_	()	5	APP_o	true
+7	was	_	be	VBD	O	_	person	_	0	IGNORE	true
+8	a	_	a	DT	O	_	1	_	0	IGNORE	true
+9	center	_	center	NN	O	(c<root> / --LEX--  :poss (a<poss>)  :domain (t<dom>))	$LEMMA$	(dom(), poss())	0	ROOT	true
+10	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+11	the	_	the	DT	O	_	name	_	0	IGNORE	true
+12	Hohokam	_name_	Hohokam	NNP	O	(e<root> / ethnic-group  :name (n / --LEX--))	_NAME_	()	9	APP_poss	true
+13	culture,	_	culture,	NNP	O	_	name	_	0	IGNORE	true
+14	which	_	which	WDT	O	_	organization	_	0	IGNORE	true
+15	built	_	build	VBD	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	12	MOD_s	true
+16	large	_	large	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	18	MOD_mod	true
+17	canal	_	canal	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	18	MOD_mod	true
+18	systems	_	system	NNS	O	(d<root> / --LEX--)	$LEMMA$	()	19	APP_op1	true
+19	and	_	and	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	15	APP_o	true
+20	a	_	a	DT	O	_	1	_	0	IGNORE	true
+21	network	_	network	NN	O	(d<root> / --LEX--)	$LEMMA$	()	19	APP_op2	true
+22	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+23	towns	_	town	NNS	O	(g<root> / --LEX--  :consist (r<mod>))	$LEMMA$	(mod())	24	MOD_mod	true
+24	and	_	and	CC	O	(g<root> / --LEX--  :consist (r<mod>))	$LEMMA$	(mod())	21	MOD_mod	true
+25	villages,	_	villages,	NNS	O	_	$LEMMA$	_	0	IGNORE	true
+26	whose	_	whose	WP$	O	_	have-org-role-91	_	0	IGNORE	true
+27	remains	_	remain	NNS	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	2	MOD_s	true
+28	may	_	may	MD	O	(s<root> / --LEX--  :ARG1 (p<s>))	possible-01	(s())	30	MOD_s	true
+29	be	_	be	VB	O	_	person	_	0	IGNORE	true
+30	viewed	_	view	VBN	O	(s<root> / --LEX--  :ARG1 (p<s>))	$LEMMA$-01	(s())	27	MOD_s	true
+31	in	_	in	IN	O	_	i	_	0	IGNORE	true
+32	the	_	the	DT	O	_	person	_	0	IGNORE	true
+33	city	_	city	NN	O	(b<root> / --LEX--  :location-of (h<mod>))	$LEMMA$	(mod())	30	MOD_mod	true
+34	to	_	to	IN	O	_	$LEMMA$	_	0	IGNORE	true
+35	this	_	this	DT	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	30	MOD_mod	true
+36	day.	_	day.	NN	O	_	_NAME_	_	0	IGNORE	true
+
+nodealignment=[2@@d@@area, 27@@s@@remain-01, 4@@n@@now, 17@@p@@canal, 12@@e@@ethnic-group, 9@@c@@center, 24@@g@@and, 5@@s@@encompass-01, 12@@n@@_NAME_, 35@@p@@this, 16@@p@@large, 30@@s@@view-01, 19@@a@@and, 28@@s@@possible-01, 33@@b@@city, 15@@s@@build-01, 6@@c@@city, 23@@g@@town, 21@@d@@network, 18@@d@@system, 6@@n@@_NAME_]
+sentence=1	To	to	to	IN	O	_	say-01	_	0	IGNORE	true
+2	the	_	the	DT	O	_	person	_	0	IGNORE	true
+3	people	_	people	NNS	O	(p<root> / --LEX--  :mod-of (s<mod>))	person	(mod())	13	MOD_mod	true
+4	of	_	of	IN	O	_	include-91	_	0	IGNORE	true
+5	India,	_name_	india,	CD	O	_	_NAME_	_	0	IGNORE	true
+6	whose	_	whose	WP$	O	_	thing	_	0	IGNORE	true
+7	representatives	_	representative	NNS	O	(s<root> / --LEX--  :ARG0 (y<s>))	represent-01	(s())	3	MOD_s	true
+8	we	_	we	PRP	O	(d<root> / --LEX--)	$LEMMA$	()	13	APP_s	true
+9	are,	_	are,	VBP	O	_	and	_	0	IGNORE	true
+10	we	_	we	PRP	O	(d<root> / --LEX--)	$LEMMA$	()	13	APP_o2	true
+11	make	_	make	VBP	O	_	$LEMMA$-01	_	0	IGNORE	true
+12	an	_	an	DT	O	_	$LEMMA$nd	_	0	IGNORE	true
+13	appeal	_	appeal	NN	O	(w<root> / --LEX--  :ARG2 (t<o2>)  :ARG1 (w2<o>)  :ARG0 (i<s>))	$LEMMA$-03	(s(), o(s_UNIFY_o2()))	0	ROOT	true
+14	to	_	to	TO	O	_	cause-01	_	0	IGNORE	true
+15	join	_	join	VB	O	(s<root> / --LEX--  :ARG0 (y<s>)  :ARG1 (a<o>))	$LEMMA$-01	(s(), o())	13	APP_o	true
+16	us	_	us	PRP	O	_	$LEMMA$	_	0	IGNORE	true
+17	with	_	with	IN	O	_	$LEMMA$	_	0	IGNORE	true
+18	faith	_	faith	NN	O	(d<root> / --LEX--)	$LEMMA$	()	19	APP_op1	true
+19	and	_	and	CC	O	(a<root> / --LEX--  :op1 (b<op1>)  :op2 (g<op2>))	$LEMMA$	(op2(), op1())	15	APP_o	true
+20	confidence	_	confidence	NN	O	(d<root> / --LEX--)	confident-01	()	19	APP_op2	true
+21	in	_	in	IN	O	_	i	_	0	IGNORE	true
+22	this	_	this	DT	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	24	MOD_mod	true
+23	great	_	great	JJ	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	24	MOD_mod	true
+24	adventure.	_	adventure.	NN	O	(p<root> / --LEX--  :mod-of (s<mod>))	$LEMMA$	(mod())	13	MOD_mod	true
+
+nodealignment=[8@@d@@we, 3@@p@@person, 20@@d@@confident-01, 19@@a@@and, 10@@d@@we, 13@@w@@appeal-03, 23@@p@@great, 24@@p@@adventure., 7@@s@@represent-01, 18@@d@@faith, 15@@s@@join-01, 22@@p@@this]
+

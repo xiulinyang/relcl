@@ -1,0 +1,22 @@
+# sent_id = newsgroup-groups.google.com_civicamerican_22c54c292026bfd2_ENG_20060128_072400-0046
+# text = If you want to help, please send them to everyone you know who needs to read them.
+1	If	if	SCONJ	IN	_	3	mark	3:mark	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl:if	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	help	help	VERB	VB	VerbForm=Inf	3	xcomp	3:xcomp	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	3:punct	_
+7	please	please	INTJ	UH	_	8	discourse	8:discourse	_
+8	send	send	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	8:obj	_
+10	to	to	ADP	IN	_	11	case	11:case	_
+11	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	8	obl	8:nsubj|15:obj|17:nsubj:xsubj	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	13:obj	_
+13	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	Cxn=rc-red-obj
+14	who	who	PRON	WP	PronType=Rel	15	nsubj	11:ref	_
+15	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	Cxn=rc-wh-obj
+16	to	to	PART	TO	_	17	mark	17:mark	_
+17	read	read	VERB	VB	VerbForm=Inf	15	xcomp	15:xcomp	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	17:obj	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	8:punct	_
+

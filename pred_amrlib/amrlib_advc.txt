@@ -1,0 +1,579 @@
+# ::snt We have two chairs where we can sit down and sort of enjoy the weather when it is a little bit better, um but now it's really cold so just gonna close it.
+(c / contrast-01
+      :ARG1 (h / have-03
+            :ARG0 (w / we)
+            :ARG1 (c2 / chair
+                  :quant 2
+                  :location-of (p / possible-01
+                        :ARG1 (a / and
+                              :op1 (s / sit-down-02
+                                    :ARG1 w)
+                              :op2 (e / enjoy-01
+                                    :ARG0 w
+                                    :ARG1 (w2 / weather
+                                          :time (g / good-02
+                                                :ARG2-of (h2 / have-degree-91
+                                                      :ARG1 w2
+                                                      :ARG3 (m / more
+                                                            :quant (b / bit
+                                                                  :mod (l / little))))))
+                                    :degree (s2 / sort-of))))))
+      :ARG2 (c3 / cause-01
+            :ARG0 (c4 / cold-01
+                  :time (n / now)
+                  :degree (r / really))
+            :ARG1 (c5 / close-01
+                  :ARG0 w
+                  :ARG1 w2
+                  :mod (j / just))))
+
+# ::snt It's the first week that I've been actually able to say the words" I'm pregnant" and have it not feel really weird.
+(w / week
+      :ord (o / ordinal-entity
+            :value 1)
+      :time-of (p / possible-01
+            :ARG1 (a / and
+                  :op1 (s / say-01
+                        :ARG0 (ii / i)
+                        :ARG1 (w2 / word-01
+                              :ARG1 (ii2 / impregnate-01
+                                    :ARG1 ii)))
+                  :op2 (f / feel-01
+                        :polarity -
+                        :ARG0 ii
+                        :ARG1 (w3 / weird
+                              :degree (r / really))))
+            :ARG1-of (a2 / actual-02)))
+
+# ::snt "I think Siri died, they scooped him out and threw him away and you're some whole other kid that just, just grew back out of what was left.
+(a / and
+      :op1 (t / think-01
+            :ARG0 (ii / i)
+            :ARG1 (d / die-01
+                  :ARG1 (p / person
+                        :name (n / name
+                              :op1 "Siri"))))
+      :op2 (a2 / and
+            :op1 (s / scoop-out-02
+                  :ARG0 (t2 / they)
+                  :ARG1 p)
+            :op2 (t3 / throw-away-07
+                  :ARG0 t2
+                  :ARG1 p))
+      :op3 (k / kid
+            :domain (y / you)
+            :mod (o / other
+                  :mod (w / whole))
+            :mod (s2 / some)
+            :ARG1-of (g / grow-01
+                  :mod (b / back)
+                  :mod (j / just)
+                  :source (t4 / thing
+                        :ARG1-of (l / leave-17)))))
+
+# ::snt The 30th anniversary of the first shuttle mission coincided with the 50th anniversary of the first manned space flight when Yuri Gagarin lifted off aboard Vostok 1 into space.
+(c / coincide-01
+      :ARG1 (a / anniversary
+            :topic (m / mission-01
+                  :ARG1 (s / shuttle)
+                  :ord (o / ordinal-entity
+                        :value 1))
+            :ord (o2 / ordinal-entity
+                  :value 30))
+      :ARG2 (a2 / anniversary
+            :topic (f / fly-01
+                  :mod (s2 / space)
+                  :ARG1-of (m2 / man-01)
+                  :ord (o3 / ordinal-entity
+                        :value 50)
+                  :time-of (l / lift-01
+                        :ARG1 (p / person
+                              :name (n / name
+                                    :op1 "Yuri"
+                                    :op2 "Gagarin"))
+                        :ARG3 (s3 / spaceship
+                              :name (n2 / name
+                                    :op1 "Vostok"
+                                    :op2 1))
+                        :destination (s4 / space)))))
+
+# ::snt They will not kill mice but they should keep them out of areas where the product is applied.
+(c / contrast-01
+      :ARG1 (k / kill-01
+            :polarity -
+            :ARG0 (t / they)
+            :ARG1 (m / mouse))
+      :ARG2 (r / recommend-01
+            :ARG1 (k2 / keep-04
+                  :ARG0 t
+                  :ARG1 m
+                  :ARG2 (o / out-06
+                        :ARG1 m
+                        :ARG2 (a / area
+                              :location-of (a2 / apply-01
+                                    :ARG1 (p / product)))))))
+
+# ::snt At the initial meeting it became apparent that most participants were there to learn more about digital humanities and were not (yet) in the situation where they were able to offer expertise on the subject.
+(b / become-01
+      :ARG1 (ii / it)
+      :ARG2 (a / apparent
+            :domain (a2 / and
+                  :op1 (b2 / be-located-at-91
+                        :polarity -
+                        :ARG1 (p / person
+                              :ARG0-of (p2 / participate-01)
+                              :quant (m / most))
+                        :ARG2 (t / there)
+                        :purpose (l / learn-01
+                              :ARG0 p
+                              :ARG1 (m2 / more
+                                    :topic (h / humanities
+                                          :mod (d / digital)))))
+                  :op2 b2
+                  :ARG1 p
+                  :ARG2 (s / situation
+                        :location-of (p3 / possible-01
+                              :ARG1 (o / offer-01
+                                    :ARG0 p
+                                    :ARG1 (e / expertise
+                                          :topic h))))
+                  :time (y / yet)))
+      :time (m3 / meet-03
+            :mod (ii2 / initial)))
+
+# ::snt And if we can obtain the early passage of an effective tax cut which the House of Representatives has already passed--and which the Ways and Means Committee, on which Bill Green serves, wrote--we shall be sailing this country next year on the longest and strongest peacetime expansion of our economy in the history of the United States.
+(a / and
+      :op2 (h / have-condition-91
+            :ARG1 (s / sail-01
+                  :ARG0 (w / we)
+                  :ARG1 (c / country
+                        :mod (t / this))
+                  :time (y / year
+                        :mod (n / next))
+                  :prep-on (e / expand-01
+                        :ARG1 (e2 / economy
+                              :poss w)
+                        :time (p / peacetime)
+                        :ARG1-of (h2 / have-degree-91
+                              :ARG2 (l / long-03
+                                    :ARG1 e)
+                              :ARG3 (m / most)
+                              :ARG5 (h3 / history
+                                    :mod (c2 / country
+                                          :name (n2 / name
+                                                :op1 "United"
+                                                :op2 "States"))))
+                        :ARG1-of (h4 / have-degree-91
+                              :ARG2 (s2 / strong-02
+                                    :ARG1 e)
+                              :ARG3 (m2 / most))))
+            :ARG2 (p2 / possible-01
+                  :ARG1 (o / obtain-01
+                        :ARG0 w
+                        :ARG1 (p3 / pass-01
+                              :ARG1 (c3 / cut-02
+                                    :ARG1 (t2 / tax-01)
+                                    :ARG1-of (e3 / effective-04)
+                                    :ARG1-of (p4 / pass-01
+                                          :ARG0 (g / government-organization
+                                                :name (n3 / name
+                                                      :op1 "House"
+                                                      :op2 "of"
+                                                      :op3 "Representatives"))
+                                          :time (a2 / already))
+                                    :ARG1-of (w2 / write-01
+                                          :ARG0 (g2 / government-organization
+                                                :name (n4 / name
+                                                      :op1 "Ways"
+                                                      :op2 "and"
+                                                      :op3 "Means"
+                                                      :op4 "Committee")
+                                                :ARG1-of (s3 / serve-01
+                                                      :ARG0 (p5 / person
+                                                            :name (n5 / name
+                                                                  :op1 "Bill"
+                                                                  :op2 "Green"))))))
+                              :time (e4 / early))))))
+
+# ::snt Tasmania was excluded from the study - where an voluntary iodine fortification program using iodised salt in bread, is ongoing.
+(e / exclude-01
+      :ARG1 (c / country
+            :name (n / name
+                  :op1 "Tasmania"))
+      :ARG2 (s / study-01
+            :location-of (g / go-on-15
+                  :ARG1 (p / program
+                        :topic (f / fortify-01
+                              :ARG1 (ii / iodine)
+                              :ARG2 (u / use-01
+                                    :ARG1 (s2 / salt
+                                          :ARG1-of (ii2 / iodize-01)
+                                          :location (b / bread))))
+                        :ARG1-of (v / voluntary-02)))))
+
+# ::snt First, specialization in a particular small job allows workers to focus on the parts of the production process where they have an advantage.
+(a / allow-01
+      :li 1
+      :ARG0 (s / specialize-01
+            :ARG1 (j / job
+                  :mod (p / particular)
+                  :mod (s2 / small)))
+      :ARG1 (f / focus-01
+            :ARG0 (p2 / person
+                  :ARG0-of (w / work-01))
+            :ARG1 (p3 / part
+                  :part-of (p4 / process-02
+                        :ARG1 (p5 / produce-01))
+                  :location-of (a2 / advantage-01
+                        :ARG2 p2))))
+
+# ::snt Typical treatments take the dilutions, with ritualised shaking between each step of the dilution, past the level where any molecules of the original substance are likely to remain; for homeopathic treatments to work, basic well-understood concepts in chemistry and physics would have to be wrong.
+(m / multi-sentence
+      :snt1 (t / take-10
+            :ARG0 (t2 / treat-03
+                  :ARG1-of (t3 / typical-02))
+            :ARG1 (d / dilute-01
+                  :manner (s / shake-01
+                        :manner (r / ritual)
+                        :time (b / between
+                              :op1 (s2 / step-01
+                                    :ARG2 (d2 / dilute-01)
+                                    :mod (e / each)))))
+            :ARG2 (p / past
+                  :op1 (l / level
+                        :location-of (r2 / remain-01
+                              :ARG1 (m2 / molecule
+                                    :mod (a / any)
+                                    :part-of (s3 / substance
+                                          :mod (o / original)))
+                              :ARG1-of (l2 / likely-01)))))
+      :snt2 (o2 / obligate-01
+            :ARG1 (w / wrong-04
+                  :ARG1 (c / concept
+                        :ARG1-of (u / understand-01
+                              :ARG1-of (w2 / well-09))
+                        :mod (b2 / basic)
+                        :topic (a2 / and
+                              :op1 (c2 / chemistry)
+                              :op2 (p2 / physics))))
+            :purpose (w3 / work-09
+                  :ARG1 (t4 / treat-03
+                        :mod (h / homeopathy)))))
+
+# ::snt There are also small migrant Eegimaa communities in villages like Djifanghor (east of Ziguinchor) and in Bourofaye (south of Ziguinchor), where they cohabit with speakers of Baïnounk languages.
+(b / be-located-at-91
+      :ARG1 (c / community
+            :mod (s / small)
+            :ARG0-of (m / migrate-01)
+            :mod (e / ethnic-group
+                  :name (n / name
+                        :op1 "Eegimaa")))
+      :ARG2 (a / and
+            :op1 (v / village
+                  :example (v2 / village
+                        :name (n2 / name
+                              :op1 "Djifanghor")
+                        :location (r / relative-position
+                              :op1 (c2 / city
+                                    :name (n3 / name
+                                          :op1 "Ziguinchor"))
+                              :direction (e2 / east))))
+            :op2 (v3 / village
+                  :example (v4 / village
+                        :name (n4 / name
+                              :op1 "Bourofaye")
+                        :location (r2 / relative-position
+                              :op1 c2
+                              :direction (s2 / south))))
+            :location-of (c3 / cohabit-01
+                  :ARG0 c
+                  :ARG1 (p / person
+                        :ARG0-of (s3 / speak-01
+                              :ARG3 (l / language
+                                    :name (n5 / name
+                                          :op1 "Baïnounk"))))))
+      :mod (a2 / also))
+
+# ::snt I basically like created a digital calendar where I'm gonna go over each of the chapters, just because I only have one week left to study.
+(l / like-01
+      :ARG0 (ii / i)
+      :ARG1 (c / create-01
+            :ARG0 ii
+            :ARG1 (c2 / calendar
+                  :mod (d / digital)
+                  :location-of (g / go-over-26
+                        :ARG0 ii
+                        :ARG1 (c3 / chapter
+                              :mod (e / each))
+                        :ARG1-of (c4 / cause-01
+                              :ARG0 (h / have-03
+                                    :ARG0 ii
+                                    :ARG1 (l2 / leave-17
+                                          :ARG1 (t / temporal-quantity
+                                                :quant 1
+                                                :unit (w / week))
+                                          :purpose (s / study-01
+                                                :ARG0 ii))
+                                    :mod (j / just))))))
+      :mod (b / basic))
+
+# ::snt Last June, we hosted the Vienna Energy Forum, where about 1,400 participants discussed alternative energy concepts to reach the energy goals of the United Nations.
+(h / host-01
+      :ARG0 (w / we)
+      :ARG1 (e / event
+            :name (n / name
+                  :op1 "Vienna"
+                  :op2 "Energy"
+                  :op3 "Forum")
+            :time-of (d / discuss-01
+                  :ARG0 (p / person
+                        :quant (a / about
+                              :op1 1600)
+                        :ARG0-of (p2 / participate-01))
+                  :ARG1 (c / concept
+                        :topic (e2 / energy
+                              :mod (a2 / alternative)))
+                  :purpose (r / reach-01
+                        :ARG0 p
+                        :ARG1 (g / goal
+                              :mod (e3 / energy)
+                              :poss (o / organization
+                                    :name (n2 / name
+                                          :op1 "United"
+                                          :op2 "Nations"))))))
+      :time (d2 / date-entity
+            :month 6
+            :mod (l / last)))
+
+# ::snt In 1801, he was sent to Harrow, where he remained until July 1805. [6]
+(s / send-01
+      :ARG1 (h / he)
+      :ARG2 (s2 / school
+            :name (n / name
+                  :op1 "Harrow")
+            :location-of (r / remain-01
+                  :ARG1 h
+                  :time (u / until
+                        :op1 (d / date-entity
+                              :month 7
+                              :year 1805))))
+      :time (d2 / date-entity
+            :year 1801)
+      :ARG1-of (d3 / describe-01
+            :ARG0 (p / publication
+                  :ARG1-of (c / cite-01
+                        :ARG2 6))))
+
+# ::snt In 2015, an initiative was started to set up a Dutch speaking DH+Lib community in the Netherlands and Belgium, based on the example of the American communal space of librarians, archivists, LIS graduate students, and information specialists to discuss topics ‘Where the Digital Humanities and Libraries meet’.
+(s / start-01
+      :ARG1 (ii / initiative
+            :ARG1-of (b / base-02
+                  :ARG2 (e / exemplify-01
+                        :ARG0 (s2 / space
+                              :mod (c / communal)
+                              :poss (a / and
+                                    :op1 (p / person
+                                          :ARG0-of (h / have-org-role-91
+                                                :ARG2 (l / librarian)))
+                                    :op2 (p2 / person
+                                          :ARG0-of (h2 / have-org-role-91
+                                                :ARG2 (a2 / archivist)))
+                                    :op3 (p3 / person
+                                          :ARG0-of (h3 / have-org-role-91
+                                                :ARG1 (u / university
+                                                      :name (n / name
+                                                            :op1 "LIS"))
+                                                :ARG2 (g / graduate)))
+                                    :op4 (p4 / person
+                                          :ARG0-of (s3 / specialize-01
+                                                :ARG1 (ii2 / information)))))
+                        :purpose (d / discuss-01
+                              :ARG0 a
+                              :ARG1 (t / topic
+                                    :topic (m / meet-03
+                                          :ARG0 (a3 / and
+                                                :op1 (h4 / humanities
+                                                      :mod (d2 / digital))
+                                                :op2 (l2 / library)))))
+                        :location (c2 / country
+                              :name (n2 / name
+                                    :op1 "United"
+                                    :op2 "States")))))
+      :time (d3 / date-entity
+            :year 2015)
+      :location (a4 / and
+            :op1 (c3 / country
+                  :name (n3 / name
+                        :op1 "Netherlands"))
+            :op2 (c4 / country
+                  :name (n4 / name
+                        :op1 "Belgium"))
+            :location-of (c5 / community
+                  :name (n5 / name
+                        :op1 "DH+Lib")
+                  :ARG0-of (s4 / speak-01
+                        :ARG3 (l3 / language
+                              :name (n6 / name
+                                    :op1 "Dutch"))))))
+
+# ::snt No, a random guy, who was like sitting about where you are.
+(g / guy
+      :mod (r / random)
+      :ARG1-of (r2 / resemble-01
+            :ARG2 (s / sit-01
+                  :ARG1 g
+                  :ARG2 (a / about
+                        :op1 (t / thing
+                              :location-of (y / you)))))
+      :mod (n / no))
+
+# ::snt I talked instead about the kind of America that I wanted for my family and for your family and all those who are citizens of this country in these difficult and changing years, the kind of America in which I believed, not as a Democrat or as a candidate, but as a citizen.
+(t / talk-01
+      :ARG0 (ii / i)
+      :ARG1 (a / and
+            :op1 (k / kind
+                  :mod (c / country
+                        :name (n / name
+                              :op1 "America"))
+                  :ARG1-of (w / want-01
+                        :ARG0 ii
+                        :ARG2 (a2 / and
+                              :op1 (f / family
+                                    :ARG1-of (h / have-org-role-91
+                                          :ARG0 ii
+                                          :ARG2 (m / member)))
+                              :op2 (f2 / family
+                                    :ARG1-of (h2 / have-org-role-91
+                                          :ARG0 (y / you)
+                                          :ARG2 (m2 / member)))
+                              :op3 (c2 / citizen
+                                    :mod c
+                                    :mod (a3 / all)
+                                    :time (y2 / year
+                                          :mod (t2 / this)
+                                          :mod (d / difficult)
+                                          :ARG1-of (c3 / change-01))))))
+            :op2 (k2 / kind
+                  :mod c
+                  :ARG1-of (b / believe-01
+                        :ARG0 ii
+                        :manner (c4 / contrast-01
+                              :ARG1 (o / or
+                                    :op1 (p / person
+                                          :ARG0-of (h3 / have-org-role-91
+                                                :ARG1 (p2 / political-party
+                                                      :name (n2 / name
+                                                            :op1 "Democrat"))))
+                                    :op2 (c5 / candidate))
+                              :ARG2 (c6 / citizen
+                                    :domain ii)))))
+      :ARG1-of (ii2 / instead-of-91))
+
+# ::snt It was spring, the barren time in March when you can not be sure if it is really warmer, but you are so desperate for change that you tell yourself the mud at the edge of the sidewalk is different from winter mud and you are sure that the smell of wet soil has suddenly a bit of the scent of summer rains, of grass and drowned earthworms.
+(c / contrast-01
+      :ARG1 (b / be-temporally-at-91
+            :ARG1 (ii / it)
+            :ARG2 (d / date-entity
+                  :season (s / spring)
+                  :ARG1-of (m / mean-01
+                        :ARG2 (t / time
+                              :mod (b2 / barren)
+                              :time (d2 / date-entity
+                                    :month 3)
+                              :time-of (p / possible-01
+                                    :polarity -
+                                    :ARG1 (s2 / sure-02
+                                          :ARG0 (y / you)
+                                          :ARG1 (t2 / truth-value
+                                                :polarity-of (h / have-degree-91
+                                                      :ARG1 ii)
+                                                :ARG2 (w / warm-07
+                                                      :ARG1 ii)
+                                                :ARG3 (m2 / more
+                                                      :ARG1-of (r / real-04)))))))))
+      :ARG2 (d3 / desperate-02
+            :ARG0 y
+            :ARG1 (c2 / change-01)
+            :ARG2-of h
+            :ARG1 y
+            :ARG3 (s3 / so)
+            :ARG6 (a / and
+                  :op1 (t3 / tell-01
+                        :ARG0 y
+                        :ARG1 (d4 / differ-02
+                              :ARG1 (m3 / mud
+                                    :location (e / edge
+                                          :mod (s4 / sidewalk)))
+                              :ARG2 (m4 / mud
+                                    :time (d5 / date-entity
+                                          :season (w2 / winter))))
+                        :ARG2 y)
+                  :op2 (s5 / sure-02
+                        :ARG0 y
+                        :ARG1 (s6 / smell-02
+                              :ARG1 (s7 / soil
+                                    :ARG1-of (w3 / wet-01))
+                              :ARG2 (t4 / thing
+                                    :ARG1-of (s8 / scent-02
+                                          :ARG2 (a2 / and
+                                                :op1 (r2 / rain-01
+                                                      :time (d6 / date-entity
+                                                            :season (s9 / summer)))
+                                                :op2 (g / grass)
+                                                :op3 (w4 / worm
+                                                      :mod (e2 / earth)
+                                                      :ARG1-of (d7 / drown-01))))
+                                    :quant (b3 / bit))
+                              :manner (s10 / sudden))))))
+
+# ::snt Place near entrances and in places where mice seem to go.
+(p / place-01
+      :ARG2 (a / and
+            :op1 (n / near-02
+                  :ARG2 (e / entrance))
+            :op2 (p2 / place
+                  :location-of (g / go-02
+                        :ARG0 (m / mouse)
+                        :ARG1-of (s / seem-01)))))
+
+# ::snt Like I didn't even think I would be able to wake up for my 8:15 a.m. yoga class that I signed up for, but I am awake.
+(h / have-concession-91
+      :ARG1 (a / awake-03
+            :ARG1 (ii / i))
+      :ARG2 (t / think-01
+            :polarity -
+            :ARG0 ii
+            :ARG1 (p / possible-01
+                  :ARG1 (w / wake-up-02
+                        :ARG1 ii
+                        :purpose (c / class
+                              :topic (y / yoga)
+                              :ARG1-of (s / sign-up-03
+                                    :ARG0 ii)
+                              :time (d / date-entity
+                                    :time "8:15")
+                              :poss ii)))
+            :mod (e / even)))
+
+# ::snt Countries that are colored yellow are monarchies where the people play little part in governing.
+(m / monarchy
+      :domain (c / country
+            :ARG1-of (c2 / color-01
+                  :ARG2 (y / yellow)))
+      :location-of (p / play-02
+            :ARG0 (p2 / person)
+            :ARG1 (p3 / part
+                  :mod (l / little))
+            :ARG2 (g / govern-01)))
+
+# ::snt This is the largest island, where Neiafu is found.
+(h / have-degree-91
+      :ARG1 (ii / island
+            :location-of (f / find-01
+                  :name (n / name
+                        :op1 "Neiafu"))
+            :ARG1-of f)
+      :domain (t / this)
+      :ARG2 (l / large)
+      :ARG3 (m / most))
+

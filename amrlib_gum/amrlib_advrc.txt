@@ -1,0 +1,1202 @@
+# ::snt And it probably doesn't seem that way, by the way I feel myself, but it's always just something that's in here, do you know what I mean?
+(a / and
+      :op2 (c / contrast-01
+            :ARG1 (s / seem-01
+                  :polarity -
+                  :ARG1 (w / way
+                        :mod (t / that))
+                  :mod (p / probable)
+                  :ARG1-of (c2 / cause-01
+                        :ARG0 (f / feel-01
+                              :ARG0 (ii / i)
+                              :ARG1 ii)))
+            :ARG2 (s2 / something
+                  :location (h / here)
+                  :time (a2 / always)
+                  :mod (j / just)))
+      :op3 (k / know-01
+            :ARG0 (y / you)
+            :ARG1 (t2 / thing
+                  :ARG2-of (m / mean-01
+                        :ARG0 ii))
+            :polarity (a3 / amr-unknown)))
+
+# ::snt We were coming with comics, like, left and right, we were coming up with things like Karis, in high school she came up with that one, I came up with an individual story called Thad's World Destruction and, she wanted to illustrate it, and so, that's the way we ended up doing it.
+(a / and
+      :op1 (c / come-up-11
+            :ARG0 (w / we)
+            :ARG1 (c2 / comic)
+            :example (a2 / and
+                  :op1 (l / left-19)
+                  :op2 (r / right-04)))
+      :op2 (c3 / come-up-11
+            :ARG0 w
+            :ARG1 (t / thing
+                  :example (w2 / work-of-art
+                        :name (n / name
+                              :op1 "Karis"))))
+      :op3 (c4 / come-up-11
+            :ARG0 (s / she)
+            :ARG1 (o / one
+                  :mod (t2 / that))
+            :time (h / high-school))
+      :op4 (a3 / and
+            :op1 (c5 / come-up-11
+                  :ARG0 (ii / i)
+                  :ARG1 (s2 / story
+                        :mod (ii2 / individual)
+                        :ARG1-of (c6 / call-01
+                              :ARG2 (n2 / name
+                                    :op1 "Thad's"
+                                    :op2 "World"
+                                    :op3 "Destruction"))))
+            :op2 (w3 / want-01
+                  :ARG0 s
+                  :ARG1 (ii3 / illustrate-01
+                        :ARG0 s
+                        :ARG1 s2))
+            :ARG0-of (c7 / cause-01
+                  :ARG1 (e / end-up-03
+                        :ARG1 w
+                        :ARG2 (d / do-02
+                              :ARG0 w
+                              :ARG1 (ii4 / it)
+                              :manner t2)))))
+
+# ::snt You can make other noises if you prefer, such as a bird cawing or an explosion sound every time a button is pushed.
+(p / possible-01
+      :ARG1 (m / make-01
+            :ARG0 (y / you)
+            :ARG1 (n / noise
+                  :mod (o / other)
+                  :example (o2 / or
+                        :op1 (c / caw-01
+                              :ARG0 (b / bird))
+                        :op2 (s / sound-02
+                              :ARG1 (e / explode-01))
+                        :frequency (r / rate-entity-91
+                              :ARG4 (p2 / push-01
+                                    :ARG1 (b2 / button))))))
+      :condition (p3 / prefer-01
+            :ARG0 y
+            :ARG1 m))
+
+# ::snt You know what I think, I think the first time that it does the card mode, it takes a long time.
+(k / know-01
+      :ARG0 (y / you)
+      :ARG1 (t / think-01
+            :ARG0 (ii / i)
+            :ARG1 (t2 / take-10
+                  :ARG0 (d / do-02
+                        :ARG0 (ii2 / it)
+                        :ARG1 (m / mode
+                              :mod (c / card))
+                        :ord (o / ordinal-entity
+                              :value 1))
+                  :ARG1 (t3 / time
+                        :ARG1-of (l / long-03)))))
+
+# ::snt Cornyn's statement added, "There is no question Houston should have been selected as a final home for one of the orbiters — even Administrator Bolden stated as much.
+(a / add-01
+      :ARG0 (t / thing
+            :ARG1-of (s / state-01
+                  :ARG0 (p / person
+                        :name (n / name
+                              :op1 "Cornyn"))))
+      :ARG1 (q / question-03
+            :polarity -
+            :ARG1 (r / recommend-01
+                  :ARG1 (s2 / select-01
+                        :ARG1 (c / city
+                              :name (n2 / name
+                                    :op1 "Houston"))
+                        :ARG3 (h / home
+                              :mod (f / final)
+                              :purpose (t2 / thing
+                                    :ARG1-of (ii / include-91
+                                          :ARG2 (t3 / thing
+                                                :ARG0-of (o / orbit-01)))))))
+            :concession (s3 / state-01
+                  :ARG0 (p2 / person
+                        :name (n3 / name
+                              :op1 "Bolden")
+                        :ARG0-of (h2 / have-org-role-91
+                              :ARG2 (p3 / person
+                                    :ARG0-of (a2 / administrate-01)))
+                        :mod (e / even))
+                  :ARG1 r)))
+
+# ::snt She stayed because I held her there by looking at her, the way you can sometimes will a dog into submission.
+(s / stay-01
+      :ARG1 (s2 / she)
+      :ARG1-of (c / cause-01
+            :ARG0 (h / hold-01
+                  :ARG0 (ii / i)
+                  :ARG1 s2
+                  :location (t / there)
+                  :manner (l / look-01
+                        :ARG0 ii
+                        :ARG1 s2)
+                  :manner (w / way
+                        :manner-of (w2 / will-02
+                              :ARG0 (y / you)
+                              :ARG1 (d / dog)
+                              :ARG2 (s3 / submit-02
+                                    :ARG0 d)
+                              :ARG1-of (p / possible-01)
+                              :time (s4 / sometimes))))))
+
+# ::snt You guys wake me up every time I'm trying to take a little nap.
+(w / wake-up-02
+      :ARG0 (y / you
+            :mod (g / guy))
+      :ARG1 (ii / i)
+      :frequency (r / rate-entity-91
+            :ARG4 (t / try-01
+                  :ARG0 ii
+                  :ARG1 (n / nap-01
+                        :ARG0 ii
+                        :mod (l / little)))))
+
+# ::snt A- and I'm supposed to trust you every time you tell the truth.
+(a / and
+      :op2 (s / suppose-02
+            :ARG1 (ii / i)
+            :ARG2 (t / trust-01
+                  :ARG0 ii
+                  :ARG1 (y / you)
+                  :frequency (r / rate-entity-91
+                        :ARG4 (t2 / tell-01
+                              :ARG0 y
+                              :ARG1 (t3 / truth))))))
+
+# ::snt I took the robe I’d brought from the bathroom and wrapped it around her shoulders.
+(a / and
+      :op1 (t / take-01
+            :ARG0 (ii / i)
+            :ARG1 (r / robe
+                  :ARG1-of (b / bring-01
+                        :ARG0 ii
+                        :ARG3 (b2 / bathroom))))
+      :op2 (w / wrap-01
+            :ARG0 ii
+            :ARG1 r
+            :ARG2 (s / shoulder
+                  :part-of (s2 / she))))
+
+# ::snt And every time we give Iraq equipment, the first time a bullet goes off in the air, they leave it.
+(a / and
+      :op2 (l / leave-11
+            :ARG0 (c / country
+                  :name (n / name
+                        :op1 "Iraq"))
+            :ARG1 (b / bullet
+                  :ARG1-of (g / go-off-16
+                        :location (a2 / air)
+                        :ord (o / ordinal-entity
+                              :value 1)))
+            :frequency (r / rate-entity-91
+                  :ARG4 (g2 / give-01
+                        :ARG0 (w / we)
+                        :ARG1 (e / equipment)
+                        :ARG2 c))))
+
+# ::snt It was the first time she had been to his apartment, and she stood square in the center of his bedroom, her arms folded against her body as if she was afraid to sit down, to touch something.
+(a / and
+      :op1 (b / be-located-at-91
+            :ARG1 (s / she
+                  :part (a2 / arm)
+                  :part (b2 / body))
+            :ARG2 (a3 / apartment
+                  :poss (h / he))
+            :ord (o / ordinal-entity
+                  :value 1))
+      :op2 (s2 / stand-01
+            :ARG1 s
+            :ARG2 (c / center
+                  :part-of (b3 / bedroom
+                        :poss h))
+            :manner (s3 / square)
+            :manner (f / fold-03
+                  :ARG1 a2
+                  :ARG4 b2
+                  :manner (f2 / fear-01
+                        :ARG0 s
+                        :ARG1 (a4 / and
+                              :op1 (s4 / sit-down-02
+                                    :ARG1 s)
+                              :op2 (t / touch-01
+                                    :ARG0 s
+                                    :ARG1 (s5 / something)))))))
+
+# ::snt A third important factor is the way the event will be mediated: will NBC have its best sports broadcasters following the event after having worked the Winter Olympics?
+(m / multi-sentence
+      :snt1 (t / thing
+            :manner-of (m2 / mediate-01
+                  :ARG1 (e / event))
+            :domain (f / factor
+                  :ord (o / ordinal-entity
+                        :value 3)
+                  :ARG1-of (ii / important-01)))
+      :snt2 (h / have-03
+            :ARG0 (p / publication
+                  :name (n / name
+                        :op1 "NBC"))
+            :ARG1 (p2 / person
+                  :ARG0-of (b / broadcast-01
+                        :ARG1 (s / sport))
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG2 (g / good-03
+                              :ARG1 p2
+                              :ARG2 b)
+                        :ARG3 (m3 / most)
+                        :ARG5 (p3 / publication)))
+            :polarity (a / amr-unknown)
+            :time (f2 / follow-01
+                  :ARG1 p
+                  :ARG2 (e2 / event))
+            :time (a2 / after
+                  :op1 (w / work-01
+                        :ARG0 p
+                        :ARG1 (g2 / game
+                              :name (n2 / name
+                                    :op1 "Olympics")
+                              :mod (w2 / winter))))))
+
+# ::snt And also, I'm very proud to say that I have actually gone back to therapy, which is something that I haven't done since — I mean the last time I was in therapy, almost I was like 20.
+(a / and
+      :op2 (p / pride-01
+            :ARG0 (ii / i)
+            :ARG2 (s / say-01
+                  :ARG0 ii
+                  :ARG1 (g / go-back-19
+                        :ARG1 ii
+                        :ARG2 (t / therapy)
+                        :ARG1-of (a2 / actual-02)
+                        :mod (s2 / something
+                              :ARG1-of (d / do-02
+                                    :polarity -
+                                    :ARG0 ii
+                                    :time (s3 / since
+                                          :op1 (a3 / age-01
+                                                :ARG1 ii
+                                                :ARG2 (t2 / temporal-quantity
+                                                      :quant 20
+                                                      :unit (y / year))
+                                                :mod (a4 / almost)
+                                                :time (t3 / therapy
+                                                      :mod (l / last)
+                                                      :beneficiary ii)))))))
+            :degree (v / very)
+            :mod (a5 / also)))
+
+# ::snt This concept, that man is divinely elected to salvation, or to damnation, is the center of the predestination dogma, that later, the Geneva reformer Calvin, made the center of his teaching, and that subsequently, under other historical preconditions and circumstances, could be linked closely with a prosperous middle class, in the Netherlands, and in England.
+(a / and
+      :op1 (c / center
+            :mod (d / dogma
+                  :mod (p / predestinate-01))
+            :domain (c2 / concept
+                  :mod (t / this)
+                  :ARG1-of (m / mean-01
+                        :ARG2 (e / elect-01
+                              :ARG0 (d2 / divine)
+                              :ARG1 (m2 / man)
+                              :ARG2 (o / or
+                                    :op1 (s / save-02
+                                          :ARG1 m2)
+                                    :op2 (d3 / damn-01
+                                          :ARG1 m2))))))
+      :op2 (m3 / make-01
+            :ARG0 (p2 / person
+                  :name (n / name
+                        :op1 "Calvin")
+                  :ARG0-of (r / reform-01)
+                  :location (c3 / city
+                        :name (n2 / name
+                              :op1 "Geneva")))
+            :ARG1 (c4 / center
+                  :mod (t2 / teach-01
+                        :ARG0 p2))
+            :time (a2 / after))
+      :op3 (p3 / possible-01
+            :ARG1 (l / link-01
+                  :ARG1 c2
+                  :ARG2 (c5 / class
+                        :mod (m4 / middle)
+                        :ARG0-of (p4 / prosper-01)
+                        :location (a3 / and
+                              :op1 (c6 / country
+                                    :name (n3 / name
+                                          :op1 "Netherlands"))
+                              :op2 (c7 / country
+                                    :name (n4 / name
+                                          :op1 "England"))))
+                  :ARG1-of (c8 / close-10))
+            :time (u / under
+                  :op1 (a4 / and
+                        :op1 (p5 / precondition-01
+                              :mod (h / history))
+                        :op2 (c9 / circumstance)
+                        :mod (o2 / other)))
+            :time (s2 / subsequent)))
+
+# ::snt She was outside the building in the gardens, waiting for a photographer she had arranged to shoot her new Epic Mickey costumed character-style outfit.
+(b / be-located-at-91
+      :ARG1 (s / she)
+      :ARG2 (o / outside
+            :op1 (b2 / building
+                  :location (g / garden)))
+      :time (w / wait-01
+            :ARG1 s
+            :ARG2 (p / person
+                  :ARG0-of (p2 / photograph-01)
+                  :ARG1-of (a / arrange-01
+                        :ARG0 s)
+                  :ARG0-of (s2 / shoot-03
+                        :ARG1 (o2 / outfit
+                              :poss s
+                              :ARG1-of (n / new-01)
+                              :mod (s3 / style
+                                    :mod (c / character))
+                              :mod (a2 / animal
+                                    :name (n2 / name
+                                          :op1 "Epic"
+                                          :op2 "Mickey"))
+                              :ARG1-of (c2 / costume-01))))))
+
+# ::snt Cause that's the same way you're multiplying there, square root of nine, that — and square root of nine equals three.
+(c / cause-01
+      :ARG1 (w / way
+            :ARG1-of (s / same-01)
+            :manner-of (m / multiply-01
+                  :ARG0 (y / you)
+                  :ARG2 (r / root-of
+                        :op1 9
+                        :op2 2)
+                  :location (t / there))
+            :domain (e / equal-01
+                  :ARG1 (r2 / root-of
+                        :op1 9
+                        :op2 2)
+                  :ARG2 3)))
+
+# ::snt After the exchange of fire, North Korea stated it would attack any loudspeakers broadcasting propaganda and would respond, militarily, within 48 hours if the broadcasts do not stop.
+(s / state-01
+      :ARG0 (c / country
+            :name (n / name
+                  :op1 "North"
+                  :op2 "Korea"))
+      :ARG1 (a / and
+            :op1 (a2 / attack-01
+                  :ARG0 c
+                  :ARG1 (l / loudspeaker
+                        :ARG0-of (b / broadcast-01
+                              :ARG1 (p / propaganda))
+                        :mod (a3 / any)))
+            :op2 (r / respond-01
+                  :ARG0 c
+                  :manner (m / military)
+                  :condition (s2 / stop-01
+                        :polarity -
+                        :ARG1 (b2 / broadcast-01))
+                  :time (a4 / after
+                        :op1 (e / exchange-01
+                              :ARG1 (f / fire))
+                        :quant (u / up-to
+                              :op1 (t / temporal-quantity
+                                    :quant 48
+                                    :unit (h / hour)))))))
+
+# ::snt In fact the variation in form in unrelated languages across the globe is about the same as the variation we find in the way any regular word (e.g., dog) is pronounced across dialects of English.
+(s / same-01
+      :ARG1 (v / vary-01
+            :ARG1 (f / form)
+            :location (a / across
+                  :op1 (l / language
+                        :ARG1-of (r / relate-01
+                              :polarity -))))
+      :ARG2 (v2 / vary-01
+            :ARG1 (p / pronounce-01
+                  :ARG1 (w / word
+                        :ARG1-of (r2 / regular-03)
+                        :mod (a2 / any)
+                        :example (d / dog))
+                  :manner (d2 / dialect
+                        :mod (l2 / language
+                              :name (n / name
+                                    :op1 "English"))))
+            :ARG1-of (f2 / find-01
+                  :ARG0 (w2 / we)))
+      :mod (ii / in-fact)
+      :mod (a3 / about))
+
+# ::snt This is not the first time deadly stampedes have taken place during the Hajj, with the deadliest stampede during the 1991 Hajj, in which 1,426 pilgrims were trampled.
+(a / and
+      :op1 (h / have-ord-91
+            :polarity -
+            :ARG1 (s / stampede
+                  :ARG0-of (k / kill-01)
+                  :time (e / event
+                        :name (n / name
+                              :op1 "Hajj")))
+            :ARG2 (o / ordinal-entity
+                  :value 1)
+            :ARG3 (t / this))
+      :op2 (h2 / have-degree-91
+            :ARG1 (s2 / stampede
+                  :time e
+                  :subevent (t2 / trample-01
+                        :ARG1 (p / pilgrim
+                              :quant 1042)))
+            :ARG2 (k2 / kill-01
+                  :ARG0 s2)
+            :ARG3 (m / most)
+            :ARG5 (s3 / stampede
+                  :time e
+                  :time (d / date-entity
+                        :year 1991))))
+
+# ::snt The Chemical Wedding by Christian Rosencreutz is the way I’ve decided to present the title of this book.
+(d / decide-01
+      :ARG0 (ii / i)
+      :ARG1 (p / present-01
+            :ARG0 ii
+            :ARG1 (t / title-01
+                  :ARG1 (b / book
+                        :name (n / name
+                              :op1 "The"
+                              :op2 "Chemical"
+                              :op3 "Wedding")
+                        :ARG1-of (w / write-01
+                              :ARG0 (p2 / person
+                                    :name (n2 / name
+                                          :op1 "Christian"
+                                          :op2 "Rosencreutz")))))))
+
+# ::snt In this way, concepts touch every aspect of our lives, from our many daily routines to the guiding principles behind the way governments function.
+(t / touch-01
+      :ARG0 (c / concept)
+      :ARG1 (a / aspect
+            :mod (e / every)
+            :part-of (l / life
+                  :poss (w / we))
+            :example (r / routine
+                  :poss w
+                  :frequency (r2 / rate-entity-91
+                        :ARG3 (t2 / temporal-quantity
+                              :quant 1
+                              :unit (d / day)))
+                  :quant (m / many))
+            :example (p / principle
+                  :ARG0-of (g / guide-01)
+                  :location (b / behind
+                        :op1 (f / function-01
+                              :ARG0 (g2 / government-organization
+                                    :ARG0-of (g3 / govern-01))))))
+      :manner (w2 / way
+            :mod (t3 / this)))
+
+# ::snt Citing privacy rules, U.S. officials have not said why the team was initially denied visas, but Afghan Ambassador Hamdullah Mohib says there were concerns they would attempt to remain in the United States or in Canada after the contest.
+(c / contrast-01
+      :ARG1 (s / say-01
+            :polarity -
+            :ARG0 (p / person
+                  :ARG0-of (h / have-org-role-91
+                        :ARG1 (c2 / country
+                              :name (n / name
+                                    :op1 "U.S."))
+                        :ARG2 (o / official))
+                  :ARG0-of (c3 / cite-01
+                        :ARG1 (r / rule
+                              :topic (p2 / privacy))))
+            :ARG1 (t / thing
+                  :ARG0-of (c4 / cause-01
+                        :ARG1 (d / deny-01
+                              :ARG1 (v / visa)
+                              :ARG2 (t2 / team)
+                              :time (ii / initial)))))
+      :ARG2 (s2 / say-01
+            :ARG0 (p3 / person
+                  :name (n2 / name
+                        :op1 "Hamdullah"
+                        :op2 "Mohib")
+                  :ARG0-of (h2 / have-org-role-91
+                        :ARG1 (c5 / country
+                              :name (n3 / name
+                                    :op1 "Afghanistan"))
+                        :ARG2 (a / ambassador)))
+            :ARG1 (c6 / concern-01
+                  :ARG0 (a2 / attempt-01
+                        :ARG0 t2
+                        :ARG1 (r2 / remain-01
+                              :ARG1 t2
+                              :location (o2 / or
+                                    :op1 c2
+                                    :op2 (c7 / country
+                                          :name (n4 / name
+                                                :op1 "Canada")))
+                              :time (a3 / after
+                                    :op1 (c8 / contest-02)))))))
+
+# ::snt This pilot project primarily investigated how participants visually explore artworks and provides new insights into the potential eye-tracking has to transform the ways we understand visual processing in arts and culture and at the same time offer a direct way of studying several important factors of a museum visit, namely to assess the effects of label characteristics on visitor visual behaviour.
+(a / and
+      :op1 (ii / investigate-01
+            :ARG0 (p / project
+                  :ARG1-of (p2 / pilot-01)
+                  :mod (t / this))
+            :ARG1 (t2 / thing
+                  :manner-of (e / explore-01
+                        :ARG0 (p3 / person
+                              :ARG0-of (p4 / participate-01))
+                        :ARG1 (a2 / artwork)
+                        :manner (v / visual)))
+            :mod (p5 / primary))
+      :op2 (p6 / provide-01
+            :ARG0 p
+            :ARG1 (ii2 / insight
+                  :ARG1-of (n / new-01)
+                  :topic (o / obligate-01
+                        :ARG2 (t3 / transform-01
+                              :ARG0 (t4 / track-01
+                                    :ARG1 (e2 / eye)
+                                    :mod (p7 / potential))
+                              :ARG1 (w / way
+                                    :manner-of (u / understand-01
+                                          :ARG0 (w2 / we)
+                                          :ARG1 (p8 / process-01
+                                                :ARG1 (v2 / visual)
+                                                :location (a3 / and
+                                                      :op1 (a4 / art)
+                                                      :op2 (c / culture)))))))))
+      :op3 (o2 / offer-01
+            :ARG0 p
+            :ARG1 w
+            :ARG1-of (d / direct-02)
+            :instrument-of (s / study-01
+                  :ARG1 (f / factor
+                        :ARG1-of (ii3 / important-01)
+                        :quant (s2 / several)
+                        :poss (v3 / visit-01
+                              :ARG1 (m / museum)))
+                  :ARG1-of (m2 / mean-01
+                        :ARG2 (a5 / assess-01
+                              :ARG1 (a6 / affect-01
+                                    :ARG0 (t5 / thing
+                                          :ARG2-of (c2 / characteristic-02
+                                                :ARG1 (l / label)))
+                                    :ARG1 (b / behave-01
+                                          :ARG0 (p9 / person
+                                                :ARG0-of (v4 / visit-01))
+                                          :manner (v5 / visual)))))))
+      :time (t6 / time
+            :ARG1-of (s3 / same-01)))
+
+# ::snt A second aspect is the parts or hours of the day the Paralympics will be shown.
+(a / aspect
+      :li 2
+      :domain (o / or
+            :op1 (p / part)
+            :op2 (h / hour)
+            :part-of (d / day
+                  :time-of (s / show-01
+                        :ARG1 (g / game
+                              :name (n / name
+                                    :op1 "Paralympics"))))))
+
+# ::snt When was the last time anybody saw us beating, let's say, China in a trade deal?
+(s / see-01
+      :ARG0 (a / anybody)
+      :ARG1 (b / beat-03
+            :ARG0 (w / we)
+            :ARG1 (c / country
+                  :name (n / name
+                        :op1 "China")
+                  :ARG1-of (s2 / say-01
+                        :ARG0 w
+                        :ARG1-of (l / let-01)))
+            :ARG2 (d / deal-01
+                  :ARG0 w
+                  :ARG1 c
+                  :ARG2 (t / trade-01)))
+      :time (a2 / amr-unknown)
+      :mod (l2 / last))
+
+# ::snt I try to say it every time as if it was the first time I said it.
+(t / try-01
+      :ARG0 (ii / i)
+      :ARG1 (s / say-01
+            :ARG0 ii
+            :ARG1 (ii2 / it)
+            :frequency (t2 / time
+                  :mod (e / every))
+            :manner (s2 / say-01
+                  :ARG0 ii
+                  :ARG1 ii2
+                  :ord (o / ordinal-entity
+                        :value 1))))
+
+# ::snt The hope she spoke about—the strong and happy hope— the hope we feel today, is a hope, of course, that is tempered by reality.
+(h / hope-01
+      :ARG1-of (t / temper-01
+            :ARG0 (r / reality))
+      :mod (o / of-course)
+      :domain (h2 / hope-01
+            :ARG1-of (s / speak-01
+                  :ARG0 (s2 / she))
+            :ARG1-of (m / mean-01
+                  :ARG2 (f / feel-01
+                        :ARG0 (w / we)
+                        :ARG1 h2
+                        :time (t2 / today)))
+            :ARG1-of (s3 / strong-02)
+            :ARG1-of (h3 / happy-02)))
+
+# ::snt This was a piece that the Times only quoted one stanza, but it's about preparation for a battle, and being prepared to either rise to the occasion, or go down:
+(c / contrast-01
+      :ARG1 (p / piece
+            :domain (t / this)
+            :ARG2-of (q / quote-01
+                  :ARG0 (n / newspaper
+                        :name (n2 / name
+                              :op1 "Times"))
+                  :ARG3 (s / stanza
+                        :quant 1
+                        :mod (o / only))))
+      :ARG2 (c2 / concern-02
+            :ARG0 p
+            :ARG1 (a / and
+                  :op1 (p2 / prepare-02
+                        :ARG2 (b / battle-01))
+                  :op2 (p3 / prepare-02
+                        :ARG2 (o2 / or
+                              :op1 (r / rise-01
+                                    :ARG4 (o3 / occasion))
+                              :op2 (g / go-down-27))))))
+
+# ::snt So the first couple days we were in Portland, we went hiking in Forest Park which you can get to by public transit in the city.
+(c / cause-01
+      :ARG1 (g / go-02
+            :ARG0 (w / we)
+            :ARG1 (h / hike-01
+                  :ARG0 w
+                  :location (p / park
+                        :name (n / name
+                              :op1 "Forest"
+                              :op2 "Park")
+                        :ARG4-of (g2 / get-05
+                              :ARG0 (y / you)
+                              :ARG1-of (p2 / possible-01)
+                              :instrument (t / transit
+                                    :ARG1-of (p3 / public-02)
+                                    :location (c2 / city
+                                          :name (n2 / name
+                                                :op1 "Portland"))))))
+            :time (c3 / couple
+                  :op1 (t2 / temporal-quantity
+                        :quant 1
+                        :unit (d / day))
+                  :ord (o / ordinal-entity
+                        :value 1))
+            :time (b / be-located-at-91
+                  :ARG1 w
+                  :ARG2 c2)))
+
+# ::snt Every time the elevator reaches a new floor, say “ding!” very loudly.
+(s / say-01
+      :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (d / ding-01
+            :mode imperative
+            :ARG0 y)
+      :manner (l / loud
+            :degree (v / very))
+      :frequency (r / rate-entity-91
+            :ARG4 (r2 / reach-01
+                  :ARG0 (e / elevator)
+                  :ARG1 (f / floor
+                        :ARG1-of (n / new-01)))))
+
+# ::snt By the time you get to be a writer for The Onion, though, the odds are you are going to succeed because we make it pretty challenging.
+(h / have-concession-91
+      :ARG1 (o / odds
+            :domain (s / succeed-01
+                  :ARG0 (y / you))
+            :ARG1-of (c / cause-01
+                  :ARG0 (m / make-02
+                        :ARG0 (w / we)
+                        :ARG1 (c2 / challenge-01
+                              :ARG0 (ii / it)
+                              :degree (p / pretty))))
+            :time (g / get-03
+                  :ARG1 y
+                  :ARG2 (p2 / person
+                        :ARG0-of (w2 / write-01)
+                        :ARG2-of (h2 / have-org-role-91
+                              :ARG1 (p3 / publication
+                                    :name (n / name
+                                          :op1 "The"
+                                          :op2 "Onion")))))))
+
+# ::snt And the way it's marketed, and the way we're d- — we develop needs for it.
+(a / and
+      :op1 (h / have-manner-91
+            :ARG1 (m / market-01
+                  :ARG1 (ii / it)))
+      :op2 (h2 / have-manner-91
+            :ARG1 (d / develop-02
+                  :ARG0 (w / we)
+                  :ARG1 (n / need-01
+                        :ARG1 ii))
+            :ARG2 (a2 / amr-unintelligible
+                  :value "d-")))
+
+# ::snt The reason I'm taking it like this early is because I have my med school class at two to four thirty, so we have three hours 45 minutes to take it.
+(c / cause-01
+      :ARG0 (h / have-06
+            :ARG0 (ii / i)
+            :ARG1 (c2 / class
+                  :mod (s / school
+                        :mod (m / medicine)))
+            :time (d / date-interval
+                  :op1 (d2 / date-entity
+                        :time "14:00")
+                  :op2 (d3 / date-entity
+                        :time "16:30"))
+            :ARG0-of (c3 / cause-01
+                  :ARG1 (h2 / have-03
+                        :ARG0 (w / we)
+                        :ARG1 (t / temporal-quantity
+                              :quant 45
+                              :unit (m2 / minute))
+                        :purpose (t2 / take-01
+                              :ARG0 w
+                              :ARG1 (ii2 / it)))))
+      :ARG1 (t3 / take-01
+            :ARG0 ii
+            :ARG1 ii2
+            :ARG1-of (r / resemble-01
+                  :ARG2 (t4 / this))
+            :time (e / early)))
+
+# ::snt Jenna's mother was unemployed at the time that Jenna's first video went viral, and was concerned that their content might put off potential employers. [7]
+(a / and
+      :op1 (e / employ-01
+            :polarity -
+            :ARG1 (p / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 (p2 / person
+                              :name (n / name
+                                    :op1 "Jenna"))
+                        :ARG2 (m / mother)))
+            :time (g / go-08
+                  :ARG1 (v / video
+                        :ord (o / ordinal-entity
+                              :value 1)
+                        :poss p2)
+                  :ARG2 (v2 / viral)))
+      :op2 (c / concern-01
+            :ARG0 (p3 / possible-01
+                  :ARG1 (p4 / put-off-06
+                        :ARG0 (c2 / content
+                              :poss v)
+                        :ARG1 (p5 / person
+                              :ARG0-of (e2 / employ-01)
+                              :mod (p6 / potential))))
+            :ARG1 p)
+      :ARG1-of (d / describe-01
+            :ARG0 (p7 / publication
+                  :ARG1-of (c3 / cite-01
+                        :ARG2 7))))
+
+# ::snt The way cuisines vary across cultures fascinates many people.
+(f / fascinate-01
+      :ARG0 (w / way
+            :manner-of (v / vary-01
+                  :ARG1 (c / cuisine)
+                  :ARG3 (a / across
+                        :op1 (c2 / culture))))
+      :ARG1 (p / person
+            :quant (m / many)))
+
+# ::snt I also have a profile they fill out for me, a mini-MMPI that I developed, so that I have an idea -- Rebecca and I put it together
+(m / multi-sentence
+      :snt1 (h / have-03
+            :ARG0 (ii / i)
+            :ARG1 (p / profile
+                  :ARG1-of (f / fill-out-03
+                        :ARG0 (t / they)
+                        :beneficiary ii)
+                  :mod (t2 / thing
+                        :name (n / name
+                              :op1 "Mini"
+                              :op2 "MMPI")
+                        :ARG1-of (d / develop-02
+                              :ARG0 ii
+                              :purpose (h2 / have-03
+                                    :ARG0 ii
+                                    :ARG1 (ii2 / idea)))))
+            :mod (a / also))
+      :snt2 (p2 / put-03
+            :ARG0 (a2 / and
+                  :op1 (p3 / person
+                        :name (n2 / name
+                              :op1 "Rebecca"))
+                  :op2 (ii3 / i))
+            :ARG1 (ii4 / it)
+            :ARG2 (t3 / together)))
+
+# ::snt You’ve probably got them just the way you like them, but if you move the adjusters up or down on the straps occasionally, the straps will last longer.
+(c / contrast-01
+      :ARG1 (p / probable
+            :domain (g / get-01
+                  :ARG0 (y / you)
+                  :ARG1 (t / they)
+                  :manner (w / way
+                        :ARG1-of (l / like-01
+                              :ARG0 y)
+                        :mod (j / just))))
+      :ARG2 (l2 / last-01
+            :ARG1 (s / strap)
+            :ARG2 (l3 / long-03
+                  :ARG2-of (h / have-degree-91
+                        :ARG1 l2
+                        :ARG3 (m / more)))
+            :condition (m2 / move-01
+                  :ARG0 y
+                  :ARG1 (p2 / person
+                        :ARG0-of (a / adjust-01))
+                  :ARG2 (o / or
+                        :op1 (u / up)
+                        :op2 (d / down)
+                        :location s)
+                  :frequency (o2 / occasional))))
+
+# ::snt The idea is to play fish except every time you get a match you’re supposed to do what it says.
+(c / contrast-01
+      :ARG1 (ii / idea
+            :domain (p / play-01
+                  :ARG0 (y / you)
+                  :ARG1 (f / fish)))
+      :ARG2 (s / suppose-02
+            :ARG1 y
+            :ARG2 (d / do-02
+                  :ARG0 y
+                  :ARG1 (t / thing
+                        :ARG1-of (s2 / say-01
+                              :ARG0 ii)))
+            :frequency (r / rate-entity-91
+                  :ARG4 (g / get-01
+                        :ARG0 y
+                        :ARG1 (m / match-03
+                              :ARG0 y)))))
+
+# ::snt That was last night, the second night Renata didn’t come home.
+(c / come-01
+      :polarity -
+      :ARG1 (p / person
+            :name (n / name
+                  :op1 "Renata"))
+      :ARG4 (h / home)
+      :time (d / date-entity
+            :dayperiod (n2 / night)
+            :mod (y / yesterday))
+      :time (d2 / date-entity
+            :dayperiod (n3 / night)
+            :ord (o / ordinal-entity
+                  :value 2)))
+
+# ::snt This time you are able to write down summaries of all the important points, and you are confident you have the knowledge you need to do well on the exam.
+(a / and
+      :op1 (p / possible-01
+            :ARG1 (w / write-down-03
+                  :ARG0 (y / you)
+                  :ARG1 (s / summarize-01
+                        :ARG1 (p2 / point
+                              :ARG1-of (ii / important-01)
+                              :mod (a2 / all))))
+            :time (t / time
+                  :mod (t2 / this)))
+      :op2 (c / confident-01
+            :ARG1 y
+            :ARG2 (k / know-01
+                  :ARG0 y
+                  :ARG1-of (n / need-01
+                        :ARG0 y
+                        :purpose (d / do-02
+                              :ARG0 y
+                              :ARG1 (w2 / well-09)
+                              :ARG2 (e / exam))))))
+
+# ::snt I felt horrible doing that on that eye dog that he had in here last week, under whatever night it was.
+(f / feel-01
+      :ARG0 (ii / i)
+      :ARG1 (h / horrible)
+      :ARG2 (d / do-02
+            :ARG0 ii
+            :ARG1 (t / that)
+            :ARG2 (d2 / dog
+                  :part (e / eye)
+                  :mod t)
+            :ARG1-of (h2 / have-03
+                  :ARG0 (h3 / he)
+                  :location (h4 / here)
+                  :time (w / week
+                        :mod (l / last))))
+      :time (d3 / date-entity
+            :dayperiod (n / night)
+            :mod (w2 / whatever)))
+
+# ::snt That was the first night Renata didn’t come home and it doesn’t take Freud to figure out what that meant.
+(a / and
+      :op1 (c / come-01
+            :polarity -
+            :ARG1 (p / person
+                  :name (n / name
+                        :op1 "Renata"))
+            :ARG4 (h / home)
+            :time (d / date-entity
+                  :dayperiod (n2 / night)
+                  :ord (o / ordinal-entity
+                        :value 1)))
+      :op2 (t / take-10
+            :polarity -
+            :ARG0 (f / figure-out-05
+                  :ARG1 (t2 / thing
+                        :ARG2-of (m / mean-01
+                              :ARG1 c)))
+            :ARG1 (p2 / person
+                  :name (n3 / name
+                        :op1 "Freud"))))
+
+# ::snt In the time it takes me to explain she grasps and loses the words, grasps and loses phrases as they go past.
+(a / and
+      :op1 (a2 / and
+            :op1 (g / grasp-01
+                  :ARG0 (s / she)
+                  :ARG1 (w / word))
+            :op2 (l / lose-02
+                  :ARG0 s
+                  :ARG1 w))
+      :op2 (a3 / and
+            :op1 (g2 / grasp-01
+                  :ARG0 s
+                  :ARG1 (p / phrase))
+            :op2 (l2 / lose-02
+                  :ARG0 s
+                  :ARG1 p)
+            :time (g3 / go-01
+                  :ARG1 (t / they)
+                  :ARG4 (p2 / past)))
+      :time (t2 / time
+            :ARG1-of (t3 / take-10
+                  :ARG0 (e / explain-01
+                        :ARG0 (ii / i))
+                  :ARG2 ii)))
+
+# ::snt All in all, I think this is a terrific opportunity to improve sports coverage in a multitude of aspects; but we will have to wait until after the event to assess to what extent the broadcasters will meet these expectations.
+(c / contrast-01
+      :ARG1 (t / think-01
+            :ARG0 (ii / i)
+            :ARG1 (o / opportunity
+                  :domain (t2 / this)
+                  :mod (t3 / terrific)
+                  :purpose (ii2 / improve-01
+                        :ARG1 (c2 / cover-03
+                              :ARG1 (s / sport)
+                              :manner (a / aspect
+                                    :quant (m / multitude))))
+                  :mod (a2 / all-in-all)))
+      :ARG2 (o2 / obligate-01
+            :ARG1 (w / we)
+            :ARG2 (w2 / wait-01
+                  :ARG1 w
+                  :ARG2 (a3 / assess-01
+                        :ARG0 w
+                        :ARG1 (e / extent
+                              :degree-of (m2 / meet-01
+                                    :ARG0 (p / person
+                                          :ARG0-of (b / broadcast-01))
+                                    :ARG1 (e2 / expect-01
+                                          :ARG1 (t4 / this)))))
+                  :time (u / until
+                        :op1 (a4 / after
+                              :op1 (e3 / event))))))
+
+# ::snt But the next time we visited his room we got to marvel at our toothy grins labelled and lined up on the shelf.
+(c / contrast-01
+      :ARG2 (g / get-22
+            :ARG0 (w / we)
+            :ARG1 (m / marvel-01
+                  :ARG0 w
+                  :ARG1 (g2 / grin-01
+                        :ARG0 w
+                        :mod (t / toothy)
+                        :ARG1-of (l / label-01)
+                        :ARG1-of (l2 / line-up-02
+                              :location (s / shelf))))
+            :time (v / visit-01
+                  :ARG0 w
+                  :ARG1 (r / room
+                        :poss (h / he))
+                  :mod (n / next))))
+
+# ::snt "The way she drew a staircase you would smash your head against the ceiling, and the space was reducing and reducing, and you would end up in the upper corner of the ceiling.
+(a / and
+      :op1 (s / smash-01
+            :ARG0 (y / you
+                  :part (h / head))
+            :ARG1 h
+            :ARG2 (c / ceiling))
+      :op2 (a2 / and
+            :op1 (r / reduce-01
+                  :ARG1 (s2 / space))
+            :op2 (r2 / reduce-01
+                  :ARG1 s2))
+      :op3 (e / end-up-03
+            :ARG1 y
+            :ARG2 (b / be-located-at-91
+                  :ARG1 y
+                  :ARG2 (c2 / corner
+                        :mod (u / upper)
+                        :part-of (c3 / ceiling))))
+      :manner (d / draw-01
+            :ARG0 (s3 / she)
+            :ARG1 (s4 / stair)))
+
+# ::snt When was the last time you saw a Chevrolet in Tokyo?
+(s / see-01
+      :ARG0 (y / you)
+      :ARG1 (c / car-make
+            :name (n / name
+                  :op1 "Chevrolet"))
+      :location (c2 / city
+            :name (n2 / name
+                  :op1 "Tokyo"))
+      :time (a / amr-unknown
+            :mod (l / last)))
+
+# ::snt Every time I got up.
+(r / rate-entity-91
+      :ARG4 (g / get-up-26
+            :ARG0 (ii / i)))
+
+# ::snt I like the way he expressed that.
+(l / like-01
+      :ARG0 (ii / i)
+      :ARG1 (w / way
+            :manner-of (e / express-01
+                  :ARG0 (h / he)
+                  :ARG1 (t / that))))
+
+# ::snt The day it rained in the garden
+(r / rain-01
+      :location (g / garden)
+      :time (d / day))
+
+# ::snt And the m- — the reason they were showing us this at college, was just, to get us, to know if our trimmer, and shoer was doing it right, and — plus the knowledge of knowing the bones and ligaments.
+(a / and
+      :op2 (c / cause-01
+            :ARG0 (a2 / and
+                  :op1 (g / get-01
+                        :ARG0 (t / they)
+                        :ARG1 (w / we)
+                        :mod (j / just))
+                  :op2 (k / know-01
+                        :ARG0 t
+                        :ARG1 (t2 / truth-value
+                              :polarity-of (d / do-02
+                                    :ARG0 (a3 / and
+                                          :op1 (p / person
+                                                :ARG0-of (t3 / trim-02
+                                                      :ARG1 w))
+                                          :op2 (p2 / person
+                                                :ARG0-of (s / shop-01
+                                                      :ARG2 w)))
+                                    :ARG1 (ii / it)
+                                    :ARG2-of (r / right-06))))
+                  :op3 (k2 / know-01
+                        :ARG0 t
+                        :ARG1 (a4 / and
+                              :op1 (b / bone)
+                              :op2 (l / ligament))))
+            :ARG1 (s2 / show-01
+                  :ARG0 t
+                  :ARG1 (t4 / this)
+                  :ARG2 w
+                  :location (c2 / college))))
+
+# ::snt Byron fell in love with Mary Chaworth, whom he met while at school, [6] and she was the reason he refused to return to Harrow in September 1803.
+(a / and
+      :op1 (f / fall-07
+            :ARG1 (p / person
+                  :name (n / name
+                        :op1 "Byron"))
+            :ARG2 (l / love-01
+                  :ARG0 p
+                  :ARG1 (p2 / person
+                        :name (n2 / name
+                              :op1 "Mary"
+                              :op2 "Chaworth")
+                        :ARG1-of (m / meet-02
+                              :ARG0 p
+                              :time (b / be-located-at-91
+                                    :ARG1 p
+                                    :ARG2 (s / school)))))
+            :ARG1-of (d / describe-01
+                  :ARG0 (p3 / publication
+                        :ARG1-of (c / cite-01
+                              :ARG2 6))))
+      :op2 (r / reason
+            :ARG0-of (c2 / cause-01
+                  :ARG1 (r2 / refuse-01
+                        :ARG0 p
+                        :ARG1 (r3 / return-01
+                              :ARG1 p
+                              :ARG4 s
+                              :name (n3 / name
+                                    :op1 "Harrow"))
+                        :time (d2 / date-entity
+                              :month 9
+                              :year 1803))))
+      :domain p2)
+
+# ::snt This is the 37th time I have spoken to you from this office, where so many decisions have been made that shaped the history of this Nation.
+(s / speak-01
+      :ARG0 (ii / i)
+      :ARG2 (y / you)
+      :location (o / office
+            :mod (t / this)
+            :location-of (d / decide-01
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 (m / many)
+                        :ARG3 (s2 / so))
+                  :ARG0-of (s3 / shape-01
+                        :ARG1 (h2 / history
+                              :poss (n / nation
+                                    :mod (t2 / this))))))
+      :ord (o2 / ordinal-entity
+            :value 37)
+      :domain (t3 / this))
+
+# ::snt You should have heard him, the night we took him to the emergency room.
+(r / recommend-01
+      :ARG1 (h / hear-01
+            :ARG0 (y / you)
+            :ARG2 (h2 / he))
+      :time (d / date-entity
+            :dayperiod (n / night
+                  :time-of (t / take-01
+                        :ARG0 (w / we)
+                        :ARG1 h2
+                        :ARG3 (r2 / room
+                              :mod (e / emergency))))))
+
+# ::snt Every time you take over a country you get cards.
+(g / get-01
+      :ARG0 (y / you)
+      :ARG1 (c / card)
+      :frequency (r / rate-entity-91
+            :ARG4 (t / take-over-12
+                  :ARG0 y
+                  :ARG1 (c2 / country))))
+

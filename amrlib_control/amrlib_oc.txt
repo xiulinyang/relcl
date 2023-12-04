@@ -1,0 +1,4676 @@
+# ::snt the plan that the secretaries managed enthusiastically shocked the politician last year .
+(s / shock-01
+      :ARG0 (p / plan
+            :ARG1-of (m / manage-01
+                  :ARG0 (s2 / secretary)
+                  :manner (e / enthusiastic-03)))
+      :ARG1 (p2 / politician)
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the programs that the timid secretary effortlessly managed astonished the extremely uptight politicians .
+(a / astonish-01
+      :ARG0 (p / program
+            :ARG1-of (m / manage-01
+                  :ARG0 (s / secretary
+                        :mod (t / timid))
+                  :ARG1-of (e / easy-05)))
+      :ARG1 (p2 / politician
+            :ARG1-of (u / uptight-03
+                  :degree (e2 / extreme))))
+
+# ::snt the bugs that the nervous child chased last month consoled the kid .
+(c / console-01
+      :ARG0 (b / bug
+            :ARG1-of (c2 / chase-01
+                  :ARG0 (c3 / child
+                        :ARG1-of (n / nervous-01))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (k / kid))
+
+# ::snt the conspiracy that the team welcomed last month shaped the projects last year .
+(s / shape-01
+      :ARG0 (c / conspire-01
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team)
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (p / project)
+      :time (y / year
+            :mod l))
+
+# ::snt the conspiracies that the quite timid employees welcomed last month sabotaged the project quickly .
+(s / sabotage-01
+      :ARG0 (c / conspiracy
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01)
+                        :mod (t / timid
+                              :degree (q / quite)))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (p2 / project)
+      :ARG1-of (q2 / quick-02))
+
+# ::snt the revolution that the extremely startled team welcomed upset the quite anxious politician .
+(u / upset-01
+      :ARG0 (r / revolution-03
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team
+                        :ARG1-of (s / surprise-01
+                              :degree (e / extreme)))))
+      :ARG1 (p / politician
+            :ARG1-of (w2 / worry-01
+                  :degree (q / quite))))
+
+# ::snt the movement that the talented gathering welcomed last year misled the rather anxious team .
+(m / mislead-01
+      :ARG0 (m2 / movement-07
+            :ARG1-of (w / welcome-01
+                  :ARG0 (g / gather-03
+                        :mod (t / talent))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (t2 / team
+            :ARG1-of (w2 / worry-01
+                  :degree (r / rather))))
+
+# ::snt the really shocking secret that the employee welcomed scarred my sibling .
+(s / scar-01
+      :ARG0 (s2 / secret
+            :ARG0-of (s3 / shock-01
+                  :degree (r / really))
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01))))
+      :ARG1 (s4 / sibling
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / child))))
+
+# ::snt the conspiracy that the gathering welcomed divided the popular country quickly .
+(d / divide-02
+      :ARG0 (c / conspire-01
+            :ARG1-of (w / welcome-01
+                  :ARG0 (g / gather-03)))
+      :ARG1 (c2 / country
+            :ARG1-of (p / popular-02))
+      :ARG1-of (q / quick-02))
+
+# ::snt the movies that my partners googled last month spread the information .
+(s / spread-03
+      :ARG0 (m / movie
+            :ARG1-of (g / google-01
+                  :ARG0 (p / person
+                        :ARG0-of (p2 / partner-01
+                              :ARG1 (ii / i)))
+                  :time (m2 / month
+                        :mod (l / last))))
+      :ARG1 (ii2 / information))
+
+# ::snt the outrageous papers that my sibling promptly googled inspired the rather obnoxious professor .
+(ii / inspire-01
+      :ARG0 (p / paper
+            :ARG0-of (o / outrageous-02)
+            :ARG1-of (g / google-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii2 / i)
+                              :ARG2 (s / sibling)))
+                  :manner (p3 / prompt)))
+      :ARG1 (p4 / professor
+            :mod (o2 / obnoxious
+                  :degree (r / rather))))
+
+# ::snt the novel that the beautiful museum displayed last year helped the shocking protests last year .
+(h / help-01
+      :ARG0 (n / novel
+            :ARG1-of (d / display-01
+                  :ARG0 (m / museum
+                        :ARG1-of (b / beautiful-02))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p / protest-01
+            :ARG0-of (s / shock-01))
+      :time y)
+
+# ::snt the beautiful painting that the libraries displayed initiated the protests enthusiastically .
+(ii / initiate-01
+      :ARG0 (p / painting
+            :ARG1-of (b / beautiful-02)
+            :ARG1-of (d / display-01
+                  :ARG0 (l / library)))
+      :ARG1 (p2 / protest-01)
+      :manner (e / enthusiastic-03))
+
+# ::snt the really popular equation that the physician reviewed effortlessly challenged the procedures last month .
+(c / challenge-01
+      :ARG0 (e / equation
+            :ARG1-of (p / popular-02
+                  :degree (r / really))
+            :ARG1-of (r2 / review-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (p3 / physician)))))
+      :ARG1 (p4 / procedure)
+      :time (m / month
+            :mod (l / last))
+      :manner (e2 / easy-05))
+
+# ::snt the method that the timid nurses reviewed promptly fixed the error .
+(f / fix-02
+      :ARG0 (m / method
+            :ARG1-of (r / review-01
+                  :ARG0 (n / nurse
+                        :mod (t / timid))))
+      :ARG1 (e / error)
+      :manner (p / prompt))
+
+# ::snt the popular procedure that the researcher reviewed effortlessly improved the quite convenient formula enthusiastically .
+(ii / improve-01
+      :ARG0 (p / procedure
+            :ARG1-of (p2 / popular-02)
+            :ARG1-of (r / review-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (r2 / research-01))
+                  :ARG1-of (e / elude-01
+                        :ARG0 p3)))
+      :ARG1 (f / formula
+            :mod (c / convenient
+                  :degree (q / quite)))
+      :manner (e2 / enthusiastic-03))
+
+# ::snt the politician that the jobs astonished last year sanctioned the projects promptly .
+(s / sanction-01
+      :ARG0 (p / politician
+            :ARG1-of (a / astonish-01
+                  :ARG0 (j / job)
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p2 / project)
+      :manner (p3 / prompt))
+
+# ::snt the talented politician that the achievements astonished last year considered the project last year .
+(c / consider-02
+      :ARG0 (p / politician
+            :mod (t / talent)
+            :ARG0-of (a / astonish-01
+                  :ARG2 (t2 / thing
+                        :ARG1-of (a2 / achieve-01))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p2 / project)
+      :time y)
+
+# ::snt the really young guardians that the really cheerful kid enthusiastically hugged confiscated the quite pretty rock last month .
+(c / confiscate-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :mod (y / young
+                  :degree (r / really))
+            :ARG1-of (h / hug-01
+                  :ARG0 (k / kid
+                        :ARG0-of (c2 / cheerful-03
+                              :degree (r2 / really)))
+                  :manner (e / enthusiastic-03)))
+      :ARG1 (r3 / rock
+            :mod (p2 / pretty
+                  :degree (q / quite)))
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the interesting plans that the assistant managed enthusiastically astonished the politicians .
+(a / astonish-01
+      :ARG0 (p / plan-01
+            :ARG2-of (ii / interest-01)
+            :ARG1-of (m / manage-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (a2 / assist-01))
+                  :manner (e / enthusiastic-03)))
+      :ARG1 (p3 / politician))
+
+# ::snt the rather intriguing program that the assistant managed astonished the quite eager manager last week .
+(a / astonish-01
+      :ARG0 (p / program
+            :ARG0-of (ii / intrigue-01
+                  :mod (r / rather))
+            :ARG1-of (m / manage-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (a2 / assist-01))))
+      :ARG1 (p3 / person
+            :ARG0-of m)
+      :ARG0-of (e / eager-01
+            :degree (q / quite))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the program that the assistants managed shocked the manager last year .
+(s / shock-01
+      :ARG0 (p / program
+            :ARG1-of (m / manage-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (a / assist-01))))
+      :ARG1 (p3 / person
+            :ARG0-of (m2 / manage-01))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the bug that the toddler chased consoled the kids last week .
+(c / console-01
+      :ARG0 (b / bug
+            :ARG1-of (c2 / chase-01
+                  :ARG0 (t / toddler)))
+      :ARG1 (k / kid)
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the protests that the eager team welcomed sabotaged the program last year .
+(s / sabotage-01
+      :ARG0 (p / protest-01
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team
+                        :ARG0-of (e / eager-01))))
+      :ARG1 (p2 / program)
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the conspiracy that the startled crowd welcomed last year rapidly scarred the professor .
+(s / scar-01
+      :ARG0 (c / conspire-01
+            :ARG1-of (w / welcome-01
+                  :ARG0 (c2 / crowd
+                        :ARG1-of (s2 / surprise-01))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p / professor)
+      :manner (r / rapid))
+
+# ::snt the rebellion that the ambitious employees welcomed last year upset the manager .
+(u / upset-01
+      :ARG0 (r / rebel-01
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01)
+                        :mod (a / ambitious))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p2 / person
+            :ARG0-of (m / manage-01)))
+
+# ::snt the secrets that the gentle team welcomed shaped the program .
+(s / shape-01
+      :ARG0 (s2 / secret
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team
+                        :ARG0-of (g / gentle-01))))
+      :ARG1 (p / program))
+
+# ::snt the terrible secrets that the employees welcomed rapidly divided the countries .
+(d / divide-02
+      :ARG0 (s / secret
+            :ARG1-of (t / terrible-01)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01))))
+      :ARG1 (c / country)
+      :manner (r / rapid))
+
+# ::snt the scandalous movement that the nervous team happily welcomed misled the rather startled crowd last year .
+(m / mislead-01
+      :ARG0 (m2 / movement-07
+            :mod (s / scandalous)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team
+                        :ARG1-of (n / nervous-01))
+                  :ARG2-of (h / happy-01
+                        :ARG1 t)))
+      :ARG1 (c / crowd
+            :ARG1-of (s2 / surprise-01
+                  :degree (r / rather)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the articles that my colleagues googled last year inspired the professor last year .
+(ii / inspire-01
+      :ARG0 (a / article
+            :ARG1-of (g / google-01
+                  :ARG0 (c / colleague
+                        :poss (ii2 / i))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p / professor)
+      :time y)
+
+# ::snt the papers that the cheerful professor googled spread the news rapidly .
+(s / spread-03
+      :ARG0 (p / paper
+            :ARG1-of (g / google-01
+                  :ARG0 (p2 / professor
+                        :mod (c / cheerful))))
+      :ARG1 (n / news)
+      :manner (r / rapid))
+
+# ::snt the novel that the museum displayed last year initiated the really aggressive protests .
+(ii / initiate-01
+      :ARG0 (n / novel
+            :ARG1-of (d / display-01
+                  :ARG0 (m / museum)
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p / protest-01
+            :mod (a / aggressive
+                  :degree (r / really))))
+
+# ::snt the sculptures that the beautiful museums displayed helped the protests last year .
+(h / help-01
+      :ARG0 (s / sculpture
+            :ARG1-of (d / display-01
+                  :ARG0 (m / museum
+                        :ARG1-of (b / beautiful-02))))
+      :ARG1 (p / protest-01
+            :time (y / year
+                  :mod (l / last))))
+
+# ::snt the formula that the cheerful physicists happily reviewed challenged the really convenient principle .
+(c / challenge-01
+      :ARG0 (f / formula
+            :ARG1-of (r / review-01
+                  :ARG0 (p / physicist
+                        :mod (c2 / cheerful))
+                  :ARG2-of (h / happy-01)))
+      :ARG1 (p2 / principle
+            :mod (c3 / convenient
+                  :degree (r2 / really))))
+
+# ::snt the quite popular principle that the clinicians reviewed efficiently fixed the error .
+(f / fix-02
+      :ARG0 (p / principle
+            :ARG1-of (p2 / popular-02
+                  :degree (q / quite))
+            :ARG1-of (r / review-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (p4 / practitioner
+                                    :mod (m / medicine))))))
+      :ARG1 (e / error)
+      :ARG1-of (e2 / efficient-01))
+
+# ::snt the popular principle that the clinicians reviewed efficiently gloomily improved the extremely convenient equation .
+(ii / improve-01
+      :ARG0 (p / principle
+            :ARG1-of (p2 / popular-02)
+            :ARG1-of (r / review-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (p4 / practitioner
+                                    :mod (m / medicine))))
+                  :ARG1-of (e / efficient-01)))
+      :ARG1 (e2 / equation
+            :mod (c / convenient
+                  :degree (e3 / extreme)))
+      :manner (g / gloom))
+
+# ::snt the CEOs that the quite sudden success astonished last year trusted the gentle assistants .
+(t / trust-02
+      :ARG0 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (o / officer
+                        :mod (c / chief)
+                        :mod (e / executive)))
+            :ARG0-of (a / astonish-01
+                  :ARG2 (s / succeed-01
+                        :mod (s2 / sudden
+                              :degree (q / quite)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p2 / person
+            :ARG0-of (a2 / assist-01)
+            :ARG0-of (g / gentle-01)))
+
+# ::snt the really lively teacher that the short preschooler happily hugged filled the cups .
+(f / fill-01
+      :ARG1 (c / cup)
+      :ARG2 (p / person
+            :ARG0-of (t / teach-01)
+            :mod (l / lively
+                  :degree (r / really))
+            :ARG1-of (h / hug-01
+                  :ARG0 (p2 / preschooler
+                        :ARG1-of (s / short-07))
+                  :ARG2-of (h2 / happy-01))))
+
+# ::snt the intriguing plan that the secretary managed astonished the rude managers last year .
+(a / astonish-01
+      :ARG0 (p / plan
+            :ARG0-of (ii / intrigue-01)
+            :ARG1-of (m / manage-01
+                  :ARG0 (s / secretary)))
+      :ARG1 (p2 / person
+            :ARG0-of (m2 / manage-01)
+            :mod (r / rude))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the extremely cheerful teacher that the rather short preschooler hugged efficiently tied the shiny thread .
+(t / tie-01
+      :ARG0 (p / person
+            :ARG0-of (t2 / teach-01)
+            :ARG0-of (c / cheerful-03
+                  :degree (e / extreme))
+            :ARG1-of (h / hug-01
+                  :ARG0 (p2 / preschooler
+                        :ARG1-of (s / short-07
+                              :degree (r / rather)))))
+      :ARG1 (t3 / thread
+            :ARG1-of (s2 / shine-01))
+      :ARG1-of (e2 / efficient-01))
+
+# ::snt the interesting budget that the gentle assistant managed astonished the management .
+(a / astonish-01
+      :ARG0 (b / budget
+            :ARG2-of (ii / interest-01)
+            :ARG1-of (m / manage-01
+                  :ARG0 (p / person
+                        :ARG0-of (a2 / assist-01)
+                        :ARG1-of (g / gentle-01))))
+      :ARG1 m)
+
+# ::snt the proposals that the really eager assistants managed shocked the management last month .
+(s / shock-01
+      :ARG0 (t / thing
+            :ARG1-of (p / propose-01)
+            :ARG1-of (m / manage-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (a / assist-01)
+                        :ARG0-of (e / eager-01
+                              :degree (r / really)))))
+      :ARG1 m
+      :time (m2 / month
+            :mod (l / last)))
+
+# ::snt the really green butterfly that the really gentle toddlers chased consoled the kid last month .
+(c / console-01
+      :ARG0 (b / butterfly
+            :ARG1-of (g / green-02
+                  :degree (r / really))
+            :ARG1-of (c2 / chase-01
+                  :ARG0 (t / toddler
+                        :ARG1-of (g2 / gentle-01
+                              :degree (r2 / really)))))
+      :ARG1 (k / kid)
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the secrets that the anxious team enthusiastically welcomed upset the management last month .
+(u / upset-01
+      :ARG0 (s / secret
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team
+                        :ARG0-of (a / anxious-02))
+                  :manner (e / enthusiastic-03
+                        :ARG0 t)))
+      :ARG1 (m / manage-01)
+      :time (m2 / month
+            :mod (l / last)))
+
+# ::snt the revolution that the team welcomed misled the extremely gentle crowd last year .
+(m / mislead-01
+      :ARG0 (r / revolution-03
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team)))
+      :ARG1 (c / crowd
+            :ARG1-of (g / gentle-01
+                  :degree (e / extreme)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the truth that the eager crowd welcomed last month shaped the interesting proposal .
+(s / shape-01
+      :ARG0 (t / thing
+            :ARG1-of (t2 / true-01)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (c / crowd
+                        :ARG0-of (e / eager-01))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (t3 / thing
+            :ARG1-of (p / propose-01)
+            :mod (ii / interesting)))
+
+# ::snt the scary revolution that the gentle gathering welcomed sabotaged the proposal quickly .
+(s / sabotage-01
+      :ARG0 (r / revolution-03
+            :ARG0-of (s2 / scary-03)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (g / gather-03
+                        :ARG1-of (g2 / gentle-01))))
+      :ARG1 (t / thing
+            :ARG1-of (p / propose-01))
+      :ARG1-of (q / quick-02))
+
+# ::snt the quite shocking truth that the anxious team welcomed last year divided the remarkable union .
+(d / divide-02
+      :ARG0 (t / thing
+            :ARG1-of (t2 / true-01)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t3 / team
+                        :mod (a / anxious))
+                  :time (y / year
+                        :mod (l / last)))
+            :ARG0-of (s / shock-01
+                  :degree (q / quite)))
+      :ARG1 (u / union-02
+            :ARG1-of (r / remarkable-02)))
+
+# ::snt the secret that the crowd welcomed last year scarred the cheery student last year .
+(s / scar-01
+      :ARG0 (s2 / secret
+            :ARG1-of (w / welcome-01
+                  :ARG0 (c / crowd)
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (p / person
+            :mod (c2 / cheery)
+            :ARG0-of (s3 / study-01))
+      :time y)
+
+# ::snt the remarkable paper that the student googled inspired the quite nervous painters last year .
+(ii / inspire-01
+      :ARG0 (p / paper
+            :ARG1-of (r / remarkable-02)
+            :ARG1-of (g / google-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (s / study-01))))
+      :ARG1 (p3 / person
+            :ARG0-of (p4 / paint-02)
+            :ARG1-of (n / nervous-01
+                  :degree (q / quite)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the paper that my cousins googled last year spread the idea quickly .
+(s / spread-03
+      :ARG0 (p / paper
+            :ARG1-of (g / google-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (ii2 / idea)
+      :ARG1-of (q / quick-02))
+
+# ::snt the gorgeous sculpture that the library displayed last year helped the quite scary movement .
+(h / help-01
+      :ARG0 (s / sculpture
+            :mod (g / gorgeous)
+            :ARG1-of (d / display-01
+                  :ARG0 (l / library)
+                  :time (y / year
+                        :mod (l2 / last))))
+      :ARG1 (m / movement-07
+            :ARG0-of (s2 / scary-03
+                  :degree (q / quite))))
+
+# ::snt the quite remarkable principle that the clinician easily reviewed improved the rather convenient formula sadly .
+(ii / improve-01
+      :ARG0 (p / principle
+            :ARG1-of (r / remarkable-02
+                  :degree (q / quite))
+            :ARG1-of (r2 / review-01
+                  :ARG0 (c / clinician)
+                  :ARG1-of (e / easy-05)))
+      :ARG1 (f / formula
+            :mod (c2 / convenient
+                  :degree (r3 / rather)))
+      :ARG0-of (s / sad-02))
+
+# ::snt the equation that the lively scientists reviewed challenged the extremely convenient principle last year .
+(c / challenge-01
+      :ARG0 (e / equation
+            :ARG1-of (r / review-01
+                  :ARG0 (s / scientist
+                        :mod (l / lively))))
+      :ARG1 (p / principle
+            :mod (c2 / convenient
+                  :degree (e2 / extreme)))
+      :time (y / year
+            :mod (l2 / last)))
+
+# ::snt the methods that the scary clinician reviewed fixed the really disastrous flaws urgently .
+(f / fix-02
+      :ARG0 (m / method
+            :ARG1-of (r / review-01
+                  :ARG0 (c / clinician
+                        :ARG0-of (s / scary-03))))
+      :ARG1 (f2 / flaw-01
+            :mod (d / disastrous
+                  :degree (r2 / really)))
+      :manner (u / urgent))
+
+# ::snt the eager management that the shocking assertion astonished thanked the quite eager clerk .
+(t / thank-01
+      :ARG0 (m / manage-01
+            :ARG0-of (e / eager-01)
+            :ARG0-of (a / astonish-01
+                  :ARG2 (a2 / assert-02
+                        :ARG0-of (s / shock-01))))
+      :ARG1 (c / clerk
+            :ARG0-of (e2 / eager-01
+                  :degree (q / quite))))
+
+# ::snt the really uptight manager that the unexpected victory astonished conducted the shocking audit .
+(c / conduct-01
+      :ARG0 (p / person
+            :ARG0-of (m / manage-01)
+            :ARG1-of (u / uptight-03
+                  :degree (r / really))
+            :ARG1-of (a / astonish-01
+                  :ARG0 (w / win-01
+                        :ARG1-of (e / expect-01
+                              :polarity -))))
+      :ARG1 (a2 / audit-01
+            :ARG0-of (s / shock-01)))
+
+# ::snt the teacher that the cheery child enthusiastically hugged enthusiastically cooked the extremely tasty chicken .
+(c / cook-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG1-of (h / hug-01
+                  :ARG0 (c2 / child
+                        :mod (c3 / cheery))
+                  :manner (e / enthusiastic-03)))
+      :ARG1 (c4 / chicken
+            :mod (t2 / tasty
+                  :degree (e2 / extreme)))
+      :manner (e3 / enthusiastic-03))
+
+# ::snt the proposal that the nervous clerk managed enthusiastically astonished the management last year .
+(a / astonish-01
+      :ARG0 (t / thing
+            :ARG1-of (p / propose-01)
+            :ARG1-of (m / manage-01
+                  :ARG0 (c / clerk
+                        :ARG1-of (n / nervous-01))))
+      :ARG1 m
+      :time (y / year
+            :mod (l / last))
+      :manner (e / enthusiastic-03
+            :ARG1 m))
+
+# ::snt the really young teacher that the kids hugged neglected the child last month .
+(n / neglect-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :mod (y / young
+                  :degree (r / really))
+            :ARG1-of (h / hug-01
+                  :ARG0 (k / kid)))
+      :ARG1 (c / child)
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the interesting budgets that the receptionists eagerly managed shocked the resourceful principal .
+(s / shock-01
+      :ARG0 (b / budget
+            :ARG2-of (ii / interest-01)
+            :ARG1-of (m / manage-01
+                  :ARG0 (r / receptionist)
+                  :ARG1-of (e / eager-01
+                        :ARG0 r)))
+      :ARG1 (p / principal
+            :mod (r2 / resourceful)))
+
+# ::snt the extremely interesting budget that the receptionist managed astonished the principals last week .
+(a / astonish-01
+      :ARG0 (b / budget
+            :ARG2-of (ii / interest-01
+                  :degree (e / extreme))
+            :ARG1-of (m / manage-01
+                  :ARG0 (p / person
+                        :ARG0-of (r / receptionist-01))))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (p3 / principal)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the kite that the kid chased consoled the young child .
+(c / console-01
+      :ARG0 (k / kite
+            :ARG1-of (c2 / chase-01
+                  :ARG0 (k2 / kid)))
+      :ARG1 (c3 / child
+            :mod (y / young)))
+
+# ::snt the secrets that the employees welcomed yesterday scarred the painter rapidly .
+(s / scar-01
+      :ARG0 (s2 / secret
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01))
+                  :time (y / yesterday)))
+      :ARG1 (p2 / person
+            :ARG0-of (p3 / paint-02))
+      :manner (r / rapid))
+
+# ::snt the movement that the quite ambitious team welcomed shaped the interesting plan yesterday .
+(s / shape-01
+      :ARG0 (m / movement-07
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team
+                        :mod (a / ambitious
+                              :degree (q / quite)))))
+      :ARG1 (t2 / thing
+            :ARG1-of (p / plan-01)
+            :ARG2-of (ii / interest-01))
+      :time (y / yesterday))
+
+# ::snt the protest that the shy team welcomed last week upset the principal .
+(u / upset-01
+      :ARG0 (p / protest-01
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team
+                        :ARG0-of (s / shy-02))
+                  :time (w2 / week
+                        :mod (l / last))))
+      :ARG1 (p2 / principal))
+
+# ::snt the movement that the fearful crowd welcomed sabotaged the plan last week .
+(s / sabotage-01
+      :ARG0 (m / movement-07
+            :ARG1-of (w / welcome-01
+                  :ARG0 (c / crowd
+                        :ARG0-of (f / fear-01))))
+      :ARG1 (t / thing
+            :ARG1-of (p / plan-01))
+      :time (w2 / week
+            :mod (l / last)))
+
+# ::snt the quite scandalous secret that the employees welcomed divided the remarkable countries .
+(d / divide-02
+      :ARG0 (s / secret
+            :mod (s2 / scandalous
+                  :degree (q / quite))
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01))))
+      :ARG1 (c / country
+            :ARG1-of (r / remarkable-02)))
+
+# ::snt the protest that the employee welcomed misled the rather ambitious team last week .
+(m / mislead-01
+      :ARG0 (p / protest-01
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p2 / person
+                        :ARG1-of (e / employ-01))))
+      :ARG1 (t / team
+            :mod (a / ambitious
+                  :degree (r / rather)))
+      :time (w2 / week
+            :mod (l / last)))
+
+# ::snt the movie that the professor googled inspired the painters last week .
+(ii / inspire-01
+      :ARG0 (m / movie
+            :ARG1-of (g / google-01
+                  :ARG0 (p / professor)))
+      :ARG1 (p2 / person
+            :ARG0-of (p3 / paint-02))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the article that my sibling urgently googled rapidly spread the information .
+(s / spread-03
+      :ARG0 (a / article
+            :ARG1-of (g / google-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (s2 / sibling)))
+                  :manner (u / urgent)))
+      :ARG1 (ii2 / information)
+      :manner (r / rapid))
+
+# ::snt the rather beautiful sculptures that the library displayed last week helped the protest last week .
+(h / help-01
+      :ARG0 (s / sculpture
+            :ARG1-of (b / beautiful-02
+                  :degree (r / rather))
+            :ARG1-of (d / display-01
+                  :ARG0 (l / library)
+                  :time (w / week
+                        :mod (l2 / last))))
+      :ARG1 (p / protest-01)
+      :time w)
+
+# ::snt the procedure that the really resourceful physicist reviewed effortlessly improved the formula .
+(ii / improve-01
+      :ARG0 (p / procedure
+            :ARG1-of (r / review-01
+                  :ARG0 (p2 / physicist
+                        :mod (r2 / resourceful
+                              :degree (r3 / really)))))
+      :ARG1 (f / formula)
+      :manner (e / easy-05))
+
+# ::snt the quite convenient proofs that the scientist reviewed challenged the remarkable principles .
+(c / challenge-01
+      :ARG0 (p / prove-01
+            :mod (c2 / convenient
+                  :degree (q / quite))
+            :ARG1-of (r / review-01
+                  :ARG0 (s / scientist)))
+      :ARG1 (p2 / principle
+            :ARG1-of (r2 / remarkable-02)))
+
+# ::snt the principle that the quite shy scientist reviewed fixed the fatal errors effortlessly .
+(f / fix-02
+      :ARG0 (p / principle
+            :ARG1-of (r / review-01
+                  :ARG0 (s / scientist
+                        :mod (s2 / shy
+                              :degree (q / quite)))))
+      :ARG1 (e / err-01
+            :mod (f2 / fatal))
+      :manner (e2 / easy-05))
+
+# ::snt the quite resourceful principal that the extremely unanticipated achievement astonished last week controlled the plan yesterday .
+(c / control-01
+      :ARG0 (p / principal
+            :mod (r / resourceful
+                  :degree (q / quite))
+            :ARG1-of (a / astonish-01
+                  :ARG0 (a2 / achieve-01
+                        :ARG1-of (a3 / anticipate-01
+                              :polarity -
+                              :degree (e / extreme)))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (p2 / plan)
+      :time (y / yesterday))
+
+# ::snt the guardian that the kids hugged covered the rather green bottles yesterday .
+(c / cover-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG1-of (h / hug-01
+                  :ARG0 (k / kid)))
+      :ARG1 (b / bottle
+            :ARG1-of (g2 / green-02
+                  :degree (r / rather)))
+      :time (y / yesterday))
+
+# ::snt the budgets that the really modest secretaries effortlessly managed astonished the principal yesterday .
+(a / astonish-01
+      :ARG0 (b / budget
+            :ARG1-of (m / manage-01
+                  :ARG0 (s / secretary
+                        :mod (m2 / modest
+                              :degree (r / really)))
+                  :ARG1-of (e / easy-05)))
+      :ARG1 (p / principal)
+      :time (y / yesterday))
+
+# ::snt the chubby guardian that the toddler hugged eagerly fried the quite delicious potato .
+(f / fry-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :mod (c / chubby)
+            :ARG1-of (h / hug-01
+                  :ARG0 (t / toddler)))
+      :ARG1 (p2 / potato
+            :mod (d / delicious
+                  :degree (q / quite)))
+      :manner (e / enthusiastic-03
+            :ARG1 p))
+
+# ::snt the rather interesting budget that the secretaries managed astonished the principal .
+(a / astonish-01
+      :ARG0 (b / budget
+            :ARG2-of (ii / interest-01
+                  :mod (r / rather))
+            :ARG1-of (m / manage-01
+                  :ARG0 (s / secretary)))
+      :ARG1 (p / principal))
+
+# ::snt the interesting proposals that the receptionist managed shocked the CEO .
+(s / shock-01
+      :ARG0 (t / thing
+            :ARG1-of (p / propose-01)
+            :ARG2-of (ii / interest-01)
+            :ARG1-of (m / manage-01
+                  :ARG0 (r / receptionist)))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (o / officer
+                        :mod (c / chief)
+                        :mod (e / executive)))))
+
+# ::snt the quite interesting proposal that the resourceful clerk managed astonished the obnoxious CEO last month .
+(a / astonish-01
+      :ARG0 (t / thing
+            :ARG1-of (p / propose-01)
+            :ARG2-of (ii / interest-01
+                  :degree (q / quite))
+            :ARG1-of (m / manage-01
+                  :ARG0 (c / clerk
+                        :mod (r / resourceful))))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (o / officer
+                        :mod (c2 / chief)
+                        :mod (e / executive)))
+            :mod (o2 / obnoxious))
+      :time (m2 / month
+            :mod (l / last)))
+
+# ::snt the ball that the witty preschooler chased last month consoled the kid .
+(c / console-01
+      :ARG0 (b / ball
+            :ARG1-of (c2 / chase-01
+                  :ARG0 (p / preschooler
+                        :mod (w / witty))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (k / kid))
+
+# ::snt the rather outrageous truth that the crowd welcomed last month upset the CEO .
+(u / upset-01
+      :ARG0 (t / thing
+            :ARG1-of (t2 / true-01)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (c / crowd)
+                  :time (m / month
+                        :mod (l / last)))
+            :ARG0-of (o / outrageous-02
+                  :degree (r / rather)))
+      :ARG1 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (o2 / officer
+                        :mod (c2 / chief)
+                        :mod (e / executive)))))
+
+# ::snt the truth that the employee welcomed sabotaged the project rapidly .
+(s / sabotage-01
+      :ARG0 (t / thing
+            :ARG1-of (t2 / true-01)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01))))
+      :ARG1 (p2 / project)
+      :manner (r / rapid))
+
+# ::snt the terrible conspiracy that the employees welcomed enthusiastically shaped the quite interesting project .
+(s / shape-01
+      :ARG0 (c / conspiracy
+            :ARG1-of (t / terrible-01)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01))
+                  :manner (e2 / enthusiastic-03
+                        :ARG1 p)))
+      :ARG1 (p2 / project
+            :ARG2-of (ii / interest-01
+                  :degree (q / quite))))
+
+# ::snt the movement that the petrified team welcomed misled the really eager employee .
+(m / mislead-01
+      :ARG0 (m2 / movement-07
+            :ARG1-of (w / welcome-01
+                  :ARG0 (t / team
+                        :ARG1-of (p / petrified-02))))
+      :ARG1 (p2 / person
+            :ARG1-of (e / employ-01)
+            :ARG0-of (e2 / eager-01
+                  :degree (r / really))))
+
+# ::snt the conspiracies that the crowd welcomed enthusiastically divided the popular nation last week .
+(d / divide-02
+      :ARG0 (c / conspiracy
+            :ARG1-of (w / welcome-01
+                  :ARG0 (c2 / crowd)))
+      :ARG1 (n / nation
+            :ARG1-of (p / popular-02))
+      :time (w2 / week
+            :mod (l / last))
+      :manner (e / enthusiastic-03
+            :ARG1 c2))
+
+# ::snt the outrageous conspiracy that the employees welcomed last month scarred the student .
+(s / scar-01
+      :ARG0 (c / conspiracy
+            :ARG0-of (o / outrageous-02)
+            :ARG1-of (w / welcome-01
+                  :ARG0 (p / person
+                        :ARG1-of (e / employ-01))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (p2 / person
+            :ARG0-of (s2 / study-01)))
+
+# ::snt the movie that the teenagers googled rapidly spread the interesting information .
+(s / spread-03
+      :ARG0 (m / movie
+            :ARG1-of (g / google-01
+                  :ARG0 (t / teenager)))
+      :ARG1 (ii / information
+            :ARG2-of (ii2 / interest-01))
+      :manner (r / rapid))
+
+# ::snt the book that my colleague promptly googled inspired the student .
+(ii / inspire-01
+      :ARG0 (b / book
+            :ARG1-of (g / google-01
+                  :ARG0 (c / colleague
+                        :poss (ii2 / i))
+                  :manner (p / prompt)))
+      :ARG1 (p2 / person
+            :ARG0-of (s / study-01)))
+
+# ::snt the sculptures that the majestic museums displayed initiated the popular rebellion enthusiastically .
+(ii / initiate-01
+      :ARG0 (s / sculpture
+            :ARG1-of (d / display-01
+                  :ARG0 (m / museum
+                        :mod (m2 / majestic))))
+      :ARG1 (r / rebel-01
+            :ARG0 (p / populace))
+      :manner (e / enthusiastic-03))
+
+# ::snt the majestic novel that the library displayed helped the rebellion .
+(h / help-01
+      :ARG0 (n / novel
+            :mod (m / majestic)
+            :ARG1-of (d / display-01
+                  :ARG0 (l / library)))
+      :ARG1 (r / rebel-01))
+
+# ::snt the method that the scientist reviewed fixed the disastrous flaws rapidly .
+(f / fix-02
+      :ARG0 (m / method
+            :ARG1-of (r / review-01
+                  :ARG0 (s / scientist)))
+      :ARG1 (f2 / flaw-01
+            :mod (d / disastrous))
+      :manner (r2 / rapid))
+
+# ::snt the principle that the witty scientist reviewed enthusiastically improved the formula .
+(ii / improve-01
+      :ARG0 (p / principle
+            :ARG1-of (r / review-01
+                  :ARG0 (s / scientist
+                        :mod (w / witty))
+                  :manner (e / enthusiastic-03)))
+      :ARG1 (f / formula))
+
+# ::snt the useful formula that the modest doctor reviewed challenged the popular principles .
+(c / challenge-01
+      :ARG0 (f / formula
+            :ARG1-of (u / useful-05)
+            :ARG1-of (r / review-01
+                  :ARG0 (d / doctor
+                        :mod (m / modest))))
+      :ARG1 (p / principle
+            :ARG1-of (p2 / popular-02)))
+
+# ::snt the obnoxious manager that the interesting jobs astonished trusted the modest receptionists last month .
+(t / trust-01
+      :ARG0 (p / person
+            :ARG0-of (m / manage-01)
+            :mod (o / obnoxious)
+            :ARG0-of (a / astonish-01
+                  :ARG2 (j / job
+                        :ARG2-of (ii / interest-01))))
+      :ARG2 (r / receptionist
+            :mod (m2 / modest))
+      :time (m3 / month
+            :mod (l / last)))
+
+# ::snt the CEOs that the unexpected achievement astonished watched the rebellion .
+(w / watch-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (o / officer
+                        :mod (e / executive
+                              :mod (c / chief))))
+            :ARG1-of (a / astonish-01
+                  :ARG0 (t / thing
+                        :ARG1-of (a2 / achieve-01)
+                        :ARG1-of (e2 / expect-01
+                              :polarity -))))
+      :ARG1 (r / rebel-01))
+
+# ::snt the parent that the modest toddler enthusiastically hugged kissed the modest chefs .
+(k / kiss-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (t / toddler
+                        :mod (m / modest)
+                        :ARG1-of (h2 / hug-01
+                              :manner (e / enthusiastic-03)))
+                  :ARG2 (p2 / parent)))
+      :ARG1 (c / chef
+            :mod (m2 / modest)))
+
+# ::snt the projects that the extremely modest assistant managed efficiently astonished the CEO .
+(a / astonish-01
+      :ARG0 (p / project
+            :ARG1-of (m / manage-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (a2 / assist-01)
+                        :mod (m2 / modest
+                              :degree (e / extreme)))
+                  :ARG1-of (e2 / efficient-01)))
+      :ARG1 (o / officer
+            :mod (c / chief)
+            :mod (e3 / executive)))
+
+# ::snt the really shiny stone that the toddler stored eagerly cracked the glasses yesterday .
+(c / crack-02
+      :ARG0 (s / stone
+            :ARG1-of (s2 / shine-01
+                  :degree (r / really))
+            :ARG1-of (s3 / store-01
+                  :ARG0 (t / toddler)
+                  :ARG2-of (e / eager-01
+                        :ARG0 t)))
+      :ARG1 (g / glass)
+      :time (y / yesterday))
+
+# ::snt the cats that the short toddler saved yesterday inhabited the really majestic mountain .
+(ii / inhabit-01
+      :ARG0 (c / cat
+            :ARG1-of (s / save-02
+                  :ARG0 (t / toddler
+                        :ARG1-of (s2 / short-07))
+                  :time (y / yesterday)))
+      :ARG1 (m / mountain
+            :mod (m2 / majestic
+                  :degree (r / really))))
+
+# ::snt the petrified deer that the bear captured rapidly escaped the tiger easily .
+(e / escape-01
+      :ARG0 (d / deer
+            :ARG1-of (p / petrified-03)
+            :ARG1-of (c / capture-01
+                  :ARG0 (b / bear)))
+      :ARG1 (t / tiger)
+      :manner (r / rapid)
+      :ARG1-of (e2 / easy-05))
+
+# ::snt the quite enjoyable fish that the waitress sampled satisfied my colleagues .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p / possible-01)
+                  :degree (q / quite))
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (s3 / serve-02
+                              :ARG2 (ii / i)))))
+      :ARG1 (p3 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))))
+
+# ::snt the enjoyable potato that the waitress happily sampled satisfied my colleague .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p2 / possible-01))
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (s3 / serve-02))
+                  :ARG1-of (h / happy-01)))
+      :ARG1 (c / colleague
+            :poss (ii / i)))
+
+# ::snt the chicken that the modest waitresses happily sampled satisfied the skinny preschoolers last week .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (p / person
+                        :ARG0-of (w / wait-01)
+                        :mod (m / modest))
+                  :ARG2-of (h / happy-01)))
+      :ARG1 (p2 / preschooler
+            :mod (s3 / skinny))
+      :time (w2 / week
+            :mod (l / last)))
+
+# ::snt the enjoyable potato that the driven waitress sampled happily satisfied my colleagues .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p2 / possible-01))
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (w / waitress))
+                        :ARG0-of (d / drive-02))))
+      :ARG1 (p4 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague)))
+      :ARG2-of (h3 / happy-01))
+
+# ::snt the cake that the waitress sampled satisfied the preschooler .
+(s / satisfy-01
+      :ARG0 (c / cake
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (p / person
+                        :ARG0-of (s3 / serve-02))))
+      :ARG1 (p2 / preschooler))
+
+# ::snt the chocolates that the really gentle chef happily sampled satisfied my colleagues last week .
+(s / satisfy-01
+      :ARG0 (c / chocolate
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (c2 / chef
+                        :ARG1-of (g / gentle-01
+                              :degree (r / really)))
+                  :ARG0-of (h / happy-01)))
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c3 / colleague)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the extremely enjoyable cakes that the waitresses sampled satisfied the preschooler .
+(s / satisfy-01
+      :ARG0 (c / cake
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p / possible-01
+                        :degree (e2 / extreme)))
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (w / wait-01))))
+      :ARG1 (p3 / preschooler))
+
+# ::snt the cake that the really resourceful chefs sampled satisfied the preschooler .
+(s / satisfy-01
+      :ARG0 (c / cake
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (c2 / chef
+                        :mod (r / resourceful
+                              :degree (r2 / really)))))
+      :ARG1 (p / preschooler))
+
+# ::snt the delicious chicken that the waitresses eagerly sampled satisfied my colleague last week .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (d / delicious)
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (p / person
+                        :ARG0-of (w / wait-01))
+                  :ARG1-of (e / eager-01
+                        :ARG0 p)))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague)))
+      :time (w2 / week
+            :mod (l / last)))
+
+# ::snt the really delicious cake that the chef happily sampled satisfied the tall preschooler .
+(s / satisfy-01
+      :ARG0 (c / cake
+            :ARG1-of (s2 / sample-01
+                  :ARG0 (c2 / chef)
+                  :ARG1-of (h / happy-01))
+            :mod (d / delicious
+                  :degree (r / really)))
+      :ARG1 (p / preschooler
+            :mod (t / tall)))
+
+# ::snt the quite enjoyable chicken that the gentle preschooler hated satisfied the shy toddler .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :ARG1-of (e / enjoy-01
+                  :ARG0 (t / toddler
+                        :ARG0-of (s2 / shy-02))
+                  :degree (q / quite))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :ARG1-of (g / gentle-01))))
+      :ARG1 t)
+
+# ::snt the fish that the preschoolers hated satisfied the quite gentle toddler yesterday .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler)))
+      :ARG1 (t / toddler
+            :ARG1-of (g / gentle-01
+                  :degree (q / quite)))
+      :time (y / yesterday))
+
+# ::snt the chicken that the merry preschooler hated satisfied my colleagues last week .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :mod (m / merry))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the rather delicious potatoes that the toddler hated satisfied my shy colleagues last week .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler))
+            :mod (d / delicious
+                  :degree (r / rather)))
+      :ARG1 (p2 / person
+            :ARG0-of (s2 / shy-02)
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the delicious fish that the skinny preschoolers hated last week satisfied the skinny toddlers .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :mod (d / delicious)
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :mod (s2 / skinny))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (t / toddler
+            :mod (s3 / skinny)))
+
+# ::snt the rather enjoyable fish that the witty preschooler hated satisfied my rather skinny colleagues yesterday .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p / possible-01)
+                  :degree (r / rather))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p2 / preschooler
+                        :mod (w / witty))))
+      :ARG1 (c / colleague
+            :poss (ii / i)
+            :mod (s2 / skinny
+                  :degree (r2 / rather)))
+      :time (y / yesterday))
+
+# ::snt the potatoes that the toddler hated yesterday satisfied my gentle colleague .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler)
+                  :time (y / yesterday)))
+      :ARG1 (c / colleague
+            :ARG1-of (g / gentle-01)
+            :poss (ii / i)))
+
+# ::snt the fish that the really modest preschooler hated satisfied the toddler last week .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :mod (m / modest
+                              :degree (r / really)))))
+      :ARG1 (t / toddler)
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the chicken that the rather shy toddler hated satisfied the preschooler last week .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :ARG1-of (s2 / shy-02
+                              :degree (r / rather)))))
+      :ARG1 (p / preschooler)
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the really rich fish that the chubby toddler hated satisfied the lively preschooler .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (r / rich-03
+                  :degree (r2 / really))
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :mod (c / chubby))))
+      :ARG1 (p / preschooler
+            :mod (l / lively)))
+
+# ::snt the rather rich fish that the witty toddler hated yesterday satisfied the really tall preschooler yesterday .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :mod (r / rich
+                  :degree (r2 / rather))
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :mod (w / witty))
+                  :time (y / yesterday)))
+      :ARG1 (p / preschooler
+            :mod (t2 / tall
+                  :degree (r3 / really)))
+      :time y)
+
+# ::snt the potato that the really merry preschooler hated yesterday satisfied my cheery colleagues last week .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (h / hate-01
+                  :ARG0 (p2 / preschooler
+                        :mod (m / merry
+                              :degree (r / really)))
+                  :time (y / yesterday)))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague
+                        :mod (c2 / cheerful))))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the extremely rich chicken that the lively preschooler hated satisfied my modest colleague .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (r / rich
+                  :degree (e / extreme))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :mod (l / lively))))
+      :ARG1 (p2 / person
+            :mod (m / modest)
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the fish that the modest preschoolers hated last week satisfied my colleagues .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :mod (m / modest))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague))))
+
+# ::snt the delicious chicken that the really gentle toddlers hated satisfied my colleague .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (d / delicious)
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :ARG1-of (g / gentle-01
+                              :degree (r / really)))))
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the quite enjoyable fish that the preschoolers hated last week satisfied my really modest colleague yesterday .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p / possible-01)
+                  :degree (q / quite))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p2 / preschooler))
+            :time (w / week
+                  :mod (l / last)))
+      :ARG1 (c / colleague
+            :poss (ii / i)
+            :mod (m / modest
+                  :degree (r / really)))
+      :time (y / yesterday))
+
+# ::snt the quite rich fish that the short toddlers hated yesterday satisfied my shy colleague .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :mod (r / rich
+                  :degree (q / quite))
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :ARG1-of (s2 / short-07))
+                  :time (y / yesterday)))
+      :ARG1 (p / person
+            :ARG0-of (s3 / shy-02)
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague))))
+
+# ::snt the rich chicken that the preschoolers hated satisfied my shy colleagues .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (r / rich)
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler)))
+      :ARG1 (p2 / person
+            :ARG0-of (s2 / shy-02)
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the enjoyable fish that the preschooler hated satisfied the toddler yesterday .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p / possible-01))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p2 / preschooler)))
+      :ARG1 (t / toddler)
+      :time (y / yesterday))
+
+# ::snt the fish that the toddler hated satisfied the quite short preschoolers yesterday .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler)))
+      :ARG1 (p / preschooler
+            :ARG1-of (s2 / short-07
+                  :degree (q / quite)))
+      :time (y / yesterday))
+
+# ::snt the delicious chicken that the modest toddler hated last week satisfied my colleagues .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (d / delicious)
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :mod (m / modest))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the enjoyable chicken that the preschooler hated satisfied my colleague .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p / possible-01))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p2 / preschooler)))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the rather enjoyable chicken that the toddler hated satisfied the preschoolers last week .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p / possible-01)
+                  :degree (r / rather))
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler)))
+      :ARG1 (p2 / preschooler)
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the enjoyable potato that the preschooler hated satisfied my extremely surly colleague .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p2 / possible-01))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p3 / preschooler)))
+      :ARG1 (p4 / person
+            :mod (s2 / surly
+                  :degree (e2 / extreme))
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague))))
+
+# ::snt the rather rich fish that the toddler hated satisfied my colleague last week .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (r / rich-03
+                  :degree (r2 / rather))
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler)))
+      :ARG1 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the delicious chicken that the toddlers hated satisfied my shy colleague .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (d / delicious)
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler)))
+      :ARG1 (p / person
+            :ARG0-of (s2 / shy-02)
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the rich chicken that the extremely gentle preschooler hated yesterday satisfied the lively toddlers .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (r / rich)
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :ARG1-of (g / gentle-01
+                              :degree (e / extreme)))
+                  :time (y / yesterday)))
+      :ARG1 (t / toddler
+            :mod (l / lively)))
+
+# ::snt the quite rich chicken that the skinny preschooler hated yesterday satisfied the toddler yesterday .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (r / rich
+                  :degree (q / quite))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :mod (s2 / skinny))
+                  :time (y / yesterday)))
+      :ARG1 (t / toddler)
+      :time y)
+
+# ::snt the rather rich potatoes that the quite witty toddler hated satisfied my rather rude colleagues last week .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (r / rich-03
+                  :degree (r2 / rather))
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :mod (w / witty
+                              :degree (q / quite)))))
+      :ARG1 (c / colleague
+            :poss (ii / i)
+            :ARG1-of (r3 / rude-01
+                  :degree (r4 / rather)))
+      :time (w2 / week
+            :mod (l / last)))
+
+# ::snt the chicken that the preschooler hated satisfied my merry colleague last week .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler)))
+      :ARG1 (p2 / person
+            :mod (m / merry)
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the enjoyable potato that the extremely lively toddler hated yesterday satisfied my quite witty colleague last week .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (p2 / possible-01))
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :mod (l / lively
+                              :degree (e2 / extreme)))
+                  :time (y / yesterday)))
+      :ARG1 (c / colleague
+            :poss (ii / i)
+            :mod (w / witty
+                  :degree (q / quite)))
+      :time (w2 / week
+            :mod (l2 / last)))
+
+# ::snt the delicious fish that the quite short toddlers hated last week satisfied the quite skinny preschoolers last week .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :mod (d / delicious)
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler
+                        :ARG1-of (s2 / short-07
+                              :degree (q / quite)))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (p / preschooler
+            :mod (s3 / skinny
+                  :degree (q2 / quite)))
+      :time w)
+
+# ::snt the potatoes that the preschoolers hated yesterday satisfied my chubby colleague yesterday .
+(s / satisfy-01
+      :ARG0 (p / potato
+            :ARG1-of (h / hate-01
+                  :ARG0 (p2 / preschooler)
+                  :time (y / yesterday)))
+      :ARG1 (c / colleague
+            :mod (c2 / chubby)
+            :poss (ii / i))
+      :time y)
+
+# ::snt the really enjoyable fish that the toddler hated satisfied the rather shy preschoolers last week .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (r / real-04))
+            :ARG1-of (h / hate-01
+                  :ARG0 (t / toddler)))
+      :ARG1 (p / preschooler
+            :ARG1-of (s2 / shy-02
+                  :degree (r2 / rather)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the rich chicken that the short preschooler hated satisfied the really lively toddler last week .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (r / rich)
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :ARG1-of (s2 / short-07))))
+      :ARG1 (t / toddler
+            :mod (l / lively
+                  :degree (r2 / really)))
+      :time (w / week
+            :mod (l2 / last)))
+
+# ::snt the rather delicious chicken that the chubby preschoolers hated satisfied the short toddlers yesterday .
+(s / satisfy-01
+      :ARG0 (c / chicken
+            :mod (d / delicious
+                  :degree (r / rather))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler
+                        :mod (c2 / chubby))))
+      :ARG1 (t / toddler
+            :ARG1-of (s2 / short-07))
+      :time (y / yesterday))
+
+# ::snt the really enjoyable fish that the preschooler hated satisfied the chubby toddler last week .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (e / enjoy-01
+                  :ARG1-of (r / real-04))
+            :ARG1-of (h / hate-01
+                  :ARG0 (p / preschooler)))
+      :ARG1 (t / toddler
+            :mod (c / chubby))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt my cousin that the guardian admired easily rolled the cloth .
+(r / roll-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / cousin))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (c2 / cloth)
+      :ARG1-of (e / easy-05))
+
+# ::snt the parent that my modest cousins admired covered the pretty glasses yesterday .
+(c / cover-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / cousin))
+                        :mod (m / modest))))
+      :ARG1 (g / glasses
+            :mod (p4 / pretty))
+      :time (y / yesterday))
+
+# ::snt my cousin that the guardian admired chewed the chicken .
+(c / chew-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / cousin))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (c3 / chicken))
+
+# ::snt the guardians that my cousin admired yesterday moved the pretty pebbles .
+(m / move-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin)))
+                  :time (y / yesterday)))
+      :ARG1 (p3 / pebble
+            :mod (p4 / pretty)))
+
+# ::snt my really chubby cousins that the guardian admired last month hung the clothes .
+(h / hang-01
+      :ARG0 (p / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / cousin))
+            :mod (c2 / chubby
+                  :degree (r / really))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (c3 / clothes))
+
+# ::snt my merry partner that the parents admired yesterday enthusiastically bought the clothes .
+(b / buy-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (p2 / partner
+                        :mod (m / merry)))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of h
+                        :ARG2 (p4 / parent)))
+            :time (y / yesterday))
+      :ARG1 (c / clothes)
+      :manner (e / enthusiastic-03
+            :ARG1 p))
+
+# ::snt my surly sibling that my cousin admired yesterday inhaled the fumes .
+(ii / inhale-01
+      :ARG0 (p / person
+            :mod (s / surly)
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii2 / i)
+                  :ARG2 (s2 / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii2
+                              :ARG2 (c / cousin)))
+                  :time (y / yesterday)))
+      :ARG1 (f / fume))
+
+# ::snt my sibling that my quite witty cousin admired last month decorated the yellow gates .
+(d / decorate-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / cousin))
+                        :mod (w / witty
+                              :degree (q / quite)))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (g / gate
+            :ARG1-of (y / yellow-02)))
+
+# ::snt my obnoxious cousins that the parent admired wanted the tasty cakes yesterday .
+(w / want-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / cousin))
+            :mod (o / obnoxious)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of h
+                        :ARG2 (p3 / parent))))
+      :ARG1 (c2 / cake
+            :mod (t / tasty))
+      :time (y / yesterday))
+
+# ::snt my tall cousins that the skinny guardian admired emptied the blue glass .
+(e / empty-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / cousin))
+            :mod (t / tall)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :mod (s / skinny)
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (g2 / glass
+            :mod (b / blue)))
+
+# ::snt the really timid parents that the guardian admired closed the really yellow gate quickly .
+(c / close-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (g / guard-01)))
+            :mod (t / timid
+                  :degree (r / really)))
+      :ARG1 (g2 / gate
+            :ARG1-of (y / yellow-02
+                  :degree (r2 / really)))
+      :ARG1-of (q / quick-02))
+
+# ::snt my cousins that the witty parents admired spilled the water last month .
+(s / spill-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / cousin))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG2 (p3 / parent))
+                        :mod (w / witty))))
+      :ARG1 (w2 / water)
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the guardian that my siblings admired last month opened the gate .
+(o / open-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (s / sibling)))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (g2 / gate))
+
+# ::snt my extremely merry sibling that my cousin admired last month fancied my really modest partners .
+(f / fancy-02
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling
+                        :mod (m / merry
+                              :degree (e / extreme))))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / cousin)))
+                  :time (m2 / month
+                        :mod (l / last))))
+      :ARG1 (p3 / person
+            :ARG0-of (p4 / partner-01
+                  :ARG1 ii)
+            :mod (m3 / modest
+                  :degree (r / really))))
+
+# ::snt the parent that the guardians admired yesterday sorted the pebble eagerly .
+(s / sort-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (g / guard-01))
+                  :time (y / yesterday)))
+      :ARG1 (p4 / pebble)
+      :manner (e / eager-01))
+
+# ::snt my extremely cheery partners that my cousin admired entered the buildings .
+(e / enter-01
+      :ARG0 (p / person
+            :ARG0-of (p2 / partner-01
+                  :ARG1 (ii / i))
+            :mod (c / cheerful
+                  :degree (e2 / extreme))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c2 / cousin)))))
+      :ARG1 (b / building))
+
+# ::snt the pretty parents that the rather chubby guardians admired yesterday cooked the delicious chicken quickly .
+(c / cook-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :mod (p3 / pretty)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p4 / person
+                        :ARG0-of (g / guard-01)
+                        :mod (c2 / chubby
+                              :degree (r / rather)))
+                  :time (y / yesterday)))
+      :ARG1 (c3 / chicken
+            :mod (d / delicious))
+      :ARG1-of (q / quick-02))
+
+# ::snt my modest partners that my cousins admired last month remorsefully congratulated the obnoxious management .
+(c / congratulate-01
+      :ARG0 (p / person
+            :ARG0-of (p2 / partner-01
+                  :ARG1 (ii / i))
+            :mod (m / modest)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c2 / cousin)))
+                  :time (m2 / month
+                        :mod (l / last))))
+      :ARG1 (m3 / management
+            :mod (o / obnoxious))
+      :manner (r / remorse))
+
+# ::snt my sibling that my cousin admired approached the building .
+(a / approach-01
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling))
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / cousin)))))
+      :ARG2 (b / building))
+
+# ::snt my sibling that my merry cousin admired stretched the rather blue clothes .
+(s / stretch-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s2 / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / cousin))
+                        :mod (m / merry))))
+      :ARG1 (c2 / clothes
+            :mod (b / blue
+                  :degree (r / rather))))
+
+# ::snt the thief that the lions attacked easily escaped the rather terrifying tiger .
+(e / escape-01
+      :ARG0 (p / person
+            :ARG0-of (s / steal-01)
+            :ARG1-of (a / attack-01
+                  :ARG0 (l / lion)))
+      :ARG1 (t / tiger
+            :ARG0-of (t2 / terrify-01
+                  :degree (r / rather)))
+      :ARG1-of (e2 / easy-05))
+
+# ::snt the proposal that the clerk effortlessly managed astonished the management last month .
+(a / astonish-01
+      :ARG0 (t / thing
+            :ARG1-of (p / propose-01)
+            :ARG1-of (m / manage-01
+                  :ARG0 (c / clerk)
+                  :ARG1-of (e / easy-05)
+                  :ARG1-of a))
+      :time (m2 / month
+            :mod (l / last)))
+
+# ::snt the receptionist that the management enthusiastically thanked submitted the project .
+(s / submit-01
+      :ARG0 (p / person
+            :ARG0-of (r / reception-02)
+            :ARG2-of (t / thank-01
+                  :ARG0 (m / manage-01)
+                  :manner (e / enthusiastic-03)))
+      :ARG1 (p2 / project))
+
+# ::snt the clerks that the obnoxious principal thanked enthusiastically guarded the really interesting projects .
+(g / guard-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 (p / principal
+                        :mod (o / obnoxious))
+                  :manner (e / enthusiastic-03)))
+      :ARG1 (p2 / project
+            :ARG2-of (ii / interest-01
+                  :degree (r / really))))
+
+# ::snt the timid clerks that the extremely surly artist thanked easily managed the project .
+(m / manage-01
+      :ARG0 (c / clerk
+            :mod (t / timid)
+            :ARG2-of (t2 / thank-01
+                  :ARG0 (a / artist
+                        :mod (s / surly
+                              :degree (e / extreme)))))
+      :ARG1 (p / project)
+      :ARG1-of (e2 / easy-05))
+
+# ::snt the receptionists that the obnoxious principal thanked paid the students remorsefully .
+(p / pay-01
+      :ARG0 (p2 / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (r / receptionist))
+            :ARG2-of (t / thank-01
+                  :ARG0 (p3 / principal
+                        :mod (o / obnoxious))))
+      :ARG2 (p4 / person
+            :ARG0-of (s / study-01))
+      :manner (r2 / remorse))
+
+# ::snt the really shy clerk that the management thanked reported the disastrous flaw urgently .
+(r / report-01
+      :ARG0 (c / clerk
+            :ARG1-of (s / shy-02
+                  :degree (r2 / really))
+            :ARG2-of (t / thank-01
+                  :ARG0 (m / manage-01)))
+      :ARG1 (f / flaw-01
+            :mod (d / disastrous))
+      :manner (u / urgent))
+
+# ::snt the clerk that the driven principals thanked phoned the anxious management last month .
+(p / phone-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 (p2 / principal
+                        :ARG0-of (d / drive-02))))
+      :ARG1 (m / manage-01
+            :ARG1-of (w / worry-01))
+      :time (m2 / month
+            :mod (l / last)))
+
+# ::snt the driven clerks that the surly management thanked suggested the extremely shocking process eagerly .
+(s / suggest-01
+      :ARG0 (c / clerk
+            :ARG0-of (d / drive-02)
+            :ARG1-of (t / thank-01
+                  :ARG0 (m / manage-01
+                        :mod (s2 / surly))))
+      :ARG1 (p / process-02
+            :ARG0-of (s3 / shock-01
+                  :degree (e / extreme)))
+      :manner (e2 / enthusiastic-03
+            :ARG1 c))
+
+# ::snt the timid receptionist that the talented politicians thanked managed the project .
+(m / manage-01
+      :ARG0 (p / person
+            :ARG0-of (r / reception-02)
+            :mod (t / timid)
+            :ARG2-of (t2 / thank-01
+                  :ARG0 (p2 / person
+                        :mod (t3 / talent)
+                        :ARG0-of (h / have-org-role-91
+                              :ARG2 (p3 / politician)))))
+      :ARG1 (p4 / project))
+
+# ::snt the competent receptionist that the politician thanked managed the quite interesting project eagerly .
+(m / manage-01
+      :ARG0 (p / person
+            :ARG0-of (r / reception-02)
+            :ARG1-of (c / competent-01)
+            :ARG2-of (t / thank-01
+                  :ARG0 (p2 / politician)))
+      :ARG1 (p3 / project
+            :ARG2-of (ii / interest-01
+                  :degree (q / quite)))
+      :manner (e / enthusiastic-03
+            :ARG1 p))
+
+# ::snt the clerks that the obnoxious management thanked enthusiastically managed the project eagerly .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 m
+                  :mod (o / obnoxious))
+            :manner (e / enthusiastic-03))
+      :ARG1 (p / project)
+      :manner (e2 / enthusiastic-03))
+
+# ::snt the rather shy clerk that the anxious principal thanked last month managed the exciting projects .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG1-of (s / shy-02
+                  :degree (r / rather))
+            :ARG2-of (t / thank-01
+                  :ARG0 (p / principal
+                        :mod (a / anxious))
+                  :time (m2 / month
+                        :mod (l / last))))
+      :ARG1 (p2 / project
+            :ARG0-of (e / excite-01)))
+
+# ::snt the resourceful receptionists that the management thanked enthusiastically managed the interesting projects .
+(m / manage-01
+      :ARG0 (r / receptionist
+            :ARG1-of (t / thank-01
+                  :ARG0 m))
+      :mod (r2 / resourceful)
+      :ARG1 (p / project
+            :ARG2-of (ii / interest-01))
+      :manner (e / enthusiastic-03
+            :ARG1 r))
+
+# ::snt the clerk that the management thanked yesterday managed the project eagerly .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 m)
+            :time (y / yesterday))
+      :ARG1 (p / project)
+      :manner (e / eager-01
+            :ARG1 c))
+
+# ::snt the receptionist that the politician thanked enthusiastically managed the project .
+(m / manage-01
+      :ARG0 (p / person
+            :ARG0-of (r / receive-01)
+            :ARG2-of (t / thank-01
+                  :ARG0 (p2 / politician)))
+      :ARG1 (p3 / project)
+      :manner (e / enthusiastic-03
+            :ARG1 p))
+
+# ::snt the clerks that the management thanked managed the project easily .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 m))
+      :ARG1 (p / project)
+      :ARG1-of (e / easy-05))
+
+# ::snt the clerk that the driven principal thanked managed the projects eagerly .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 (p / principal
+                        :ARG0-of (d / drive-02))))
+      :ARG1 (p2 / project)
+      :manner (e / enthusiastic-03
+            :ARG1 c))
+
+# ::snt the clerks that the management thanked last month easily managed the project .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 m)
+            :time (m2 / month
+                  :mod (l / last)))
+      :ARG1 (p / project)
+      :ARG1-of (e / easy-05))
+
+# ::snt the clerk that the really surly principal thanked managed the exciting project .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 (p / principal
+                        :mod (s / surly
+                              :degree (r / really)))))
+      :ARG1 (p2 / project
+            :ARG0-of (e / excite-01)))
+
+# ::snt the extremely anxious clerks that the rather obnoxious principal eagerly thanked managed the exciting project .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG1-of (a / anxious-02
+                  :degree (e / extreme))
+            :ARG2-of (t / thank-01
+                  :ARG0 (p / principal
+                        :mod (o / obnoxious
+                              :degree (r / rather)))
+                  :manner (g / glad-02
+                        :ARG1 p)))
+      :ARG1 (p2 / project
+            :ARG0-of (e2 / excite-01)))
+
+# ::snt the competent receptionists that the management thanked yesterday managed the interesting projects effortlessly .
+(m / manage-01
+      :ARG0 (r / receptionist
+            :ARG1-of (c / competent-01)
+            :ARG1-of (t / thank-01
+                  :ARG0 m)
+            :time (y / yesterday))
+      :ARG1 (p / project
+            :ARG2-of (ii / interest-01))
+      :manner (e / easy-05))
+
+# ::snt the receptionists that the obnoxious management eagerly thanked effortlessly managed the extremely interesting project .
+(m / manage-01
+      :ARG0 (r / receptionist
+            :ARG2-of (t / thank-01
+                  :ARG0 m
+                  :mod (o / obnoxious))
+            :ARG1-of (e / eager-01
+                  :ARG0 m))
+      :ARG1 (p / project
+            :ARG2-of (ii / interest-01
+                  :degree (e2 / extreme)))
+      :manner (e3 / easy-05
+            :polarity -))
+
+# ::snt the receptionist that the extremely obnoxious principal thanked last month managed the projects .
+(m / manage-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (r / receptionist))
+            :ARG1-of (t / thank-01
+                  :ARG0 (p2 / principal
+                        :mod (o / obnoxious
+                              :degree (e / extreme)))
+                  :time (m2 / month
+                        :mod (l / last))))
+      :ARG1 (p3 / project))
+
+# ::snt the receptionist that the management thanked eagerly effortlessly managed the project .
+(m / manage-01
+      :ARG0 (p / person
+            :ARG0-of (r / reception-02)
+            :ARG1-of (t / thank-01
+                  :ARG0 m)
+            :ARG2 (e / enthusiastic-03
+                  :ARG1 m))
+      :ARG1 (p2 / project)
+      :manner (e2 / easy-05
+            :polarity -))
+
+# ::snt the receptionists that the quite obnoxious politician thanked yesterday managed the project enthusiastically .
+(m / manage-01
+      :ARG0 (r / receptionist
+            :ARG2-of (t / thank-01
+                  :ARG0 (p / politician
+                        :mod (o / obnoxious
+                              :degree (q / quite)))
+                  :time (y / yesterday)))
+      :ARG1 (p2 / project)
+      :manner (e / enthusiastic-03
+            :ARG1 r))
+
+# ::snt the talented clerk that the management thanked managed the extremely interesting project easily .
+(m / manage-01
+      :ARG0 (c / clerk
+            :mod (t / talent)
+            :ARG2-of (t2 / thank-01
+                  :ARG0 m))
+      :ARG1 (p / project
+            :ARG2-of (ii / interest-01
+                  :degree (e / extreme)))
+      :ARG1-of (e2 / easy-05))
+
+# ::snt the clerks that the management thanked managed the exciting project .
+(m / manage-01
+      :ARG0 (c / clerk
+            :ARG2-of (t / thank-01
+                  :ARG0 m))
+      :ARG1 (p / project
+            :ARG0-of (e / excite-01)))
+
+# ::snt the shy receptionist that the quite surly principal thanked managed the interesting project enthusiastically .
+(m / manage-01
+      :ARG0 (p / person
+            :ARG0-of (r / reception-02)
+            :ARG1-of (s / shy-02)
+            :ARG2-of (t / thank-01
+                  :ARG0 (p2 / principal
+                        :mod (s2 / surly
+                              :degree (q / quite)))))
+      :ARG1 (p3 / project
+            :ARG2-of (ii / interest-01))
+      :manner (e / enthusiastic-03
+            :ARG1 p))
+
+# ::snt the receptionists that the obnoxious principal thanked last month enthusiastically managed the project .
+(m / manage-01
+      :ARG0 (r / receptionist
+            :ARG1-of (t / thank-01
+                  :ARG0 (p / principal
+                        :mod (o / obnoxious))
+                  :time (m2 / month
+                        :mod (l / last))))
+      :ARG1 (p2 / project)
+      :manner (e / enthusiastic-03
+            :ARG1 r))
+
+# ::snt my modest friends that the extremely witty parent admired rapidly rolled the cloth .
+(r / roll-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend))
+            :mod (m / modest)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of h
+                        :ARG2 (p3 / parent))
+                  :mod (w / witty
+                        :degree (e / extreme))))
+      :ARG1 (c / cloth)
+      :manner (r2 / rapid))
+
+# ::snt my sibling that my witty friends admired last week emptied the blue glass gloomily .
+(e / empty-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f / friend
+                                    :mod (w / witty))))
+                  :time (w2 / week
+                        :mod (l / last))))
+      :ARG1 (g / glass
+            :mod (b / blue))
+      :manner (g2 / gloom))
+
+# ::snt the modest parent that the quite modest guardian admired yesterday filled the red glasses yesterday .
+(f / fill-01
+      :ARG1 (g / glasses
+            :ARG1-of (r / red-02))
+      :ARG2 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :mod (m / modest)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (g2 / guard-01)
+                        :mod (m2 / modest
+                              :degree (q / quite)))
+                  :time (y / yesterday)))
+      :time y)
+
+# ::snt the parent that my colleague admired yesterday confiscated the pretty stone last week .
+(c / confiscate-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of h
+                        :ARG1 (ii / i)
+                        :ARG2 (c2 / colleague)))
+            :time (y / yesterday))
+      :ARG1 (s / stone
+            :mod (p4 / pretty))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the parents that my friend admired last week opened the rather blue gates .
+(o / open-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend)))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (g / gate
+            :mod (b / blue
+                  :degree (r / rather))))
+
+# ::snt the parent that the quite timid guardians admired yesterday covered the pretty glasses .
+(c / cover-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (g / guard-01)
+                        :mod (t / timid
+                              :degree (q / quite)))
+                  :time (y / yesterday)))
+      :ARG1 (g2 / glasses
+            :mod (p4 / pretty)))
+
+# ::snt my really witty partner that my friend admired dropped the glasses reluctantly .
+(d / drop-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (p2 / partner
+                        :mod (w / witty
+                              :degree (r / really))))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f / friend)))))
+      :ARG1 (g / glasses)
+      :manner (r2 / reluctant-01
+            :ARG0 p
+            :ARG1 d))
+
+# ::snt my colleagues that the guardian admired yesterday wearily cut the cloth .
+(c / cut-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))
+            :ARG1-of (a / admire-01
+                  :ARG0 (n / newspaper
+                        :name (n2 / name
+                              :op1 "Guardian"))
+                  :time (y / yesterday)))
+      :ARG1 (c3 / cloth)
+      :manner (w / weary))
+
+# ::snt my sibling that the really cheerful guardians admired last week spilled the fresh water .
+(s / spill-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s2 / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01)
+                        :mod (c / cheerful
+                              :degree (r / really)))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (w2 / water
+            :ARG1-of (f / fresh-04)))
+
+# ::snt my rude colleague that my partner admired yesterday stretched the cloth .
+(s / stretch-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague
+                        :ARG1-of (r / rude-01)
+                        :ARG1-of (a / admire-01
+                              :ARG0 (p2 / person
+                                    :ARG0-of (h2 / have-rel-role-91
+                                          :ARG1 ii
+                                          :ARG2 (p3 / partner)))
+                              :time (y / yesterday)))))
+      :ARG1 (c2 / cloth))
+
+# ::snt the cheerful parents that the guardians admired yesterday passed the extremely delicious fish rapidly .
+(p / pass-21
+      :ARG0 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p3 / parent))
+            :mod (c / cheerful)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p4 / person
+                        :ARG0-of (g / guard-01))
+                  :time (y / yesterday)))
+      :ARG1 (f / fish
+            :mod (d / delicious
+                  :degree (e / extreme)))
+      :manner (r / rapid))
+
+# ::snt my surly sibling that my partners admired yesterday inhaled the fatal fumes .
+(ii / inhale-01
+      :ARG0 (p / person
+            :mod (s / surly)
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii2 / i)
+                  :ARG2 (s2 / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of h
+                        :ARG1 ii2
+                        :ARG2 (p3 / partner)))
+            :time (y / yesterday))
+      :ARG1 (f / fume
+            :mod (f2 / fatal)))
+
+# ::snt my friend that the parents admired yesterday accepted the quite intriguing job eagerly .
+(a / accept-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend))
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG2 (p3 / parent)))
+                  :time (y / yesterday)))
+      :ARG1 (j / job
+            :ARG0-of (ii2 / intrigue-01
+                  :degree (q / quite)))
+      :manner (e / eager-01
+            :ARG1 p))
+
+# ::snt my friend that the guardian admired achieved her worthwhile ambition .
+(a / achieve-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend))
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (a3 / ambition
+            :ARG1-of (w / worthwhile-03)
+            :poss p))
+
+# ::snt the parent that my rude colleague admired fried the delicious fish .
+(f / fry-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :ARG1-of (a / admire-01
+                  :ARG0 (c / colleague
+                        :ARG1-of (r / rude-01)
+                        :poss (ii / i))))
+      :ARG1 (f2 / fish
+            :mod (d / delicious)))
+
+# ::snt the parent that my partners admired tied the ropes .
+(t / tie-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (p4 / partner-01
+                              :ARG1 (ii / i)))))
+      :ARG1 (r / rope))
+
+# ::snt my siblings that my partner admired fancied my quite surly colleague yesterday .
+(f / fancy-02
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (p3 / partner)))))
+      :ARG1 (p4 / person
+            :ARG0-of (h3 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))
+            :mod (s2 / surly
+                  :degree (q / quite)))
+      :time (y / yesterday))
+
+# ::snt the parent that the guardian admired happily closed the gate .
+(c / close-01
+      :ARG0 (p / parent
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (g2 / gate)
+      :ARG2-of (h / happy-01))
+
+# ::snt my friend that my quite merry partners admired last week eagerly decorated the blue gate .
+(d / decorate-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of h
+                        :ARG1 ii
+                        :ARG2 (p3 / partner))
+                  :mod (m / merry
+                        :degree (q / quite)))
+            :time (w / week
+                  :mod (l / last)))
+      :ARG1 (g / gate
+            :mod (b / blue))
+      :manner (e / eager-01
+            :ARG1 p))
+
+# ::snt my short partner that my quite modest colleague admired married my friends wearily .
+(m / marry-01
+      :ARG1 (p / person
+            :ARG0-of (p2 / partner-01
+                  :ARG1 (ii / i)
+                  :ARG1-of (s / short-07))
+            :ARG1-of (a / admire-01
+                  :ARG0 (c / colleague
+                        :poss ii
+                        :mod (m2 / modest
+                              :degree (q / quite)))))
+      :ARG2 (p3 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (f / friend)))
+      :manner (w / weary))
+
+# ::snt the petrified giraffes that the lions attacked effortlessly escaped the terrifying tigers .
+(e / escape-01
+      :ARG0 (g / giraffe
+            :ARG1-of (p / petrified-03)
+            :ARG1-of (a / attack-01
+                  :ARG0 (l / lion)))
+      :ARG1 (t / tiger
+            :ARG0-of (t2 / terrify-01))
+      :manner (e2 / easy-05
+            :polarity -))
+
+# ::snt the really famous cities that the contractor expanded protected the fearful squirrel last week .
+(p / protect-01
+      :ARG0 (c / city
+            :ARG1-of (f / fame-01
+                  :degree (r / really))
+            :ARG1-of (e / expand-01
+                  :ARG0 (c2 / contractor)))
+      :ARG1 (s / squirrel
+            :ARG0-of (f2 / fear-01))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the program that the quite timid secretaries effortlessly managed astonished the ambitious CEOs yesterday .
+(a / astonish-01
+      :ARG0 (p / program
+            :ARG1-of (m / manage-01
+                  :ARG0 (s / secretary
+                        :mod (t / timid
+                              :degree (q / quite)))
+                  :ARG1-of (e / easy-05)))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (o / officer
+                        :mod (c / chief)
+                        :mod (e2 / executive)))
+            :mod (a2 / ambitious))
+      :time (y / yesterday))
+
+# ::snt the fish that the modest chef tasted happily satisfied my merry colleagues last week .
+(s / satisfy-01
+      :ARG0 (f / fish
+            :ARG1-of (t / taste-01
+                  :ARG0 (c / chef
+                        :mod (m / modest))))
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))
+            :mod (m2 / merry))
+      :ARG2-of (h2 / happy-01)
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt the teenagers that the principal paid insulted the CEOs last week .
+(ii / insult-01
+      :ARG0 (t / teenager
+            :ARG3-of (p / pay-01
+                  :ARG0 (p2 / principal)))
+      :ARG1 (p3 / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (o / officer
+                        :mod (c / chief)
+                        :mod (e / executive))))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt my really rude sibling that my merry friend admired last week achieved her ambition effortlessly .
+(a / achieve-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling))
+            :ARG1-of (r / rude-01
+                  :degree (r2 / really))
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p2 / person
+                        :mod (m / merry)
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f / friend)))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (a3 / ambition
+            :poss p)
+      :manner (e / easy-05))
+
+# ::snt the jar that the extremely timid guardian emptied satisfied my shy colleagues last week .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (g / guard-01)
+                        :mod (t / timid
+                              :degree (e2 / extreme)))))
+      :ARG1 (p2 / person
+            :ARG0-of (s2 / shy-02)
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt my partners that my friend admired achieved her quite worthy ambitions .
+(a / achieve-01
+      :ARG0 (p / person
+            :ARG0-of (p2 / partner-01
+                  :ARG1 (ii / i))
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f / friend)))))
+      :ARG1 (a3 / ambition
+            :poss p
+            :ARG1-of (d / deserve-01
+                  :ARG0 p
+                  :degree (q / quite))))
+
+# ::snt the halls that the contractors rapidly expanded protected the fearful squirrel .
+(p / protect-01
+      :ARG0 (h / hall
+            :ARG1-of (e / expand-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (c / contract-02))
+                  :manner (r / rapid)))
+      :ARG1 (s / squirrel
+            :ARG0-of (f / fear-01)))
+
+# ::snt the jars that the modest parent emptied satisfied my surly colleague last week .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG2 (p2 / parent))
+                        :mod (m / modest))))
+      :ARG1 (c / colleague
+            :mod (s2 / surly)
+            :poss (ii / i))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt my obnoxious partners that my siblings admired last week achieved her extremely worthy ambition .
+(a / achieve-01
+      :ARG0 (p / person
+            :ARG0-of (p2 / partner-01
+                  :ARG1 (ii / i))
+            :mod (o / obnoxious)
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (s / sibling)))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (a3 / ambition
+            :poss p
+            :ARG1-of (d / deserve-01
+                  :ARG0 p
+                  :degree (e / extreme))))
+
+# ::snt the city that the architects rapidly expanded protected the squirrels yesterday .
+(p / protect-01
+      :ARG0 (c / city
+            :ARG1-of (e / expand-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (a / architect-01))
+                  :manner (r / rapid)))
+      :ARG1 (s / squirrel)
+      :time (y / yesterday))
+
+# ::snt the shiny cup that my colleagues emptied satisfied my timid partners .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / colleague)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (p3 / partner
+                        :mod (t / timid)))))
+
+# ::snt the modest guardians that the witty parents admired last week cleaned the quite purple glass eagerly .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :mod (m / modest)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :mod (w / witty)
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG2 (p3 / parent)))
+                  :time (w2 / week
+                        :mod (l / last))))
+      :ARG1 (g2 / glass
+            :ARG1-of (p4 / purple-02
+                  :degree (q / quite)))
+      :manner (g3 / glad-02
+            :ARG1 p))
+
+# ::snt the cup that the quite cheerful guardian rapidly emptied satisfied my extremely merry colleagues yesterday .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (g / guard-01)
+                        :mod (c2 / cheerful
+                              :degree (q / quite)))
+                  :manner (r / rapid)))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c3 / colleague))
+            :mod (m / merry
+                  :degree (e2 / extreme)))
+      :time (y / yesterday))
+
+# ::snt the pretty parent that my extremely merry colleague admired last week cleaned the really shiny glass last week .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :mod (p3 / pretty)
+            :ARG1-of (a / admire-01
+                  :ARG0 (c2 / colleague
+                        :poss (ii / i)
+                        :mod (m / merry
+                              :degree (e / extreme)))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (g / glass
+            :ARG1-of (s / shine-01
+                  :degree (r / really)))
+      :time w)
+
+# ::snt the blue cup that the guardians emptied satisfied my merry colleagues .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :mod (b / blue)
+            :ARG1-of (e / empty-01
+                  :ARG0 (g / guardian)))
+      :ARG1 (p / person
+            :mod (m / merry)
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))))
+
+# ::snt my extremely surly colleague that the guardian admired yesterday effortlessly achieved her extremely admirable ambition .
+(a / achieve-01
+      :ARG0 (p / person
+            :mod (s / surly
+                  :degree (e / extreme))
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague))
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (n / newspaper
+                        :name (n2 / name
+                              :op1 "Guardian"))
+                  :time (y / yesterday)))
+      :ARG1 (a3 / ambition
+            :poss p
+            :ARG1-of (a4 / admirable-02
+                  :degree (e2 / extreme)))
+      :manner (e3 / easy-05
+            :polarity -))
+
+# ::snt the jars that my quite witty siblings emptied satisfied my really obnoxious colleagues .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (s2 / sibling))
+                        :mod (w / witty
+                              :degree (q / quite)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))
+            :mod (o / obnoxious
+                  :degree (r / really))))
+
+# ::snt the really cheerful guardian that the parent admired cleaned the shiny glasses .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG0-of (c2 / cheerful-03
+                  :degree (r / really))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG2 (p3 / parent)))))
+      :ARG1 (g2 / glasses
+            :ARG1-of (s / shine-01)))
+
+# ::snt the extremely purple bottle that my chubby colleague emptied satisfied my witty partners .
+(s / satisfy-01
+      :ARG0 (b / bottle
+            :ARG1-of (p / purple-02
+                  :degree (e / extreme))
+            :ARG1-of (e2 / empty-01
+                  :ARG0 (c / colleague
+                        :mod (c2 / chubby)
+                        :poss (ii / i))))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (p3 / partner
+                        :mod (w / witty)))))
+
+# ::snt my shy colleagues that my sibling admired achieved his ambition .
+(a / achieve-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague
+                        :ARG1-of (s / shy-02)
+                        :ARG1-of (a2 / admire-01
+                              :ARG0 (p2 / person
+                                    :ARG0-of (h2 / have-rel-role-91
+                                          :ARG1 ii
+                                          :ARG2 (s2 / sibling)))))))
+      :ARG1 (a3 / ambition
+            :poss p2))
+
+# ::snt the witty guardians that the merry parent admired cleaned the rather blue glasses .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :mod (w / witty)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :mod (m / merry)
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG2 (p3 / parent)))))
+      :ARG1 (g2 / glasses
+            :mod (b / blue
+                  :degree (r / rather))))
+
+# ::snt the bottles that my sibling emptied satisfied my extremely short colleague yesterday .
+(s / satisfy-01
+      :ARG0 (b / bottle
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (s2 / sibling)))))
+      :ARG1 (c / colleague
+            :poss ii
+            :ARG1-of (s3 / short-07
+                  :degree (e2 / extreme)))
+      :time (y / yesterday))
+
+# ::snt my extremely shy partner that my quite rude friend admired achieved her ambition .
+(a / achieve-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (p2 / partner))
+            :ARG0-of (s / shy-02
+                  :degree (e / extreme))
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f / friend))
+                        :mod (r / rude
+                              :degree (q / quite)))))
+      :ARG1 (a3 / ambition
+            :poss p))
+
+# ::snt the parent that the guardians admired eagerly cleaned the glass .
+(c / clean-01
+      :ARG0 (p / parent
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (g2 / glass)
+      :manner (e / eager-01
+            :ARG1 p))
+
+# ::snt the cups that my chubby friends emptied satisfied my colleague yesterday .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend
+                                    :mod (c2 / chubby))))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / colleague)))
+      :time (y / yesterday))
+
+# ::snt the extremely timid parent that the quite shy guardians admired last week cleaned the glasses gloomily .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (p2 / parent))
+            :mod (t / timid
+                  :degree (e / extreme))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (g / guard-01)
+                        :ARG1-of (s / shy-02
+                              :degree (q / quite)))
+                  :time (w / week
+                        :mod (l / last))))
+      :ARG1 (g2 / glasses)
+      :manner (g3 / gloom))
+
+# ::snt the glasses that the guardian happily emptied satisfied my colleague last week .
+(s / satisfy-01
+      :ARG0 (g / glasses
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (g2 / guard-01))
+                  :ARG0-of (h / happy-01)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague)))
+      :time (w / week
+            :mod (l / last)))
+
+# ::snt my quite shy friend that my rude colleagues admired rapidly achieved his ambition .
+(a / achieve-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend))
+            :ARG0-of (s / shy-02
+                  :degree (q / quite))
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / colleague
+                                    :mod (r / rude))))))
+      :ARG1 (a3 / ambition
+            :poss p)
+      :manner (r2 / rapid))
+
+# ::snt my timid cousin that my colleagues admired folded the extremely blue clothes efficiently .
+(f / fold-03
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / cousin))
+            :mod (t / timid)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c2 / colleague)))))
+      :ARG1 (c3 / clothes
+            :mod (b / blue
+                  :degree (e / extreme)))
+      :ARG1-of (e2 / efficient-01))
+
+# ::snt my cousin that my nervous friend admired last month emptied the glass .
+(e / empty-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / cousin))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f / friend))
+                        :ARG1-of (n / nervous-01))
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (g / glass))
+
+# ::snt my extremely tall partners that my colleagues admired bought the cloth .
+(b / buy-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (p2 / partner
+                        :mod (t / tall
+                              :degree (e / extreme))))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / colleague)))))
+      :ARG1 (c2 / cloth))
+
+# ::snt my extremely lively colleagues that my cheerful cousins admired accompanied my rather nervous friend .
+(a / accompany-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague
+                        :mod (l / lively
+                              :degree (e / extreme))
+                        :ARG1-of (a2 / admire-01
+                              :ARG0 (p2 / person
+                                    :ARG0-of (h2 / have-rel-role-91
+                                          :ARG1 ii
+                                          :ARG2 (c2 / cousin))
+                                    :mod (c3 / cheerful))))))
+      :ARG1 (p3 / person
+            :ARG0-of (h3 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (f / friend))
+            :ARG1-of (n / nervous-01
+                  :degree (r / rather))))
+
+# ::snt my cheery partner that my cousin admired last year rolled the clothes .
+(r / roll-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (p2 / partner
+                        :mod (c / cheery)))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c2 / cousin)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (c3 / clothes))
+
+# ::snt my friends that my short partner admired last month sadly kissed the anxious chef .
+(k / kiss-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of h
+                        :ARG1 ii
+                        :ARG2 (p3 / partner
+                              :ARG1-of (s / short-07))))
+            :time (m / month
+                  :mod (l / last)))
+      :ARG1 (c / chef
+            :mod (a2 / anxious))
+      :manner (s2 / sad))
+
+# ::snt my skinny colleague that my quite cheerful friend admired married my cousins .
+(m / marry-01
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague
+                        :mod (s / skinny)
+                        :ARG1-of (a / admire-01
+                              :ARG0 (p2 / person
+                                    :ARG0-of (h2 / have-rel-role-91
+                                          :ARG1 ii
+                                          :ARG2 (f / friend))
+                                    :mod (c2 / cheerful
+                                          :degree (q / quite)))))))
+      :ARG2 (p3 / person
+            :ARG0-of (h3 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / cousin))))
+
+# ::snt my short friend that my cousin admired stirred the water .
+(s / stir-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend
+                        :ARG1-of (s2 / short-07)))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / cousin)))))
+      :ARG1 (w / water))
+
+# ::snt my cousin that my extremely rude colleague admired last year chewed the chicken enthusiastically .
+(c / chew-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / cousin))
+            :ARG1-of (a / admire-01
+                  :ARG0 (c3 / colleague
+                        :poss ii
+                        :mod (r / rude
+                              :degree (e / extreme)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (c4 / chicken)
+      :manner (e2 / enthusiastic-03
+            :ARG1 p))
+
+# ::snt my partner that my extremely uptight friend admired filled the glass last year .
+(f / fill-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (p2 / partner))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f2 / friend))
+                        :mod (u / uptight
+                              :degree (e / extreme)))))
+      :ARG1 (g / glass)
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt my colleague that my pretty partners admired spilled the water last month .
+(s / spill-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c / colleague))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (p3 / partner
+                                    :mod (p4 / pretty))))))
+      :ARG1 (w / water)
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the deer that the really fierce police attacked escaped the extremely aggressive tigers .
+(e / escape-01
+      :ARG0 (d / deer
+            :ARG1-of (a / attack-01
+                  :ARG0 (p / police
+                        :mod (f / fierce
+                              :degree (r / really)))))
+      :ARG1 (t / tiger
+            :mod (a2 / aggressive
+                  :degree (e2 / extreme))))
+
+# ::snt the bacon that the chef tasted last month satisfied my extremely short colleague .
+(s / satisfy-01
+      :ARG0 (b / bacon
+            :ARG1-of (t / taste-01
+                  :ARG0 (c / chef)
+                  :time (m / month
+                        :mod (l / last))))
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / colleague))
+            :ARG1-of (s2 / short-07
+                  :degree (e / extreme))))
+
+# ::snt the assistant that the student thanked suggested the policy .
+(s / suggest-01
+      :ARG0 (p / person
+            :ARG0-of (a / assist-01)
+            :ARG1-of (t / thank-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (s2 / study-01))))
+      :ARG1 (p3 / policy-01))
+
+# ::snt the assistant that the talented manager enthusiastically thanked phoned the CEOs .
+(p / phone-01
+      :ARG0 (p2 / person
+            :ARG0-of (a / assist-01)
+            :ARG1-of (t / thank-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (m / manage-01)
+                        :mod (t2 / talent))
+                  :manner (e / enthusiastic-03)))
+      :ARG1 (p4 / person
+            :ARG0-of (h / have-org-role-91
+                  :ARG2 (o / officer
+                        :mod (c / chief)
+                        :mod (e2 / executive)))))
+
+# ::snt the driven assistants that the quite uptight managers thanked last year resolved the flaw .
+(r / resolve-01
+      :ARG0 (p / person
+            :ARG0-of (a / assist-01)
+            :ARG0-of (d / drive-02)
+            :ARG2-of (t / thank-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (m / manage-01)
+                        :mod (u / uptight
+                              :degree (q / quite)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (f / flaw-01))
+
+# ::snt the anxious clerks that the CEO thanked reported the flaw .
+(r / report-01
+      :ARG0 (c / clerk
+            :mod (a / anxious)
+            :ARG2-of (t / thank-01
+                  :ARG0 (o / officer
+                        :mod (c2 / chief)
+                        :mod (e / executive))))
+      :ARG1 (f / flaw-01))
+
+# ::snt the jars that my cousins emptied satisfied my timid colleagues .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague))
+            :mod (t / timid)))
+
+# ::snt the blue jar that my friend emptied satisfied my colleagues .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :mod (b / blue)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))))
+
+# ::snt the blue jars that my rude partners emptied sadly satisfied my colleague last month .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :mod (b / blue)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (p2 / partner-01
+                              :ARG1 (ii / i))
+                        :ARG1-of (r / rude-01))))
+      :ARG1 (p3 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague)))
+      :time (m / month
+            :mod (l / last))
+      :ARG0-of (s2 / sad-02))
+
+# ::snt the glass that my pretty cousins emptied reluctantly satisfied my colleagues .
+(s / satisfy-01
+      :ARG0 (g / glass
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin
+                                    :mod (p2 / pretty))))
+                  :ARG1-of (r / reluctant-01
+                        :ARG0 p)))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the purple jars that my uptight friends quickly emptied satisfied my colleague last month .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (p / purple-02)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend
+                                    :ARG1-of (t / tight-05
+                                          :polarity -))))
+                  :ARG1-of (q / quick-02)))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague)))
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the really shiny glasses that my partner enthusiastically emptied satisfied my colleagues last year .
+(s / satisfy-01
+      :ARG0 (g / glasses
+            :ARG1-of (s2 / shine-01
+                  :ARG1-of (r / real-04))
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p2 / partner)))
+                  :manner (e2 / enthusiastic-03
+                        :ARG0 p)))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the cup that my short cousin gloomily emptied satisfied my rude colleague .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / cousin
+                                    :ARG1-of (s2 / short-07))))
+                  :manner (g / gloom)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / colleague
+                        :ARG1-of (r / rude-01)))))
+
+# ::snt the jar that my tall cousins sadly emptied satisfied my colleagues .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin
+                                    :mod (t / tall))))
+                  :ARG0-of (s2 / sad-02)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the jars that my rude colleagues emptied satisfied my cousin last month .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / colleague
+                                    :mod (r / rude))))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / cousin)))
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the yellow jar that my quite gentle friend emptied satisfied my cheerful colleagues .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (y / yellow-02)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend
+                                    :ARG1-of (g / gentle-01
+                                          :degree (q / quite)))))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))
+            :ARG0-of (c2 / cheerful-03)))
+
+# ::snt the cups that my cousin happily emptied satisfied my really witty colleague last month .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / cousin)))
+                  :ARG2-of (h2 / happy-01)))
+      :ARG1 (p2 / person
+            :mod (w / witty
+                  :degree (r / really))
+            :ARG0-of h
+            :ARG1 ii
+            :ARG2 (c3 / colleague))
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the blue cup that my timid friend quickly emptied satisfied my colleague .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :mod (b / blue)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend))
+                        :mod (t / timid))
+                  :ARG1-of (q / quick-02)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the really pretty cups that my cousins emptied satisfied my colleagues .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :mod (p / pretty
+                  :degree (r / really))
+            :ARG1-of (e / empty-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / cousin)))))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / colleague))))
+
+# ::snt the cup that my partner emptied satisfied my colleague last month .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p2 / partner)))))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague)))
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the shiny jar that my colleagues emptied satisfied my cousin last year .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / colleague)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / cousin)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the cup that my friends emptied satisfied my colleague .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague))))
+
+# ::snt the quite yellow glass that my colleagues emptied satisfied my rather short cousin last year .
+(s / satisfy-01
+      :ARG0 (g / glass
+            :ARG1-of (y / yellow-02
+                  :degree (q / quite))
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / colleague)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / cousin))
+            :ARG1-of (s2 / short-07
+                  :degree (r / rather)))
+      :time (y2 / year
+            :mod (l / last)))
+
+# ::snt the jars that my timid friends emptied quickly satisfied my rather skinny colleague .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend
+                                    :mod (t / timid))))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))
+            :mod (s2 / skinny
+                  :degree (r / rather)))
+      :ARG1-of (q / quick-02))
+
+# ::snt the shiny glass that my friend emptied satisfied my nervous colleague .
+(s / satisfy-01
+      :ARG0 (g / glass
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))
+            :ARG1-of (n / nervous-01)))
+
+# ::snt the really shiny cups that my pretty colleagues emptied happily satisfied my really witty cousin .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (s2 / shine-01
+                  :degree (r / really))
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / colleague
+                                    :mod (p2 / pretty))))
+                  :ARG0-of (h2 / happy-01)))
+      :ARG1 (p3 / person
+            :ARG0-of (h3 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / cousin))
+            :mod (w / witty
+                  :degree (r2 / really))))
+
+# ::snt the glass that my partner emptied satisfied my gentle colleagues .
+(s / satisfy-01
+      :ARG0 (g / glass
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p2 / partner)))))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague
+                        :ARG0-of (g2 / gentle-01)))))
+
+# ::snt the pretty cup that my cheery partner emptied satisfied my rude colleagues .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :mod (p / pretty)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p3 / partner
+                                    :mod (c2 / cheerful))))))
+      :ARG1 (p4 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / colleague
+                        :ARG1-of (r / rude-01)))))
+
+# ::snt the cup that my pretty friend emptied satisfied my timid colleague .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend
+                                    :mod (p2 / pretty))))))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague))
+            :mod (t / timid)))
+
+# ::snt the jar that my friend emptied enthusiastically satisfied my colleague last year .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend)))
+                  :manner (e2 / enthusiastic-03)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the cups that my colleagues emptied satisfied my cousin last year .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / colleague)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / cousin)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the cup that my extremely witty colleagues emptied satisfied my pretty cousins .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / colleague
+                                    :mod (w / witty
+                                          :degree (e2 / extreme)))))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / cousin
+                        :mod (p3 / pretty)))))
+
+# ::snt the pretty cups that my gentle colleague enthusiastically emptied satisfied my rather uptight cousin .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :mod (p / pretty)
+            :ARG1-of (e / empty-01
+                  :ARG0 (c2 / colleague
+                        :ARG0-of (g / gentle-01)
+                        :poss (ii / i))
+                  :manner (e2 / enthusiastic-03)))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c3 / cousin))
+            :ARG1-of (u / uptight-03
+                  :degree (r / rather))))
+
+# ::snt the glass that my colleague enthusiastically emptied satisfied my cousin last year .
+(s / satisfy-01
+      :ARG0 (g / glass
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / colleague)))
+                  :manner (e2 / enthusiastic-03)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / cousin)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the shiny jar that my friends emptied satisfied my quite rude colleagues last year .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))
+            :ARG1-of (r / rude-01
+                  :degree (q / quite)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the shiny cup that my witty partners emptied satisfied my colleague last year .
+(s / satisfy-01
+      :ARG0 (c / cup
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (p2 / partner-01
+                              :ARG1 (ii / i))
+                        :mod (w / witty))))
+      :ARG1 (p3 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the extremely purple jar that my partners emptied quickly satisfied my colleagues last month .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (p / purple-02
+                  :degree (e / extreme))
+            :ARG1-of (e2 / empty-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p3 / partner)))))
+      :ARG1 (p4 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague)))
+      :ARG1-of (q / quick-02)
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the shiny glass that my tall cousin emptied wearily satisfied my skinny colleague last month .
+(s / satisfy-01
+      :ARG0 (g / glass
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin
+                                    :mod (t / tall))))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c2 / colleague
+                        :mod (s3 / skinny))))
+      :manner (w / weary)
+      :time (m / month
+            :mod (l / last)))
+
+# ::snt the shiny glasses that my friends emptied enthusiastically satisfied my colleague .
+(s / satisfy-01
+      :ARG0 (g / glasses
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f / friend)))
+                  :manner (e2 / enthusiastic-03)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (c / colleague))))
+
+# ::snt the tall teachers that the guardian admired yesterday folded the quite blue cloth happily .
+(f / fold-03
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :mod (t2 / tall)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))
+                  :time (y / yesterday)))
+      :ARG1 (c / cloth
+            :mod (b / blue
+                  :degree (q / quite)))
+      :ARG2-of (h / happy-01))
+
+# ::snt the gentle teacher that the guardians admired yesterday confiscated the quite shiny stone yesterday .
+(c / confiscate-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG1-of (g / gentle-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (g2 / guardian)
+                  :time (y / yesterday)))
+      :ARG1 (s / stone
+            :ARG1-of (s2 / shine-01
+                  :degree (q / quite)))
+      :time (y2 / yesterday))
+
+# ::snt the shy teachers that the rather cheerful guardians admired last year cleaned the yellow glass .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG0-of (s / shy-02)
+            :ARG1-of (a / admire-01
+                  :ARG0 (g / guardian
+                        :mod (c2 / cheerful
+                              :degree (r / rather)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (g2 / glass
+            :ARG1-of (y2 / yellow-02)))
+
+# ::snt the merry teacher that my merry partner admired painted the yellow window .
+(p / paint-01
+      :ARG0 (p2 / person
+            :ARG0-of (t / teach-01)
+            :mod (m / merry)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p4 / partner
+                                    :mod (m2 / merry))))))
+      :ARG1 (w / window
+            :mod (y / yellow)))
+
+# ::snt the quite gentle teacher that the guardian admired refused the really tasty chicken halfheartedly .
+(r / refuse-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG1-of (g / gentle-01
+                  :degree (q / quite))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g2 / guard-01))))
+      :ARG1 (c / chicken
+            :ARG1-of (t2 / taste-02
+                  :ARG2 (r2 / rich)
+                  :degree (r3 / really)))
+      :manner (h / halfhearted))
+
+# ::snt my timid partners that my siblings admired dropped the stone sadly .
+(d / drop-01
+      :ARG0 (p / person
+            :ARG0-of (p2 / partner-01
+                  :ARG1 (ii / i))
+            :mod (t / timid)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (s / sibling)))))
+      :ARG1 (s2 / stone)
+      :manner (s3 / sad-02))
+
+# ::snt the guardian that my friend admired fried the chicken .
+(f / fry-01
+      :ARG0 (g / guardian
+            :ARG1-of (a / admire-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (f2 / friend)))))
+      :ARG1 (c / chicken))
+
+# ::snt my siblings that my cousin admired yesterday accompanied the tall guardians happily .
+(a / accompany-01
+      :ARG0 (s / sibling
+            :poss (ii / i)
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / cousin)))
+                  :time (y / yesterday)))
+      :ARG1 (g / guardian
+            :mod (t / tall))
+      :manner (h2 / happy-01))
+
+# ::snt the quite nervous guardians that my surly partner admired hung the clothes .
+(h / hang-01
+      :ARG0 (g / guardian
+            :ARG1-of (n / nervous-01
+                  :degree (q / quite))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p / person
+                        :mod (s / surly)
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p2 / partner)))))
+      :ARG1 (c / clothes))
+
+# ::snt the pretty guardians that the teachers admired sorted the stones .
+(s / sort-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :mod (p2 / pretty)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (t / teach-01))))
+      :ARG1 (s2 / stone))
+
+# ::snt the guardian that my partner admired last year quickly passed the cake .
+(p / pass-05
+      :ARG0 (p2 / person
+            :ARG0-of (g / guard-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p4 / partner)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (c / cake)
+      :ARG1-of (q / quick-02))
+
+# ::snt my siblings that my cousins admired last year explored the cities eagerly .
+(e / explore-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (c / cousin)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (c2 / city)
+      :manner (g / glad-02))
+
+# ::snt the teachers that my shy partner admired last year moved the stone remorsefully .
+(m / move-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p3 / partner
+                                    :mod (s / shy))))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (s2 / stone)
+      :manner (r / remorse))
+
+# ::snt my chubby partner that my friends admired halfheartedly approached the cities .
+(a / approach-01
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (p2 / partner))
+            :mod (c / chubby)
+            :ARG1-of (a2 / admire-01
+                  :ARG0 (p3 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (f / friend)))
+                  :manner (h3 / halfhearted)))
+      :ARG2 (c2 / city))
+
+# ::snt the rather pretty guardians that the teacher admired yesterday filled the glass yesterday .
+(f / fill-01
+      :ARG1 (g / glass)
+      :ARG2 (g2 / guardian
+            :ARG1-of (a / admire-01
+                  :ARG0 (p / person
+                        :ARG0-of (t / teach-01))
+                  :time (y / yesterday))
+            :mod (p2 / pretty
+                  :degree (r / rather)))
+      :time (y2 / yesterday))
+
+# ::snt the teacher that my short cousin admired covered the glass last year .
+(c / cover-02
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c2 / cousin))
+                        :ARG1-of (s / short-07))))
+      :ARG1 (g / glass)
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt my siblings that my cheery partners admired yesterday bought the rich cakes eagerly .
+(b / buy-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (p3 / partner-01
+                              :ARG1 ii)
+                        :mod (c / cheerful))
+                  :time (y / yesterday)))
+      :ARG1 (c2 / cake
+            :mod (r / rich))
+      :manner (e / eager-01
+            :ARG1 p))
+
+# ::snt my rather shy sibling that my partner admired entered the cities quickly .
+(e / enter-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s / sibling))
+            :ARG1-of (s2 / shy-02
+                  :degree (r / rather))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (p3 / partner)))))
+      :ARG1 (c / city)
+      :ARG1-of (q / quick-02))
+
+# ::snt my cousins that my quite cheery partner admired congratulated the merry researcher .
+(c / congratulate-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (c2 / cousin))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (p3 / partner-01
+                              :ARG1 ii)
+                        :mod (c3 / cheerful
+                              :degree (q / quite)))))
+      :ARG1 (p4 / person
+            :ARG0-of (r / research-01)
+            :mod (m / merry)))
+
+# ::snt my friends that my partner admired married my siblings last year .
+(m / marry-01
+      :ARG1 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (f / friend))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (h2 / have-rel-role-91
+                              :ARG1 ii
+                              :ARG2 (p3 / partner)))))
+      :ARG2 (p4 / person
+            :ARG0-of (h3 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (s / sibling)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the deer that the scary tiger attacked last year escaped the lion effortlessly .
+(e / escape-01
+      :ARG0 (d / deer
+            :ARG1-of (a / attack-01
+                  :ARG0 (t / tiger
+                        :ARG0-of (s / scary-03))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (l2 / lion)
+      :manner (e2 / easy-05)
+      :ARG1-of e2)
+
+# ::snt the city that the ambitious builders expanded protected the startled cat last year .
+(p / protect-01
+      :ARG0 (c / city
+            :ARG1-of (e / expand-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (b / build-01)
+                        :mod (a / ambitious))))
+      :ARG1 (c2 / cat
+            :ARG1-of (s / scare-01))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the painter that the principal paid last year insulted the extremely driven management .
+(ii / insult-01
+      :ARG0 (p / person
+            :ARG0-of (p2 / paint-02)
+            :ARG3-of (p3 / pay-01
+                  :ARG0 (p4 / principal)
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (m / manage-01
+            :ARG1-of (d / drive-02
+                  :degree (e / extreme))))
+
+# ::snt the jars that the guardians cleaned satisfied my quite skinny sibling last year .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (c / clean-01
+                  :ARG0 (p / person
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s2 / sibling))
+            :mod (s3 / skinny
+                  :degree (q / quite)))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the coin that the guardian effortlessly moved cracked the glass .
+(c / crack-02
+      :ARG0 (c2 / coin
+            :ARG1-of (m / move-01
+                  :ARG0 (g / guardian)
+                  :ARG1-of (e / easy-05)))
+      :ARG1 (g2 / glass))
+
+# ::snt the jar that the quite short teacher eagerly emptied satisfied my skinny sibling .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (t / teach-01)
+                        :ARG1-of (s2 / short-07
+                              :degree (q / quite)))
+                  :ARG1-of (e2 / eager-01
+                        :ARG0 p)))
+      :ARG1 (p2 / person
+            :mod (s3 / skinny)
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s4 / sibling))))
+
+# ::snt the cheerful guardian that the cheerful teacher admired last year cleaned the glasses yesterday .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG0-of (c2 / cheerful-03)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (t / teach-01)
+                        :ARG0-of (c3 / cheerful-03))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (g2 / glasses)
+      :time (y2 / yesterday))
+
+# ::snt the remarkable halls that the architect expanded protected the cat yesterday .
+(p / protect-01
+      :ARG0 (h / hall
+            :ARG1-of (r / remarkable-02)
+            :ARG1-of (e / expand-01
+                  :ARG0 (a / architect)))
+      :ARG1 (c / cat)
+      :time (y / yesterday))
+
+# ::snt the jar that my quite tall partner emptied eagerly satisfied my rude siblings yesterday .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p2 / partner
+                                    :mod (t / tall
+                                          :degree (q / quite)))))
+                  :ARG2-of (e2 / eager-01)))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (s2 / sibling))
+            :ARG1-of (r / rude-01))
+      :time (y / yesterday))
+
+# ::snt the really cheerful teachers that the guardian admired moved the stones .
+(m / move-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :mod (c / cheerful
+                  :degree (r / really))
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (s / stone))
+
+# ::snt the city that the really talented architects expanded protected the fearful cat last year .
+(p / protect-01
+      :ARG0 (c / city
+            :ARG1-of (e / expand-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (a / architect-01)
+                        :mod (t / talent
+                              :degree (r / really)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (c2 / cat
+            :ARG0-of (f / fear-01)))
+
+# ::snt the purple glasses that the gentle teacher quickly emptied satisfied my surly siblings .
+(s / satisfy-01
+      :ARG0 (g / glasses
+            :ARG1-of (p / purple-02)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (t / teach-01)
+                        :ARG1-of (g2 / gentle-01))
+                  :ARG1-of (q / quick-02)))
+      :ARG1 (p3 / person
+            :mod (s2 / surly)
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s3 / sibling))))
+
+# ::snt the quite lively teacher that the chubby guardians admired moved the glass .
+(m / move-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :mod (l / lively
+                  :degree (q / quite))
+            :ARG1-of (a / admire-01
+                  :ARG0 (g / guardian
+                        :mod (c / chubby))))
+      :ARG1 (g2 / glass))
+
+# ::snt the guardian that the shy teacher admired cleaned the rather pretty glass .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (t / teach-01)
+                        :mod (s / shy))))
+      :ARG1 (g2 / glass
+            :mod (p3 / pretty
+                  :degree (r / rather))))
+
+# ::snt the shiny bottle that the quite tall teacher remorsefully emptied satisfied my sibling yesterday .
+(s / satisfy-01
+      :ARG0 (b / bottle
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (t / teach-01)
+                        :mod (t2 / tall
+                              :degree (q / quite)))
+                  :manner (r / remorse)))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s3 / sibling)))
+      :time (y / yesterday))
+
+# ::snt the chubby guardians that the tall teacher admired cleaned the glass .
+(c / clean-01
+      :ARG0 (g / guardian
+            :mod (c2 / chubby)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p / person
+                        :ARG0-of (t / teach-01)
+                        :mod (t2 / tall))))
+      :ARG1 (g2 / glass))
+
+# ::snt the shiny glass that the quite merry teacher emptied satisfied my shy siblings .
+(s / satisfy-01
+      :ARG0 (g / glass
+            :ARG1-of (s2 / shine-01)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (t / teach-01)
+                        :mod (m / merry
+                              :degree (q / quite)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s3 / sibling))
+            :ARG0-of (s4 / shy-02)))
+
+# ::snt the guardians that the teachers admired cleaned the yellow glass .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (t / teach-01))))
+      :ARG1 (g2 / glass
+            :ARG1-of (y / yellow-02)))
+
+# ::snt the glasses that my cousin eagerly emptied satisfied my short siblings last year .
+(s / satisfy-01
+      :ARG0 (g / glass
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin)))
+                  :ARG1-of (e2 / eager-01
+                        :ARG0 p)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (s2 / sibling))
+            :ARG1-of (s3 / short-07))
+      :time (y / year
+            :mod (l / last)))
+
+# ::snt the guardians that the rather skinny teachers admired cleaned the glass yesterday .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (t / teach-01)
+                        :mod (s / skinny
+                              :degree (r / rather)))))
+      :ARG1 (g2 / glass)
+      :time (y / yesterday))
+
+# ::snt the bottle that my cousin emptied quickly satisfied my siblings yesterday .
+(s / satisfy-01
+      :ARG0 (b / bottle
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin)))))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (s2 / sibling)))
+      :ARG1-of (q / quick-02)
+      :time (y / yesterday))
+
+# ::snt the teacher that the guardian admired yesterday remorsefully cleaned the rather yellow glass .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01))
+                  :time (y / yesterday)))
+      :ARG1 (g2 / glass
+            :ARG1-of (y2 / yellow-02
+                  :degree (r / rather)))
+      :manner (r2 / remorse))
+
+# ::snt the guardians that the teacher admired yesterday moved the rather blue glasses .
+(m / move-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (t / teach-01))
+                  :time (y / yesterday)))
+      :ARG1 (g2 / glasses
+            :mod (b / blue
+                  :degree (r / rather))))
+
+# ::snt the jar that my rather uptight partner emptied reluctantly satisfied my siblings .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (p2 / partner))
+                        :ARG1-of (t / tight-05
+                              :degree (r / rather)))
+                  :ARG1-of (r2 / reluctant-01
+                        :ARG0 p)))
+      :ARG1 (p3 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (s2 / sibling))))
+
+# ::snt the teacher that the gentle guardians admired happily moved the glasses .
+(m / move-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01)
+                        :mod (g2 / gentle))))
+      :ARG1 (g3 / glasses)
+      :ARG2-of (h / happy-01))
+
+# ::snt the teachers that the rather chubby guardians admired last year halfheartedly cleaned the purple glasses .
+(c / clean-01
+      :ARG0 (p / person
+            :ARG0-of (t / teach-01)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (g / guard-01)
+                        :mod (c2 / chubby
+                              :degree (r / rather)))
+                  :time (y / year
+                        :mod (l / last))))
+      :ARG1 (g2 / glasses
+            :ARG1-of (p3 / purple-02))
+      :manner (h / halfhearted))
+
+# ::snt the yellow jars that my surly cousin quickly emptied satisfied my extremely rude sibling .
+(s / satisfy-01
+      :ARG0 (j / jar
+            :ARG1-of (y / yellow-02)
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :mod (s2 / surly)
+                        :ARG0-of (h / have-rel-role-91
+                              :ARG1 (ii / i)
+                              :ARG2 (c / cousin)))
+                  :ARG1-of (q / quick-02)))
+      :ARG1 (p2 / person
+            :ARG0-of (h2 / have-rel-role-91
+                  :ARG1 ii
+                  :ARG2 (s3 / sibling))
+            :ARG1-of (r / rude-01
+                  :degree (e2 / extreme))))
+
+# ::snt the skinny guardian that the teachers admired yesterday cleaned the glass .
+(c / clean-01
+      :ARG0 (g / guardian
+            :mod (s / skinny)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p / person
+                        :ARG0-of (t / teach-01))
+                  :time (y / yesterday)))
+      :ARG1 (g2 / glass))
+
+# ::snt the really blue bottles that the guardians emptied satisfied my sibling .
+(s / satisfy-01
+      :ARG0 (b / bottle
+            :mod (b2 / blue
+                  :degree (r / really))
+            :ARG1-of (e / empty-01
+                  :ARG0 (p / person
+                        :ARG0-of (g / guard-01))))
+      :ARG1 (p2 / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (ii / i)
+                  :ARG2 (s2 / sibling))))
+
+# ::snt the young guardian that the teachers admired yesterday moved the really pretty glasses happily .
+(m / move-01
+      :ARG0 (p / person
+            :ARG0-of (g / guard-01)
+            :mod (y / young)
+            :ARG1-of (a / admire-01
+                  :ARG0 (p2 / person
+                        :ARG0-of (t / teach-01))
+                  :time (y2 / yesterday)))
+      :ARG1 (g2 / glasses
+            :mod (p3 / pretty
+                  :degree (r / really)))
+      :manner (h / happy-01))
+
